@@ -787,6 +787,26 @@
       "model": "gemini-3.8-flash",
       "createdAt": "2026-10-04 04:01",
       "note": "(6) 次に読むべき論文はあるか？ が 67 字"
+    },
+    "W4380995718": {
+      "doi": "10.3390/educsci13060606",
+      "title": "Breaking Barriers: The Influence of Teachers’ Attitudes on Inclusive Education for Students with Mild Learning Disabilities (MLDs)",
+      "citedBy": 37,
+      "year": "2023",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-04 08:00"
+    },
+    "W3156583848": {
+      "doi": "10.3389/fpsyg.2020.591308",
+      "title": "Visual–Spatial Ability Predicts Academic Achievement Through Arithmetic and Reading Abilities",
+      "citedBy": 37,
+      "year": "2021",
+      "status": "ready",
+      "titleJa": "視空間能力は算数能力と読解能力を介して学業成績を予測する",
+      "model": "gemini-3.5-flash",
+      "createdAt": "2026-10-04 08:02",
+      "note": "意味が合わないリンクを外した: 算数能力→算数"
     }
   }
 }
