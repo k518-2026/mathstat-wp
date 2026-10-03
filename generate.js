@@ -5,6 +5,8 @@
  *   node generate.js --force    投稿待ちの本数に関係なく1本作る
  *   node generate.js --no-git   git pull / push をしない（試すとき）
  *   node generate.js --dry      記事を作ってログに出すだけ。台帳にも書かない
+ *   node generate.js --id=W123  その論文だけを記事にする（--dry と組み合わせて試せる）
+ *   node generate.js --only-ollama  Gemini と Claude を使わず、Mac mini の Ollama だけで書く（確かめるとき）
  *
  * 流れ: git pull → OpenAlex で候補 → PDF → pdftotext → 記事（Gemini → Ollama → Claude）→
  *       Wikipedia で用語を確認 → articles/<ID>.json と data/ledger.json → git commit → push
@@ -27,6 +29,11 @@ const args = process.argv.slice(2);
 const FORCE = args.includes('--force');
 const NO_GIT = args.includes('--no-git') || args.includes('--dry');
 const DRY = args.includes('--dry');
+// Mac mini の Ollama だけで書かせる（Ollama の流れを確かめるとき）
+if (args.includes('--only-ollama')) {
+  require('./lib/llm').state.geminiDown = true;
+  delete process.env.ANTHROPIC_API_KEY;
+}
 
 function git(...a) {
   return execFileSync('git', a, { cwd: store.ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
@@ -106,6 +113,16 @@ async function main() {
 
   const ledger = store.loadLedger();
   const posted = store.loadPosted();
+
+  // 論文を指定して1本だけ（試すとき・作り直すとき）
+  const idArg = args.find((a) => /^--id=/.test(a));
+  if (idArg) {
+    const result = await processPaper(ledger, await openalex.fetchWorkById(idArg.slice(5)));
+    if (!DRY) store.saveLedger(ledger);
+    console.log('\n結果: ' + result + '（git には送っていません）');
+    return;
+  }
+
   const backlog = store.queue(ledger, posted).length;
   console.log('投稿待ち ' + backlog + ' 本（目標 ' + config.backlogTarget + ' 本）');
 

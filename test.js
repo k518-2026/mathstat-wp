@@ -46,6 +46,12 @@ function geminiOk(obj) {
   return { body: { candidates: [{ finishReason: 'STOP', content: { parts: [{ text: JSON.stringify(obj) }] } }] } };
 }
 const BUSY = { status: 503, body: { error: { code: 503, message: 'high demand' } } };
+const CLASSIFY_YES = { body: { message: { content: JSON.stringify({ aboutMathLearning: true, quantitativeStatistics: true,
+  brainImagingIsMainTopic: false, explainsStatisticalMethodOnly: false, qualitativeOnly: false }) }, done_reason: 'stop' } };
+function isClassify(opts) {
+  const b = JSON.parse(opts.body || '{}');
+  return !!(b.format && b.format.properties && b.format.properties.aboutMathLearning);
+}
 const OLLAMA_TAGS = { body: { models: [{ name: config.ollama.model }] } };
 
 function fakeClaude(out, seen) {
@@ -165,10 +171,11 @@ async function run() {
   llm.reset();
   setEnv({ GEMINI_API_KEY: 'G', ANTHROPIC_API_KEY: 'A' });
   let ollamaCalls = 0;
-  fakeFetch((url) => {
+  fakeFetch((url, opts) => {
     if (url.includes('generativelanguage')) return BUSY;
     if (url.endsWith('/api/tags')) return OLLAMA_TAGS;
     if (url.endsWith('/api/chat')) {
+      if (isClassify(opts)) return CLASSIFY_YES;
       ollamaCalls++;
       return { body: { message: { content: ollamaCalls === 1 ? '・145名の4年生' : JSON.stringify(rawArticle('999')) }, done_reason: 'stop' } };
     }
@@ -183,10 +190,11 @@ async function run() {
   // 数値が合っていれば Ollama の記事を使う
   llm.reset();
   ollamaCalls = 0;
-  fakeFetch((url) => {
+  fakeFetch((url, opts) => {
     if (url.includes('generativelanguage')) return BUSY;
     if (url.endsWith('/api/tags')) return OLLAMA_TAGS;
     if (url.endsWith('/api/chat')) {
+      if (isClassify(opts)) return CLASSIFY_YES;
       ollamaCalls++;
       return { body: { message: { content: ollamaCalls === 1 ? '・145名の4年生' : JSON.stringify(rawArticle('145')) }, done_reason: 'stop' } };
     }
@@ -196,6 +204,28 @@ async function run() {
   const a2 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
   check('Ollama の記事の数値が本文と合えば、そのまま使う（Claude は呼ばない）',
         a2.model === config.ollama.model && claudeSeen.length === 0, a2.model);
+
+  // 記事を書かせた回の relevant ではなく、問いを分けた判定で決める（2026-10-04 に理由と結論が食い違った）
+  for (const [brain, want] of [[false, true], [true, false]]) {
+    llm.reset();
+    ollamaCalls = 0;
+    fakeFetch((url, opts) => {
+      if (url.includes('generativelanguage')) return BUSY;
+      if (url.endsWith('/api/tags')) return OLLAMA_TAGS;
+      if (url.endsWith('/api/chat')) {
+        if (isClassify(opts)) {
+          return { body: { message: { content: JSON.stringify({ aboutMathLearning: true, quantitativeStatistics: true,
+            brainImagingIsMainTopic: brain, explainsStatisticalMethodOnly: false, qualitativeOnly: false }) }, done_reason: 'stop' } };
+        }
+        ollamaCalls++;
+        return { body: { message: { content: ollamaCalls === 1 ? '・145名' : JSON.stringify({ ...rawArticle('145'), relevant: false }) }, done_reason: 'stop' } };
+      }
+      return { status: 404 };
+    });
+    const a3 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
+    check('Ollama: テーマの判定は問いを分けた答えで決める（脳画像が中心=' + brain + ' → ' + (want ? '記事にする' : 'テーマ外') + '）',
+          a3.relevant === want && (want || /脳画像/.test(a3.relevanceReason)), a3.relevant + ' ' + a3.relevanceReason);
+  }
 
   // ---------- 字数 ----------
   const short = { sections: { what: 'a'.repeat(130), nextLead: 'b'.repeat(70) },
