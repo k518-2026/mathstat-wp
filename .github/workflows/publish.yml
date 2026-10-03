@@ -1,0 +1,82 @@
+name: WordPress に投稿
+
+# 貯めた記事（articles/*.json）を1本、WordPress へメールで投稿し、続けて Bluesky の告知を確かめる。
+# 記事を作るのは手元の PC（generate.js）。ここでは言語モデルを使わない。
+#
+# 必要な Secrets: WP_POST_EMAIL, SMTP_USER, SMTP_PASSWORD, PIXABAY_API_KEY,
+#                 BLUESKY_HANDLE, BLUESKY_PASSWORD, WP_SITE_URL
+# GitHub の cron は混んでいると数十分遅れることがある
+
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 毎日 08:00 (Asia/Tokyo)
+    - cron: '0 9 * * *'    # 毎日 18:00 (Asia/Tokyo)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '送らずに、件名と本文をログに出すだけ'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mathstat-wp
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 自己検査
+        run: node test.js
+
+      - name: 依存パッケージを入れる
+        run: npm install --omit=dev --no-audit --no-fund
+
+      - name: 投稿する
+        env:
+          WP_POST_EMAIL: ${{ secrets.WP_POST_EMAIL }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: node publish.js ${{ inputs.dry_run && '--dry' || '' }}
+
+      # 送ったあとに記録を push できないと、次の回で同じ記事を二重に送る。ここは失敗させて気づけるようにする
+      - name: 記録を保存する
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/posted.json
+          git diff --cached --quiet || git commit -m "Posted to WordPress"
+          git pull --rebase
+          git push
+
+      # メール投稿が公開されるまで少しかかる。ここで出ていなければ 9・10時（19・20時）の確認で拾う
+      - name: 少し待ってから告知を確かめる
+        if: ${{ !inputs.dry_run }}
+        run: sleep 120
+
+      - name: Bluesky で告知する
+        if: ${{ !inputs.dry_run }}
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
+        run: node announce.js
+
+      - name: 告知の記録を保存する
+        if: ${{ always() && !inputs.dry_run }}
+        run: |
+          git add data/posted.json
+          git diff --cached --quiet || git commit -m "Announced on Bluesky"
+          git pull --rebase
+          git push

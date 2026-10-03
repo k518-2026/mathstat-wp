@@ -1,0 +1,48 @@
+name: Bluesky で告知
+
+# WordPress に送った記事が RSS に出ていれば Bluesky で告知する。
+# 投稿の直後（publish.yml）に出ていなかった記事を、1・2時間後に拾い直すためのもの。
+
+on:
+  schedule:
+    - cron: '0 0,1,10,11 * * *'   # 毎日 09:00・10:00・19:00・20:00 (Asia/Tokyo)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '投稿せずに、告知文をログに出すだけ'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mathstat-wp
+  cancel-in-progress: false
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 告知する
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
+        run: node announce.js ${{ inputs.dry_run && '--dry' || '' }}
+
+      - name: 記録を保存する
+        if: ${{ always() && !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/posted.json
+          git diff --cached --quiet || git commit -m "Announced on Bluesky"
+          git pull --rebase
+          git push

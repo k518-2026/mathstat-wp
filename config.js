@@ -1,0 +1,124 @@
+/**
+ * 海外論文の紹介「算数・数学教育 × 統計分析」（設定）
+ *
+ * GAS 版（PaperIntro/MathStat）の後継。2026-10-04 に役割を2つに分けた。
+ *
+ *   記事を作る … この Windows PC（generate.js）。Gemini → Mac mini の Ollama → Claude の順に使う
+ *   投稿と告知 … GitHub Actions（publish.js / announce.js）。毎日 8時・18時に WordPress へメール投稿し、
+ *                RSS に出たのを確かめてから Bluesky で告知する
+ *
+ * 作った記事は articles/<論文ID>.json に貯め、git で GitHub に送る。
+ * Actions はそこから古い順に1本ずつ出す。PC が止まった日も、貯めた分で投稿は続く。
+ */
+
+module.exports = {
+  name: '海外論文の紹介「算数・数学教育 × 統計分析」',
+
+  // --- 論文の選び方（OpenAlex）。GAS 版と同じ条件 ---
+  // T10130 数学教育と指導法 / T11345 数学的能力の認知・発達 / T12522 数学教育と教授法 に、
+  // 統計手法の語と学校の語を要旨に含むもの。2026-09-24 時点で約2,560件
+  openAlexFilter: 'primary_topic.id:T10130|T11345|T12522,' +
+    'title_and_abstract.search:(regression OR "structural equation" OR ANOVA OR multilevel OR "hierarchical linear" OR ' +
+    '"factor analysis" OR "meta-analysis" OR longitudinal OR "randomized controlled" OR "statistical analysis"),' +
+    'abstract.search:(students OR pupils OR classroom OR teachers OR school OR schools)',
+  fromYear: 2010,
+  perPage: 50,
+  maxSearchPages: 40,
+  titleExclude: /\b(Pengaruh|Pembelajaran|terhadap|Siswa|Pengembangan|Kecemasan|Hubungan|Belajar|Matematika)\b/i,
+
+  relevanceRule: '英語で書かれた、算数・数学の学習や指導（幼児期から大学初年次まで）を対象に、' +
+    '量的データを統計的に分析した実証研究であること（回帰、構造方程式モデリング、分散分析、マルチレベル分析、' +
+    'メタ分析、縦断データの分析など）。脳画像が主題の研究、統計手法そのものの解説、質的研究のみのものは false。',
+  writerRole: '数学教育と教育統計に詳しいサイエンスライター',
+  reader: '算数・数学の先生や、教育データの分析に関心のある人',
+
+  sections: [
+    { key: 'what', heading: '(1) どんな研究か？', guide: 'どんな研究か。対象・目的・規模を具体的に。' },
+    { key: 'novelty', heading: '(2) 先行研究と比べてどこがすごいのか？',
+      guide: '先行研究と比べてどこが新しく、なぜ重要か。論文自身が述べている位置づけに基づく。' },
+    { key: 'method', heading: '(3) 技術や手法のキモはどこにあるか？',
+      guide: '手法のキモ。どの統計手法をなぜ選んだか、変数の設定、モデルの組み立てを、統計に詳しくない先生にもわかるように。' },
+    { key: 'validation', heading: '(4) どうやって有効だと検証したか？',
+      guide: 'どうやって有効だと検証したか。データ・比較の設計・主な結果の数値を、本文に書かれている範囲で。' },
+    { key: 'implications', heading: '(5) 現場・実務への示唆と、残された論点',
+      guide: '読者にとっての示唆と、論文の限界・残された論点。相関研究や縦断研究の結果から「〜する指導が効果的です」のように' +
+        '介入の効果を断定しないこと。「〜の可能性があります」「論文は〜を示唆しています」と書き、論文自身が述べている示唆と、' +
+        'あなたの推測を混ぜないこと。' },
+    { key: 'nextLead', heading: '(6) 次に読むべき論文はあるか？', lead: true,
+      guide: '次に読む論文への導入。**60〜150 字**（後ろに付く論文リストと推薦理由と合わせて観点6の分量になる）。' +
+        'どの方向に読み進めるとよいかを具体的に書く。中身のない言い回しで字数を埋めない。論文名は書かない（リストはコードが付ける）。' }
+  ],
+  sectionMinChars: 150,
+  sectionMaxChars: 300,
+
+  // --- 本文 PDF ---
+  pdfMaxBytes: 40 * 1024 * 1024,
+  pdfTextMinChars: 3000,
+  pdfTextMaxChars: 150000,
+  // Windows では Git for Windows に入っている pdftotext を使う（タスク スケジューラーからは PATH が通らないことがある）
+  pdftotext: process.env.PDFTOTEXT ||
+    (process.platform === 'win32' ? 'C:\\Program Files\\Git\\mingw64\\bin\\pdftotext.exe' : 'pdftotext'),
+
+  // --- 言語モデル（Gemini → Ollama → Claude）---
+  geminiModels: ['gemini-3.6-flash', 'gemini-3.8-flash', 'gemini-3.5-flash', 'gemini-3.7-flash'],
+  // 手元で動かすので GAS の6分の制限は無い。混雑が収まるのを少し待ってから次へ回す
+  geminiRounds: 2,
+  geminiRoundWaitMs: 60 * 1000,
+  temperature: 0.4,
+  maxOutputTokens: 16384,
+
+  // Mac mini の Ollama。一度に読める量（num_ctx）は 8192 で安定（2026-10-04 実測）。
+  // 論文1本（約2万トークン）は入らないので、区切って読ませてメモを作り、メモから記事を書かせる
+  ollama: {
+    host: process.env.OLLAMA_HOST || 'http://192.168.128.59:11434',
+    model: 'qwen2.5:14b',          // 指示に忠実で、32K まで読める。gemma2:9b は 8K までで、中身が薄かった
+    numCtx: 8192,
+    chunkChars: 12000,             // 1回に読ませる本文の量（英文で約3,000トークン）
+    maxChars: 72000,               // 区切って読ませる本文の上限（6回分）。メモがまとめの num_ctx に収まるように
+    composeNumCtx: 12288,          // メモ（約3,000トークン）＋指示＋出力を一度に扱うまとめの回だけ広げる
+    timeoutMs: 15 * 60 * 1000      // 実測で出力は毎秒約11トークン
+  },
+
+  // Gemini も Ollama も使えないときの最後の手段（従量課金・1記事 10 円前後）
+  claude: {
+    model: 'claude-sonnet-5',
+    effort: 'medium',
+    maxTokens: 16000
+  },
+
+  // --- 次に読む論文 ---
+  referenceLookupMax: 80,
+  readingFromReferences: 6,
+  readingFromCiting: 4,
+
+  // --- 用語リンク ---
+  wikiLinkMax: 8,
+
+  // --- 記事 ---
+  articleLead: '算数・数学教育を統計的に分析した、海外で多く引用されている論文を6つの観点から紹介します。',
+  snsHashtags: ['#数学教育', '#教育統計'],
+  photoFallbackQuery: 'mathematics classroom',
+  imageMaxBytes: 2500000,
+
+  // --- 作る量（generate.js）---
+  backlogTarget: 6,        // 投稿待ちがこれだけあれば作らない（1日2本投稿なので3日分）
+  maxPerRun: 2,            // 1回の実行で作る上限
+  maxTriesPerRun: 12,      // 1回の実行で見る候補の数（PDF が取れない・テーマ外を飛ばす）
+
+  // --- WordPress（メール投稿）---
+  wordpress: {
+    titlePrefix: '【論文紹介】',
+    senderName: '論文紹介（算数・数学×統計）',
+    category: '論文紹介',
+    tags: '論文紹介,数学教育,統計分析',
+    draft: false
+  },
+  // RSS に出てこなければ、この時間まで待ってから告知を見送る
+  wpWaitHours: 16,
+
+  paths: {
+    articles: 'articles',
+    ledger: 'data/ledger.json',     // 作る側（この PC）だけが書く
+    posted: 'data/posted.json'      // 投稿する側（Actions）だけが書く。同じファイルを両方で書くと git でぶつかる
+  }
+};

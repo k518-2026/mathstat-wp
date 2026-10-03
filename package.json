@@ -1,0 +1,16 @@
+{
+  "name": "mathstat-wp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "算数・数学教育×統計の海外論文を紹介する記事を手元で作り、GitHub Actions で WordPress に投稿する",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js",
+    "generate": "node generate.js",
+    "publish-dry": "node publish.js --dry"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.74.0",
+    "nodemailer": "^7.0.9"
+  }
+}
