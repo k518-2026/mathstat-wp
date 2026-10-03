@@ -9,8 +9,7 @@ name: WordPress に投稿
 
 on:
   schedule:
-    - cron: '0 23 * * *'   # 毎日 08:00 (Asia/Tokyo)
-    - cron: '0 9 * * *'    # 毎日 18:00 (Asia/Tokyo)
+    - cron: '0 20 * * *'   # 毎日 05:00 (Asia/Tokyo) = 20:00 UTC 前日
   workflow_dispatch:
     inputs:
       dry_run:
@@ -60,7 +59,7 @@ jobs:
           git pull --rebase
           git push
 
-      # メール投稿が公開されるまで少しかかる。ここで出ていなければ 9・10時（19・20時）の確認で拾う
+      # メール投稿が公開されるまで少しかかる。ここで出ていなければ announce.yml の確認（6・7・12時）で拾う
       - name: 少し待ってから告知を確かめる
         if: ${{ !inputs.dry_run }}
         run: sleep 120

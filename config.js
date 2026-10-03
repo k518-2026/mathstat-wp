@@ -101,8 +101,8 @@ module.exports = {
   imageMaxBytes: 2500000,
 
   // --- 作る量（generate.js）---
-  backlogTarget: 6,        // 投稿待ちがこれだけあれば作らない（1日2本投稿なので3日分）
-  maxPerRun: 2,            // 1回の実行で作る上限
+  backlogTarget: 10,       // 投稿待ちがこれだけあれば作らない（1日1本投稿なので10日分）
+  maxPerRun: 3,            // 1回の実行で作る上限（Mac mini だけで書くと1本10〜12分かかる）
   maxTriesPerRun: 12,      // 1回の実行で見る候補の数（PDF が取れない・テーマ外を飛ばす）
 
   // --- WordPress（メール投稿）---

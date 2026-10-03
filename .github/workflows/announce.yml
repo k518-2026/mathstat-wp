@@ -5,7 +5,7 @@ name: Bluesky で告知
 
 on:
   schedule:
-    - cron: '0 0,1,10,11 * * *'   # 毎日 09:00・10:00・19:00・20:00 (Asia/Tokyo)
+    - cron: '0 21,22,3 * * *'   # 毎日 06:00・07:00・12:00 (Asia/Tokyo)。5:00 の投稿の1・2時間後と、昼の拾い直し
   workflow_dispatch:
     inputs:
       dry_run:
