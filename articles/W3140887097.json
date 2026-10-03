@@ -1,0 +1,129 @@
+{
+  "paper": {
+    "id": "W3140887097",
+    "doi": "10.1007/s10212-021-00546-0",
+    "title": "Just do it! Study time increases mathematical achievement scores for grade 4-10 students in a large longitudinal cross-country study",
+    "authors": [
+      "Markus Spitzer"
+    ],
+    "authorCount": 1,
+    "venue": "European Journal of Psychology of Education",
+    "volume": "37",
+    "issue": "1",
+    "pages": "39–53",
+    "year": "2021",
+    "citedBy": 45,
+    "url": "https://doi.org/10.1007/s10212-021-00546-0",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10212-021-00546-0.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "3カ国の4〜10年生を対象に、数学学習ソフトウェアの使用時間と学力の関係を3年間の縦断データを用いて統計的に分析した実証研究であるため。",
+    "titleJa": "とにかくやってみよう！大規模な複数国縦断研究において学習時間は4〜10年生の数学の学力スコアを向上させる",
+    "sections": {
+      "what": "この研究は、数学の学習時間が学力向上に与える影響を明らかにすることを目的としています。ドイツ、ウルグアイ、オランダの3カ国において、数学学習ソフトウェア「Bettermarks」を利用した小学4年生から高校1年生（9〜16歳）までの児童・生徒6,131人を対象としています。3年間にわたる縦断的なデータを収集し、合計115万9,295件の問題セットの解答データから、学習時間と数学の学力スコアの関係を分析しました。",
+      "novelty": "従来の学習時間に関する研究は、自己申告によるアンケート調査に依存していたため、測定の正確性に課題がありました。また、学習時間と学力向上の関係については、肯定的な結果と否定的な結果が混在し、一貫した結論が得られていませんでした。本研究は、コンピューターのログデータを用いて学習時間を正確に測定し、3年間の長期にわたる大規模な縦断データを用いて、事前能力の違いが学習時間の効果にどう影響するかを検証した点で非常に新規性が高いです。",
+      "method": "分析には線形回帰モデルが用いられました。独立変数として各学年のソフトウェア学習時間、従属変数として各問題セットの正答率から問題の難易度（全ユーザーの平均正答率）を差し引いた学力スコアを設定しました。これにより、問題の難易度に左右されない個人の学力を評価しています。さらに、1年目の学力スコアと2年目の学習時間の相互作用をモデルに組み込むことで、初期の学力レベルによって学習時間の効果が異なるかどうかを検証しました。",
+      "validation": "分析の結果、1年目の学習時間が同年の学力スコアを有意に高めることが示されました。また、2年目の学習時間も同年の学力向上に寄与していました。特に、1年目に学力が低かった下位20％の児童・生徒が2年目に学習時間を増やした場合、学力スコアが大きく向上することが確認されました。さらに、2年目に学習時間を増やして実際に学力を向上させた低学力層の児童・生徒は、3年目でも高い学力スコアを維持しており、学習の質を伴う時間投資が長期的な効果を持つことが検証されました。",
+      "implications": "この研究は、特に数学が苦手な児童・生徒に対して、学習時間を増やすことが学力向上に極めて有効である可能性を示唆しています。ただし、単に時間を引き延ばすだけでなく、学習中に理解を深めて正答率を向上させるという「学習の質」が伴うことで、その効果が長期的に持続することが示されています。限界として、ソフトウェア以外での学習時間や教員の指導時間が考慮されていない点、動機付けや自己調整学習能力といった心理的要因がデータに含まれていない点が挙げられます。",
+      "nextLead": "学習時間と学力の関係をさらに深く理解するためには、宿題の効果に関するメタ分析や、本研究で用いられた学習ソフトウェアのその後の影響を調べた研究に進むことが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2157542520",
+          "doi": "10.3102/00346543076001001",
+          "title": "Does Homework Improve Academic Achievement? A Synthesis of Research, 1987–2003",
+          "authors": [
+            "Harris M. Cooper",
+            "Jorgianne Civey Robinson",
+            "Erika A. Patall"
+          ],
+          "authorCount": 3,
+          "venue": "Review of Educational Research",
+          "volume": "76",
+          "issue": "1",
+          "pages": "1–62",
+          "year": "2006",
+          "citedBy": 1242,
+          "url": "https://doi.org/10.3102/00346543076001001"
+        },
+        "reason": "宿題としての学習時間が学力に与える影響について、過去の多様な研究を統合したメタ分析であり、本研究の背景にある学習時間の効果に関する議論をより深く理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W3192682282",
+          "doi": "10.1371/journal.pone.0255629",
+          "title": "Academic performance of K-12 students in an online-learning environment for mathematics increased during the shutdown of schools in wake of the COVID-19 pandemic",
+          "authors": [
+            "Markus Spitzer",
+            "Sebastian Musslick"
+          ],
+          "authorCount": 2,
+          "venue": "PLoS ONE",
+          "volume": "16",
+          "issue": "8",
+          "pages": "e0255629",
+          "year": "2021",
+          "citedBy": 137,
+          "url": "https://doi.org/10.1371/journal.pone.0255629"
+        },
+        "reason": "本研究と同じ著者による後続研究であり、新型コロナウイルス感染症による休校期間中にオンライン数学学習環境での学習がどのように変化し、学力に影響したかを分析しています。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "縦断データ",
+        "wikiTitle": "縦断研究"
+      },
+      {
+        "term": "線形回帰モデル",
+        "wikiTitle": "線形回帰"
+      },
+      {
+        "term": "独立変数",
+        "wikiTitle": "依存変数と独立変数"
+      },
+      {
+        "term": "従属変数",
+        "wikiTitle": "依存変数と独立変数"
+      },
+      {
+        "term": "相互作用",
+        "wikiTitle": "相互作用"
+      }
+    ],
+    "links": [
+      {
+        "term": "縦断データ",
+        "title": "縦断研究",
+        "url": "https://ja.wikipedia.org/wiki/%E7%B8%A6%E6%96%AD%E7%A0%94%E7%A9%B6"
+      },
+      {
+        "term": "線形回帰モデル",
+        "title": "線形回帰",
+        "url": "https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%BD%A2%E5%9B%9E%E5%B8%B0"
+      },
+      {
+        "term": "独立変数",
+        "title": "独立変数と従属変数",
+        "url": "https://ja.wikipedia.org/wiki/%E7%8B%AC%E7%AB%8B%E5%A4%89%E6%95%B0%E3%81%A8%E5%BE%93%E5%B1%9E%E5%A4%89%E6%95%B0"
+      },
+      {
+        "term": "従属変数",
+        "title": "独立変数と従属変数",
+        "url": "https://ja.wikipedia.org/wiki/%E7%8B%AC%E7%AB%8B%E5%A4%89%E6%95%B0%E3%81%A8%E5%BE%93%E5%B1%9E%E5%A4%89%E6%95%B0"
+      }
+    ],
+    "intro": "数学が苦手な子ほど、学習時間を増やすと効果が出る？3カ国3年間のデータから、学習時間と学力向上の持続効果を実証した大規模研究をご紹介します。",
+    "imageQuery": "student solving math problem laptop",
+    "warnings": [
+      "論文の本文に見つからない数値: 115, 9295",
+      "意味が合わないリンクを外した: 相互作用→相互作用"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  "asOf": "2026-10-04",
+  "createdAt": "2026-10-04 01:23"
+}

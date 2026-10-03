@@ -567,6 +567,35 @@
       "status": "imported",
       "gasStatus": "完了",
       "gasPublishedAt": "2026-10-03 18:40"
+    },
+    "W2029946207": {
+      "doi": "10.1016/j.ijer.2011.06.006",
+      "title": "Longitudinal investigation of the curricular effect: An analysis of student learning outcomes from the LieCal Project in the United States",
+      "citedBy": 46,
+      "year": "2011",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-04 01:22"
+    },
+    "W4210758959": {
+      "doi": "10.3390/educsci12020079",
+      "title": "Analysis of Differences in the Levels of TPACK: Unpacking Performance Indicators in the TPACK Levels Rubric",
+      "citedBy": 45,
+      "year": "2022",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-04 01:22"
+    },
+    "W3140887097": {
+      "doi": "10.1007/s10212-021-00546-0",
+      "title": "Just do it! Study time increases mathematical achievement scores for grade 4-10 students in a large longitudinal cross-country study",
+      "citedBy": 45,
+      "year": "2021",
+      "status": "ready",
+      "titleJa": "とにかくやってみよう！大規模な複数国縦断研究において学習時間は4〜10年生の数学の学力スコアを向上させる",
+      "model": "gemini-3.5-flash",
+      "createdAt": "2026-10-04 01:23",
+      "note": "論文の本文に見つからない数値: 115, 9295 / 意味が合わないリンクを外した: 相互作用→相互作用"
     }
   }
 }
