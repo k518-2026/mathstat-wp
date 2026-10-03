@@ -607,6 +607,48 @@
       "model": "gemini-3.5-flash",
       "createdAt": "2026-10-04 01:30",
       "note": ""
+    },
+    "W1797767272": {
+      "doi": "10.3389/fpsyg.2015.01062",
+      "title": "Contribution of working memory in multiplication fact network in children may shift from verbal to visuo-spatial: a longitudinal investigation",
+      "citedBy": 45,
+      "year": "2015",
+      "status": "ready",
+      "titleJa": "児童の掛け算九九ネットワークにおけるワーキングメモリの貢献は言語から視空間へとシフトする：縦断的調査",
+      "model": "gemini-3.5-flash",
+      "createdAt": "2026-10-04 01:49",
+      "note": "意味が合わないリンクを外した: 短期記憶→記憶, 重回帰分析→回帰分析"
+    },
+    "W2810479868": {
+      "doi": "10.3926/jotse.401",
+      "title": "Local wisdom-oriented problem solving learning model to improve mathematical problem solving ability",
+      "citedBy": 44,
+      "year": "2018",
+      "status": "ready",
+      "titleJa": "数学的問題解決能力を向上させるための地域の知恵を志向した問題解決学習モデル",
+      "model": "gemini-3.5-flash",
+      "createdAt": "2026-10-04 01:50",
+      "note": "(6) 次に読むべき論文はあるか？ が 358 字"
+    },
+    "W2765902427": {
+      "doi": "10.1016/j.tine.2017.10.002",
+      "title": "The interplay between affective and cognitive factors in shaping early proficiency in mathematics",
+      "citedBy": 44,
+      "year": "2017",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-04 01:50"
+    },
+    "W2755739173": {
+      "doi": "10.3389/fpsyg.2017.01576",
+      "title": "Number Line Estimation Predicts Mathematical Skills: Difference in Grades 2 and 4",
+      "citedBy": 44,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "数直線推定は数学的スキルを予測する：小学2年生と4年生における違い",
+      "model": "gemini-3.5-flash",
+      "createdAt": "2026-10-04 01:52",
+      "note": "(6) 次に読むべき論文はあるか？ が 353 字"
     }
   }
 }

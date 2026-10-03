@@ -1,0 +1,144 @@
+{
+  "paper": {
+    "id": "W2810479868",
+    "doi": "10.3926/jotse.401",
+    "title": "Local wisdom-oriented problem solving learning model to improve mathematical problem solving ability",
+    "authors": [
+      "Ni Nyoman Parwati",
+      "I Gusti Putu Sudiarta",
+      "I Made Mariawan",
+      "I Wayan Widiana"
+    ],
+    "authorCount": 4,
+    "venue": "Journal of Technology and Science Education",
+    "volume": "8",
+    "issue": "4",
+    "pages": "310",
+    "year": "2018",
+    "citedBy": 44,
+    "url": "https://doi.org/10.3926/jotse.401",
+    "license": "cc-by-nc",
+    "pdfUrl": "http://www.jotse.org/index.php/jotse/article/download/401/335"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "小学校5年生を対象に、地域の知恵を取り入れた問題解決学習モデルと問題タイプが算数の問題解決能力に及ぼす影響を共分散分析を用いて量的データから検討した実証研究であるため。",
+    "titleJa": "数学的問題解決能力を向上させるための地域の知恵を志向した問題解決学習モデル",
+    "sections": {
+      "what": "インドネシアのシンガラジャにおける小学校5年生152名を対象に、算数の問題解決能力を向上させるための指導法と問題タイプの影響を検討した研究です。地域の知恵を取り入れた問題解決学習モデルと従来の直接教授法、および答えが複数あるオープンな問題と答えが1つだけのクローズドな問題の組み合わせが、児童の算数問題解決能力にどのような効果をもたらすかを明らかにすることを目的としています。4つのクラスに異なる指導法と問題タイプを割り当てて比較を行いました。",
+      "novelty": "従来の算数教育は、知識の伝達や定型的な問題の反復練習に偏りがちで、児童の主体的な思考力や肯定的なキャラクターの育成が軽視されていました。本研究の新規性は、バリ島の伝統的なことわざなどの地域の知恵を問題解決学習のプロセスに統合した点にあります。これにより、児童の学習意欲を高めながら、現代社会で求められる粘り強さや協調性といった道徳的価値観と、高度な数学的問題解決能力を同時に育むアプローチを提案している点が重要です。",
+      "method": "研究では準実験デザインを採用し、事前テストと事後テストを実施しました。分析には2元共分散分析を用いています。これは、児童の初期の算数能力が事後テストの結果に与える影響を統計的に制御し、純粋な指導法と問題タイプによる効果を検証するためです。独立変数として指導法（地域の知恵を取り入れた問題解決学習 vs 直接教授法）と問題タイプ（オープンな問題 vs クローズドな問題）を設定し、従属変数である問題解決能力への影響を分析しました。",
+      "validation": "152名の児童を4つのグループに分け、事後テストの得点を比較しました。共分散分析の結果、地域の知恵を取り入れた問題解決学習グループの平均点は、直接教授法グループよりも有意に高くなりました。また、オープンな問題に取り組んだグループの平均点は、クローズドな問題のグループより有意に高い結果でした。さらに、指導法と問題タイプの間には有意な相互作用効果が認められ、オープンな問題と地域の知恵を組み合わせたグループが最も高い成果を示しました。",
+      "implications": "本研究は、算数の授業において地域の文化や教訓を取り入れた文脈を設定することが、児童の学習意欲や問題解決能力の向上に有効である可能性を示唆しています。また、単一の答えを求めるだけでなく、多様な解決方法を認めるオープンな問題の提示が、多角的な思考力を養う上で重要です。ただし、本研究はバリ島の特定の地域で行われたため、異なる文化圏や他の学年、あるいは算数以外の学習領域における効果については、さらなる検証が必要であるという限界があります。",
+      "nextLead": "地域の知恵や文化的文脈を取り入れた学習モデルが、他の学習領域や対象者に対してどのような効果を持つのかをさらに探求するため、後続の実証研究や、具体的な教材設計に関する論文を読み進めることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2996585259",
+          "doi": "10.29333/iji.2020.13147a",
+          "title": "The Effect of Local Wisdom-Based ELSII Learning Model on the Problem Solving and Communication Skills of Pre-Service Islamic Teachers",
+          "authors": [
+            "Adi Fadli",
+            "Irwanto Irwanto"
+          ],
+          "authorCount": 2,
+          "venue": "International Journal of Instruction",
+          "volume": "13",
+          "issue": "1",
+          "pages": "731–746",
+          "year": "2019",
+          "citedBy": 94,
+          "url": "https://doi.org/10.29333/iji.2020.13147a"
+        },
+        "reason": "地域の知恵を基盤とした学習モデルが、教員志望者の問題解決能力やコミュニケーション能力に及ぼす影響を検証しており、本研究のモデルが他対象へどう応用されるかを理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W3046849874",
+          "doi": "10.12973/eu-jer.9.2.753",
+          "title": "The Effect of Metacognitive-Based Contextual Learning Model on Fifth-Grade Students’ Problem-Solving and Mathematical Communication Skills",
+          "authors": [
+            "Erif Ahdhianto",
+            "Marsigit MARSİGİT",
+            "Haryanto Haryanto",
+            "Novi Nitya Santi"
+          ],
+          "authorCount": 4,
+          "venue": "European Journal of Educational Research",
+          "volume": "volume-9-2020",
+          "issue": "volume-9-issue-2-april-2020",
+          "pages": "753–764",
+          "year": "2020",
+          "citedBy": 59,
+          "url": "https://doi.org/10.12973/eu-jer.9.2.753"
+        },
+        "reason": "本研究と同じ小学5年生を対象に、文脈を重視した学習モデルが算数の問題解決力やコミュニケーション力に与える影響を分析しており、指導法の比較検討において深い示唆を得られます。"
+      },
+      {
+        "paper": {
+          "id": "W3042143202",
+          "doi": "10.3991/ijim.v14i11.12183",
+          "title": "Integrating Local Wisdom Forms in Augmented Reality Application: Impact Attitudes, Motivations and Understanding of Geometry of Pre-service Mathematics Teachers’",
+          "authors": [
+            "Sudirman Sudirman",
+            "Mellawaty Mellawaty",
+            "Poppy Yaniawati",
+            "Rully Indrawan"
+          ],
+          "authorCount": 4,
+          "venue": "International Journal of Interactive Mobile Technologies (iJIM)",
+          "volume": "14",
+          "issue": "11",
+          "pages": "91",
+          "year": "2020",
+          "citedBy": 38,
+          "url": "https://doi.org/10.3991/ijim.v14i11.12183"
+        },
+        "reason": "地域の知恵を拡張現実技術と融合させ、算数・数学教育における学習意欲や幾何学の理解に及ぼす影響を検討しており、伝統と最新技術を組み合わせた教育実践の可能性を示しています。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "問題解決学習モデル",
+        "wikiTitle": "問題解決学習"
+      },
+      {
+        "term": "直接教授法",
+        "wikiTitle": "直接教授法"
+      },
+      {
+        "term": "共分散分析",
+        "wikiTitle": "共分散分析"
+      },
+      {
+        "term": "オープンな問題",
+        "wikiTitle": "オープンエンドな問題"
+      },
+      {
+        "term": "地域の知恵",
+        "wikiTitle": "伝統的知識"
+      }
+    ],
+    "links": [
+      {
+        "term": "問題解決学習モデル",
+        "title": "問題解決学習",
+        "url": "https://ja.wikipedia.org/wiki/%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA%E5%AD%A6%E7%BF%92"
+      },
+      {
+        "term": "共分散分析",
+        "title": "共分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%B1%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      }
+    ],
+    "intro": "算数の問題解決力を高めるにはどうすればよいでしょうか。バリ島の伝統的な知恵を取り入れた学習モデルと、答えが複数あるオープンな問題の組み合わせがもたらす効果を検証した研究です。",
+    "imageQuery": "elementary school mathematics classroom",
+    "warnings": [
+      "(6) 次に読むべき論文はあるか？ が 358 字"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  "asOf": "2026-10-04",
+  "createdAt": "2026-10-04 01:50"
+}

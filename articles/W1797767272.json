@@ -1,0 +1,119 @@
+{
+  "paper": {
+    "id": "W1797767272",
+    "doi": "10.3389/fpsyg.2015.01062",
+    "title": "Contribution of working memory in multiplication fact network in children may shift from verbal to visuo-spatial: a longitudinal investigation",
+    "authors": [
+      "Mojtaba Soltanlou",
+      "Silvia Pixner",
+      "Hans‐Christoph Nuerk"
+    ],
+    "authorCount": 3,
+    "venue": "Frontiers in Psychology",
+    "volume": "6",
+    "issue": "",
+    "pages": "1062",
+    "year": "2015",
+    "citedBy": 45,
+    "url": "https://doi.org/10.3389/fpsyg.2015.01062",
+    "license": "cc-by",
+    "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01062/pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "小学校3・4年生を対象に、掛け算九九の記憶ネットワークの発達とワーキングメモリの関連を縦断的な量的データと分散分析・回帰分析を用いて検証した実証研究であるため。",
+    "titleJa": "児童の掛け算九九ネットワークにおけるワーキングメモリの貢献は言語から視空間へとシフトする：縦断的調査",
+    "sections": {
+      "what": "小学校3年生から4年生にかけての児童を対象に、掛け算九九の記憶ネットワークの発達と、言語的および視空間的な短期記憶・ワーキングメモリの関与がどのように変化するかを調査した縦断研究です。オーストリアのドイツ語を母語とする児童77名（最終的な分析対象は71名）を対象に、コンピュータを用いた掛け算の真偽検証課題と、4つのメモリコンポーネント（言語的短期記憶、言語的ワーキングメモリ、視空間的短期記憶、視空間的ワーキングメモリ）の測定を個別セッションで実施しました。",
+      "novelty": "掛け算の答えの検索において、提示された誤答が因数に関連しているか否か（因数関連エラー効果）が、子どもの発達段階でどのように変化するかを縦断的に追跡した研究は極めて稀です。また、これまでの研究では、算数全般の学習における記憶の役割の変化は指摘されていましたが、掛け算九九という特定の計算スキルにおいて、言語的ワーキングメモリと視空間的ワーキングメモリの貢献度が学年によってどのようにシフトするかを縦断的に明らかにした点に新規性と重要性があります。",
+      "method": "掛け算検証課題での反応時間と誤答率を分析するため、学年（3年・4年）と課題条件（正答・誤答、または因数関連・因数非関連）を要因とする反復測定分散分析を行いました。さらに、どのメモリ機能が掛け算の成績を予測するかを調べるため、4つのメモリ測定値を説明変数、掛け算の成績（反応時間や誤答率）を目的変数としたステップワイス重回帰分析を学年ごとに実施しました。また、従来の統計的有意性検定を補完し、帰無仮説が正しい確率を評価するためにベイズ分析も導入しています。",
+      "validation": "4年生は3年生よりも反応時間が平均で798ミリ秒有意に速くなりましたが、誤答率には学年間で有意な差は見られませんでした。また、両学年ともに因数に関連する誤答（例：6×3=21）のほうが、関連のない誤答（例：6×3=13）よりも有意に多く発生しました。回帰分析の結果、3年生では言語的ワーキングメモリが全体の誤答率を予測する有意な変数であったのに対し、4年生では視空間的ワーキングメモリが全体の誤答率を予測する唯一の有意な変数へと変化していることが示されました。",
+      "implications": "この結果は、掛け算の学習が学年進行に伴って言語的な暗唱から、より視覚的・空間的な処理へと移行している可能性を示唆しています。3年生での九九の反復練習から、4年生での筆算や複雑な文章題などの視覚的タスクへの変化が影響していると考えられます。指導においては、子どもの認知特性や発達段階に応じた支援が有効である可能性を示しています。ただし、本研究では児童の具体的な計算戦略（直接想起か手続き的計算か）を直接測定していない点が限界として挙げられています。",
+      "nextLead": "本研究が示したワーキングメモリの関与のシフトを踏まえ、算数障害や学習困難を抱える子どもにおけるワーキングメモリや不安の影響、あるいは脳活動の変化について焦点を当てた後続の研究を読むことで、より実践的な支援の手がかりが得られます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2911729610",
+          "doi": "10.3389/fpsyg.2019.00089",
+          "title": "Math Anxiety in Combination With Low Visuospatial Memory Impairs Math Learning in Children",
+          "authors": [
+            "Mojtaba Soltanlou",
+            "Christina Artemenko",
+            "Thomas Dresler",
+            "Andreas Jochen Fallgatter"
+          ],
+          "authorCount": 6,
+          "venue": "Frontiers in Psychology",
+          "volume": "10",
+          "issue": "",
+          "pages": "89",
+          "year": "2019",
+          "citedBy": 50,
+          "url": "https://doi.org/10.3389/fpsyg.2019.00089"
+        },
+        "reason": "本論文を引用しており、視空間ワーキングメモリの低さと算数不安の組み合わせが子どもの算数学習に与える影響を検証しているため、メモリ機能と学習困難の関連を深めるのに適しています。"
+      },
+      {
+        "paper": {
+          "id": "W4200182901",
+          "doi": "10.1111/nyas.14722",
+          "title": "The interplay between math anxiety and working memory on math performance: a longitudinal study",
+          "authors": [
+            "Sandra Pellizzoni",
+            "Elisa Cargnelutti",
+            "Alessandro Cuder",
+            "Maria Chiara Passolunghi"
+          ],
+          "authorCount": 4,
+          "venue": "Annals of the New York Academy of Sciences",
+          "volume": "1510",
+          "issue": "1",
+          "pages": "132–144",
+          "year": "2021",
+          "citedBy": 47,
+          "url": "https://doi.org/10.1111/nyas.14722"
+        },
+        "reason": "本論文を引用した縦断研究であり、算数不安とワーキングメモリの相互作用が算数の成績に及ぼす影響を追跡しているため、縦断的な発達変化の理解をさらに深めることができます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "ワーキングメモリ",
+        "wikiTitle": "ワーキングメモリ"
+      },
+      {
+        "term": "短期記憶",
+        "wikiTitle": "短期記憶"
+      },
+      {
+        "term": "分散分析",
+        "wikiTitle": "分散分析"
+      },
+      {
+        "term": "重回帰分析",
+        "wikiTitle": "回帰分析"
+      }
+    ],
+    "links": [
+      {
+        "term": "ワーキングメモリ",
+        "title": "ワーキングメモリ",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%A1%E3%83%A2%E3%83%AA"
+      },
+      {
+        "term": "分散分析",
+        "title": "分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      }
+    ],
+    "intro": "掛け算九九の暗記を支える脳の仕組みは学年で変わる？3年生の言語的な記憶から4年生の視覚的な記憶へのシフトを明らかにした、小学生の縦断研究を紹介します。",
+    "imageQuery": "children multiplication math classroom",
+    "warnings": [
+      "意味が合わないリンクを外した: 短期記憶→記憶, 重回帰分析→回帰分析"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  "asOf": "2026-10-04",
+  "createdAt": "2026-10-04 01:49"
+}
