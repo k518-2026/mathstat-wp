@@ -116,7 +116,7 @@ async function run() {
         gem1 === config.geminiModels.length * 2 * config.geminiRounds && claudeSeen.length === 0, gem1);
   const sentToOllama = JSON.parse(calls.find((c) => c.url.endsWith('/api/chat')).opts.body);
   check('Ollama にはスキーマ（format）と num_ctx を渡す',
-        sentToOllama.format && sentToOllama.format.additionalProperties === false && sentToOllama.options.num_ctx === config.ollama.numCtx);
+        sentToOllama.format && sentToOllama.format.additionalProperties === false && sentToOllama.options.num_ctx === config.ollama.composeNumCtx);
 
   calls.length = 0;
   out = await llm.generateJson([{ text: 'y' }], { type: 'OBJECT', properties: { ok: { type: 'INTEGER' } } });
@@ -233,6 +233,64 @@ async function run() {
     check('Ollama: テーマの判定は問いを分けた答えで決める（脳画像が中心=' + brain + ' → ' + (want ? '記事にする' : 'テーマ外') + '）',
           a3.relevant === want && (want || /脳画像/.test(a3.relevanceReason)), a3.relevant + ' ' + a3.relevanceReason);
   }
+
+  // ---------- 新しい Ollama モデル（全文を1回で読む） ----------
+  llm.reset();
+  setEnv({ GEMINI_API_KEY: 'G', ANTHROPIC_API_KEY: 'A' });
+  const chatBodies = [];
+  fakeFetch((url, opts) => {
+    if (url.includes('generativelanguage')) return BUSY;
+    if (url.endsWith('/api/tags')) return { body: { models: [{ name: 'qwen3.5:9b' }, { name: 'gemma4:12b' }, { name: config.ollama.model }] } };
+    if (url.endsWith('/api/chat')) {
+      const b = JSON.parse(opts.body);
+      chatBodies.push(b);
+      if (isClassify(opts)) return CLASSIFY_YES;
+      return { body: { message: { content: JSON.stringify(rawArticle('145')) }, done_reason: 'stop' } };
+    }
+    return { status: 404 };
+  });
+  claudeSeen.length = 0;
+  const a4 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
+  const writing = chatBodies.filter((b) => !(b.format && b.format.properties && b.format.properties.aboutMathLearning));
+  check('全文を読めるモデル（先頭の gemma4:12b）が入っていれば、論文を区切らず1回で読ませる',
+        a4.model === 'gemma4:12b' && writing.length === 1 && writing[0].model === 'gemma4:12b' &&
+        writing[0].options.num_ctx === config.ollama.fullTextNumCtx && writing[0].messages[0].content.includes('Working memory was measured'),
+        a4.model + ' ' + writing.length);
+  check('Ollama には think: false を付ける（付けないと考えるだけで枠を使い切り、本文が空になる）',
+        chatBodies.every((b) => b.think === false));
+
+  // 先頭のモデルが空の応答 → 次のモデル
+  llm.reset();
+  chatBodies.length = 0;
+  fakeFetch((url, opts) => {
+    if (url.includes('generativelanguage')) return BUSY;
+    if (url.endsWith('/api/tags')) return { body: { models: [{ name: 'qwen3.5:9b' }, { name: 'gemma4:12b' }] } };
+    if (url.endsWith('/api/chat')) {
+      const b = JSON.parse(opts.body);
+      chatBodies.push(b);
+      if (isClassify(opts)) return CLASSIFY_YES;
+      return { body: { message: { content: b.model === 'gemma4:12b' ? '' : JSON.stringify(rawArticle('145')) }, done_reason: 'stop' } };
+    }
+    return { status: 404 };
+  });
+  const a5 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
+  check('先頭のモデル（gemma4:12b）が空の応答なら、次のモデル（qwen3.5:9b）で書く', a5.model === 'qwen3.5:9b', a5.model);
+
+  // どちらも入っていない → 従来の分割読み
+  llm.reset();
+  ollamaCalls = 0;
+  fakeFetch((url, opts) => {
+    if (url.includes('generativelanguage')) return BUSY;
+    if (url.endsWith('/api/tags')) return OLLAMA_TAGS;
+    if (url.endsWith('/api/chat')) {
+      if (isClassify(opts)) return CLASSIFY_YES;
+      ollamaCalls++;
+      return { body: { message: { content: ollamaCalls === 1 ? '・145名' : JSON.stringify(rawArticle('145')) }, done_reason: 'stop' } };
+    }
+    return { status: 404 };
+  });
+  const a6 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
+  check('新しいモデルが入っていなければ、従来の分割読み（qwen2.5:14b）に戻る', a6.model === config.ollama.model && ollamaCalls === 2, a6.model + ' ' + ollamaCalls);
 
   // ---------- 字数 ----------
   const short = { sections: { what: 'a'.repeat(130), nextLead: 'b'.repeat(70) },
