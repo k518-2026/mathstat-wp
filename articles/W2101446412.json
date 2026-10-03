@@ -1,0 +1,122 @@
+{
+  "paper": {
+    "id": "W2101446412",
+    "doi": "10.5539/ies.v4n4p199",
+    "title": "The Effect of Direct Instruction Strategy on Math Achievement of Primary 4th and 5th Grade Students with Learning Difficulties",
+    "authors": [
+      "Ahmad Abdulhameed Aufan Al-Makahleh"
+    ],
+    "authorCount": 1,
+    "venue": "International Education Studies",
+    "volume": "4",
+    "issue": "4",
+    "pages": "",
+    "year": "2011",
+    "citedBy": 40,
+    "url": "https://doi.org/10.5539/ies.v4n4p199",
+    "license": "cc-by",
+    "pdfUrl": "https://ccsenet.org/journal/index.php/ies/article/download/12893/9048"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "学習困難を抱える小学4・5年生を対象に、直接教授法が算数の学力と態度に与える影響を共分散分析を用いて検証した実証研究であるため。",
+    "titleJa": "学習困難を抱える小学4年生および5年生の算数の学力に対する直接教授法の効果",
+    "sections": {
+      "what": "本研究は、ヨルダンの小学校4年生および5年生で算数の学習困難を抱える児童を対象に、直接教授法が算数の基本スキルの学力向上と算数に対する態度改善に与える効果を検証したものです。調査は、首都アンマンなどの教育局管轄の学校からランダムに選出された60名の児童を対象に行われました。児童は実験群30名と統制群30名にランダムに割り当てられ、実験群には直接教授法を用いた指導が、統制群には従来の伝統的な指導が行われました。事前と事後に学力テストと態度尺度を実施し、その効果を定量的に測定しています。",
+      "novelty": "学習困難に関する先行研究の多くは言語や読み書きの分野に集中しており、算数や数学の領域における指導戦略の研究は比較的少ない状況にありました。また、ヨルダン国内においては、算数の学習困難児に対する治療的な指導戦略や直接教授法の効果を検証した研究が不足していました。本研究は、ヨルダンの教育現場において直接教授法を導入し、学習困難を抱える児童の算数学力と態度の双方に対する有効性を実証的に明らかにした初期の研究の一つとして、重要な位置づけを持っています。",
+      "method": "本研究では、実験群と統制群の2群比較デザインを採用しています。指導前の学力や態度の個人差による影響を統計的に制御するため、事前テストの得点を共変量とした共分散分析を用いて事後テストの平均点を比較しました。学力測定には、4年生と5年生の教科書分析に基づき作成された、四則計算などの基本スキルを測る80項目のテストを使用しています。また、算数への態度測定には、学習内容、授業、日常生活での活用という3つの側面から構成される20項目の態度尺度を独自に開発して用いています。",
+      "validation": "共分散分析の結果、直接教授法を受けた実験群は、伝統的な指導を受けた統制群に比べて、事後テストの学力および態度の双方で統計的に有意に高い得点を示しました。算数学力テストの事後平均点は、実験群が36.33点であったのに対し、統制群は18.30点でした。また、算数への態度尺度の事後平均点においても、実験群が31.07点、統制群が18.37点となり、直接教授法が学習困難児の学力向上と肯定的な態度の育成に有効であることが示されました。",
+      "implications": "本研究の結果は、明確な目標設定、課題分析、段階的な指導、そして即時的なフィードバックを特徴とする直接教授法が、学習困難児の支援に有効である可能性を示唆しています。ただし、本研究の限界として、対象がヨルダンの特定の教育局管轄の児童60名に限られていることや、指導期間終了後の長期的な効果の持続性について十分な追跡調査が行われていない点が挙げられます。今後は、より多様な地域や長期的な視点での検証が求められます。",
+      "nextLead": "直接教授法の具体的な指導手順や、他の指導法との比較効果についてさらに深く理解するためには、過去の介入研究のメタ分析や、異なるアプローチとの比較実験を行った研究を読み進めることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2136634613",
+          "doi": "10.1177/00222194030360060701",
+          "title": "Evaluation of a Numeracy Intervention Program Focusing on Basic Numerical Knowledge and Conceptual Knowledge",
+          "authors": [
+            "Liane Kaufmann",
+            "Pia Handl",
+            "Brigitte Thöny"
+          ],
+          "authorCount": 3,
+          "venue": "Journal of Learning Disabilities",
+          "volume": "36",
+          "issue": "6",
+          "pages": "564–573",
+          "year": "2003",
+          "citedBy": 91,
+          "url": "https://doi.org/10.1177/00222194030360060701"
+        },
+        "reason": "直接教授法を用いた算数介入プログラムの効果を検証した研究であり、基礎的な数知識や概念的知識の習得に対する初期介入の重要性を理解する上で役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W2085763382",
+          "doi": "10.2307/1511142",
+          "title": "The Use of Process Mnemonics in Teaching Students with Mathematics Learning Disabilities",
+          "authors": [
+            "Emmanuel Manalo",
+            "Julie K. Bunnell",
+            "Jennifer A. Stillman"
+          ],
+          "authorCount": 3,
+          "venue": "Learning Disability Quarterly",
+          "volume": "23",
+          "issue": "2",
+          "pages": "137–156",
+          "year": "2000",
+          "citedBy": 55,
+          "url": "https://doi.org/10.2307/1511142"
+        },
+        "reason": "直接教授法と記憶を支援するプロセス記憶術など、異なる指導アプローチが学習困難児の算数基本スキルに与える効果を比較しており、指導法の選択肢を広げる視点を提供します。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "学習困難",
+        "wikiTitle": "学習障害"
+      },
+      {
+        "term": "直接教授法",
+        "wikiTitle": "直接教授法"
+      },
+      {
+        "term": "共分散分析",
+        "wikiTitle": "共分散分析"
+      },
+      {
+        "term": "実験群",
+        "wikiTitle": "実験群"
+      },
+      {
+        "term": "統制群",
+        "wikiTitle": "対照群"
+      }
+    ],
+    "links": [
+      {
+        "term": "学習困難",
+        "title": "学習障害",
+        "url": "https://ja.wikipedia.org/wiki/%E5%AD%A6%E7%BF%92%E9%9A%9C%E5%AE%B3"
+      },
+      {
+        "term": "共分散分析",
+        "title": "共分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%B1%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "統制群",
+        "title": "対照実験",
+        "url": "https://ja.wikipedia.org/wiki/%E5%AF%BE%E7%85%A7%E5%AE%9F%E9%A8%93"
+      }
+    ],
+    "intro": "算数が苦手な小学生への効果的な指導法とは？直接教授法が学習困難を抱える児童の学力と算数への態度をどのように改善するのか、ヨルダンでの実験授業データから検証します。",
+    "imageQuery": "elementary school math classroom",
+    "warnings": [],
+    "model": "gemini-3.5-flash"
+  },
+  "asOf": "2026-10-04",
+  "createdAt": "2026-10-04 04:01"
+}

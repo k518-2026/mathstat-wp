@@ -1,0 +1,125 @@
+{
+  "paper": {
+    "id": "W2783254194",
+    "doi": "10.21831/jrpm.v4i2.16931",
+    "title": "What ‘s wrong with the Asian and African Students’ mathematics learning achievement? The multilevel PISA 2015 data analysis for Indonesia, Japan, and Algeria",
+    "authors": [
+      "Kartianom Kartianom",
+      "Oscar Ndayizeye"
+    ],
+    "authorCount": 2,
+    "venue": "Jurnal Riset Pendidikan Matematika",
+    "volume": "4",
+    "issue": "2",
+    "pages": "200",
+    "year": "2017",
+    "citedBy": 40,
+    "url": "https://doi.org/10.21831/jrpm.v4i2.16931",
+    "license": "cc-by-sa",
+    "pdfUrl": "https://journal.uny.ac.id/index.php/jrpm/article/download/16931/10189"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "PISA 2015のデータを用い、インドネシア、日本、アルジェリアの生徒を対象に、数学の学習達成度に関連する要因をマルチレベル分析によって統計的に検討した実証研究であるため。",
+    "titleJa": "アジアとアフリカの生徒における数学の学習達成度の要因：インドネシア、日本、アルジェリアのPISA 2015マルチレベルデータ分析",
+    "sections": {
+      "what": "この研究は、インドネシア、日本、アルジェリアの3カ国における生徒の数学学習達成度に関連する要因を明らかにすることを目的としています。国際的な学習到達度調査であるPISA 2015のデータを使用し、インドネシア5,800人、日本6,411人、アルジェリア4,460人の生徒を対象に分析を行いました。生徒個人レベルの要因である学校への帰属意識や家庭の社会経済的地位と、学校レベルの要因である学校の平均的な社会経済的地位が、数学の得点にどのように影響しているかを国ごとに比較検討しています。",
+      "novelty": "従来の多くの研究は、学校への帰属意識などの心理的要因を北米を中心とした限定的な文化的文脈で調査してきました。また、PISAデータを用いた分析において、生徒が学校にネストされているデータ構造を考慮しない分析は、重要な実証的証拠を見落とす危険性があります。本研究は、アジアとアフリカの異なる教育システムを持つ3カ国を対象とし、マルチレベル分析を適用することで、生徒個人と学校という複数レベルの要因が数学の達成度に与える影響を適切に分解して明らかにした点に新規性があります。",
+      "method": "統計手法には、生徒が同じ学校に所属することで生じるデータの相関であるクラス内相関を考慮できる2レベルのマルチレベルモデルを採用しています。従属変数はPISA 2015の数学リテラシー得点です。説明変数として、生徒レベルのレベル1では学校への帰属意識と家庭の社会経済的地位を、学校レベルのレベル2では各学校の平均社会経済的地位を設定しました。分析は、最も単純なモデルから段階的に変数を追加する手順で進められました。",
+      "validation": "分析の結果、数学の得点の分散のうち学校間の違いによる割合を示すクラス内相関は、インドネシアで約55%、日本で約54%、アルジェリアで約38%でした。最終モデルにおいて、学校への帰属意識は3カ国すべてで数学の得点と統計的に有意な正の関連を示しました。家庭の社会経済的地位はインドネシアと日本で有意な正の予測因子でしたが、アルジェリアでは有意ではありませんでした。また、学校の平均社会経済的地位は3カ国すべてで最も強い予測因子であり、学校間の分散の多くを説明しました。",
+      "implications": "本研究は、生徒が通う学校の社会経済的背景が数学の学習達成度に極めて大きな影響を与えることを示唆しています。特にインドネシアや日本においては、社会経済的に有利な学校に通う生徒ほど高い成果を上げる傾向があり、教育システムにおける格差の存在が懸念されます。一方で、生徒自身の学校への帰属意識を高めることが、どの国においても数学の学習達成度の向上につながる可能性が示されています。限界として、今回のモデルでは説明しきれない分散が依然として多く残されており、他の要因の検討が必要です。",
+      "nextLead": "学校の社会経済的背景や生徒の心理的要因が数学の達成度に与える影響をさらに深く理解するため、マインドセットなどの新たな変数を取り入れた後続の研究や、マルチレベル分析の具体的な応用事例を読み進めることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W3159280702",
+          "doi": "10.22342/jme.12.2.13690.279-294",
+          "title": "GROWTH MINDSET, SCHOOL CONTEXT, AND MATHEMATICS ACHIEVEMENT IN INDONESIA: A MULTILEVEL MODEL",
+          "authors": [
+            "Kismiantini Kismiantini",
+            "Ezra Putranda Setiawan",
+            "Adi Cilik Pierewan",
+            "Osval Antonio Montesinos-López"
+          ],
+          "authorCount": 4,
+          "venue": "Journal on Mathematics Education",
+          "volume": "12",
+          "issue": "2",
+          "pages": "279–294",
+          "year": "2021",
+          "citedBy": 43,
+          "url": "https://doi.org/10.22342/jme.12.2.13690.279-294"
+        },
+        "reason": "本論文と同じくインドネシアのPISAデータを扱い、マルチレベルモデルを用いてしなやかマインドセットや学校の文脈が数学達成度に与える影響を分析した研究であり、発展的な理解に役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W4391294175",
+          "doi": "10.22460/infinity.v13i1.p139-156",
+          "title": "Exploring contributing factors to PISA 2022 mathematics achievement: Insights from Indonesian teachers",
+          "authors": [
+            "Tommy Tanu Wijaya",
+            "Wahyu Hidayat",
+            "Neni Hermita",
+            "Jesi Alexander Alim"
+          ],
+          "authorCount": 5,
+          "venue": "Infinity Journal",
+          "volume": "13",
+          "issue": "1",
+          "pages": "139–156",
+          "year": "2024",
+          "citedBy": 40,
+          "url": "https://doi.org/10.22460/infinity.v13i1.p139-156"
+        },
+        "reason": "PISA 2022の数学達成度に寄与する要因を、インドネシアの教員の視点から探索した研究であり、本論文のデータ分析結果を現場の視点から補完・解釈する上で有益な知見を提供します。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "マルチレベルモデル",
+        "wikiTitle": "多レベルモデル"
+      },
+      {
+        "term": "クラス内相関",
+        "wikiTitle": "クラス内相関"
+      },
+      {
+        "term": "社会経済的地位",
+        "wikiTitle": "社会経済的地位"
+      },
+      {
+        "term": "帰属意識",
+        "wikiTitle": "帰属意識"
+      },
+      {
+        "term": "従属変数",
+        "wikiTitle": "独立変数と従属変数"
+      }
+    ],
+    "links": [
+      {
+        "term": "マルチレベルモデル",
+        "title": "マルチレベルモデル",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%AC%E3%83%99%E3%83%AB%E3%83%A2%E3%83%87%E3%83%AB"
+      },
+      {
+        "term": "社会経済的地位",
+        "title": "社会経済状況",
+        "url": "https://ja.wikipedia.org/wiki/%E7%A4%BE%E4%BC%9A%E7%B5%8C%E6%B8%88%E7%8A%B6%E6%B3%81"
+      },
+      {
+        "term": "従属変数",
+        "title": "独立変数と従属変数",
+        "url": "https://ja.wikipedia.org/wiki/%E7%8B%AC%E7%AB%8B%E5%A4%89%E6%95%B0%E3%81%A8%E5%BE%93%E5%B1%9E%E5%A4%89%E6%95%B0"
+      }
+    ],
+    "intro": "日本、インドネシア、アルジェリアのPISAデータを分析。数学の成績を左右するのは家庭の環境か、それとも学校の雰囲気か。マルチレベル分析が明かす意外な真実とは。",
+    "imageQuery": "students classroom mathematics",
+    "warnings": [],
+    "model": "gemini-3.5-flash"
+  },
+  "asOf": "2026-10-04",
+  "createdAt": "2026-10-04 04:00"
+}

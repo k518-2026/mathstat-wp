@@ -727,6 +727,66 @@
       "model": "qwen2.5:14b",
       "createdAt": "2026-10-04 02:21",
       "note": "(1) どんな研究か？ が 116 字 / (2) 先行研究と比べてどこがすごいのか？ が 103 字 / (3) 技術や手法のキモはどこにあるか？ が 76 字 / (4) どうやって有効だと検証したか？ が 104 字 / (5) 現場・実務への示唆と、残された論点 が 80 字 / 意味が合わないリンクを外した: 層化重回帰分析→重回帰分析, 公式算数スキル→算数"
+    },
+    "W2084146974": {
+      "doi": "10.1016/j.tine.2014.03.001",
+      "title": "Neurodevelopment of relational reasoning: Implications for mathematical pedagogy",
+      "citedBy": 41,
+      "year": "2014",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-04 04:00"
+    },
+    "W2783254194": {
+      "doi": "10.21831/jrpm.v4i2.16931",
+      "title": "What ‘s wrong with the Asian and African Students’ mathematics learning achievement? The multilevel PISA 2015 data analysis for Indonesia, Japan, and Algeria",
+      "citedBy": 40,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "アジアとアフリカの生徒における数学の学習達成度の要因：インドネシア、日本、アルジェリアのPISA 2015マルチレベルデータ分析",
+      "model": "gemini-3.5-flash",
+      "createdAt": "2026-10-04 04:00",
+      "note": ""
+    },
+    "W2101446412": {
+      "doi": "10.5539/ies.v4n4p199",
+      "title": "The Effect of Direct Instruction Strategy on Math Achievement of Primary 4th and 5th Grade Students with Learning Difficulties",
+      "citedBy": 40,
+      "year": "2011",
+      "status": "ready",
+      "titleJa": "学習困難を抱える小学4年生および5年生の算数の学力に対する直接教授法の効果",
+      "model": "gemini-3.5-flash",
+      "createdAt": "2026-10-04 04:01",
+      "note": ""
+    },
+    "W3200295055": {
+      "doi": "10.23887/ijnse.v1i2.12467",
+      "title": "MEDIA GEOGEBRA DALAM PEMBELAJARAN MATEMATIKA",
+      "citedBy": 39,
+      "year": "2017",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-04 04:01"
+    },
+    "W4307373109": {
+      "doi": "10.3389/feduc.2022.969212",
+      "title": "Five principles for high-quality mathematics teaching: Combining normative, epistemological, empirical, and pragmatic perspectives for specifying the content of professional development",
+      "citedBy": 38,
+      "year": "2022",
+      "status": "skipped",
+      "note": "テーマ外: 本論文は量的データを統計的に分析した実証研究ではなく、数学指導の質と教員研修プログラムの原則を論じた理論・概念的論文であるため。",
+      "checkedAt": "2026-10-04 04:01"
+    },
+    "W4238196927": {
+      "doi": "10.12973/iji.2017.1022a",
+      "title": "A Scale for Measuring Teachers’ Mathematics-Related Beliefs: A Validity and Reliability Study",
+      "citedBy": 38,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "教員の数学に関する信念を測定する尺度：妥当性と信頼性の研究",
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-10-04 04:01",
+      "note": "(6) 次に読むべき論文はあるか？ が 67 字"
     }
   }
 }
