@@ -1,0 +1,92 @@
+{
+  "paper": {
+    "id": "W3206188761",
+    "doi": "10.1007/s10649-021-10102-8",
+    "title": "Measuring pre-service teachers’ noticing competencies within a mathematical modeling context – an analysis of an instrument",
+    "authors": [
+      "Alina Alwast",
+      "Katrin Vorhölter"
+    ],
+    "authorCount": 2,
+    "venue": "Educational Studies in Mathematics",
+    "volume": "109",
+    "issue": "2",
+    "pages": "263–285",
+    "year": "2021",
+    "citedBy": 41,
+    "url": "https://doi.org/10.1007/s10649-021-10102-8",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10649-021-10102-8.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama の判定）",
+    "titleJa": "数学モデリング文脈における前期教師の『気づき能力』測定ツールの開発と検討",
+    "sections": {
+      "what": "この論文では、前期教師の数学モデリングにおける『気づき能力』を評価するための動画評価ツールを開発し、その妥当性について専門家や参加者のフィードバックを基に検討しています。主に免許取得過程の前期教師を対象としています。",
+      "novelty": "論文は、数学モデリングにおける教師の気づき能力を評価する新たな動画評価ツールを開発し、その有用性と限界を示しています。これにより、教師の実践的スキルをより詳細に評価するための方法が提案されています。",
+      "method": "論文では、専門家による評価と参加者のフィードバックを基に、動画評価ツールの妥当性を検討しています。また、動画を用いた評価ツールは、教師の視覚的な注意、解釈、意思決定能力を評価するのに有用であると示唆しています。",
+      "validation": "動画評価ツールの妥当性は、専門家や参加者のフィードバックを基に確認されました。ただし、ツールの内容の妥当性は、専門家や参加者のフィードバックに基づく評価であり、一般化には制限があると指摘されています。",
+      "implications": "動画を用いた評価ツールは、教師の実践的スキルを評価するための有用な手段である可能性があります。しかし、ツールの内容の妥当性は専門家や参加者のフィードバックに基づく評価であり、一般化には制限があるため、さらなる検討が必要です。",
+      "nextLead": "次に読むべきは、教師の気づき能力を評価するための動画評価ツールの開発と検討を深める研究です。具体的には、教師の気づき能力を評価するための新たな尺度を開発し、その有効性を検討した研究が参考になります。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W23678119",
+          "doi": "10.5951/jresematheduc.41.2.0169",
+          "title": "Professional Noticing of Children's Mathematical Thinking",
+          "authors": [
+            "Victoria R. Jacobs",
+            "Lisa L. C. Lamb",
+            "Randolph A. Philipp"
+          ],
+          "authorCount": 3,
+          "venue": "Journal for Research in Mathematics Education",
+          "volume": "41",
+          "issue": "2",
+          "pages": "169–202",
+          "year": "2010",
+          "citedBy": 1421,
+          "url": "https://doi.org/10.5951/jresematheduc.41.2.0169"
+        },
+        "reason": "この論文は、教師の数学的思考に対する気づき能力を評価するための動画評価ツールを開発しています。一方、この候補論文は、教師の数学的思考に対する気づき能力の概念を詳しく解説しており、この論文の背景と関連性があります。"
+      },
+      {
+        "paper": {
+          "id": "W4394902605",
+          "doi": "10.29333/ejmste/14466",
+          "title": "Using video to develop pre-service teachers’ noticing within a mathematical modelling context",
+          "authors": [
+            "Siyu Zuo",
+            "Lizhe Liu",
+            "Chunxia Qi"
+          ],
+          "authorCount": 3,
+          "venue": "Eurasia Journal of Mathematics Science and Technology Education",
+          "volume": "20",
+          "issue": "5",
+          "pages": "em2441",
+          "year": "2024",
+          "citedBy": 13,
+          "url": "https://doi.org/10.29333/ejmste/14466"
+        },
+        "reason": "この論文は、前期教師の数学モデリング文脈における気づき能力を評価するための動画評価ツールを開発しています。一方、この候補論文は、前期教師の気づき能力を動画評価ツールを用いて育成するための研究であり、この論文の発展的な研究の一部と言えます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "前期教師の数学モデリング文脈における気づき能力を評価するための新たな動画評価ツールが開発されました。教師の実践的スキルをより詳細に評価するための方法を探求します。",
+    "imageQuery": "teacher classroom mathematical modeling",
+    "warnings": [
+      "(1) どんな研究か？ が 108 字",
+      "(2) 先行研究と比べてどこがすごいのか？ が 99 字",
+      "(3) 技術や手法のキモはどこにあるか？ が 105 字",
+      "(4) どうやって有効だと検証したか？ が 100 字",
+      "(5) 現場・実務への示唆と、残された論点 が 112 字"
+    ],
+    "model": "qwen2.5:14b"
+  },
+  "asOf": "2026-10-04",
+  "createdAt": "2026-10-04 02:14"
+}

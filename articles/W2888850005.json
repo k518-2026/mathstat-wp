@@ -1,0 +1,120 @@
+{
+  "paper": {
+    "id": "W2888850005",
+    "doi": "10.12973/iejme/3838",
+    "title": "The Effect of Reciprocal Teaching, Student Facilitator and Explaining and Learning Independence on Mathematical Learning Results by Controlling the Initial Ability of Students",
+    "authors": [
+      "Dodik Mulyono",
+      "Moch. Asmawi",
+      "Tuti Nuriah"
+    ],
+    "authorCount": 3,
+    "venue": "International Electronic Journal of Mathematics Education",
+    "volume": "13",
+    "issue": "3",
+    "pages": "",
+    "year": "2018",
+    "citedBy": 42,
+    "url": "https://doi.org/10.12973/iejme/3838",
+    "license": "cc-by",
+    "pdfUrl": "https://www.iejme.com/download/the-effect-of-reciprocal-teaching-student-facilitator-and-explaining-and-learning-independence-on.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "高校生の数学学習を対象に、指導法と学習の自立性が学習成果に与える影響を共分散分析を用いて統計的に検証した量的実証研究であるため。",
+    "titleJa": "生徒の初期能力を統制した状況における相互教授法、生徒ファシリテーター・説明法、学習の自立性が数学の学習成果に与える影響",
+    "sections": {
+      "what": "インドネシアの公立高校において、生徒の数学の学習成果を高める指導法を明らかにする目的で行われた準実験研究です。生徒自身の事前学力である初期能力を統計的に統制した上で、要約や質問づくりを行う相互教授法と、小グループで説明し合う生徒ファシリテーター・説明法の2つの指導法を比較しました。さらに、生徒の学習の自立性の高低が指導法とどのように関わり、最終的な数学の成績に影響を及ぼすかを調べています。",
+      "novelty": "従来の講義形式では生徒が受動的になり学習意欲や自立性が低下しやすいという課題に対し、協働的な学習モデルの効果を検証した点に特徴があります。先行研究では指導法単体の効果が注目されがちでしたが、本研究では生徒の初期能力を共変量として統制した上で、指導モデルと生徒自身の学習の自立性との交互作用に着目しました。どのような自立度を持つ生徒にどの指導法が適しているかを詳細に位置づけています。",
+      "method": "2×2要因の準実験デザインを採用し、二元配置共分散分析を用いてデータを分析しました。指導法（相互教授法と生徒ファシリテーター・説明法）と学習の自立度（高・低）を要因とし、事前の数学的能力を共変量として統制した上で、数学学習成果への影響を検証しています。測定には、信頼性係数0.91の数学学習成果テスト（47問）、信頼性0.90の学習自立性尺度（50項目）、信頼性0.91の初期能力テスト（46問）が使用されました。",
+      "validation": "分析の結果、初期能力を統制した後も指導法の主効果が有意であり、相互教授法群の修正平均値（64.71点）が生徒ファシリテーター・説明法群（59.29点）を有意に上回りました。また、指導法と学習の自立性との交互作用も有意でした。自立性が高い生徒では相互教授法（修正平均73.18点）が生徒ファシリテーター・説明法（55.97点）より有意に高得点でした。一方、自立性が低い生徒では生徒ファシリテーター・説明法（62.63点）の方が相互教授法（56.22点）より有意に高い結果となりました。",
+      "implications": "数学の協働学習を取り入れる際、生徒の自立的な学習傾向に応じた指導法の選択が有効である可能性が示唆されます。自立性が高い生徒には役割交代を伴う相互教授法が適している一方、自立性が低い生徒には小グループで互いに説明し合う構造化された手法が成績向上に寄与する可能性があります。ただし、本研究は特定の学校での準実験であり、他の単元や長期的な定着度への影響についてはさらなる検証が残されています。",
+      "nextLead": "相互教授法が思考力や自己概念に及ぼす影響や、生徒の個人差に応じた指導モデルの効果をさらに深く探るために、以下の論文が参考になります。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W4293365574",
+          "doi": "10.1016/j.tsc.2022.101113",
+          "title": "Relationship between Critical thinking and academic self- concept: An experimental study of Reciprocal teaching strategy",
+          "authors": [
+            "Nofouz Mafarja",
+            "Hutkemri Zulnaidi"
+          ],
+          "authorCount": 2,
+          "venue": "Thinking Skills and Creativity",
+          "volume": "45",
+          "issue": "",
+          "pages": "101113",
+          "year": "2022",
+          "citedBy": 28,
+          "url": "https://doi.org/10.1016/j.tsc.2022.101113"
+        },
+        "reason": "相互教授法を取り入れた指導が批判的思考や学業的自己概念に与える影響を実験的に分析しており、学習者の内面的な変化を理解するのに役立つため。"
+      },
+      {
+        "paper": {
+          "id": "W2955188579",
+          "doi": "10.29333/iji.2019.12342a",
+          "title": "Effects of Instructional Models and Spatial Intelligence on the Mathematics Learning Outcomes after Controlling for Students’ Initial Competency",
+          "authors": [
+            "Mohamad Salam",
+            "Nurdin Ibrahim",
+            "Moch. Sukardjo"
+          ],
+          "authorCount": 3,
+          "venue": "International Journal of Instruction",
+          "volume": "12",
+          "issue": "3",
+          "pages": "699–716",
+          "year": "2019",
+          "citedBy": 25,
+          "url": "https://doi.org/10.29333/iji.2019.12342a"
+        },
+        "reason": "本研究と同様に初期能力を共変量として統制しつつ、指導モデルと空間知能が数学学習成果に与える影響を検証した発展的な研究であるため。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "相互教授法",
+        "wikiTitle": "相互教授法"
+      },
+      {
+        "term": "準実験",
+        "wikiTitle": "準実験"
+      },
+      {
+        "term": "二元配置共分散分析",
+        "wikiTitle": "共分散分析"
+      },
+      {
+        "term": "主効果",
+        "wikiTitle": "分散分析"
+      },
+      {
+        "term": "交互作用",
+        "wikiTitle": "交互作用"
+      }
+    ],
+    "links": [
+      {
+        "term": "二元配置共分散分析",
+        "title": "共分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%B1%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "主効果",
+        "title": "分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      }
+    ],
+    "intro": "高校数学で効果的な協働学習とは？初期能力を統制した実験から、学習の自立度によって適した指導法が異なることが見えてきました。",
+    "imageQuery": "students mathematics classroom collaboration",
+    "warnings": [
+      "意味が合わないリンクを外した: 交互作用→相互作用"
+    ],
+    "model": "gemini-3.7-flash"
+  },
+  "asOf": "2026-10-04",
+  "createdAt": "2026-10-04 02:01"
+}

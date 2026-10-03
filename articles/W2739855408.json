@@ -1,0 +1,124 @@
+{
+  "paper": {
+    "id": "W2739855408",
+    "doi": "10.1371/journal.pone.0181074",
+    "title": "The role of early language abilities on math skills among Chinese children",
+    "authors": [
+      "Juan Zhang",
+      "Xitao Fan",
+      "Sum Kwing Cheung",
+      "Yaxuan Meng"
+    ],
+    "authorCount": 6,
+    "venue": "PLoS ONE",
+    "volume": "12",
+    "issue": "7",
+    "pages": "e0181074",
+    "year": "2017",
+    "citedBy": 41,
+    "url": "https://doi.org/10.1371/journal.pone.0181074",
+    "license": "cc-by",
+    "pdfUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0181074&type=printable"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama の判定）",
+    "titleJa": "中国の子供たちにおける早期言語能力と算数スキルの関係",
+    "sections": {
+      "what": "本研究では、中国の幼児約2000人の言語能力と算数スキル（非公式と公式）の関係について調査しました。言語能力は聞き取り理解と漢字の手書き能力で測定し、算数スキルはオブジェクトカウントや数値の比較など、多様な課題を通じて評価しました。",
+      "novelty": "本研究は、言語能力が非公式な算数スキルを通じて公式な算数スキルに影響を与えるメカニズムを初めて明らかにしました。特に、中国語話者の子供たちにおける言語と算数スキルの関係を詳細に調査した点が新規性があります。",
+      "method": "本研究では、言語能力と算数スキルの関係を深く理解するため、相関分析、部分相関分析、層化重回帰分析、多重レベル媒介効果分析などの統計的手法を使用しました。",
+      "validation": "本研究のデータは、中国の特定地域の幼児2012人から得られました。言語能力と非公式・公式算数スキルの相関を検討した結果、言語能力が非公式算数スキルの31%、公式算数スキルの26%を予測することが示されました。",
+      "implications": "本研究は、言語能力が算数スキルの発達に重要な役割を果たす可能性を示唆しています。ただし、サンプルが特定地域に限定されているため、結果の一般化には注意が必要です。",
+      "nextLead": "この研究を深めるには、言語能力と算数スキルの関係をさらに詳しく探る研究や、異なる言語背景の子供たちを対象とした研究を読むと良いでしょう。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W3017366308",
+          "doi": "10.1037/bul0000231",
+          "title": "Examining the mutual relations between language and mathematics: A meta-analysis",
+          "authors": [
+            "Peng Peng",
+            "Xin Lin",
+            "Zehra E. Ünal",
+            "Kejin Lee"
+          ],
+          "authorCount": 7,
+          "venue": "Psychological Bulletin",
+          "volume": "146",
+          "issue": "7",
+          "pages": "595–634",
+          "year": "2020",
+          "citedBy": 315,
+          "url": "https://doi.org/10.1037/bul0000231"
+        },
+        "reason": "この研究は言語と算数スキルの関係を調査していますが、後続研究ではその関係をさらに詳しく分析しています。"
+      },
+      {
+        "paper": {
+          "id": "W2916632169",
+          "doi": "10.1016/j.ijer.2019.02.008",
+          "title": "The role of mathematical language in mathematics development in China and the US",
+          "authors": [
+            "Melody Kung",
+            "Sara A. Schmitt",
+            "Chenyi Zhang",
+            "Shawn D. Whiteman"
+          ],
+          "authorCount": 6,
+          "venue": "International Journal of Educational Research",
+          "volume": "95",
+          "issue": "",
+          "pages": "131–142",
+          "year": "2019",
+          "citedBy": 35,
+          "url": "https://doi.org/10.1016/j.ijer.2019.02.008"
+        },
+        "reason": "この研究と同様に、中国と米国の子供たちの数学的言語能力と算数スキルの関係を調査しています。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "相関分析",
+        "wikiTitle": "相関分析"
+      },
+      {
+        "term": "部分相関分析",
+        "wikiTitle": "部分相関分析"
+      },
+      {
+        "term": "層化重回帰分析",
+        "wikiTitle": "重回帰分析"
+      },
+      {
+        "term": "公式算数スキル",
+        "wikiTitle": "算数"
+      },
+      {
+        "term": "非公式算数スキル",
+        "wikiTitle": "非公式算数スキル"
+      }
+    ],
+    "links": [
+      {
+        "term": "相関分析",
+        "title": "相関係数",
+        "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%96%A2%E4%BF%82%E6%95%B0"
+      }
+    ],
+    "intro": "中国の幼児期における言語能力と算数スキルの関係を調査した研究が発表されました。言語能力が算数スキルの発達にどのような影響を与えるのか、新たな視点を提供します。",
+    "imageQuery": "children doing math",
+    "warnings": [
+      "(1) どんな研究か？ が 116 字",
+      "(2) 先行研究と比べてどこがすごいのか？ が 103 字",
+      "(3) 技術や手法のキモはどこにあるか？ が 76 字",
+      "(4) どうやって有効だと検証したか？ が 104 字",
+      "(5) 現場・実務への示唆と、残された論点 が 80 字",
+      "意味が合わないリンクを外した: 層化重回帰分析→重回帰分析, 公式算数スキル→算数"
+    ],
+    "model": "qwen2.5:14b"
+  },
+  "asOf": "2026-10-04",
+  "createdAt": "2026-10-04 02:21"
+}

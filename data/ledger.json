@@ -649,6 +649,84 @@
       "model": "gemini-3.5-flash",
       "createdAt": "2026-10-04 01:52",
       "note": "(6) 次に読むべき論文はあるか？ が 353 字"
+    },
+    "W2972121625": {
+      "doi": "10.1186/s40359-019-0325-9",
+      "title": "A randomized controlled trial to examine the effect of two teaching methods on preschool children’s language and communication, executive functions, socioemotional comprehension, and early math skills",
+      "citedBy": 43,
+      "year": "2019",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-04 02:00"
+    },
+    "W2955815814": {
+      "doi": "10.12973/eu-jer.8.3.713",
+      "title": "From Modern Teaching to Mathematics Achievement: The Mediating Role of Mathematics Attitude, Achievement Motivation, and Self-Efficacy",
+      "citedBy": 43,
+      "year": "2019",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-04 02:00"
+    },
+    "W2780362003": {
+      "doi": "10.25273/jipm.v6i1.1336",
+      "title": "Eksperimentasi Model PBL dan Model GDL Terhadap Kemampuan Pemecahan Masalah Matematis Ditinjau dari Kemandirian Belajar",
+      "citedBy": 43,
+      "year": "2017",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-04 02:00"
+    },
+    "W2613799742": {
+      "doi": "10.3390/socsci6020047",
+      "title": "Weeded Out? Gendered Responses to Failing Calculus",
+      "citedBy": 43,
+      "year": "2017",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-04 02:00"
+    },
+    "W2888850005": {
+      "doi": "10.12973/iejme/3838",
+      "title": "The Effect of Reciprocal Teaching, Student Facilitator and Explaining and Learning Independence on Mathematical Learning Results by Controlling the Initial Ability of Students",
+      "citedBy": 42,
+      "year": "2018",
+      "status": "ready",
+      "titleJa": "生徒の初期能力を統制した状況における相互教授法、生徒ファシリテーター・説明法、学習の自立性が数学の学習成果に与える影響",
+      "model": "gemini-3.7-flash",
+      "createdAt": "2026-10-04 02:01",
+      "note": "意味が合わないリンクを外した: 交互作用→相互作用"
+    },
+    "W3206188761": {
+      "doi": "10.1007/s10649-021-10102-8",
+      "title": "Measuring pre-service teachers’ noticing competencies within a mathematical modeling context – an analysis of an instrument",
+      "citedBy": 41,
+      "year": "2021",
+      "status": "ready",
+      "titleJa": "数学モデリング文脈における前期教師の『気づき能力』測定ツールの開発と検討",
+      "model": "qwen2.5:14b",
+      "createdAt": "2026-10-04 02:14",
+      "note": "(1) どんな研究か？ が 108 字 / (2) 先行研究と比べてどこがすごいのか？ が 99 字 / (3) 技術や手法のキモはどこにあるか？ が 105 字 / (4) どうやって有効だと検証したか？ が 100 字 / (5) 現場・実務への示唆と、残された論点 が 112 字"
+    },
+    "W2996255171": {
+      "doi": "10.1111/bjep.12333",
+      "title": "Are conceptual knowledge and procedural knowledge empirically separable? The case of fractions",
+      "citedBy": 41,
+      "year": "2019",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-04 02:14"
+    },
+    "W2739855408": {
+      "doi": "10.1371/journal.pone.0181074",
+      "title": "The role of early language abilities on math skills among Chinese children",
+      "citedBy": 41,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "中国の子供たちにおける早期言語能力と算数スキルの関係",
+      "model": "qwen2.5:14b",
+      "createdAt": "2026-10-04 02:21",
+      "note": "(1) どんな研究か？ が 116 字 / (2) 先行研究と比べてどこがすごいのか？ が 103 字 / (3) 技術や手法のキモはどこにあるか？ が 76 字 / (4) どうやって有効だと検証したか？ が 104 字 / (5) 現場・実務への示唆と、残された論点 が 80 字 / 意味が合わないリンクを外した: 層化重回帰分析→重回帰分析, 公式算数スキル→算数"
     }
   }
 }
