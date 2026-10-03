@@ -163,6 +163,10 @@ async function run() {
         writer.checkNumbers({ sections: { ...art.sections, validation: '分散の21%を説明し、R2は0.21でした。' }, nextReads: [] }, PAPER_TEXT));
   check('数値の照合: 本文に無い数値（150・0.35）を見つける',
         writer.checkNumbers({ sections: { ...art.sections, what: '150名', validation: 'r = 0.35' }, nextReads: [] }, PAPER_TEXT).join() === '150,0.35');
+  check('数値の照合: 「115万9295」を 1,159,295 として探す・「3万」と「1億2000万」も直す',
+        writer.checkNumbers({ sections: { ...art.sections, what: '115万9295件、3万人、1億2000万円' }, nextReads: [] },
+          'sum 1,159,295 sets, 30,000 students and 120,000,000 yen').length === 0 &&
+        writer.checkNumbers({ sections: { ...art.sections, what: '115万9295件' }, nextReads: [] }, 'sum 1,159,296').join() === '1159295');
   check('整える: 鉤括弧を外す・範囲外の番号と本文に無い用語を落とす・写真の検索語は英字だけ',
         art.titleJa === '数学不安と文章題' && art.nextReads.length === 1 && art.terms.length === 1 &&
         art.imageQuery === 'math anxiety', JSON.stringify([art.titleJa, art.nextReads.length, art.terms, art.imageQuery]));
@@ -253,6 +257,9 @@ async function run() {
   check('HTML: 書誌の書式・et al.・被引用数', html.includes('A. One, B. Two, C. Three, et al.，&quot;Math anxiety and word problems，&quot; Educational Studies in Mathematics，vol. 100，no. 3，pp. 271–290，2018') &&
         html.includes('被引用数: 64（OpenAlex, 2026-10-04 時点）'), html.slice(0, 600));
   check('HTML: Wikipedia リンクは最初の1回だけ・別ウィンドウ', (html.match(/wikipedia/g) || []).length === 1 && html.includes('target="_blank" rel="noopener"'));
+  const twin = render.linkifyTerms('独立変数と従属変数を分けました。', [
+    { term: '独立変数', url: 'https://ja.wikipedia.org/wiki/y' }, { term: '従属変数', url: 'https://ja.wikipedia.org/wiki/y' }], {});
+  check('HTML: 同じ項目へのリンクは1回だけ（独立変数と従属変数）', (twin.match(/<a /g) || []).length === 1, twin);
   check('HTML: メール投稿の指定子・[end]・<hr> と -- が無い・絵文字を落とす',
         html.includes('[category 論文紹介]') && html.includes('[publicize off]') && html.trim().endsWith('[end]') &&
         !html.includes('<hr') && !html.includes('--') && !html.includes('📄') && html.includes('画像: Pixabay / someone'));
