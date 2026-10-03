@@ -163,6 +163,9 @@ async function run() {
         writer.checkNumbers({ sections: { ...art.sections, validation: '分散の21%を説明し、R2は0.21でした。' }, nextReads: [] }, PAPER_TEXT));
   check('数値の照合: 本文に無い数値（150・0.35）を見つける',
         writer.checkNumbers({ sections: { ...art.sections, what: '150名', validation: 'r = 0.35' }, nextReads: [] }, PAPER_TEXT).join() === '150,0.35');
+  check('数値の照合: 本文にある2つの整数の和（77名＋71名＝148名）は許し、無関係な数（150）は見つける',
+        writer.checkNumbers({ sections: { ...art.sections, what: '合計148名' }, nextReads: [] }, '2nd grade (n = 77) and 4th grade (n = 71) participated.').length === 0 &&
+        writer.checkNumbers({ sections: { ...art.sections, what: '合計150名' }, nextReads: [] }, '2nd grade (n = 77) and 4th grade (n = 71) participated.').join() === '150');
   check('数値の照合: 「115万9295」を 1,159,295 として探す・「3万」と「1億2000万」も直す',
         writer.checkNumbers({ sections: { ...art.sections, what: '115万9295件、3万人、1億2000万円' }, nextReads: [] },
           'sum 1,159,295 sets, 30,000 students and 120,000,000 yen').length === 0 &&
