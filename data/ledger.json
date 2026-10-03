@@ -596,6 +596,17 @@
       "model": "gemini-3.5-flash",
       "createdAt": "2026-10-04 01:23",
       "note": "論文の本文に見つからない数値: 115, 9295 / 意味が合わないリンクを外した: 相互作用→相互作用"
+    },
+    "W2759768245": {
+      "doi": "10.1007/s10649-017-9788-x",
+      "title": "Developing mathematical fluency: comparing exercises and rich tasks",
+      "citedBy": 45,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "数学的な流暢さの育成：ドリル練習と豊かな課題の比較",
+      "model": "gemini-3.5-flash",
+      "createdAt": "2026-10-04 01:28",
+      "note": "意味が合わないリンクを外した: ベイズt検定→ベイズ統計学, ベイズメタ分析→メタアナリシス"
     }
   }
 }
