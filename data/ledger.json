@@ -807,6 +807,26 @@
       "model": "gemini-3.5-flash",
       "createdAt": "2026-10-04 08:02",
       "note": "意味が合わないリンクを外した: 算数能力→算数"
+    },
+    "W4205658452": {
+      "doi": "10.1007/s10639-022-10888-x",
+      "title": "Pre-service teachers’ perceptions of technological pedagogical content knowledge in mainland China: A survey of teachers of Chinese as a second language",
+      "citedBy": 41,
+      "year": "2022",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-05 08:00"
+    },
+    "W2993714379": {
+      "doi": "10.1007/s13394-019-00295-w",
+      "title": "The mathematical progress of students with an intellectual disability in inclusive classrooms: results of a longitudinal study",
+      "citedBy": 37,
+      "year": "2019",
+      "status": "ready",
+      "titleJa": "インクルーシブ学級における知的障害児の数学的進歩：縦断研究の結果",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-10-05 08:00",
+      "note": ""
     }
   }
 }

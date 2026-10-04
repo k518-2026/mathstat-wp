@@ -1,0 +1,156 @@
+{
+  "paper": {
+    "id": "W2993714379",
+    "doi": "10.1007/s13394-019-00295-w",
+    "title": "The mathematical progress of students with an intellectual disability in inclusive classrooms: results of a longitudinal study",
+    "authors": [
+      "Susanne Schnepel",
+      "Helena Krähenmann",
+      "Rachel Sermier Dessemontet",
+      "Elisabeth Moser Opitz"
+    ],
+    "authorCount": 4,
+    "venue": "Mathematics Education Research Journal",
+    "volume": "32",
+    "issue": "1",
+    "pages": "103–119",
+    "year": "2019",
+    "citedBy": 37,
+    "url": "https://doi.org/10.1007/s13394-019-00295-w",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s13394-019-00295-w.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "本研究は、インクルーシブ学級に在籍する知的障害児童の1年間の算数学習における伸びと発達プロファイルを、回帰分析やクラスター分析などの量的手法を用いて縦断的に分析した実証研究です。",
+    "titleJa": "インクルーシブ学級における知的障害児の数学的進歩：縦断研究の結果",
+    "sections": {
+      "what": "本研究は、インクルーシブ学級に在籍する知的障害のある児童が、1年間の算数学習においてどのような成果を上げ、どのような発達パターンを示すかを明らかにすることを目的としています。スイスの小学2年および3年のインクルーシブ学級31学級から、知能指数が75未満と診断された児童38名を対象としました。学期の開始時と終了時に標準化された算数テストを実施し、児童の初期数値領域の能力や計算能力の伸びを縦断的に追跡・計測しました。",
+      "novelty": "インクルーシブ教育の拡大に伴い知的障害児が普通学級で学ぶ機会が増加しているものの、インクルーシブ環境下での算数の学習発達に関する縦断研究はこれまで不足していました。先行研究では読み書き能力の向上に比べて算数の向上が示されにくい傾向が報告されていました。本研究は、児童を単一のグループとして扱うのではなく、個別の到達度プロファイルに着目し、どの達成レベルの児童がどのような小技能を伸ばせるのかを明らかにした点で重要性と新規性があります。",
+      "method": "評価には幼児期から小学3年生向けの基礎的数概念と計算力を評価する検査を用い、計13のサブテストを個別に実施しました。分析手法として、まず知能指数や年齢、言語背景、初期の算数学力（t1）が最終的な算数学力（t2）に与える影響を多重階層的回帰分析で検証しました。さらに、初期と終了時のテスト得点に基づき、Ward法を用いた階層的クラスター分析を実施し、共通の学習発達パターンを持つ児童のサブグループを分類・特定しました。",
+      "validation": "回帰分析の結果、初期の算数学力（t1）を追加したモデルは決定係数が0.86まで高まり、知能指数よりも事前知識が学習成果の強力な予測因子であることが示されました。また、クラスター分析によって児童は4つのグループに分類されました。数量と数詞・数字を結びつける「量数概念」を初期段階で獲得していたグループ（クラスター2から4）は学習の進歩が大きく、未獲得のグループ（クラスター1）は1年間での進歩が限定的でした。各グループで伸びる小技能に違いが確認されました。",
+      "implications": "本研究は、知的障害児に対する算数指導では、一律の計算練習ではなく、個々の数概念の到達プロファイルに応じた個別化指導が重要であることを示唆しています。特に「量と数」の結びつきを促す指導が優先されるべきであり、相関・縦断研究であるため単一の指導法の効果を直接証明したわけではありませんが、計算前の段階の確立が不可欠である可能性を示しています。限界として、標本規模の小ささや言語背景の異なる児童の診断の精度の課題が挙げられています。",
+      "nextLead": "知的障害児や低学年児童における数概念の発達メカニズムや、「量と数」の結合モデルをさらに詳しく理解するために、以下の先行研究および関連研究をあわせて読み進めることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2087913549",
+          "doi": "10.1016/j.learninstruc.2008.10.002",
+          "title": "Early development of quantity to number-word linkage as a precursor of mathematical school achievement and mathematical difficulties: Findings from a four-year longitudinal study",
+          "authors": [
+            "Kristin Krajewski",
+            "Wolfgang Schneider"
+          ],
+          "authorCount": 2,
+          "venue": "Learning and Instruction",
+          "volume": "19",
+          "issue": "6",
+          "pages": "513–526",
+          "year": "2008",
+          "citedBy": 409,
+          "url": "https://doi.org/10.1016/j.learninstruc.2008.10.002"
+        },
+        "reason": "本文で依拠されているクラエフスキーらの「量と数」の結合モデルの原著的縦断研究であり、数概念の発達段階を理解する上で非常に重要です。"
+      },
+      {
+        "paper": {
+          "id": "W4289443567",
+          "doi": "10.1177/17446295221117021",
+          "title": "Early numeracy profiles in young children with intellectual disabilities: The role of cognitive functions",
+          "authors": [
+            "Garyfalia Charitaki",
+            "Anastasia Alevriadou",
+            "Spyridon–Georgios Soulis"
+          ],
+          "authorCount": 3,
+          "venue": "Journal of Intellectual Disabilities",
+          "volume": "28",
+          "issue": "1",
+          "pages": "48–66",
+          "year": "2022",
+          "citedBy": 15,
+          "url": "https://doi.org/10.1177/17446295221117021"
+        },
+        "reason": "本論文を引用した後続研究であり、知的障害児の初期数概念プロファイルと認知機能の関係を深掘りしているため、理解を広げるのに適しています。"
+      },
+      {
+        "paper": {
+          "id": "W2093893550",
+          "doi": "10.1111/j.1540-5826.2007.00229.x",
+          "title": "Predicting First–Grade Math Achievement from Developmental Number Sense Trajectories",
+          "authors": [
+            "Nancy C. Jordan",
+            "David E. Kaplan",
+            "Maria N. Locuniak",
+            "Chaitanya Ramineni"
+          ],
+          "authorCount": 4,
+          "venue": "Learning Disabilities Research and Practice",
+          "volume": "22",
+          "issue": "1",
+          "pages": "36–46",
+          "year": "2007",
+          "citedBy": 608,
+          "url": "https://doi.org/10.1111/j.1540-5826.2007.00229.x"
+        },
+        "reason": "本文でも言及されている、幼児期から低学年への「ナンバーセンス」の発達軌跡がその後の算数達成度をどう予測するかを示した代表的な縦断研究です。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "インクルーシブ教育",
+        "wikiTitle": "インクルーシブ教育"
+      },
+      {
+        "term": "知能指数",
+        "wikiTitle": "知能指数"
+      },
+      {
+        "term": "回帰分析",
+        "wikiTitle": "回帰分析"
+      },
+      {
+        "term": "クラスター分析",
+        "wikiTitle": "クラスター分析"
+      },
+      {
+        "term": "決定係数",
+        "wikiTitle": "決定係数"
+      }
+    ],
+    "links": [
+      {
+        "term": "インクルーシブ教育",
+        "title": "インクルーシブ教育",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%96%E6%95%99%E8%82%B2"
+      },
+      {
+        "term": "知能指数",
+        "title": "知能指数",
+        "url": "https://ja.wikipedia.org/wiki/%E7%9F%A5%E8%83%BD%E6%8C%87%E6%95%B0"
+      },
+      {
+        "term": "回帰分析",
+        "title": "回帰分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%9B%9E%E5%B8%B0%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "クラスター分析",
+        "title": "データ・クラスタリング",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0"
+      },
+      {
+        "term": "決定係数",
+        "title": "決定係数",
+        "url": "https://ja.wikipedia.org/wiki/%E6%B1%BA%E5%AE%9A%E4%BF%82%E6%95%B0"
+      }
+    ],
+    "intro": "インクルーシブ学級に立つ知的障害のある児童は、1年間でどのように算数を学ぶのでしょうか。IQよりも事前知識や「量と数の概念」の結びつきが伸びを左右することを示した縦断研究です。",
+    "imageQuery": "children classroom math learning",
+    "warnings": [],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-10-05",
+  "createdAt": "2026-10-05 08:00"
+}
