@@ -4,8 +4,8 @@ name: Bluesky で告知
 # 投稿の直後（publish.yml）に出ていなかった記事を、1・2時間後に拾い直すためのもの。
 
 on:
-  schedule:
-    - cron: '0 21,22,3 * * *'   # 毎日 06:00・07:00・12:00 (Asia/Tokyo)。5:00 の投稿の1・2時間後と、昼の拾い直し
+  # schedule:  # 2026-10-05 WordPress 異議申し立ての結果待ちのため一時停止。再開は # を外す
+    # - cron: '0 21,22,3 * * *'   # 毎日 06:00・07:00・12:00 (Asia/Tokyo)。5:00 の投稿の1・2時間後と、昼の拾い直し
   workflow_dispatch:
     inputs:
       dry_run:
