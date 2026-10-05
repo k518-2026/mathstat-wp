@@ -48,6 +48,9 @@ async function main() {
 
   const subject = render.wordPressTitle(entry);
   const html = render.buildArticleHtml(entry, { shortcodes: true, imageCredit: image && image.credit });
+  // WordPress の不正検知に引っかからないよう、リンクも URL も本文に入れない。残っていれば送らずに止める
+  render.assertNoLinks(html);
+  render.assertNoLinks(subject);
   console.log('件名: ' + subject + '\n画像: ' + (image ? image.credit : 'なし'));
 
   if (DRY) {

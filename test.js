@@ -314,16 +314,33 @@ async function run() {
                sections: { ...art.sections, method: 'ワーキングメモリとワーキングメモリ📄を測りました。' } },
     asOf: '2026-10-04'
   };
-  const html = render.buildArticleHtml(entry, { shortcodes: true, imageCredit: 'Pixabay / someone' });
+  entry.paper.doi = '10.1007/s10649-017-9788-x';
+  entry.article.nextReads = [{ paper: { ...entry.paper, id: 'W2', title: 'Next paper', doi: '10.3926/jotse.401', url: 'https://doi.org/10.3926/jotse.401' }, reason: '関連します。' },
+                             { paper: { ...entry.paper, id: 'W3', title: 'No doi paper', doi: '', url: 'https://example.com/x' }, reason: '別の論文です。' }];
+  const html = render.buildArticleHtml(entry, { shortcodes: true, imageCredit: 'Pixabay / someone https://pixabay.com/photos/x-123/' });
   check('HTML: 書誌の書式・et al.・被引用数', html.includes('A. One, B. Two, C. Three, et al.，&quot;Math anxiety and word problems，&quot; Educational Studies in Mathematics，vol. 100，no. 3，pp. 271–290，2018') &&
         html.includes('被引用数: 64（OpenAlex, 2026-10-04 時点）'), html.slice(0, 600));
-  check('HTML: Wikipedia リンクは最初の1回だけ・別ウィンドウ', (html.match(/wikipedia/g) || []).length === 1 && html.includes('target="_blank" rel="noopener"'));
-  const twin = render.linkifyTerms('独立変数と従属変数を分けました。', [
-    { term: '独立変数', url: 'https://ja.wikipedia.org/wiki/y' }, { term: '従属変数', url: 'https://ja.wikipedia.org/wiki/y' }], {});
-  check('HTML: 同じ項目へのリンクは1回だけ（独立変数と従属変数）', (twin.match(/<a /g) || []).length === 1, twin);
+  check('HTML: リンク（<a>）も URL も本文に入れない（WordPress の不正検知への対策）',
+        !/<a\b/i.test(html) && !/https?:\/\//i.test(html) && !/www\./i.test(html) && !html.includes('target="_blank"'), html.match(/<a\b[^>]*>|https?:\/\/\S+/g));
+  check('HTML: 書誌は「DOI: 10.xxxx/…」の文字だけ（原題・次に読む論文）。DOI が無い論文は DOI の行を出さない',
+        html.includes('DOI: 10.1007/s10649-017-9788-x') && html.includes('DOI: 10.3926/jotse.401') && (html.match(/DOI: /g) || []).length === 2 &&
+        html.includes('No doi paper'));
+  check('HTML: Wikipedia の用語リンクは付けず、用語は文字のまま', !html.includes('wikipedia') && html.includes('ワーキングメモリ'));
+  check('HTML: 写真の出典は URL を除く', html.includes('画像: Pixabay / someone') && !html.includes('pixabay.com'), html.match(/画像:[^<]*/));
   check('HTML: メール投稿の指定子・[end]・<hr> と -- が無い・絵文字を落とす',
         html.includes('[category 論文紹介]') && html.includes('[publicize off]') && html.trim().endsWith('[end]') &&
-        !html.includes('<hr') && !html.includes('--') && !html.includes('📄') && html.includes('画像: Pixabay / someone'));
+        !html.includes('<hr') && !html.includes('--') && !html.includes('📄'));
+
+  // 言語モデルの文章に URL が混ざっていても、送る前に除く・除けなければ止める
+  const dirty = JSON.parse(JSON.stringify(entry));
+  dirty.article.sections.what = '詳しくは https://example.com/a や www.example.org/b を見てください。DOI は https://doi.org/10.1/abc です。';
+  const htmlDirty = render.buildArticleHtml(dirty, { shortcodes: true });
+  check('HTML: 本文に混ざった URL は取り除き、doi.org の URL は「DOI: …」の文字にする',
+        !/https?:\/\/|www\./.test(htmlDirty) && htmlDirty.includes('DOI: 10.1/abc'), htmlDirty.match(/詳しくは[^<]*/));
+  let blocked = null;
+  try { render.assertNoLinks('<p><a href="https://x.example/">x</a></p>'); } catch (e) { blocked = e; }
+  check('送信前の確認: リンクが残っていれば止める', blocked && /リンクが残っています/.test(blocked.message), blocked && blocked.message);
+  check('送信前の確認: リンクが無ければ通す（DOI の文字だけの本文）', (() => { try { render.assertNoLinks(html); return true; } catch (e) { return false; } })());
 
   // ---------- Bluesky ----------
   const longUrl = 'https://seda2026.wordpress.com/?p=' + '1'.repeat(10);
