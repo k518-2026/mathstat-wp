@@ -148,38 +148,54 @@
   "figure": {
     "target": [
       {
-        "text": "中学生/6〜8年生",
-        "evidence": "students (in grades six to eight)"
+        "text": "イタリアの中学生/6〜8年生",
+        "evidence": "attending sixth to eighth grades were selected from a larger sample"
+      },
+      {
+        "text": "数学不安が高い群/32名",
+        "evidence": "32 students with HMA and 34 with LMA matched for age, gender, generalized anxiety, and vocabulary"
+      },
+      {
+        "text": "数学不安が低い群/34名",
+        "evidence": "32 students with HMA and 34 with LMA matched for age, gender, generalized anxiety, and vocabulary"
       }
     ],
     "conditions": [
       {
-        "text": "高数学不安/低数学不安",
-        "evidence": "32 students with HMA and 34 with LMA matched for age, gender, generalized anxiety, and vocabulary"
-      },
-      {
-        "text": "語彙力/全般的な不安",
+        "text": "年齢・性別・全般的な/不安・語彙力をそろえる",
         "evidence": "matched for age, gender, generalized anxiety, and vocabulary"
       },
       {
-        "text": "予測変数/事実想起と抑制",
-        "evidence": "weaknesses in inhibitory control and fact retrieval were the strongest variables for classifying children as having HMA or LMA"
+        "text": "高群と低群を/比べる",
+        "evidence": "The present study aimed to analyze the academic achievement and cognitive proﬁles of students with high math anxiety (HMA) and low math anxiety (LMA)."
       }
     ],
     "measures": [
       {
-        "text": "数学能力と/読解力のテスト",
-        "evidence": "completed tests on their mathematical proﬁciency and reading comprehension"
+        "text": "数学不安:/AMAS(9項目の質問紙)",
+        "evidence": "With 9 items, it is the shortest valid MA scale"
+      },
+      {
+        "text": "数学の学力:/AC-MT 11-16",
+        "evidence": "Mathematical abilities were assessed using the AC-MT 11– 16 standardized mathematics test"
+      },
+      {
+        "text": "短期記憶:/3〜8語の単語を再生",
+        "evidence": "The task consists in the presentation of lists of words of increasing length (from 3 to 8 words)"
       }
     ],
     "results": [
       {
-        "text": "数学能力の有意差",
-        "evidence": "the LMA group outperformed the HMA group by more than 0.5 standard deviation"
+        "text": "高群は数学が弱く/読み書きは差なし",
+        "evidence": "HMA students were weak in several measures of mathematics achievement, but not in reading and writing skills"
       },
       {
-        "text": "記憶能力の有意差",
-        "evidence": "Individuals with HMA recalled signiﬁcantly fewer words than LMA children in the STM and LST and made more intrusion errors in the LST."
+        "text": "ロジスティック回帰で/2つの変数が判別に寄与",
+        "evidence": "The model created included one dependent—or criterion— variable of the LMA or HMA groups and two independent—or predictor—variables found signiﬁcant"
+      },
+      {
+        "text": "事実想起と抑制の弱さ/が判別の手がかり",
+        "evidence": "weaknesses in inhibitory control and fact retrieval were the strongest variables for classifying children as having HMA or LMA"
       }
     ]
   }

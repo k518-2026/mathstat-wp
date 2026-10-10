@@ -144,42 +144,54 @@
   "figure": {
     "target": [
       {
-        "text": "博士課程の学生/4名",
-        "evidence": "Four PhD students whose doctoral thesis focused on metacognition and mathematical modeling or noticing"
+        "text": "教員志望者の/2グループ（72名・36名）",
+        "evidence": "Group 1 (n = 72) had limited knowledge of mathematical modeling, while Group 2 (n = 36) had undergone a modeling seminar."
+      },
+      {
+        "text": "ドイツの/大学で主研究",
+        "evidence": "The third version of the instrument was used in the main study with two groups at different competence levels at a German university."
+      },
+      {
+        "text": "尺度づくりに協力/博士課程の学生4名",
+        "evidence": "Four PhD students whose doctoral thesis focused on metacognition and mathematical modeling or noticing performed the test and discussed it afterwards"
       }
     ],
     "conditions": [
       {
-        "text": "モデルの知識/有無",
-        "evidence": "Group 1 (n = 72) had limited knowledge of mathematical modeling, while Group 2 (n = 36) had undergone a modeling seminar."
+        "text": "グループ1:モデル化の/知識が限られる",
+        "evidence": "Group 1 (n = 72) had limited knowledge of mathematical modeling"
+      },
+      {
+        "text": "グループ2:モデル化の/セミナーを受講",
+        "evidence": "Group 2 (n = 36) had undergone a modeling seminar."
       }
     ],
     "measures": [
       {
-        "text": "動画の検討/修正",
-        "evidence": "The first version of the staged videos was critically discussed by experts until consensus was reached."
+        "text": "ビデオを見て/記述式の質問に回答",
+        "evidence": "the final instrument included seven open questions for assessing pre-service teachers’ noticing competence within a mathematical modeling context"
       },
       {
-        "text": "質問項目の/修正",
-        "evidence": "This resulted in refinements of the open questions to clarify the focus of the questions and changes in wording to improve comprehension."
+        "text": "予備調査で/質問を2問減らす",
+        "evidence": "the number of open questions was reduced by erasing two questions about the role of the students in the group"
       },
       {
-        "text": "パイロット調査/実施",
-        "evidence": "We used the second version of the instrument in a pilot study with a pretest-posttest design with 15 pre-service teachers"
+        "text": "質問は最終7問",
+        "evidence": "the final instrument included seven open questions"
       }
     ],
     "results": [
       {
-        "text": "内容妥当性/確認",
-        "evidence": "In general, the experts agreed that all noteworthy aspects were covered as intended."
+        "text": "内容妥当性:/専門家の評価と実施で確認",
+        "evidence": "Indicators for content validity could be found through different expert ratings and implementation with the target group"
       },
       {
-        "text": "解釈レベルの/分析",
-        "evidence": "The Mann–Whitney U test revealed significant differences in participants’ abilities to interpret students’ difficulties, which have to do with a lack of motivation (p = 0.04), an incomplete modeling process when an interpretation of the mathematical result was missing (p = 0.04), and the use of the metacognitive strategy of monitoring (p = 0.0005)."
+        "text": "要素妥当性:解釈の差を/U検定で確認",
+        "evidence": "The Mann–Whitney U test revealed significant differences in participants’ abilities to interpret students’ difficulties"
       },
       {
-        "text": "構成妥当性/確認",
-        "evidence": "The values (see Table 5) clearly indicated a good, or at least acceptable, fit according to the criteria provided by Schermelleh-Engel et al. (2003), with Chisq/df < 2, RMSEA < 0.05, and SRMR < 0.08, indicating a good fit, while the CFI was close to the cut-off value 0.95."
+        "text": "構成妥当性:/確証的因子分析でRMSEA<0.05",
+        "evidence": "with Chisq/df < 2, RMSEA < 0.05, and SRMR < 0.08, indicating a good fit"
       }
     ]
   }

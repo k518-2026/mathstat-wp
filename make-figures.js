@@ -24,6 +24,12 @@ const DRY = args.includes('--dry');
 const FORCE = args.includes('--force');
 const REPORT = args.includes('--report');
 const idArg = (args.find((a) => /^--id=/.test(a)) || '').slice(5);
+const fromArg = (args.find((a) => /^--from=/.test(a)) || '').slice(7);
+
+/** 先頭の BOM（PowerShell で作ったファイルに付くことがある）を除く */
+function stripBom(s) {
+  return s.charCodeAt(0) === 0xFEFF ? s.slice(1) : s;
+}
 
 /** 人が確かめるための一覧。各項目に、論文の本文からの根拠の文と、本文にあるかの照合の結果を付ける */
 async function writeReport(ids) {
@@ -50,7 +56,25 @@ async function writeReport(ids) {
   console.log('一覧を書きました: ' + file);
 }
 
+/**
+ * 人が書いた項目（JSON ファイル）から図を作る（--id と --from を一緒に使う）。
+ * JSON は {target:[{text,evidence}], conditions:[…], measures:[…], results:[…]}。照合に通らなければ何も保存しない
+ */
+async function fromFile() {
+  if (!idArg) throw new Error('--from には --id=W… も付けてください');
+  const raw = JSON.parse(stripBom(fs.readFileSync(path.resolve(fromArg), 'utf8')));
+  const r = await figure.makeFigureFromSpec(idArg, raw, { write: !DRY });
+  if (!r.ok) {
+    console.error('照合に通りませんでした。何も保存していません:\n  ' + r.problems.join('\n  '));
+    process.exitCode = 1;
+    return;
+  }
+  console.log(idArg + ' の図を作りました（' + Object.values(r.spec).flat().length + '項目、すべて照合OK）' + (DRY ? '（--dry: 保存していません）' : ''));
+  if (REPORT) await writeReport([idArg]);
+}
+
 async function main() {
+  if (fromArg) return fromFile();
   const ids = idArg ? [idArg] : store.queue(store.loadLedger(), store.loadPosted());
   const count = { have: 0, made: 0, failed: 0 };
   for (const id of ids) {

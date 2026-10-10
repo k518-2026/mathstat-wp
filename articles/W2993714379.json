@@ -155,22 +155,52 @@
   "createdAt": "2026-10-05 08:00",
   "figure": {
     "target": [
-      "スイスの/小学2・3年生",
-      "知能指数75未満の/児童38名"
+      {
+        "text": "知的障害のある/児童38名",
+        "evidence": "The final sample consisted of 38 students with ID (16 girls, 22 boys) in 31 inclusive classrooms"
+      },
+      {
+        "text": "スイスの/31のインクルーシブ学級",
+        "evidence": "The final sample consisted of 38 students with ID (16 girls, 22 boys) in 31 inclusive classrooms"
+      },
+      {
+        "text": "診断の基準は/IQが75未満",
+        "evidence": "where at least one child was officially diagnosed with ID by a school psychologist (cutoff IQ < 75)"
+      }
     ],
     "conditions": [
-      "初期の算数学力（t1）",
-      "最終的な算数学力（t2）",
-      "知能指数・年齢・/言語背景"
+      {
+        "text": "1年間の/縦断研究",
+        "evidence": "Data on mathematics achievement were collected at the beginning and at the end of one school year."
+      },
+      {
+        "text": "学年のはじめ(t1)と/終わり(t2)に測定",
+        "evidence": "The mathematics achievement of the students was tested twice, once at the beginning (t1) and again at the end of the school year (t2)."
+      }
     ],
     "measures": [
-      "学期開始時の/算数テスト（t1）",
-      "13のサブテストの/個別実施",
-      "学期終了時の/算数テスト（t2）"
+      {
+        "text": "数学の達成度:/TEDI-MATH(45分)",
+        "evidence": "Each child with ID was tested on their own in a quiet room of the school, using selected subtests of TEDI-MATH (Kaufmann et al. 2009; van Nieuwenhoven and Grégoire 2015). The test ran for 45 min."
+      },
+      {
+        "text": "知能:学校の記録/なければCFT 1R",
+        "evidence": "The intelligence scores of the students with ID were retrieved from their school records. If this score was not available, students were asked to complete CFT 1R"
+      }
     ],
     "results": [
-      "多重階層的回帰分析/とクラスター分析",
-      "t1追加モデルの/決定係数0.86"
+      {
+        "text": "回帰分析:/IQ・年齢・母語で予測",
+        "evidence": "the variables were included in the model in the following order: IQ, age, then first language German and French"
+      },
+      {
+        "text": "クラスター分析で/4つのグループ",
+        "evidence": "The data best fits a four-cluster structure."
+      },
+      {
+        "text": "平均点はt1の41.34から/t2の55.50に上昇",
+        "evidence": "At t1, the mean score for TEDI-MATH was M = 41.34 (SD = 25.09) and it increased to M = 55.50 (SD = 28.32) at t2"
+      }
     ]
   }
 }

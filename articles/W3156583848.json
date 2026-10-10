@@ -133,38 +133,58 @@
   "figure": {
     "target": [
       {
-        "text": "中国の小学生/490名",
-        "evidence": "only 490 of them fully ﬁnished the whole tests"
+        "text": "西安の小学校の/児童499名が参加",
+        "evidence": "A total of 499 students participated, yet only 490 of them fully ﬁnished the whole tests"
       },
       {
-        "text": "中国語を母語とする/児童",
-        "evidence": "All children were native Chinese speakers"
+        "text": "全課題を終えた/のは490名",
+        "evidence": "A total of 499 students participated, yet only 490 of them fully ﬁnished the whole tests"
       },
       {
-        "text": "5年生の成績/データ",
-        "evidence": "academic achievement of each child was estimated by their major curriculum tests of the school year evaluations in their ﬁfth grade"
+        "text": "西安の郊外の小学校/10学級",
+        "evidence": "in a suburban primary school of Xi’an (10 classes altogether) participated in the study"
       }
     ],
     "conditions": [
       {
-        "text": "非言語IQ/読解関連認知因子",
-        "evidence": "non-verbal IQ and reading-related cognitive measures"
+        "text": "予測する変数:/視空間能力",
+        "evidence": "Visual–spatial ability was entered into the model as independent variable, with arithmetic and reading abilities as mediators and non-verbal IQ as a covariate."
+      },
+      {
+        "text": "媒介する変数:/算術能力・読解能力",
+        "evidence": "with arithmetic and reading abilities as mediators"
+      },
+      {
+        "text": "予測される変数:/5・6年生の学業成績",
+        "evidence": "a new latent variable academic achievement was deﬁned as dependent variable by combing Chinese and mathematical curriculum tests of the ﬁfth and sixth grades"
       }
     ],
     "measures": [
       {
-        "text": "読解能力/認知因子の測定",
-        "evidence": "Reading ability and reading-related cognitive tests (rapid automatized naming, phonological awareness, and morphological awareness) were individually administered"
+        "text": "非言語IQ:/レーヴン漸進的マトリックス",
+        "evidence": "Raven’s Progressive Matrices were used to assess non-verbal IQ of each participant."
+      },
+      {
+        "text": "読解に関わる課題:/呼称・音韻・形態",
+        "evidence": "Reading ability and reading-related cognitive tests (rapid automatized naming, phonological awareness, and morphological awareness)"
+      },
+      {
+        "text": "学業成績:/5年生と6年生の2年分",
+        "evidence": "academic achievements were collected for two consecutive school years"
       }
     ],
     "results": [
       {
-        "text": "相関分析/有意な相関",
-        "evidence": "Correlation analysis indicated that visual–spatial, arithmetic, and reading abilities and academic achievements were signiﬁcantly correlated with each other."
+        "text": "相関→階層的回帰/→パス分析の順",
+        "evidence": "A correlational analysis of all measures was ﬁrst performed. Then, hierarchical regression analysis and path model analysis were further conducted"
       },
       {
-        "text": "モデル3/間接効果の割合",
-        "evidence": "a major mediation path from visual–spatial ability to arithmetic ability to general academic achievement accounting 83% of the total indirect eﬀects, and (2) a minor serial mediation path from visual–spatial ability to arithmetic ability to reading ability, then to general academic achievement accounting for 17% of the total indirect eﬀects"
+        "text": "算術能力のみの媒介が/全効果の83%",
+        "evidence": "the mediation eﬀect solely by arithmetic ability accounted for 83% of the total eﬀects"
+      },
+      {
+        "text": "算術→読解の連続媒介/が17%",
+        "evidence": "the remaining 17% serial mediation eﬀect was also partly operated by arithmetic ability"
       }
     ]
   }

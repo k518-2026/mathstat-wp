@@ -125,38 +125,54 @@
   "figure": {
     "target": [
       {
-        "text": "日本・インドネシア・/アルジェリアの生徒",
-        "evidence": "The three countries chosen are Indonesia, Japan, and Algeria, each respectively having as participants 5.800, 6.411, and 4.460."
+        "text": "PISA 2015に参加した/3か国の生徒",
+        "evidence": "the researchers determined the sample by selecting the students from three countries that participated in PISA 2015"
       },
       {
-        "text": "PISA 2015の二次データ",
-        "evidence": "This research is the analysis of PISA 2015 secondary data for Japan, Indonesia, and Algeria."
+        "text": "数学の平均点:/日本は534点",
+        "evidence": "The average of the students‟ math scores for Japan (M = 534) outweighs the average score determined by OECD (M = 494)."
+      },
+      {
+        "text": "インドネシア396点/アルジェリア364点",
+        "evidence": "The students from Indonesia and Algeria have an average score in mathematics learning achievement (M = 396 and M = 364 respectively)"
       }
     ],
     "conditions": [
       {
-        "text": "生徒レベルの予測変数",
+        "text": "生徒レベル:数学への/所属感と家庭の社会経済指標",
         "evidence": "The predictors at the students‟ level are: the SOBAS and the students‟ parents‟ education and employment indices."
       },
       {
-        "text": "学校レベルの予測変数",
+        "text": "学校レベル:/学校の平均ESCS",
         "evidence": "Predictor at the level of schools is the schools average of ESCS."
       }
     ],
     "measures": [
       {
-        "text": "3段階でのモデル拡張手順",
+        "text": "PISA 2015の/数学リテラシーの得点",
+        "evidence": "Mathematical literacy (Math score) in PISA 2015 involves four content areas"
+      },
+      {
+        "text": "二次データを/2水準モデルで分析",
+        "evidence": "In this research, a two-level multilevel model was used."
+      },
+      {
+        "text": "手順:空モデルから/段階的に拡張",
         "evidence": "The analysis starts with the simplest model (null model, Step 1) and systematically moves towards more complex levels (step 2-3)"
       }
     ],
     "results": [
       {
-        "text": "学校差が数学達成度に/大きく影響",
-        "evidence": "The outcomes of this analysis support the idea that the school attended plays a big role as far as mathematics learning achievement is concerned."
+        "text": "学校間の差の割合:/日本は54%",
+        "evidence": "Table 2 also shows that about 54% of the overall variance in mathematics learning achievement result from schools differences in Japan, about 55% in Indonesia, and about 38% in Algeria."
       },
       {
-        "text": "アルジェリアでは/家庭ESCSが非有意",
-        "evidence": "The students‟ ESCS variable is the explanatory variable at the students‟ level students which is not statistically significant"
+        "text": "インドネシア55%/アルジェリア38%",
+        "evidence": "Table 2 also shows that about 54% of the overall variance in mathematics learning achievement result from schools differences in Japan, about 55% in Indonesia, and about 38% in Algeria."
+      },
+      {
+        "text": "アルジェリアでは/家庭の指標が有意でない",
+        "evidence": "for the Algerian students the socio-economic status is statistically insignificant in predicting their learning performance"
       }
     ]
   }
