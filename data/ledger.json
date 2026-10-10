@@ -950,6 +950,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-11 01:42",
       "note": ""
+    },
+    "W2098712569": {
+      "doi": "10.1186/1744-9081-10-31",
+      "title": "Mathematical anxiety is linked to reduced cognitive reflection: a potential road from discomfort in the mathematics classroom to susceptibility to biases",
+      "citedBy": 123,
+      "year": "2014",
+      "status": "ready",
+      "titleJa": "数学不安は認知反射の低下と関連する：数学の教室での不快感からバイアスの感受性への道",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-11 08:02",
+      "note": ""
     }
   }
 }

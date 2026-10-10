@@ -1,0 +1,88 @@
+{
+  "paper": {
+    "id": "W2098712569",
+    "doi": "10.1186/1744-9081-10-31",
+    "title": "Mathematical anxiety is linked to reduced cognitive reflection: a potential road from discomfort in the mathematics classroom to susceptibility to biases",
+    "authors": [
+      "Kinga Morsanyi",
+      "Chiara Busdraghi",
+      "Caterina Primi"
+    ],
+    "authorCount": 3,
+    "venue": "Behavioral and Brain Functions",
+    "volume": "10",
+    "issue": "1",
+    "pages": "31",
+    "year": "2014",
+    "citedBy": 123,
+    "url": "https://doi.org/10.1186/1744-9081-10-31",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1186/1744-9081-10-31.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "数学不安は認知反射の低下と関連する：数学の教室での不快感からバイアスの感受性への道",
+    "sections": {
+      "what": "この研究は、数学に対する不安が個人の意思決定能力に与える影響を調査したものです。具体的には、数学不安と「認知反射テスト」の成績との関連を、大学生および中学生の2つの集団を対象に分析しました。認知反射テストは、直感的な反応を抑制し、より正確な解決策を導き出す能力を測る指標です。研究の目的は、数学不安が単に知識の不足によるものなのか、あるいは認知的なプロセスに直接影響を与えているのかを明らかにすることにあります。",
+      "novelty": "先行研究では、数学不安が計算の正確性を低下させることは知られていましたが、それが認知反射というより高次な思考プロセスにどう影響するかは不明でした。本研究の新規性は、数学不安が単なる「計算力の低さ」を介したものではなく、直感的な反応を修正する認知的な能力そのものと関連している可能性を示唆した点にあります。また、数学の教室での不快感が、日常生活におけるバイアスや意思決定の誤りにつながる可能性を提示したことも重要な位置づけです。",
+      "method": "研究では、数学不安、数学知識、数学成績、テスト不安、そして認知反射の5つの変数を組み合わせて分析しました。実験1では大学生を対象に、数学知識を媒介変数としたパスモデルを用いて、数学不安が認知反射に与える直接的および間接的な影響をブートストラップ法で推定しました。実験2では中学生を対象に、より実社会に近い指標である学校の数学成績を用いて同様の分析を行いました。実験3では、ワーキングメモリへの負荷を操作し、不安が認知資源を奪うメカニズムを分散分析で検証しました。",
+      "validation": "分析の結果、数学不安は数学知識や数学成績、テスト不安を制御した後でも、認知反射の成績と有意な負の関連があることが示されました。実験1では、数学不安が数学知識を介して認知反射に影響を与える間接的な効果も確認されました。実験3では、ワーキングメモリへの負荷を増やすことが、数学不安と同様に認知反射の成績を低下させることが示されました。これらの結果は、数学不安が認知資源を圧迫し、直感的な反応を修正するプロセスを妨げている可能性を支持しています。",
+      "implications": "本研究は、数学不安が単に計算のミスを増やすだけでなく、合理的な判断を下すための認知的なプロセスを阻害している可能性を示唆しています。これは、数学の授業での不快感が、将来的な意思決定のバイアスにつながるリスクを示唆しており、教育現場での心理的サポートの重要性を裏付けています。ただし、本研究は相関関係を示すものであり、不安が認知反射を低下させるのか、あるいはその逆なのかという因果関係の特定にはさらなる研究が必要です。また、ワーキングメモリの容量自体を測定していない点も今後の課題です。",
+      "nextLead": "数学不安と認知反射の関連をより深く理解するためには、不安がどのように意思決定のバイアスに具体的に結びつくのか、あるいは不安と認知能力の因果関係をどのように解明するのかという視点が重要です。次項では、数学不安と成績の因果関係の方向性を探る研究や、認知反射の測定尺度の詳細な検証について読み進めることが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2212618620",
+          "doi": "10.3389/fpsyg.2015.01987",
+          "title": "The Chicken or the Egg? The Direction of the Relationship Between Mathematics Anxiety and Mathematics Performance",
+          "authors": [
+            "Emma Carey",
+            "Francesca Hill",
+            "Amy Devine",
+            "Dénes Szűcs"
+          ],
+          "authorCount": 4,
+          "venue": "Frontiers in Psychology",
+          "volume": "6",
+          "issue": "",
+          "pages": "1987",
+          "year": "2016",
+          "citedBy": 430,
+          "url": "https://doi.org/10.3389/fpsyg.2015.01987"
+        },
+        "reason": "本論文では不安が認知反射を低下させると示唆されましたが、この論文では数学不安と成績の因果関係の方向性を検討しており、不安と能力の相互作用をより深く理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W2150324751",
+          "doi": "10.1002/bdm.1883",
+          "title": "The Development and Testing of a New Version of the Cognitive Reflection Test Applying Item Response Theory (IRT)",
+          "authors": [
+            "Caterina Primi",
+            "Kinga Morsanyi",
+            "Francesca Chiesi",
+            "Maria Anna Donati"
+          ],
+          "authorCount": 5,
+          "venue": "Journal of Behavioral Decision Making",
+          "volume": "29",
+          "issue": "5",
+          "pages": "453–469",
+          "year": "2015",
+          "citedBy": 320,
+          "url": "https://doi.org/10.1002/bdm.1883"
+        },
+        "reason": "本研究で用いられた認知反射テストの信頼性を高めるための、項目反応理論を用いた新しいバージョンの開発と検証に関する研究であり、測定尺子の精度に関心がある方に適しています。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "数学の授業での「不快感」が、実は私たちの合理的な判断力を鈍らせているかもしれません。数学不安が認知的なプロセスにどう影響するのか、最新の研究から紐解きます。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-11",
+  "createdAt": "2026-10-11 08:02"
+}
