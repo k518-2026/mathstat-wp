@@ -23,6 +23,7 @@ const openalex = require('./lib/openalex');
 const pdf = require('./lib/pdf');
 const writer = require('./lib/writer');
 const wikipedia = require('./lib/wikipedia');
+const figure = require('./lib/figure');
 const { nowStamp } = require('./lib/text');
 
 const args = process.argv.slice(2);
@@ -82,6 +83,11 @@ async function processPaper(ledger, paper) {
   console.log('  記事完成: ' + article.titleJa + '（' + article.model + '、字数 ' + lengths +
               '、用語リンク ' + article.links.length + '、次に読む論文 ' + article.nextReads.length + '）' +
               (article.warnings.length ? '\n  注意: ' + article.warnings.join(' / ') : ''));
+
+  // 研究の流れ図（images/<論文ID>.png）。作れなくても記事は捨てない（投稿のときは Pixabay の写真になる）
+  const figureSpec = await figure.makeFigure(paper.id, article, { write: !DRY });
+  if (figureSpec) entry.figure = figureSpec;
+  console.log('  研究の流れ図: ' + (figureSpec ? '作りました' : '作れませんでした（写真にします）'));
 
   if (DRY) {
     console.log(JSON.stringify(entry, null, 2));
@@ -166,7 +172,7 @@ async function main() {
   console.log('\n記事を ' + made + ' 本作りました（候補 ' + tried + ' 本を確認）。');
 
   if (!NO_GIT && made + tried > 0) {
-    git('add', config.paths.ledger, config.paths.articles);
+    git('add', config.paths.ledger, config.paths.articles, 'images');   // images は研究の流れ図（投稿のときに添付する）
     const changed = git('diff', '--cached', '--name-only');
     if (changed) {
       git('commit', '-m', 'Add ' + made + ' article(s) ' + nowStamp());

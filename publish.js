@@ -14,6 +14,7 @@ const config = require('./config');
 const store = require('./lib/store');
 const render = require('./lib/render');
 const pixabay = require('./lib/pixabay');
+const figure = require('./lib/figure');
 const wordpress = require('./lib/wordpress');
 const { nowStamp } = require('./lib/text');
 
@@ -37,13 +38,17 @@ async function main() {
   const entry = store.loadArticle(id);
   if (!entry) throw new Error('記事のファイルがありません: ' + store.articlePath(id));
 
-  // 写真。取れなくても記事は出す
-  let image = null;
-  try {
-    const photo = await pixabay.findPhoto(entry.article.imageQuery);
-    if (photo) image = await pixabay.downloadPhoto(photo, 'mathstat-' + id.toLowerCase());
-  } catch (e) {
-    console.warn('写真の用意に失敗（画像なしで投稿します）: ' + e.message);
+  // 画像。この PC で作った「研究の流れ図」（images/<論文ID>.png）があればそれを使う。
+  // 無ければ Pixabay の写真。どちらも取れなくても記事は出す
+  let image = figure.loadFigureImage(id);
+  if (image) console.log('研究の流れ図を添付します: images/' + id + '.png');
+  if (!image) {
+    try {
+      const photo = await pixabay.findPhoto(entry.article.imageQuery);
+      if (photo) image = await pixabay.downloadPhoto(photo, 'mathstat-' + id.toLowerCase());
+    } catch (e) {
+      console.warn('写真の用意に失敗（画像なしで投稿します）: ' + e.message);
+    }
   }
 
   const subject = render.wordPressTitle(entry);

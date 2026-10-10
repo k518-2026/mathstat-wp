@@ -107,6 +107,25 @@ module.exports = {
   articleLead: '算数・数学教育を統計的に分析した、海外で多く引用されている論文を6つの観点から紹介します。',
   snsHashtags: ['#数学教育', '#教育統計'],
   photoFallbackQuery: 'mathematics classroom',
+  // 記事の先頭に付ける「研究の流れ図」（この PC で LuaLaTeX で作り、images/<論文ID>.png として GitHub に置く）。
+  // 作れなかった記事は、これまでどおり Pixabay の写真にする
+  figure: {
+    columns: [
+      { key: 'target', title: '対象' },
+      { key: 'conditions', title: '条件・変数' },
+      { key: 'measures', title: '測定・手順' },
+      { key: 'results', title: '分析と結果' }
+    ],
+    maxItems: 3,          // 1つの欄に入れる項目の数
+    maxChars: 28,         // 1項目の字数（図の枠に収まる長さ）
+    dpi: 170,
+    note: '概念図：記事の記述から研究の流れを整理したもので、実際のデータの図ではありません',
+    credit: '記事の記述から作成した概念図',
+    // タスク スケジューラーから動かすときは PATH が通らないので、場所を決めておく
+    lualatex: process.env.LUALATEX || (process.platform === 'win32' ? 'C:\\texlive\\2026\\bin\\windows\\lualatex.exe' : 'lualatex'),
+    pdftoppm: process.env.PDFTOPPM || (process.platform === 'win32' ? 'C:\\texlive\\2026\\bin\\windows\\pdftoppm.exe' : 'pdftoppm')
+  },
+
   // 写真のタグにこのどれかがあるものだけを使う（math で始まる語も可）。外れた写真（カップルなど）を避けるため
   photoTopicWords: ['number', 'numbers', 'calculator', 'arithmetic', 'geometry', 'algebra', 'counting', 'abacus',
     'school', 'classroom', 'student', 'students', 'pupil', 'teacher', 'teaching', 'education', 'learning', 'study', 'studying',

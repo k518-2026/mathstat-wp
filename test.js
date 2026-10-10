@@ -382,6 +382,51 @@ async function run() {
   check('写真: tags の項目が無い応答は、写真を付ける（仕様変更で写真が出なくなるのを避ける）', (await pixabay.findPhoto('x')).user === 'n');
   delete process.env.PIXABAY_API_KEY;
 
+  // ---------- 研究の流れ図 ----------
+  const fig = require('./lib/figure');
+  const figArticle = { sections: { what: '小学4年生145名を対象にしました。', novelty: '', method: '階層的回帰分析を用いました。', validation: '説明率は21%でした（R2 = .21）。', implications: '', nextLead: '' } };
+  const okSpec = { target: ['小学4年生/145名'], conditions: ['ワーキングメモリ', '数学不安'], measures: ['各種テスト'], results: ['階層的回帰分析', '説明率21%'] };
+  check('図: 記事にある語句と数値なら合格', fig.validateSpec(okSpec, figArticle).length === 0, fig.validateSpec(okSpec, figArticle));
+  const badNum = { ...okSpec, results: ['階層的回帰分析', '説明率35%'] };
+  check('図: 記事にない数値（35%）は不合格', fig.validateSpec(badNum, figArticle).some((p) => /35/.test(p)), fig.validateSpec(badNum, figArticle));
+  const sum = { ...okSpec, target: ['小学4年生/290名'] };
+  check('図: 数値の和（145+145）も通さない', fig.validateSpec(sum, figArticle).some((p) => /290/.test(p)), fig.validateSpec(sum, figArticle));
+  const longItem = { ...okSpec, conditions: ['あ'.repeat(config.figure.maxChars + 1)] };
+  const empty = { ...okSpec, measures: [] };
+  const withUrl = { ...okSpec, conditions: ['https://example.com/x'] };
+  check('図: 長すぎる項目・空の欄・URL は不合格',
+        fig.validateSpec(longItem, figArticle).length === 1 && fig.validateSpec(empty, figArticle).length === 1 && fig.validateSpec(withUrl, figArticle).length >= 1);
+  // 「/」の位置と、枠の幅（約10字）での自動の折り返しが、カタカナの語の途中に来ないか。簡易な近似なので、最後は目で見る
+  const midWord = { ...okSpec, conditions: ['相互教授法／生徒ファシリテー/ター・説明法'] };
+  const autoBreak = { ...okSpec, conditions: ['相互教授法／生徒ファシリテーター・説明法'] };   // 10字目が「ー」の途中
+  const fine = { ...okSpec, conditions: ['インドネシアの公立高校生'] };
+  const kana = (s) => fig.validateSpec(s, figArticle).filter((p) => /切れ目|単語の途中/.test(p)).length;
+  check('図: 「/」が単語の途中にあれば不合格。「/」が無く枠の幅でカタカナの語が切れる項目も不合格。切れない項目は合格',
+        kana(midWord) === 1 && kana(autoBreak) === 1 && kana(fine) === 0, [kana(midWord), kana(autoBreak), kana(fine)]);
+  check('図: 「/」の位置で改行し、数値の照合と字数は「/」を除いた文字で行う',
+        fig.breakable('媒介効果が/全効果の62.98%') === '媒介効果が\\\\全効果の62.98\\%' && fig.plainItem('小学4年生/145名') === '小学4年生145名');
+  check('図: LaTeX の特殊文字（% & _ # $）を逃がす', fig.texEscape('a%b&c_d#e$f') === 'a\\%b\\&c\\_d\\#e\\$f');
+  const tex = fig.buildTex(okSpec);
+  check('図: LaTeX は4つの欄の題と語句を含み、欄の間に矢印が3本ある',
+        ['対象', '条件・変数', '測定・手順', '分析と結果', '小学4年生\\\\145名', '階層的回帰分析'].every((t) => tex.includes(t)) && (tex.match(/\\draw\[arr\]/g) || []).length === 3);
+  const nodeLines = tex.split('\n').filter((l) => /^\\node\[(t?box)\]/.test(l));
+  check('図: 語句の枠（\\node）に「/」が残らず、「%」は \\% に逃がしてある',
+        nodeLines.length === 6 && nodeLines.every((l) => !l.includes('/')) && nodeLines.some((l) => l.includes('説明率21\\%')), nodeLines.join(' | '));
+  // 投稿のとき: 図があれば添付し、無ければ null（Pixabay に戻る）
+  const have = fig.loadFigureImage('W2755739173');
+  check('図: images/<ID>.png があれば添付（PNG・ファイル名・出典）、無ければ null',
+        have === null || (have.contentType === 'image/png' && have.buffer.slice(1, 4).toString() === 'PNG' && /^mathstat-w\d+\.png$/.test(have.filename) && have.credit === config.figure.credit));
+  check('図: 無い ID は null（Pixabay の写真に戻る）', fig.loadFigureImage('W0000000000') === null);
+
+  // LaTeX が入っている環境（この PC）だけ、実際に描く
+  const hasLatex = fs.existsSync(config.figure.lualatex) || (() => { try { require('child_process').execFileSync(config.figure.lualatex, ['--version'], { stdio: 'ignore' }); return true; } catch (e) { return false; } })();
+  if (hasLatex) {
+    let png = null, errPng = null;
+    try { png = fig.renderPng(okSpec, 'selftest'); } catch (e) { errPng = e; }
+    check('図: LuaLaTeX で実際に描ける（PNG になり、横幅が 1000 px 以上）',
+          png && png.slice(1, 4).toString() === 'PNG' && png.readUInt32BE(16) >= 1000, errPng && errPng.message);
+  }
+
   // ---------- 台帳 ----------
   const ledger = { papers: {
     W1: { status: 'ready', createdAt: '2026-10-04 05:00', doi: '10.1/A' },
