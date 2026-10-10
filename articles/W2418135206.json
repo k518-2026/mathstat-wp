@@ -1,0 +1,147 @@
+{
+  "paper": {
+    "id": "W2418135206",
+    "doi": "10.3389/fpsyg.2016.00783",
+    "title": "Fine Motor Skills Predict Maths Ability Better than They Predict Reading Ability in the Early Primary School Years",
+    "authors": [
+      "Nicola J. Pitchford",
+      "Chiara Papini",
+      "Laura Ann Outhwaite",
+      "Anthea Gulliford"
+    ],
+    "authorCount": 4,
+    "venue": "Frontiers in Psychology",
+    "volume": "7",
+    "issue": "",
+    "pages": "783",
+    "year": "2016",
+    "citedBy": 144,
+    "url": "https://doi.org/10.3389/fpsyg.2016.00783",
+    "license": "cc-by",
+    "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00783/pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "イギリスの幼児・低学年児童を対象に、微細運動技能と数学・読解能力の関連を重回帰分析等の統計手法を用いて分析した実証研究であるため。",
+    "titleJa": "小学校低学年において微細運動技能は読書能力よりも数学能力を強く予測する",
+    "sections": {
+      "what": "英国の社会経済的地位が低〜中程度の地域に通う小学校1年生（研究1: 60名、5〜6歳）および就学前・幼児教育段階（研究2: 34名、4〜5歳）の児童を対象に、微細運動技能と初期の数学および読解能力との関係を調べた研究です。微細運動精度（純粋な手先運動）と微細運動統合（目と手の一致や視覚運動の統合）という2つの要素に分け、それぞれが早期の学習到達度にどのように関連しているかを横断調査によって分析しました。",
+      "novelty": "先行研究では運動発達と認知発達の一般的な関連が示されていましたが、微細運動技能の異なる要素（精度と統合）を区別し、初期の読解力と数学能力に対する予測力を直接比較した研究は限られていました。また、性別や社会経済的地位、非言語IQ、言語的短期記憶といった他の認知変数を統制した上で、微細運動技能が読解力よりも数学能力の早期発達に強く寄与することを示した点に独自性があります。",
+      "method": "分析には、BOT-2テストによる微細運動精度および微細運動統合の標準化スコアと、WIAT-IIテストによる単語読解および数学的推理のスコアを使用しました。研究1では階層的複数回帰分析を用い、一方の学力を統制した上で微細運動技能が他方の学力に与える固有の予測力を検証しました。研究2では、さらに非言語IQ（WPPSI-III）と言語的短期記憶（KABC-II）をモデルに投入し、認知機能を考慮しても微細運動の予測力が維持されるかを分析しました。",
+      "validation": "研究1（60名）では、児童の読解スコア（平均104.6）が数学スコア（平均95.7）より有意に高い結果でした[t(59)=4.71, p<0.001]。重回帰分析において、読解力を統制した後も微細運動精度は数学能力の有意な予測因子であり続けました（決定係数変化量0.36, p<0.001）。研究2（34名）でも読解（平均20.3%）が数学（平均17.0%）を有意に上回りました[t(33)=2.47, p=0.019]。言語的短期記憶を統制すると微細運動統合は読解力の有意な予測因子になりませんでしたが、非言語IQを統制しても微細運動統合は数学能力を有意に予測しました（決定係数変化量0.13, p=0.024）。",
+      "implications": "この結果は、手先の微細運動技能が早期の数学的概念の獲得に重要な役割を果たしている可能性を示唆しています。読解力重視の教育介入に対して、幼児期・低学年での数学教育に視覚運動統合や手先を使う具体的な操作活動を取り入れる重要性が示されています。ただし、本研究は横断的な相関分析であり因果関係を直接証明したものではなく、サンプルサイズが比較的小さい点や縦断的な追跡が不足している点が限界として挙げられます。",
+      "nextLead": "早期の運動発達や認知機能（作業記憶・実行機能）が、その後の学力や学校適応にどのように影響するのか、より長期的な縦断研究や大規模調査へと視野を広げて学習を深めることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2135731612",
+          "doi": "10.1037/0012-1649.43.6.1428",
+          "title": "School readiness and later achievement",
+          "authors": [
+            "Greg J. Duncan",
+            "Chantelle Dowsett",
+            "Amy Claessens",
+            "Katherine Magnuson"
+          ],
+          "authorCount": 13,
+          "venue": "Developmental Psychology",
+          "volume": "43",
+          "issue": "6",
+          "pages": "1428–1446",
+          "year": "2007",
+          "citedBy": 5425,
+          "url": "https://doi.org/10.1037/0012-1649.43.6.1428"
+        },
+        "reason": "就学前からの運動・認知・感情スキルがその後の学力（数学・読解）に与える長期的影響を大規模な縦断データで検証しており、本研究の背景と深くつながる必読文献です。"
+      },
+      {
+        "paper": {
+          "id": "W2141172186",
+          "doi": "10.1037/0012-1649.40.2.177",
+          "title": "The Structure of Working Memory From 4 to 15 Years of Age",
+          "authors": [
+            "Susan Elizabeth Gathercole",
+            "Susan J. Pickering",
+            "Ben Ambridge",
+            "Hannah Wearing"
+          ],
+          "authorCount": 4,
+          "venue": "Developmental Psychology",
+          "volume": "40",
+          "issue": "2",
+          "pages": "177–190",
+          "year": "2004",
+          "citedBy": 1810,
+          "url": "https://doi.org/10.1037/0012-1649.40.2.177"
+        },
+        "reason": "幼児期から児童期における短期記憶や作業記憶の発達構造を示しており、本研究の研究2で測定された言語的短期記憶や実行機能の理解を深めるのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W2072674802",
+          "doi": "10.1111/1467-8624.00117",
+          "title": "Close Interrelation of Motor Development and Cognitive Development and of the Cerebellum and Prefrontal Cortex",
+          "authors": [
+            "Adele Diamond"
+          ],
+          "authorCount": 1,
+          "venue": "Child Development",
+          "volume": "71",
+          "issue": "1",
+          "pages": "44–56",
+          "year": "2000",
+          "citedBy": 1479,
+          "url": "https://doi.org/10.1111/1467-8624.00117"
+        },
+        "reason": "運動発達と認知発達の脳神経科学的メカニズム（小脳と前頭前野の機能的結合）を解説しており、微細運動と数学能力の密接な関連の理論的基盤を学ぶことができます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "微細運動技能",
+        "wikiTitle": "運動技能"
+      },
+      {
+        "term": "重回帰分析",
+        "wikiTitle": "重回帰分析"
+      },
+      {
+        "term": "決定係数",
+        "wikiTitle": "決定係数"
+      },
+      {
+        "term": "相関分析",
+        "wikiTitle": "相関"
+      }
+    ],
+    "links": [
+      {
+        "term": "微細運動技能",
+        "title": "運動スキル",
+        "url": "https://ja.wikipedia.org/wiki/%E9%81%8B%E5%8B%95%E3%82%B9%E3%82%AD%E3%83%AB"
+      },
+      {
+        "term": "重回帰分析",
+        "title": "重回帰分析",
+        "url": "https://ja.wikipedia.org/wiki/%E9%87%8D%E5%9B%9E%E5%B8%B0%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "決定係数",
+        "title": "決定係数",
+        "url": "https://ja.wikipedia.org/wiki/%E6%B1%BA%E5%AE%9A%E4%BF%82%E6%95%B0"
+      },
+      {
+        "term": "相関分析",
+        "title": "相関",
+        "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%96%A2"
+      }
+    ],
+    "intro": "幼児期や小学校低学年において、手先の器用さなどの微細運動技能は読解力よりも数学能力と強く結びついているのでしょうか。イギリスの児童を対象とした2つの実証研究から探ります。",
+    "imageQuery": "child fine motor math",
+    "warnings": [],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-10-11",
+  "createdAt": "2026-10-11 00:05"
+}

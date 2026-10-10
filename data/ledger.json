@@ -827,6 +827,100 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-10-05 08:00",
       "note": ""
+    },
+    "W2285902070": {
+      "doi": "10.3389/fpsyg.2016.00042",
+      "title": "Mathematics Anxiety, Working Memory, and Mathematics Performance in Secondary-School Children",
+      "citedBy": 700,
+      "year": "2016",
+      "status": "ready",
+      "titleJa": "中学生における数学不安、ワーキングメモリ、および数学の学力",
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-10-11 00:03",
+      "note": "意味が合わないリンクを外した: 短期記憶→記憶"
+    },
+    "W4391131201": {
+      "doi": "10.3390/su16030978",
+      "title": "Teachers’ AI-TPACK: Exploring the Relationship between Knowledge Elements",
+      "citedBy": 314,
+      "year": "2024",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-11 00:03"
+    },
+    "W3040076314": {
+      "doi": "10.1016/j.compedu.2020.103967",
+      "title": "Developing a short assessment instrument for Technological Pedagogical Content Knowledge (TPACK.xs) and comparing the factor structure of an integrative and a transformative model",
+      "citedBy": 314,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-11 00:03"
+    },
+    "W3093070761": {
+      "doi": "10.1016/j.chb.2020.106586",
+      "title": "Self-reported technological pedagogical content knowledge (TPACK) of pre-service teachers in relation to digital technology use in lesson plans",
+      "citedBy": 311,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-11 00:03"
+    },
+    "W2738404181": {
+      "doi": "10.14742/ajet.3518",
+      "title": "TPACK updated to measure pre-service teachers’ twenty-first century skills",
+      "citedBy": 307,
+      "year": "2017",
+      "status": "skipped",
+      "note": "テーマ外: 本論文は教員養成課程の学生を対象に21世紀型スキルを踏まえたICT指導力（TPACK）尺度を検証した研究であり、算数・数学の学習や指導を直接の対象としていないため。",
+      "checkedAt": "2026-10-11 00:03"
+    },
+    "W2589294753": {
+      "doi": "10.30998/formatif.v3i2.118",
+      "title": "Pengaruh Waktu Belajar dan Minat Belajar terhadap Hasil Belajar Matematika",
+      "citedBy": 280,
+      "year": "2015",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-11 00:03"
+    },
+    "W2735899821": {
+      "doi": "10.1111/bjet.12565",
+      "title": "Investigating the impact of teacher education strategies on preservice teachers' TPACK",
+      "citedBy": 230,
+      "year": "2017",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-11 00:03"
+    },
+    "W1645618161": {
+      "doi": "10.1007/s11858-015-0737-9",
+      "title": "The role of perception, interpretation, and decision making in the development of beginning teachers’ competence",
+      "citedBy": 227,
+      "year": "2015",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-11 00:03"
+    },
+    "W2739329279": {
+      "doi": "10.1016/j.jecp.2017.04.016",
+      "title": "The contribution of spatial ability to mathematics achievement in middle childhood",
+      "citedBy": 156,
+      "year": "2017",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-11 00:04"
+    },
+    "W2418135206": {
+      "doi": "10.3389/fpsyg.2016.00783",
+      "title": "Fine Motor Skills Predict Maths Ability Better than They Predict Reading Ability in the Early Primary School Years",
+      "citedBy": 144,
+      "year": "2016",
+      "status": "ready",
+      "titleJa": "小学校低学年において微細運動技能は読書能力よりも数学能力を強く予測する",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-10-11 00:05",
+      "note": ""
     }
   }
 }

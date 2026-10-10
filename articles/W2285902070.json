@@ -1,0 +1,148 @@
+{
+  "paper": {
+    "id": "W2285902070",
+    "doi": "10.3389/fpsyg.2016.00042",
+    "title": "Mathematics Anxiety, Working Memory, and Mathematics Performance in Secondary-School Children",
+    "authors": [
+      "Maria Chiara Passolunghi",
+      "Sara Caviola",
+      "Ruggero De Agostini",
+      "Chiara Perin"
+    ],
+    "authorCount": 5,
+    "venue": "Frontiers in Psychology",
+    "volume": "7",
+    "issue": "",
+    "pages": "42",
+    "year": "2016",
+    "citedBy": 700,
+    "url": "https://doi.org/10.3389/fpsyg.2016.00042",
+    "license": "cc-by",
+    "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00042/pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "中学校の生徒を対象に数学不安、作動記憶、数学達成度の関連を分散分析やロジスティック回帰分析によって統計的に検証した実証研究であるため。",
+    "titleJa": "中学生における数学不安、ワーキングメモリ、および数学の学力",
+    "sections": {
+      "what": "イタリアの中学校1〜3年生（第6〜8学年）135名の中から選抜された、数学不安が高い生徒32名と低い生徒34名（年齢、性別、全般性不安、語彙力をマッチング）を対象とした研究です。数学不安の程度が異なる生徒間で、計算や数概念などの数学の学力、文章読解や書字といった言語的な学力、ならびに短期記憶や作動記憶の認知的特徴にどのような違いがあるかを比較・検討することを目的としています。",
+      "novelty": "先行研究の多くは大学生などの若年成人や、算数学習の初期段階にある小学校低学年の児童を対象としており、中学校段階での数学不安の影響に関する知見は限られていました。また、数学不安が学力全般に影響するのか、数学特有の低下なのかを文章読解や書字能力と比較して検証した点は重要です。さらに、作動記憶課題における無関連な情報の抑制機能の失敗（侵入エラー）に着目し、認知的な個人差を詳細に捉えた点に新規性があります。",
+      "method": "全般性不安尺度や語彙テストの統制により、全般的な知的能力や一般的な不安の影響を排除した上で、数学不安高低の2群を比較しました。学力測定には標準化された数学テスト（筆算、数の大きさ判断、論理的推論、計算の事実想起など）と読解・書字テストを用いました。記憶機能には言語性短期記憶課題と、文の正誤判断を行いつつ最後の単語を保持するリスニングスパン課題を実施しました。最後に、どの変数が数学不安の高低を識別できるかを特定するため、ロジスティック回帰分析を行いました。",
+      "validation": "一元配置分散分析の結果、高不安群は低不安群に比べ筆算（p = 0.002）、大きさ判断（p = 0.040）、論理的推論（p = 0.030）、事実想起（p = 0.003）で有意に得点が低かった一方、読解や書字の成績に有意差はありませんでした。また、短期記憶（p = 0.014）や作動記憶（p = 0.030）の単語再生数が有意に少なく、無関連単語の侵入エラーも有意に多く見られました（p = 0.002）。ロジスティック回帰分析では、事実想起と侵入エラーが有意な判別変数となり、全体で74.2%の分類精度を示しました。",
+      "implications": "数学不安は学力全般ではなく数学特有の成績低下と結びついており、作動記憶における無関連情報の抑制困難が関与している可能性が示唆されます。論文では、時間制限による過度なプレッシャーを避けることや適切なフィードバックを与える配慮が有効である可能性を述べています。ただし、本研究は横断的調査であり、数学不安、作動記憶、数学成績の間の因果関係の方向性は特定できていません。また言語性の記憶課題のみを扱ったため、空間性の機能を含む検証が今後の課題として挙げられています。",
+      "nextLead": "数学不安がどのような認知的メカニズムによって課題成績を低下させるのか、理論的な枠組みや大規模な知見を深めるために、不安と作動記憶の関係を論じた基礎理論やメタ分析へ読み進めることが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2163533896",
+          "doi": "10.1037/0096-3445.130.2.224",
+          "title": "The relationships among working memory, math anxiety, and performance",
+          "authors": [
+            "Mark H. Ashcraft",
+            "Elizabeth P. Kirk"
+          ],
+          "authorCount": 2,
+          "venue": "Journal of Experimental Psychology General",
+          "volume": "130",
+          "issue": "2",
+          "pages": "224–237",
+          "year": "2001",
+          "citedBy": 1325,
+          "url": "https://doi.org/10.1037/0096-3445.130.2.224"
+        },
+        "reason": "本研究が直接依拠している、数学不安が作動記憶の資源を奪うメカニズムを実証的に示した代表的な研究であり、認知的負荷の観点を深めるのに適しています。"
+      },
+      {
+        "paper": {
+          "id": "W2143114368",
+          "doi": "10.1037/1528-3542.7.2.336",
+          "title": "Anxiety and cognitive performance: Attentional control theory",
+          "authors": [
+            "Michael W. Eysenck",
+            "Nazanin Derakshan",
+            "Rita Santos",
+            "Manuel G. Calvo"
+          ],
+          "authorCount": 4,
+          "venue": "Emotion",
+          "volume": "7",
+          "issue": "2",
+          "pages": "336–353",
+          "year": "2007",
+          "citedBy": 5276,
+          "url": "https://doi.org/10.1037/1528-3542.7.2.336"
+        },
+        "reason": "本研究の解釈で用いられている注意制御理論の原典であり、不安がいかにして抑制や転換といった実行機能の効率を阻害するかを理論的に理解する上で必読の文献です。"
+      },
+      {
+        "paper": {
+          "id": "W2964758047",
+          "doi": "10.3389/fpsyg.2019.01613",
+          "title": "The Relationship Between Math Anxiety and Math Performance: A Meta-Analytic Investigation",
+          "authors": [
+            "Jing Zhang",
+            "Nan Zhao",
+            "Qiping Kong"
+          ],
+          "authorCount": 3,
+          "venue": "Frontiers in Psychology",
+          "volume": "10",
+          "issue": "",
+          "pages": "1613",
+          "year": "2019",
+          "citedBy": 346,
+          "url": "https://doi.org/10.3389/fpsyg.2019.01613"
+        },
+        "reason": "数学不安と数学成績の負の関連について、幅広い年代や条件下での統合的な傾向を統計的に把握するために、大規模なメタ分析を参照することが有効です。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "数学不安",
+        "wikiTitle": "数学不安"
+      },
+      {
+        "term": "作動記憶",
+        "wikiTitle": "ワーキングメモリ"
+      },
+      {
+        "term": "短期記憶",
+        "wikiTitle": "短期記憶"
+      },
+      {
+        "term": "ロジスティック回帰分析",
+        "wikiTitle": "ロジスティック回帰"
+      },
+      {
+        "term": "分散分析",
+        "wikiTitle": "分散分析"
+      }
+    ],
+    "links": [
+      {
+        "term": "作動記憶",
+        "title": "ワーキングメモリ",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%A1%E3%83%A2%E3%83%AA"
+      },
+      {
+        "term": "ロジスティック回帰分析",
+        "title": "ロジスティック回帰",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0"
+      },
+      {
+        "term": "分散分析",
+        "title": "分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      }
+    ],
+    "intro": "数学が苦手な原因は不安のせい？中学生を対象にした調査から、数学不安が読解力には影響せず計算力や作動記憶の抑制機能と特異的に関連する実態が明らかになりました。",
+    "imageQuery": "students solving math test",
+    "warnings": [
+      "意味が合わないリンクを外した: 短期記憶→記憶"
+    ],
+    "model": "gemini-3.8-flash"
+  },
+  "asOf": "2026-10-11",
+  "createdAt": "2026-10-11 00:03"
+}
