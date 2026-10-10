@@ -107,6 +107,10 @@ module.exports = {
   articleLead: '算数・数学教育を統計的に分析した、海外で多く引用されている論文を6つの観点から紹介します。',
   snsHashtags: ['#数学教育', '#教育統計'],
   photoFallbackQuery: 'mathematics classroom',
+  // 写真のタグにこのどれかがあるものだけを使う（math で始まる語も可）。外れた写真（カップルなど）を避けるため
+  photoTopicWords: ['number', 'numbers', 'calculator', 'arithmetic', 'geometry', 'algebra', 'counting', 'abacus',
+    'school', 'classroom', 'student', 'students', 'pupil', 'teacher', 'teaching', 'education', 'learning', 'study', 'studying',
+    'blackboard', 'chalkboard', 'whiteboard', 'homework', 'exam', 'test', 'kindergarten', 'preschool', 'pencil', 'notebook'],
   imageMaxBytes: 2500000,
 
   // --- 作る量（generate.js）---

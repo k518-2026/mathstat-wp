@@ -357,6 +357,31 @@ async function run() {
   check('RSS: WordPress がタイトルに挟んだ空白を無視して見つけ、短い URL（?p=）を使う',
         render.findInFeed(feed, '【論文紹介】教師の専門性：教育実習生、現職教員の検討') === 'https://seda2026.wordpress.com/?p=123');
 
+  // ---------- 写真（Pixabay） ----------
+  const pixabay = require('./lib/pixabay');
+  const hitOf = (tags, user) => ({ tags, user, largeImageURL: 'https://cdn.example/' + user + '.jpg', webformatURL: 'https://cdn.example/s-' + user + '.jpg', pageURL: 'https://pixabay.com/photos/' + user + '/' });
+  process.env.PIXABAY_API_KEY = 'PK';
+  const asked = [];
+  fakeFetch((url) => {
+    const q = new URL(url).searchParams.get('q');
+    asked.push(q);
+    if (q === 'child math number line') return { body: { hits: [hitOf('heart, couple, together, love', 'couple'), hitOf('child, boy, summer', 'boy')] } };
+    if (q === 'mathematics classroom') return { body: { hits: [hitOf('mathematics, school, blackboard', 'board')] } };
+    if (q === 'students in class') return { body: { hits: [hitOf('heart, couple', 'couple'), hitOf('students, classroom, learning', 'class')] } };
+    return { body: { hits: [] } };
+  });
+  const ph1 = await pixabay.findPhoto('students in class');
+  check('写真: タグが話題に合うものだけから選ぶ（カップルは選ばない）', ph1 && ph1.user === 'class', JSON.stringify(ph1));
+  asked.length = 0;
+  const ph2 = await pixabay.findPhoto('child math number line');
+  check('写真: 検索語の写真が話題に合わなければ、次の検索語（mathematics classroom）で探す',
+        ph2 && ph2.user === 'board' && asked.join() === 'child math number line,mathematics classroom', JSON.stringify([ph2, asked]));
+  fakeFetch(() => ({ body: { hits: [hitOf('heart, couple', 'couple')] } }));
+  check('写真: どれも話題に合わなければ、写真なしにする（合わない写真を付けない）', (await pixabay.findPhoto('x')) === null);
+  fakeFetch(() => ({ body: { hits: [{ largeImageURL: 'https://cdn.example/n.jpg', user: 'n' }] } }));
+  check('写真: tags の項目が無い応答は、写真を付ける（仕様変更で写真が出なくなるのを避ける）', (await pixabay.findPhoto('x')).user === 'n');
+  delete process.env.PIXABAY_API_KEY;
+
   // ---------- 台帳 ----------
   const ledger = { papers: {
     W1: { status: 'ready', createdAt: '2026-10-04 05:00', doi: '10.1/A' },
