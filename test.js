@@ -96,6 +96,9 @@ async function run() {
   // 偽のサーバーを、起動している／していないで切り替えながら確かめる
   const OLLAMA = new URL(config.ollama.host).host;
   const LMSTUDIO = new URL(config.lmstudio.host).host;
+  // 本物の設定はモデル名を明示してある（実測で選んだ）。テストでは、偽サーバーのモデル名で「空の設定（自動）」の動きを確かめる
+  const realLmModels = config.lmstudio.models;
+  config.lmstudio.models = [];
   const OLLAMA_MODELS = { body: { models: [{ name: 'gemma4:12b' }, { name: 'qwen3.5:9b' }, { name: 'shosetsu:latest' }] } };
   const LM_MODELS = { body: { data: [{ id: 'lm-model-a' }, { id: 'text-embedding-x' }, { id: 'lm-model-b' }, { id: 'lm-model-c' }] } };
   // 空の文字列は、本物のサーバーが「空の応答」を返したときと同じように、そのまま空で返す
@@ -104,8 +107,11 @@ async function run() {
    * 3種類のサーバーを偽物にする。up は起動しているもの。reply は各サーバーが返す JSON。
    * 起動していなければ、本物と同じように接続できない（ECONNREFUSED）
    */
-  function servers({ up = ['ollama', 'lmstudio', 'gemini'], ollama = { ok: 1 }, lmstudio = { ok: 2 }, gemini = null } = {}) {
-    const seen = { ollama: [], lmstudio: [], gemini: [] };
+  function servers({ up = ['ollama', 'lmstudio', 'gemini'], ollama = { ok: 1 }, lmstudio = { ok: 2 }, gemini = null, loaded = {}, unloadOnce = false } = {}) {
+    // LM Studio の読み込み状態。loaded は {モデル: 文脈の長さ}（無ければ未読み込み）。
+    // unloadOnce が true なら、最初の会話の要求は「途中でほかの用途にアンロードされた」ことにする
+    const lmState = { loaded: { ...loaded }, loads: [], unloads: [], dropped: false };
+    const seen = { ollama: [], lmstudio: [], gemini: [], lm: lmState };
     const calls = fakeFetch((url, opts) => {
       const u = new URL(url);
       if (u.host === OLLAMA) {
@@ -118,7 +124,33 @@ async function run() {
       if (u.host === LMSTUDIO) {
         if (!up.includes('lmstudio')) throw new Error('connect ECONNREFUSED');
         if (u.pathname === '/v1/models') return LM_MODELS;
+        if (u.pathname === '/api/v1/models') {
+          return { body: { models: LM_MODELS.body.data.map((m) => ({ key: m.id, type: /embed/.test(m.id) ? 'embedding' : 'llm',
+            loaded_instances: lmState.loaded[m.id] ? [{ id: m.id, config: { context_length: lmState.loaded[m.id] } }] : [] })) } };
+        }
+        if (u.pathname === '/api/v1/models/unload') {
+          const b = JSON.parse(opts.body);
+          lmState.unloads.push(b.instance_id);
+          delete lmState.loaded[b.instance_id];
+          return { body: { instance_id: b.instance_id } };
+        }
+        if (u.pathname === '/api/v1/models/load') {
+          const b = JSON.parse(opts.body);
+          lmState.loads.push(b);
+          lmState.loaded[b.model] = b.context_length;
+          return { body: { type: 'llm', instance_id: b.model, status: 'loaded' } };
+        }
         const b = JSON.parse(opts.body);
+        if (unloadOnce && !lmState.dropped) {
+          lmState.dropped = true;
+          delete lmState.loaded[b.model];
+          return { status: 400, body: { error: 'Model unloaded by user or API request.' } };
+        }
+        // 読み込み済みの文脈より長い入力は、本物と同じ 400 にする（約 4 文字 = 1 トークンとして数える）
+        const tokens = JSON.stringify(b.messages).length / 4;
+        if (lmState.loaded[b.model] && tokens > lmState.loaded[b.model]) {
+          return { status: 400, body: { error: 'request (' + Math.round(tokens) + ' tokens) exceeds the available context size (' + lmState.loaded[b.model] + ' tokens)' } };
+        }
         seen.lmstudio.push(b);
         return { body: { choices: [{ message: { content: asJson(typeof lmstudio === 'function' ? lmstudio(b) : lmstudio) }, finish_reason: 'stop' }], usage: {} } };
       }
@@ -134,6 +166,11 @@ async function run() {
   const SCHEMA_OK = { type: 'OBJECT', properties: { ok: { type: 'INTEGER' } } };
   const claudeSeen = [];
   fakeClaude({ ok: 4 }, claudeSeen);
+
+  check('設定: LM Studio のモデルは、実測で選んだものを明示している（未測定のモデルを自動で使わない）',
+        realLmModels.join() === 'google/gemma-4-12b-qat,google/gemma-4-26b-a4b-qat' && !/embed/.test(realLmModels.join()), realLmModels.join());
+  check('設定: 文脈の長さは論文の全文（約1.5万トークン）が入る大きさ以上で、考える機能は切る',
+        config.lmstudio.contextLength >= 30000 && config.lmstudio.reasoningEffort === 'none');
 
   // 全部起動していれば、1番目の Ollama（先頭のモデル）が答える。ほかは呼ばない
   llm.reset();
@@ -158,6 +195,53 @@ async function run() {
         s1.seen.lmstudio[0].messages[0].role === 'user');
   check('LM Studio のモデルは、設定が空なら返された順に（埋め込み用は除き）最大 autoMax 個だけ',
         (await llm.candidates()).filter((c) => /^LM Studio/.test(c.label)).map((c) => c.label).join() === 'LM Studio lm-model-a,LM Studio lm-model-b');
+
+  // LM Studio は共用サーバー。要求時に自動で読み込まれるモデルの文脈は 8,192 で、論文の全文が入らない（2026-10-11 の実機）
+  const bigPrompt = [{ text: 'x'.repeat(4 * (config.lmstudio.contextLength - 2000)) }];   // 約 38,000 トークン
+  llm.reset();
+  s1 = servers({ up: ['lmstudio'], ollama: null });
+  out = await llm.generateJson(bigPrompt, SCHEMA_OK);
+  check('LM Studio: 未読み込みのモデルは、文脈の長さ（40960）を指定して読み込んでから使う。アンロードは呼ばない',
+        out.ok === 2 && s1.seen.lm.loads.length === 1 && s1.seen.lm.loads[0].model === 'lm-model-a' &&
+        s1.seen.lm.loads[0].context_length === config.lmstudio.contextLength && s1.seen.lm.unloads.length === 0, JSON.stringify([out, s1.seen.lm.loads]));
+  check('LM Studio: 考える機能を切る（reasoning_effort: none。付けないと本文が空になる）',
+        s1.seen.lmstudio[0].reasoning_effort === 'none');
+
+  llm.reset();
+  s1 = servers({ up: ['lmstudio'], loaded: { 'lm-model-a': 65536 } });
+  out = await llm.generateJson(bigPrompt, SCHEMA_OK);
+  check('LM Studio: 読み込み済みで文脈が足りるモデルは、読み込み直さずにそのまま使う',
+        out.ok === 2 && s1.seen.lm.loads.length === 0 && s1.seen.lmstudio.length === 1);
+
+  // 読み込み済みで文脈が足りないモデルは、ほかの用途で使っているかもしれないので入れ替えず、次の候補へ回る
+  llm.reset();
+  s1 = servers({ up: ['lmstudio', 'gemini'], loaded: { 'lm-model-a': 8192, 'lm-model-b': 8192 } });
+  out = await llm.generateJson(bigPrompt, SCHEMA_OK);
+  check('LM Studio: 読み込み済みで文脈が足りないモデル（8192）は、入れ替えず（load もしない）飛ばし、次の候補（Gemini）へ回る',
+        out.ok === 3 && s1.seen.lm.loads.length === 0 && s1.seen.lmstudio.length === 0 && s1.seen.gemini.length === 1 && s1.seen.lm.loaded['lm-model-a'] === 8192,
+        JSON.stringify([out, s1.seen.lm.loads, s1.seen.lm.loaded]));
+
+  // 要求の途中で、ほかの用途にアンロードされたら、1回だけ読み込み直して再試行する
+  llm.reset();
+  s1 = servers({ up: ['lmstudio'], loaded: { 'lm-model-a': 65536 }, unloadOnce: true });
+  out = await llm.generateJson(bigPrompt, SCHEMA_OK);
+  check('LM Studio: 要求の途中で「Model unloaded」になったら、1回だけ読み込み直して再試行する',
+        out.ok === 2 && s1.seen.lm.dropped === true && s1.seen.lm.loads.length === 1 && s1.seen.lmstudio.length === 1, JSON.stringify([out, s1.seen.lm.loads]));
+
+  // 後片づけ: この実行で自分が読み込んだモデルだけを外す。もともと読み込まれていたもの（ほかの用途）は触らない
+  llm.reset();
+  s1 = servers({ up: ['lmstudio'], loaded: { 'lm-model-b': 65536 }, unloads: true });
+  out = await llm.generateJson(bigPrompt, SCHEMA_OK);                    // lm-model-a を自分で読み込む
+  check('LM Studio: 自分で読み込んだモデルを記録する', llm.state.lmstudioLoaded.join() === 'lm-model-a', llm.state.lmstudioLoaded.join());
+  await llm.lmstudioRelease();
+  check('LM Studio: 実行の最後に、自分で読み込んだモデルだけをアンロードし、もともと読み込まれていたモデル（lm-model-b）は触らない',
+        s1.seen.lm.unloads.join() === 'lm-model-a' && s1.seen.lm.loaded['lm-model-b'] === 65536 && llm.state.lmstudioLoaded.length === 0,
+        JSON.stringify([s1.seen.lm.unloads, s1.seen.lm.loaded]));
+  llm.reset();
+  s1 = servers({ up: ['lmstudio'], loaded: { 'lm-model-a': 65536 }, unloads: true });
+  await llm.generateJson(bigPrompt, SCHEMA_OK);                          // もともと読み込まれていたモデルを使うだけ
+  await llm.lmstudioRelease();
+  check('LM Studio: もともと読み込まれていたモデルを使っただけなら、何もアンロードしない', s1.seen.lm.unloads.length === 0 && s1.seen.lm.loaded['lm-model-a'] === 65536);
 
   // 手元の2台とも起動していなければ、3番目の外部 API（Gemini）
   llm.reset();

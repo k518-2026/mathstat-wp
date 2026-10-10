@@ -65,4 +65,5 @@ async function main() {
   if (count.failed) process.exitCode = 1;
 }
 
-main().catch((e) => { console.error('失敗: ' + (e.stack || e.message)); process.exitCode = 1; });
+main().catch((e) => { console.error('失敗: ' + (e.stack || e.message)); process.exitCode = 1; })
+  .finally(() => require('./lib/llm').lmstudioRelease());   // この実行で読み込んだ LM Studio のモデルを外す（共用サーバーのメモリを空ける）

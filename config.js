@@ -86,9 +86,22 @@ module.exports = {
   // 論文の全文が入りきらなければ 400 になって次の候補へ回る
   lmstudio: {
     host: process.env.LMSTUDIO_HOST || 'http://192.168.128.16:1234',
-    models: process.env.LMSTUDIO_MODELS ? process.env.LMSTUDIO_MODELS.split(',') : [],
+    // 2026-10-11 の実機での測定（論文の全文を渡し、図の項目を作らせた）:
+    //   google/gemma-4-12b-qat       3回中2回で図の項目が作れた。1本 約3〜4分。7.2GB
+    //   google/gemma-4-26b-a4b-qat   1回で作れなかった（根拠の文を本文のとおりに写せない項目が多かった）。15.6GB
+    //   qwen/qwen3.8-27b             メモリ不足（約22.9GB 必要）で読み込めない
+    // 照合に通らないものは使わないので、成功率が低くても誤った図は出ない（次の候補へ回る）。軽くて実績のある 12b を先にする。
+    // 空にすると、サーバーが返すモデルを順に最大 autoMax 個使うが、未測定のモデルが入るので、明示しておく
+    models: process.env.LMSTUDIO_MODELS ? process.env.LMSTUDIO_MODELS.split(',') : ['google/gemma-4-12b-qat', 'google/gemma-4-26b-a4b-qat'],
     autoMax: 2,
-    timeoutMs: 15 * 60 * 1000
+    timeoutMs: 15 * 60 * 1000,
+    // 2026-10-11 の実機: 要求時に読み込まれるモデルの文脈は 8,192 で、論文の全文（約1.5万トークン）が入らない
+    // （exceed_context_size_error）。そこで、未読み込みのモデルは POST /api/v1/models/load で context_length を指定して読み込む。
+    // 読み込み済みで文脈が足りないモデルは、ほかの用途で使われているかもしれないので、アンロードせず、その候補は飛ばす。
+    // 要求の途中で「Model unloaded」になったら（ほかの用途が入れ替えた）、1回だけ読み込み直す
+    contextLength: 40960,
+    // 考える機能を切る。付けないと、短い質問で出力の枠を思考で使い切り、本文が空になる（実測: 52秒・本文0字。付けると 4.8秒）
+    reasoningEffort: 'none'
   },
 
   // 3番目: 外部 API。Gemini（無料。混雑・上限なら次のモデルへ）→ Claude（従量課金・1記事 10 円前後）
