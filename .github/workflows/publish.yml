@@ -3,8 +3,9 @@ name: WordPress に投稿
 # 貯めた記事（articles/*.json）を1本、WordPress へメールで投稿し、続けて Bluesky の告知を確かめる。
 # 記事を作るのは手元の PC（generate.js）。ここでは言語モデルを使わない。
 #
-# 必要な Secrets: WP_POST_EMAIL, SMTP_USER, SMTP_PASSWORD, PIXABAY_API_KEY,
+# 必要な Secrets: WP_POST_EMAIL, SMTP_USER, SMTP_PASSWORD,
 #                 BLUESKY_HANDLE, BLUESKY_PASSWORD, WP_SITE_URL
+# 画像は、この PC で作って images/ に置いた「研究の流れ図」だけ（Pixabay の写真は使わない）
 # GitHub の cron は混んでいると数十分遅れることがある
 
 on:
@@ -46,7 +47,6 @@ jobs:
           WP_POST_EMAIL: ${{ secrets.WP_POST_EMAIL }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: node publish.js ${{ inputs.dry_run && '--dry' || '' }}
 
       # 送ったあとに記録を push できないと、次の回で同じ記事を二重に送る。ここは失敗させて気づけるようにする

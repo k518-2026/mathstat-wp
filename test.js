@@ -85,7 +85,7 @@ function rawArticle(numbers) {
                 nextLead: '次は不安の研究へ進むとよいです。' },
     nextReads: [{ number: 1, reason: '関係の説明です。'.repeat(8) }, { number: 9, reason: '範囲外' }],
     terms: [{ term: 'ワーキングメモリ', wikiTitle: 'ワーキングメモリ' }, { term: '本文に無い語', wikiTitle: 'x' }],
-    intro: '数学不安は文章題に関わるのでしょうか。', imageQuery: 'math anxiety 数学'
+    intro: '数学不安は文章題に関わるのでしょうか。'
   };
 }
 const READINGS = [{ id: 'W2', title: 'Next paper', venue: 'J', year: '2020', citedBy: 10, relation: 'x', authors: ['C'], url: 'https://doi.org/2' }];
@@ -170,9 +170,9 @@ async function run() {
         writer.checkNumbers({ sections: { ...art.sections, what: '115万9295件、3万人、1億2000万円' }, nextReads: [] },
           'sum 1,159,295 sets, 30,000 students and 120,000,000 yen').length === 0 &&
         writer.checkNumbers({ sections: { ...art.sections, what: '115万9295件' }, nextReads: [] }, 'sum 1,159,296').join() === '1159295');
-  check('整える: 鉤括弧を外す・範囲外の番号と本文に無い用語を落とす・写真の検索語は英字だけ',
+  check('整える: 鉤括弧を外す・範囲外の番号と本文に無い用語を落とす・写真の検索語は持たない',
         art.titleJa === '数学不安と文章題' && art.nextReads.length === 1 && art.terms.length === 1 &&
-        art.imageQuery === 'math anxiety', JSON.stringify([art.titleJa, art.nextReads.length, art.terms, art.imageQuery]));
+        !('imageQuery' in art), JSON.stringify([art.titleJa, art.nextReads.length, art.terms, art.imageQuery]));
 
   // Ollama が書いた記事の数値が本文に無い → Claude で書き直す
   llm.reset();
@@ -357,30 +357,16 @@ async function run() {
   check('RSS: WordPress がタイトルに挟んだ空白を無視して見つけ、短い URL（?p=）を使う',
         render.findInFeed(feed, '【論文紹介】教師の専門性：教育実習生、現職教員の検討') === 'https://seda2026.wordpress.com/?p=123');
 
-  // ---------- 写真（Pixabay） ----------
-  const pixabay = require('./lib/pixabay');
-  const hitOf = (tags, user) => ({ tags, user, largeImageURL: 'https://cdn.example/' + user + '.jpg', webformatURL: 'https://cdn.example/s-' + user + '.jpg', pageURL: 'https://pixabay.com/photos/' + user + '/' });
-  process.env.PIXABAY_API_KEY = 'PK';
-  const asked = [];
-  fakeFetch((url) => {
-    const q = new URL(url).searchParams.get('q');
-    asked.push(q);
-    if (q === 'child math number line') return { body: { hits: [hitOf('heart, couple, together, love', 'couple'), hitOf('child, boy, summer', 'boy')] } };
-    if (q === 'mathematics classroom') return { body: { hits: [hitOf('mathematics, school, blackboard', 'board')] } };
-    if (q === 'students in class') return { body: { hits: [hitOf('heart, couple', 'couple'), hitOf('students, classroom, learning', 'class')] } };
-    return { body: { hits: [] } };
-  });
-  const ph1 = await pixabay.findPhoto('students in class');
-  check('写真: タグが話題に合うものだけから選ぶ（カップルは選ばない）', ph1 && ph1.user === 'class', JSON.stringify(ph1));
-  asked.length = 0;
-  const ph2 = await pixabay.findPhoto('child math number line');
-  check('写真: 検索語の写真が話題に合わなければ、次の検索語（mathematics classroom）で探す',
-        ph2 && ph2.user === 'board' && asked.join() === 'child math number line,mathematics classroom', JSON.stringify([ph2, asked]));
-  fakeFetch(() => ({ body: { hits: [hitOf('heart, couple', 'couple')] } }));
-  check('写真: どれも話題に合わなければ、写真なしにする（合わない写真を付けない）', (await pixabay.findPhoto('x')) === null);
-  fakeFetch(() => ({ body: { hits: [{ largeImageURL: 'https://cdn.example/n.jpg', user: 'n' }] } }));
-  check('写真: tags の項目が無い応答は、写真を付ける（仕様変更で写真が出なくなるのを避ける）', (await pixabay.findPhoto('x')).user === 'n');
-  delete process.env.PIXABAY_API_KEY;
+  // ---------- 図の無い記事は投稿しない（写真は使わない） ----------
+  const hasFig = (id) => id !== 'W-nofig-1' && id !== 'W-nofig-2';
+  const pick1 = store.nextToPost(['W-nofig-1', 'W-with-1', 'W-with-2'], hasFig);
+  check('投稿の選び方: 図のある、いちばん古い記事を選び、図の無い記事は飛ばす',
+        pick1.id === 'W-with-1' && pick1.skipped.join() === 'W-nofig-1', JSON.stringify(pick1));
+  const pick2 = store.nextToPost(['W-nofig-1', 'W-nofig-2'], hasFig);
+  check('投稿の選び方: どれも図が無ければ null（投稿は失敗にして知らせる）', pick2.id === null && pick2.skipped.length === 2, JSON.stringify(pick2));
+  check('投稿の選び方: 先頭に図があれば、飛ばさない', store.nextToPost(['W-with-1'], hasFig).skipped.length === 0);
+  check('画像: Pixabay の部品は使わない（lib/pixabay.js が無い）', !fs.existsSync(path.join(__dirname, 'lib', 'pixabay.js')));
+
 
   // ---------- 研究の流れ図 ----------
   const fig = require('./lib/figure');

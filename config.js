@@ -106,9 +106,9 @@ module.exports = {
   // --- 記事 ---
   articleLead: '算数・数学教育を統計的に分析した、海外で多く引用されている論文を6つの観点から紹介します。',
   snsHashtags: ['#数学教育', '#教育統計'],
-  photoFallbackQuery: 'mathematics classroom',
-  // 記事の先頭に付ける「研究の流れ図」（この PC で LuaLaTeX で作り、images/<論文ID>.png として GitHub に置く）。
-  // 作れなかった記事は、これまでどおり Pixabay の写真にする
+  // 記事に付ける画像は、この PC で LuaLaTeX で作る「研究の流れ図」だけ（images/<論文ID>.png として GitHub に置く）。
+  // Pixabay の写真は 2026-10-11 のユーザー判断でやめた（イメージより、具体的な研究手法の図のほうが価値がある）。
+  // 図の無い記事は、図ができるまで投稿しない
   figure: {
     columns: [
       { key: 'target', title: '対象' },
@@ -125,12 +125,6 @@ module.exports = {
     lualatex: process.env.LUALATEX || (process.platform === 'win32' ? 'C:\\texlive\\2026\\bin\\windows\\lualatex.exe' : 'lualatex'),
     pdftoppm: process.env.PDFTOPPM || (process.platform === 'win32' ? 'C:\\texlive\\2026\\bin\\windows\\pdftoppm.exe' : 'pdftoppm')
   },
-
-  // 写真のタグにこのどれかがあるものだけを使う（math で始まる語も可）。外れた写真（カップルなど）を避けるため
-  photoTopicWords: ['number', 'numbers', 'calculator', 'arithmetic', 'geometry', 'algebra', 'counting', 'abacus',
-    'school', 'classroom', 'student', 'students', 'pupil', 'teacher', 'teaching', 'education', 'learning', 'study', 'studying',
-    'blackboard', 'chalkboard', 'whiteboard', 'homework', 'exam', 'test', 'kindergarten', 'preschool', 'pencil', 'notebook'],
-  imageMaxBytes: 2500000,
 
   // --- 作る量（generate.js）---
   backlogTarget: 10,       // 投稿待ちがこれだけあれば作らない（1日1本投稿なので10日分）

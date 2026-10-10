@@ -84,10 +84,10 @@ async function processPaper(ledger, paper) {
               '、用語リンク ' + article.links.length + '、次に読む論文 ' + article.nextReads.length + '）' +
               (article.warnings.length ? '\n  注意: ' + article.warnings.join(' / ') : ''));
 
-  // 研究の流れ図（images/<論文ID>.png）。作れなくても記事は捨てない（投稿のときは Pixabay の写真になる）
+  // 研究の流れ図（images/<論文ID>.png）。作れなくても記事は捨てない（図ができるまで投稿されず、次の実行で作り直す）
   const figureSpec = await figure.makeFigure(paper.id, article, { write: !DRY });
   if (figureSpec) entry.figure = figureSpec;
-  console.log('  研究の流れ図: ' + (figureSpec ? '作りました' : '作れませんでした（写真にします）'));
+  console.log('  研究の流れ図: ' + (figureSpec ? '作りました' : '作れませんでした（次の実行で作り直します。図ができるまで投稿されません）'));
 
   if (DRY) {
     console.log(JSON.stringify(entry, null, 2));
@@ -113,6 +113,22 @@ function recordFailure(ledger, paper, e) {
   console.warn('  失敗（' + fails + '回目）: ' + e.message);
 }
 
+/**
+ * 変わったものがあれば GitHub に送る。articles・台帳・images（研究の流れ図。投稿のときに添付する）が対象。
+ * touched は今回見た候補と作った記事の数、figures は今回補った図の数（どちらも 0 なら何もしない）
+ */
+function pushToGitHub(touched, figures) {
+  if (NO_GIT || touched + figures === 0) return;
+  git('add', config.paths.ledger, config.paths.articles, 'images');
+  const changed = git('diff', '--cached', '--name-only');
+  if (!changed) return;
+  git('commit', '-m', 'Add articles and figures ' + nowStamp());
+  // Actions が posted.json を push していることがあるので、取り込んでから送る
+  git('pull', '--rebase');
+  git('push');
+  console.log('GitHub に送りました: ' + git('log', '-1', '--format=%h %s'));
+}
+
 async function main() {
   console.log('=== ' + config.name + ' 記事作成 ' + nowStamp() + ' ===');
   if (!NO_GIT) console.log(git('pull', '--rebase', '--autostash'));
@@ -132,8 +148,22 @@ async function main() {
   const backlog = store.queue(ledger, posted).length;
   console.log('投稿待ち ' + backlog + ' 本（目標 ' + config.backlogTarget + ' 本）');
 
+  // 図の無い投稿待ちの記事に、研究の流れ図を作る。図の無い記事は投稿されないので、貯まっていても毎回確かめる
+  // （写真は使わない。2026-10-11 のユーザー判断）
+  const figuresMade = { made: 0, failed: 0 };
+  for (const id of store.queue(ledger, posted)) {
+    const r = await figure.ensureFigure(id, { write: !DRY });
+    if (r === 'made') figuresMade.made++;
+    if (r === 'failed') figuresMade.failed++;
+  }
+  if (figuresMade.made || figuresMade.failed) console.log('図を補いました: 作った ' + figuresMade.made + ' 枚 / 作れなかった ' + figuresMade.failed + ' 枚');
+
   const quota = FORCE ? 1 : Math.min(config.maxPerRun, config.backlogTarget - backlog);
-  if (quota <= 0) { console.log('十分に貯まっているので、今回は作りません。'); return; }
+  if (quota <= 0) {
+    console.log('十分に貯まっているので、今回は作りません。');
+    pushToGitHub(0, figuresMade.made);
+    return;
+  }
 
   let made = 0;
   let tried = 0;
@@ -171,17 +201,7 @@ async function main() {
 
   console.log('\n記事を ' + made + ' 本作りました（候補 ' + tried + ' 本を確認）。');
 
-  if (!NO_GIT && made + tried > 0) {
-    git('add', config.paths.ledger, config.paths.articles, 'images');   // images は研究の流れ図（投稿のときに添付する）
-    const changed = git('diff', '--cached', '--name-only');
-    if (changed) {
-      git('commit', '-m', 'Add ' + made + ' article(s) ' + nowStamp());
-      // Actions が posted.json を push していることがあるので、取り込んでから送る
-      git('pull', '--rebase');
-      git('push');
-      console.log('GitHub に送りました: ' + git('log', '-1', '--format=%h %s'));
-    }
-  }
+  pushToGitHub(made + tried, figuresMade.made);
 
   if (stopped) {
     console.error('\n途中で止めました: ' + stopped.message);
