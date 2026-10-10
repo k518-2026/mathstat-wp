@@ -11,7 +11,7 @@ name: WordPress に投稿
 on:
   # 2026-10-05 に WordPress の封鎖で停止（10/6 に解除）。2026-10-10 にユーザー判断で再開
   schedule:
-    - cron: '0 20 * * *'   # 毎日 05:00 (Asia/Tokyo) = 20:00 UTC 前日
+    - cron: '47 20 * * *'   # 毎日 05:47 (Asia/Tokyo) = 20:47 UTC 前日。毎時0分は混んで遅れる・飛ぶため、ずらした（2026-10-11）
   workflow_dispatch:
     inputs:
       dry_run:
