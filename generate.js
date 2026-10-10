@@ -6,9 +6,9 @@
  *   node generate.js --no-git   git pull / push をしない（試すとき）
  *   node generate.js --dry      記事を作ってログに出すだけ。台帳にも書かない
  *   node generate.js --id=W123  その論文だけを記事にする（--dry と組み合わせて試せる）
- *   node generate.js --only-ollama  Gemini と Claude を使わず、Mac mini の Ollama だけで書く（確かめるとき）
+ *   node generate.js --only-local  外部 API（Gemini・Claude）を使わず、手元の Ollama と LM Studio だけで書く（確かめるとき）
  *
- * 流れ: git pull → OpenAlex で候補 → PDF → pdftotext → 記事（Gemini → Ollama → Claude）→
+ * 流れ: git pull → OpenAlex で候補 → PDF → pdftotext → 記事（手元の Ollama → LM Studio → Gemini → Claude）→
  *       Wikipedia で用語を確認 → articles/<ID>.json と data/ledger.json → git commit → push
  *
  * どのモデルも使えなかったときは、そこで止めて終了コード 1 で終わる（黙って0本で終わらない）。
@@ -30,10 +30,9 @@ const args = process.argv.slice(2);
 const FORCE = args.includes('--force');
 const NO_GIT = args.includes('--no-git') || args.includes('--dry');
 const DRY = args.includes('--dry');
-// Mac mini の Ollama だけで書かせる（Ollama の流れを確かめるとき）
-if (args.includes('--only-ollama')) {
-  require('./lib/llm').state.geminiDown = true;
-  delete process.env.ANTHROPIC_API_KEY;
+// 手元の2台（Ollama・LM Studio）だけで書かせる（外部 API を使わない。手元の流れを確かめるとき）。--only-ollama は古い名前
+if (args.includes('--only-local') || args.includes('--only-ollama')) {
+  require('./lib/llm').state.noExternal = true;
 }
 
 function git(...a) {

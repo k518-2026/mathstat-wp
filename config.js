@@ -3,8 +3,8 @@
  *
  * GAS 版（PaperIntro/MathStat）の後継。2026-10-04 に役割を2つに分けた。
  *
- *   記事を作る … この Windows PC（generate.js）。Gemini → Mac mini の Ollama → Claude の順に使う
- *   投稿と告知 … GitHub Actions（publish.js / announce.js）。毎日 8時・18時に WordPress へメール投稿し、
+ *   記事を作る … この Windows PC（generate.js）。手元の Ollama → LM Studio → 外部 API（Gemini → Claude）の順に使う
+ *   投稿と告知 … GitHub Actions（publish.js / announce.js）。毎朝5時に WordPress へメール投稿し、
  *                RSS に出たのを確かめてから Bluesky で告知する
  *
  * 作った記事は articles/<論文ID>.json に貯め、git で GitHub に送る。
@@ -59,36 +59,43 @@ module.exports = {
   pdftotext: process.env.PDFTOTEXT ||
     (process.platform === 'win32' ? 'C:\\Program Files\\Git\\mingw64\\bin\\pdftotext.exe' : 'pdftotext'),
 
-  // --- 言語モデル（Gemini → Ollama → Claude）---
+  // --- 言語モデル（2026-10-11 ユーザー指示の順番）---
+  //   1. Ollama（下の ollama）  2. LM Studio など OpenAI 互換（下の lmstudio）  3. 外部 API: Gemini → Claude
+  // 手元の2台が起動していなければ、その実行では飛ばして次へ回す。外部 API は2台が使えないときの第3候補
+  temperature: 0.4,
+  maxOutputTokens: 16384,
+
+  // 1番目: Ollama。以前の Mac mini（192.168.128.59）に代わって、2026-10-11 から 192.168.128.62
+  ollama: {
+    host: process.env.OLLAMA_HOST || 'http://192.168.128.62:11434',
+    // 入っているモデル（2026-10-11）: gemma4:12b・qwen3.5:9b・shosetsu:latest（小説用と思われるので論文には使わない）。
+    // どちらも 26万トークンまで読める。同じ論文（ドリルとエチュード）で比べた結果（2026-10-04、旧サーバー）:
+    //   qwen3.5:9b  題名を「豊かなたすき」と誤訳した回があり、ベイズ因子の数値が入らず、
+    //               研究1について論文に無い説明（生徒の理解不足）を書いた
+    //   gemma4:12b  題名は正しく、数値はすべて論文と一致、研究1の 1.03 も書いた。文章も Gemini に近い
+    // 論文紹介は正しさが大事なので、gemma4:12b を先にする。新サーバーでは全文の読み込みが 14秒（旧は 131秒）
+    models: (process.env.OLLAMA_MODELS || 'gemma4:12b,qwen3.5:9b').split(','),   // 環境変数で差し替えて比べられる
+    fullTextNumCtx: 40960,         // 全文＋指示＋出力（本文 15万字の上限でも約4万トークン）
+    composeNumCtx: 12288,          // 短い問い合わせ（用語の確認・字数の書き直し・テーマの判定）
+    timeoutMs: 15 * 60 * 1000
+  },
+
+  // 2番目: LM Studio など OpenAI 互換の API（/v1/chat/completions）。2026-10-11 に 192.168.128.16:1234 と指定された。
+  // 未確認: 指定の時点でこのサーバーは応答せず（起動していない）、入っているモデルと文脈の長さは確かめていない。
+  // models が空なら、サーバーが返すモデルを順に最大 autoMax 個使う。文脈の長さは読み込むときに決まり、
+  // 論文の全文が入りきらなければ 400 になって次の候補へ回る
+  lmstudio: {
+    host: process.env.LMSTUDIO_HOST || 'http://192.168.128.16:1234',
+    models: process.env.LMSTUDIO_MODELS ? process.env.LMSTUDIO_MODELS.split(',') : [],
+    autoMax: 2,
+    timeoutMs: 15 * 60 * 1000
+  },
+
+  // 3番目: 外部 API。Gemini（無料。混雑・上限なら次のモデルへ）→ Claude（従量課金・1記事 10 円前後）
   geminiModels: ['gemini-3.6-flash', 'gemini-3.8-flash', 'gemini-3.5-flash', 'gemini-3.7-flash'],
   // 手元で動かすので GAS の6分の制限は無い。混雑が収まるのを少し待ってから次へ回す
   geminiRounds: 2,
   geminiRoundWaitMs: 60 * 1000,
-  temperature: 0.4,
-  maxOutputTokens: 16384,
-
-  // Mac mini の Ollama。一度に読める量（num_ctx）は 8192 で安定（2026-10-04 実測）。
-  // 論文1本（約2万トークン）は入らないので、区切って読ませてメモを作り、メモから記事を書かせる
-  ollama: {
-    host: process.env.OLLAMA_HOST || 'http://192.168.128.59:11434',
-    // 2026-10-04 に qwen3.5:9b と gemma4:12b が入った（どちらも 26万トークンまで読める）。
-    // 論文の全文（約1.4万トークン）を1回で読ませて、qwen3.5:9b は全体 97秒・数値も正確、gemma4:12b は 156秒。
-    // 同じ論文（ドリルとエチュード）で比べた結果（--only-ollama、2026-10-04）:
-    //   qwen3.5:9b  約2分50秒。題名を「豊かなたすき」と誤訳した回があり、ベイズ因子の数値が入らず、
-    //               研究1について論文に無い説明（生徒の理解不足）を書いた
-    //   gemma4:12b  約4分54秒。題名は正しく、数値はすべて論文と一致、研究1の 1.03 も書いた。文章も Gemini に近い
-    // 論文紹介は正しさが大事で、手元で動かすので時間の制限も無いため、gemma4:12b を先にする
-    models: (process.env.OLLAMA_MODELS || 'gemma4:12b,qwen3.5:9b').split(','),   // 環境変数で差し替えて比べられる
-    model: 'qwen2.5:14b',          // 区切って読ませる従来の方法で使う（上の2つが使えないとき）。32K まで読める
-    fullTextNumCtx: 40960,         // 全文＋指示＋出力（本文 15万字の上限でも約4万トークン）
-    numCtx: 8192,
-    chunkChars: 12000,             // 1回に読ませる本文の量（英文で約3,000トークン）
-    maxChars: 72000,               // 区切って読ませる本文の上限（6回分）。メモがまとめの num_ctx に収まるように
-    composeNumCtx: 12288,          // メモ（約3,000トークン）＋指示＋出力を一度に扱うまとめの回だけ広げる
-    timeoutMs: 15 * 60 * 1000      // 実測で出力は毎秒約11トークン
-  },
-
-  // Gemini も Ollama も使えないときの最後の手段（従量課金・1記事 10 円前後）
   claude: {
     model: 'claude-sonnet-5',
     effort: 'medium',
@@ -129,7 +136,7 @@ module.exports = {
 
   // --- 作る量（generate.js）---
   backlogTarget: 10,       // 投稿待ちがこれだけあれば作らない（1日1本投稿なので10日分）
-  maxPerRun: 3,            // 1回の実行で作る上限（Mac mini だけで書くと1本10〜12分かかる）
+  maxPerRun: 3,            // 1回の実行で作る上限（手元のモデルで書くと、サーバーが混んでいるとき1本10〜12分かかる）
   maxTriesPerRun: 12,      // 1回の実行で見る候補の数（PDF が取れない・テーマ外を飛ばす）
 
   // --- WordPress（メール投稿）---

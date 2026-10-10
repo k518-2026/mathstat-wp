@@ -46,13 +46,6 @@ function geminiOk(obj) {
   return { body: { candidates: [{ finishReason: 'STOP', content: { parts: [{ text: JSON.stringify(obj) }] } }] } };
 }
 const BUSY = { status: 503, body: { error: { code: 503, message: 'high demand' } } };
-const CLASSIFY_YES = { body: { message: { content: JSON.stringify({ aboutMathLearning: true, quantitativeStatistics: true,
-  brainImagingIsMainTopic: false, explainsStatisticalMethodOnly: false, qualitativeOnly: false }) }, done_reason: 'stop' } };
-function isClassify(opts) {
-  const b = JSON.parse(opts.body || '{}');
-  return !!(b.format && b.format.properties && b.format.properties.aboutMathLearning);
-}
-const OLLAMA_TAGS = { body: { models: [{ name: config.ollama.model }] } };
 
 function fakeClaude(out, seen) {
   llm.createClaudeClient = () => ({
@@ -98,65 +91,159 @@ async function run() {
         js.type === 'object' && js.additionalProperties === false && js.required.join() === 'a,b' &&
         js.properties.b.items.additionalProperties === false && js.properties.b.items.properties.n.type === 'integer', JSON.stringify(js));
 
-  // ---------- 言語モデルの順番 ----------
+  // ---------- 言語モデルの順番（2026-10-11 ユーザー指示）----------
+  // 1番目: Ollama（.62）→ 2番目: LM Studio（.16:1234）→ 3番目: 外部 API（Gemini → Claude）。
+  // 偽のサーバーを、起動している／していないで切り替えながら確かめる
+  const OLLAMA = new URL(config.ollama.host).host;
+  const LMSTUDIO = new URL(config.lmstudio.host).host;
+  const OLLAMA_MODELS = { body: { models: [{ name: 'gemma4:12b' }, { name: 'qwen3.5:9b' }, { name: 'shosetsu:latest' }] } };
+  const LM_MODELS = { body: { data: [{ id: 'lm-model-a' }, { id: 'text-embedding-x' }, { id: 'lm-model-b' }, { id: 'lm-model-c' }] } };
+  // 空の文字列は、本物のサーバーが「空の応答」を返したときと同じように、そのまま空で返す
+  const asJson = (obj) => (obj === '' ? '' : JSON.stringify(obj));
+  /**
+   * 3種類のサーバーを偽物にする。up は起動しているもの。reply は各サーバーが返す JSON。
+   * 起動していなければ、本物と同じように接続できない（ECONNREFUSED）
+   */
+  function servers({ up = ['ollama', 'lmstudio', 'gemini'], ollama = { ok: 1 }, lmstudio = { ok: 2 }, gemini = null } = {}) {
+    const seen = { ollama: [], lmstudio: [], gemini: [] };
+    const calls = fakeFetch((url, opts) => {
+      const u = new URL(url);
+      if (u.host === OLLAMA) {
+        if (!up.includes('ollama')) throw new Error('connect ECONNREFUSED');
+        if (u.pathname === '/api/tags') return OLLAMA_MODELS;
+        const b = JSON.parse(opts.body);
+        seen.ollama.push(b);
+        return { body: { message: { content: asJson(typeof ollama === 'function' ? ollama(b) : ollama) }, done_reason: 'stop' } };
+      }
+      if (u.host === LMSTUDIO) {
+        if (!up.includes('lmstudio')) throw new Error('connect ECONNREFUSED');
+        if (u.pathname === '/v1/models') return LM_MODELS;
+        const b = JSON.parse(opts.body);
+        seen.lmstudio.push(b);
+        return { body: { choices: [{ message: { content: asJson(typeof lmstudio === 'function' ? lmstudio(b) : lmstudio) }, finish_reason: 'stop' }], usage: {} } };
+      }
+      if (url.includes('generativelanguage')) {
+        if (!up.includes('gemini')) return BUSY;
+        seen.gemini.push(JSON.parse(opts.body));
+        return geminiOk(typeof gemini === 'function' ? gemini() : (gemini || { ok: 3 }));
+      }
+      return { status: 404 };
+    });
+    return { calls, seen };
+  }
+  const SCHEMA_OK = { type: 'OBJECT', properties: { ok: { type: 'INTEGER' } } };
+  const claudeSeen = [];
+  fakeClaude({ ok: 4 }, claudeSeen);
+
+  // 全部起動していれば、1番目の Ollama（先頭のモデル）が答える。ほかは呼ばない
   llm.reset();
   setEnv({ GEMINI_API_KEY: 'G', ANTHROPIC_API_KEY: 'A' });
-  let calls = fakeFetch((url) => {
-    if (url.includes('generativelanguage')) return BUSY;
-    if (url.endsWith('/api/tags')) return OLLAMA_TAGS;
-    if (url.endsWith('/api/chat')) return { body: { message: { content: JSON.stringify({ ok: 1 }) }, done_reason: 'stop' } };
-    return { status: 404 };
-  });
-  const claudeSeen = [];
-  fakeClaude({ ok: 3 }, claudeSeen);
-  let out = await llm.generateJson([{ text: 'x' }], { type: 'OBJECT', properties: { ok: { type: 'INTEGER' } } });
-  const gem1 = calls.filter((c) => c.url.includes('generativelanguage')).length;
-  check('Gemini が全部混雑なら Ollama で書く（Gemini は全モデル×2回×巡回数）',
-        out.ok === 1 && llm.usedModel() === config.ollama.model &&
-        gem1 === config.geminiModels.length * 2 * config.geminiRounds && claudeSeen.length === 0, gem1);
-  const sentToOllama = JSON.parse(calls.find((c) => c.url.endsWith('/api/chat')).opts.body);
-  check('Ollama にはスキーマ（format）と num_ctx を渡す',
-        sentToOllama.format && sentToOllama.format.additionalProperties === false && sentToOllama.options.num_ctx === config.ollama.composeNumCtx);
+  let s1 = servers();
+  let out = await llm.generateJson([{ text: 'x' }], SCHEMA_OK);
+  check('順番: 全部起動していれば、1番目の Ollama の先頭のモデル（gemma4:12b）が答え、ほかは呼ばない',
+        out.ok === 1 && llm.usedModel() === 'gemma4:12b' && s1.seen.ollama.length === 1 && s1.seen.ollama[0].model === 'gemma4:12b' &&
+        s1.seen.lmstudio.length === 0 && s1.seen.gemini.length === 0 && claudeSeen.length === 0, JSON.stringify([out, llm.usedModel()]));
+  check('Ollama には think: false・スキーマ（format）・num_ctx を渡す',
+        s1.seen.ollama[0].think === false && s1.seen.ollama[0].format.additionalProperties === false && s1.seen.ollama[0].options.num_ctx === config.ollama.composeNumCtx);
+  check('Ollama の shosetsu（小説用）は、設定に無いので使わない', !s1.calls.some((c) => c.opts.body && /shosetsu/.test(c.opts.body)));
 
-  calls.length = 0;
-  out = await llm.generateJson([{ text: 'y' }], { type: 'OBJECT', properties: { ok: { type: 'INTEGER' } } });
-  check('一度 Gemini が全滅したら、その実行では Gemini を飛ばす',
-        out.ok === 1 && !calls.some((c) => c.url.includes('generativelanguage')), calls.map((c) => c.url).join(' '));
-
-  // Ollama に届かない → Claude
+  // 1番目が起動していなければ、2番目の LM Studio が答える
   llm.reset();
-  calls = fakeFetch((url) => {
-    if (url.includes('generativelanguage')) return BUSY;
-    throw new Error('connect ECONNREFUSED');
-  });
-  out = await llm.generateJson([{ text: 'x' }], { type: 'OBJECT', properties: { ok: { type: 'INTEGER' } } });
-  check('Ollama に届かなければ Claude で書く（構造化出力の指定つき）',
-        out.ok === 3 && llm.usedModel() === config.claude.model &&
-        claudeSeen[0].output_config.format.type === 'json_schema' && claudeSeen[0].model === config.claude.model);
+  s1 = servers({ up: ['lmstudio', 'gemini'] });
+  out = await llm.generateJson([{ text: 'x' }], SCHEMA_OK);
+  check('順番: 1番目（Ollama）が起動していなければ、2番目の LM Studio が答える',
+        out.ok === 2 && llm.usedModel() === 'lm-model-a' && s1.seen.lmstudio.length === 1 && s1.seen.gemini.length === 0, JSON.stringify([out, llm.usedModel()]));
+  check('LM Studio には OpenAI 互換の形（messages・response_format の json_schema）で頼み、鍵は付けない',
+        s1.seen.lmstudio[0].response_format.type === 'json_schema' && s1.seen.lmstudio[0].response_format.json_schema.schema.additionalProperties === false &&
+        s1.seen.lmstudio[0].messages[0].role === 'user');
+  check('LM Studio のモデルは、設定が空なら返された順に（埋め込み用は除き）最大 autoMax 個だけ',
+        (await llm.candidates()).filter((c) => /^LM Studio/.test(c.label)).map((c) => c.label).join() === 'LM Studio lm-model-a,LM Studio lm-model-b');
 
-  // どれも使えない → transient
+  // 手元の2台とも起動していなければ、3番目の外部 API（Gemini）
+  llm.reset();
+  s1 = servers({ up: ['gemini'] });
+  out = await llm.generateJson([{ text: 'x' }], SCHEMA_OK);
+  check('順番: 手元の2台が起動していなければ、3番目の外部 API（Gemini）が答える',
+        out.ok === 3 && s1.seen.gemini.length === 1 && s1.seen.ollama.length === 0 && s1.seen.lmstudio.length === 0 && claudeSeen.length === 0);
+
+  // Gemini も使えなければ Claude（最後）
+  llm.reset();
+  s1 = servers({ up: [] });
+  out = await llm.generateJson([{ text: 'x' }], SCHEMA_OK);
+  check('順番: Gemini も使えなければ、最後に Claude（構造化出力の指定つき）',
+        out.ok === 4 && llm.usedModel() === config.claude.model && claudeSeen[0].output_config.format.type === 'json_schema');
+
+  // 候補の並び（Ollama のモデル2つ → LM Studio のモデル → Gemini → Claude）
+  llm.reset();
+  servers();
+  check('候補の並び: Ollama（gemma4・qwen3.5）→ LM Studio（2つ）→ Gemini → Claude',
+        (await llm.candidates()).map((c) => c.label).join(' | ') ===
+        'Ollama gemma4:12b | Ollama qwen3.5:9b | LM Studio lm-model-a | LM Studio lm-model-b | Gemini | Claude');
+
+  // 先頭のモデルが空の応答 → 同じ Ollama の次のモデル（qwen3.5:9b）→ それも駄目なら次の提供元
+  llm.reset();
+  setEnv({ GEMINI_API_KEY: 'G', ANTHROPIC_API_KEY: 'A' });
+  s1 = servers({ ollama: (b) => (b.model === 'gemma4:12b' ? '' : { ok: 11 }) });
+  out = await llm.generateJson([{ text: 'x' }], SCHEMA_OK);
+  check('先頭のモデル（gemma4:12b）が空の応答なら、同じ Ollama の次のモデル（qwen3.5:9b）で答える',
+        out.ok === 11 && llm.usedModel() === 'qwen3.5:9b' && s1.seen.ollama.map((b) => b.model).join() === 'gemma4:12b,qwen3.5:9b' && s1.seen.lmstudio.length === 0,
+        JSON.stringify([out, llm.usedModel()]));
+  llm.reset();
+  s1 = servers({ ollama: () => '' });
+  out = await llm.generateJson([{ text: 'x' }], SCHEMA_OK);
+  check('Ollama のモデルが全部空の応答なら、2番目の LM Studio に回る', out.ok === 2 && s1.seen.ollama.length === 2 && s1.seen.lmstudio.length === 1, JSON.stringify(out));
+
+  // 一度届かなかった提供元は、その実行では飛ばす（一覧は1回だけ取る）
+  llm.reset();
+  s1 = servers({ up: ['gemini'] });
+  await llm.generateJson([{ text: 'x' }], SCHEMA_OK);
+  const before = s1.calls.length;
+  await llm.generateJson([{ text: 'y' }], SCHEMA_OK);
+  const ollamaTries = s1.calls.filter((c) => new URL(c.url).host === OLLAMA).length;
+  check('届かない手元のサーバーは、その実行では1回しか確かめない（毎回待たない）', ollamaTries === 1, ollamaTries);
+
+  // 全部使えない → 論文の失敗に数えないエラー（試した順を書く）
   llm.reset();
   setEnv({ GEMINI_API_KEY: 'G' });
-  fakeFetch((url) => {
-    if (url.includes('generativelanguage')) return BUSY;
-    throw new Error('connect ECONNREFUSED');
-  });
+  s1 = servers({ up: [] });
   let err = null;
   try { await llm.generateJson([{ text: 'x' }], { type: 'OBJECT' }); } catch (e) { err = e; }
-  check('どれも使えなければ、論文の失敗に数えないエラー', err && err.transient, err && err.message);
+  check('どれも使えなければ、論文の失敗に数えないエラー', err && err.transient && /Gemini/.test(err.message), err && err.message);
 
-  // Gemini の 400 以外のエラーは隠さない
+  // 外部 API だけを止める（--only-local）
   llm.reset();
-  setEnv({ GEMINI_API_KEY: 'G' });
-  fakeFetch(() => ({ status: 401, body: { error: { message: 'API key not valid' } } }));
+  setEnv({ GEMINI_API_KEY: 'G', ANTHROPIC_API_KEY: 'A' });
+  llm.state.noExternal = true;
+  s1 = servers({ up: [] });
   err = null;
   try { await llm.generateJson([{ text: 'x' }], { type: 'OBJECT' }); } catch (e) { err = e; }
-  check('Gemini の鍵の誤り（401）は次へ回さずに投げる', err && /401/.test(err.message) && !err.transient, err && err.message);
+  check('--only-local（外部 API を使わない）なら、手元が使えなくても Gemini・Claude を呼ばない',
+        err && err.transient && s1.seen.gemini.length === 0, err && err.message);
+  llm.reset();
+
+  // Gemini の鍵の誤り（401）は次へ回さずに投げる
+  setEnv({ GEMINI_API_KEY: 'G' });
+  fakeFetch((url) => {
+    const host = new URL(url).host;
+    if (host === OLLAMA || host === LMSTUDIO) throw new Error('connect ECONNREFUSED');
+    return { status: 401, body: { error: { message: 'API key not valid' } } };
+  });
+  err = null;
+  try { await llm.generateJson([{ text: 'x' }], { type: 'OBJECT' }); } catch (e) { err = e; }
+  check('Gemini の鍵の誤り（401）は、手元が使えないときも隠さず、原因が分かる形で知らせる', err && /401/.test(err.message), err && err.message);
+
+  // 手元で一度 Gemini が全滅したら、その実行では Gemini を飛ばす
+  llm.reset();
+  setEnv({ GEMINI_API_KEY: 'G', ANTHROPIC_API_KEY: 'A' });
+  s1 = servers({ up: [] });
+  await llm.generateJson([{ text: 'x' }], SCHEMA_OK);       // Gemini が全モデル混雑 → Claude が答える
+  const gem1 = s1.calls.filter((c) => c.url.includes('generativelanguage')).length;
+  s1.calls.length = 0;
+  const out2 = await llm.generateJson([{ text: 'y' }], SCHEMA_OK);
+  check('一度 Gemini が全滅したら、その実行では Gemini を飛ばす（全モデル×2回×巡回数を使い切ったあと）',
+        out2.ok === 4 && gem1 === config.geminiModels.length * 2 * config.geminiRounds && !s1.calls.some((c) => c.url.includes('generativelanguage')), [gem1, s1.calls.length]);
 
   // ---------- 記事の執筆 ----------
-  const chunks = writer.splitChunks('a'.repeat(100) + '\n' + 'b'.repeat(100) + '\n' + 'c'.repeat(50), 120);
-  check('本文を段落の切れ目で区切る', chunks.length === 3 && chunks.join('') === 'a'.repeat(100) + '\n' + 'b'.repeat(100) + '\n' + 'c'.repeat(50), chunks.map((c) => c.length));
-
   const art = writer.normalize(rawArticle('145'), READINGS);
   check('数値の照合: 本文にある数値（145・21%・.21 を 0.21 と書いた）は通す',
         writer.checkNumbers({ sections: { ...art.sections, validation: '分散の21%を説明し、R2は0.21でした。' }, nextReads: [] }, PAPER_TEXT).length === 0,
@@ -174,123 +261,77 @@ async function run() {
         art.titleJa === '数学不安と文章題' && art.nextReads.length === 1 && art.terms.length === 1 &&
         !('imageQuery' in art), JSON.stringify([art.titleJa, art.nextReads.length, art.terms, art.imageQuery]));
 
-  // Ollama が書いた記事の数値が本文に無い → Claude で書き直す
+  // 記事の執筆の流れ（順番は上の「言語モデルの順番」と同じ。手元のモデルの記事は確かめてから使う）
+  const paperFull = PAPER_TEXT;
+  const classifyReply = (yes = true) => ({ aboutMathLearning: yes, quantitativeStatistics: yes, brainImagingIsMainTopic: false, explainsStatisticalMethodOnly: false, qualitativeOnly: false });
+  /** 記事を頼まれたら article を、テーマの質問（aboutMathLearning を含む）には classify を返す */
+  const writerServer = (article, classify = classifyReply(), extra = {}) => (b) => {
+    const asked = (b.format && b.format.properties && b.format.properties.aboutMathLearning) || (b.response_format && b.response_format.json_schema.schema.properties.aboutMathLearning);
+    return asked ? classify : article;
+  };
+
+  // 1. 1番目の Ollama（gemma4）が全文を読んで書く。テーマは問いを分けた答えで決める。外部 API は呼ばない
   llm.reset();
   setEnv({ GEMINI_API_KEY: 'G', ANTHROPIC_API_KEY: 'A' });
-  let ollamaCalls = 0;
-  fakeFetch((url, opts) => {
-    if (url.includes('generativelanguage')) return BUSY;
-    if (url.endsWith('/api/tags')) return OLLAMA_TAGS;
-    if (url.endsWith('/api/chat')) {
-      if (isClassify(opts)) return CLASSIFY_YES;
-      ollamaCalls++;
-      return { body: { message: { content: ollamaCalls === 1 ? '・145名の4年生' : JSON.stringify(rawArticle('999')) }, done_reason: 'stop' } };
-    }
-    return { status: 404 };
-  });
+  claudeSeen.length = 0;
+  let w = servers({ ollama: writerServer(rawArticle('145')) });
+  const a1 = await writer.writeArticle(PAPER, paperFull, READINGS);
+  const writing1 = w.seen.ollama.filter((b) => !(b.format.properties && b.format.properties.aboutMathLearning));
+  check('記事: 1番目の Ollama（gemma4:12b）が全文を1回で読んで書く（num_ctx は全文の大きさ・think: false）。外部 API は呼ばない',
+        a1.model === 'gemma4:12b' && writing1.length === 1 && writing1[0].options.num_ctx === config.ollama.fullTextNumCtx && writing1[0].think === false &&
+        writing1[0].messages[0].content.includes('Working memory was measured') && w.seen.gemini.length === 0 && claudeSeen.length === 0,
+        a1.model + ' ' + writing1.length);
+
+  // 2. 数値が論文に無ければ、その候補の記事は使わず、次の候補（同じ Ollama の qwen3.5）で書き直す
+  llm.reset();
+  w = servers({ ollama: (b) => writerServer(b.model === 'gemma4:12b' ? rawArticle('999') : rawArticle('145'))(b) });
+  const a2 = await writer.writeArticle(PAPER, paperFull, READINGS);
+  check('記事: 手元の記事に論文に無い数値（999）があれば使わず、次の候補（qwen3.5:9b）で書き直す。外部 API は呼ばない',
+        a2.model === 'qwen3.5:9b' && /145名/.test(a2.sections.what) && w.seen.gemini.length === 0 && claudeSeen.length === 0, a2.model);
+
+  // 3. 手元のモデルが全部、数値が合わなければ、2番目の LM Studio → それも合わなければ Gemini（外部 API）
+  llm.reset();
+  w = servers({ ollama: writerServer(rawArticle('999')), lmstudio: writerServer(rawArticle('999')), gemini: rawArticle('145') });
+  const a3 = await writer.writeArticle(PAPER, paperFull, READINGS);
+  check('記事: 手元の候補（Ollama 2つ・LM Studio 2つ）がどれも数値が合わなければ、3番目の外部 API（Gemini）で書く',
+        a3.model === llm.usedModel() && /145名/.test(a3.sections.what) && w.seen.ollama.length >= 4 && w.seen.lmstudio.length >= 2 && w.seen.gemini.length >= 1,
+        [a3.model, w.seen.ollama.length, w.seen.lmstudio.length, w.seen.gemini.length]);
+
+  // 4. 手元が使えない日は、Gemini が書く（手元用の質問式のテーマ判定は呼ばない）
+  llm.reset();
+  w = servers({ up: ['gemini'], gemini: rawArticle('145') });
+  const a4 = await writer.writeArticle(PAPER, paperFull, READINGS);
+  check('記事: 手元の2台が起動していなければ、Gemini が書く（外部の記事に質問式の判定は付けない）',
+        /145名/.test(a4.sections.what) && w.seen.ollama.length === 0 && w.seen.lmstudio.length === 0 && w.seen.gemini.length === 1 &&
+        a4.relevanceReason === '算数の量的研究', JSON.stringify([a4.relevanceReason, w.seen.gemini.length]));
+
+  // 5. Gemini も使えなければ Claude（最後）
+  llm.reset();
   claudeSeen.length = 0;
   fakeClaude(rawArticle('145'), claudeSeen);
-  const a1 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
-  check('Ollama の記事に本文に無い数値（999）があれば、Claude で全文から書き直す',
-        a1.model === config.claude.model && /145名/.test(a1.sections.what) && claudeSeen.length >= 1, a1.model + ' ' + a1.sections.what.slice(0, 20));
+  w = servers({ up: [] });
+  const a5 = await writer.writeArticle(PAPER, paperFull, READINGS);
+  check('記事: 手元も Gemini も使えなければ、最後に Claude が書く', a5.model === config.claude.model && claudeSeen.length === 1, a5.model);
+  fakeClaude({ ok: 4 }, claudeSeen);
 
-  // 数値が合っていれば Ollama の記事を使う
-  llm.reset();
-  ollamaCalls = 0;
-  fakeFetch((url, opts) => {
-    if (url.includes('generativelanguage')) return BUSY;
-    if (url.endsWith('/api/tags')) return OLLAMA_TAGS;
-    if (url.endsWith('/api/chat')) {
-      if (isClassify(opts)) return CLASSIFY_YES;
-      ollamaCalls++;
-      return { body: { message: { content: ollamaCalls === 1 ? '・145名の4年生' : JSON.stringify(rawArticle('145')) }, done_reason: 'stop' } };
-    }
-    return { status: 404 };
-  });
-  claudeSeen.length = 0;
-  const a2 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
-  check('Ollama の記事の数値が本文と合えば、そのまま使う（Claude は呼ばない）',
-        a2.model === config.ollama.model && claudeSeen.length === 0, a2.model);
-
-  // 記事を書かせた回の relevant ではなく、問いを分けた判定で決める（2026-10-04 に理由と結論が食い違った）
+  // 6. テーマの判定は、記事を書かせた回の relevant ではなく、問いを分けた答えで決める（脳画像が中心 → テーマ外）
   for (const [brain, want] of [[false, true], [true, false]]) {
     llm.reset();
-    ollamaCalls = 0;
-    fakeFetch((url, opts) => {
-      if (url.includes('generativelanguage')) return BUSY;
-      if (url.endsWith('/api/tags')) return OLLAMA_TAGS;
-      if (url.endsWith('/api/chat')) {
-        if (isClassify(opts)) {
-          return { body: { message: { content: JSON.stringify({ aboutMathLearning: true, quantitativeStatistics: true,
-            brainImagingIsMainTopic: brain, explainsStatisticalMethodOnly: false, qualitativeOnly: false }) }, done_reason: 'stop' } };
-        }
-        ollamaCalls++;
-        return { body: { message: { content: ollamaCalls === 1 ? '・145名' : JSON.stringify({ ...rawArticle('145'), relevant: false }) }, done_reason: 'stop' } };
-      }
-      return { status: 404 };
-    });
-    const a3 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
-    check('Ollama: テーマの判定は問いを分けた答えで決める（脳画像が中心=' + brain + ' → ' + (want ? '記事にする' : 'テーマ外') + '）',
-          a3.relevant === want && (want || /脳画像/.test(a3.relevanceReason)), a3.relevant + ' ' + a3.relevanceReason);
+    const verdict = { ...classifyReply(), brainImagingIsMainTopic: brain };
+    servers({ ollama: writerServer({ ...rawArticle('145'), relevant: false }, verdict) });
+    const a6 = await writer.writeArticle(PAPER, paperFull, READINGS);
+    check('記事: テーマの判定は問いを分けた答えで決める（脳画像が中心=' + brain + ' → ' + (want ? '記事にする' : 'テーマ外') + '）',
+          a6.relevant === want && (want || /脳画像/.test(a6.relevanceReason)), a6.relevant + ' ' + a6.relevanceReason);
   }
 
-  // ---------- 新しい Ollama モデル（全文を1回で読む） ----------
+  // 7. どの候補でも書けなければ、論文の失敗に数えないエラー（試した順を書く）
   llm.reset();
+  setEnv({});
+  servers({ up: [] });
+  let werr = null;
+  try { await writer.writeArticle(PAPER, paperFull, READINGS); } catch (e) { werr = e; }
+  check('記事: どの候補でも書けなければ、論文の失敗に数えないエラー', werr && werr.transient && /言語モデル/.test(werr.message), werr && werr.message);
   setEnv({ GEMINI_API_KEY: 'G', ANTHROPIC_API_KEY: 'A' });
-  const chatBodies = [];
-  fakeFetch((url, opts) => {
-    if (url.includes('generativelanguage')) return BUSY;
-    if (url.endsWith('/api/tags')) return { body: { models: [{ name: 'qwen3.5:9b' }, { name: 'gemma4:12b' }, { name: config.ollama.model }] } };
-    if (url.endsWith('/api/chat')) {
-      const b = JSON.parse(opts.body);
-      chatBodies.push(b);
-      if (isClassify(opts)) return CLASSIFY_YES;
-      return { body: { message: { content: JSON.stringify(rawArticle('145')) }, done_reason: 'stop' } };
-    }
-    return { status: 404 };
-  });
-  claudeSeen.length = 0;
-  const a4 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
-  const writing = chatBodies.filter((b) => !(b.format && b.format.properties && b.format.properties.aboutMathLearning));
-  check('全文を読めるモデル（先頭の gemma4:12b）が入っていれば、論文を区切らず1回で読ませる',
-        a4.model === 'gemma4:12b' && writing.length === 1 && writing[0].model === 'gemma4:12b' &&
-        writing[0].options.num_ctx === config.ollama.fullTextNumCtx && writing[0].messages[0].content.includes('Working memory was measured'),
-        a4.model + ' ' + writing.length);
-  check('Ollama には think: false を付ける（付けないと考えるだけで枠を使い切り、本文が空になる）',
-        chatBodies.every((b) => b.think === false));
-
-  // 先頭のモデルが空の応答 → 次のモデル
-  llm.reset();
-  chatBodies.length = 0;
-  fakeFetch((url, opts) => {
-    if (url.includes('generativelanguage')) return BUSY;
-    if (url.endsWith('/api/tags')) return { body: { models: [{ name: 'qwen3.5:9b' }, { name: 'gemma4:12b' }] } };
-    if (url.endsWith('/api/chat')) {
-      const b = JSON.parse(opts.body);
-      chatBodies.push(b);
-      if (isClassify(opts)) return CLASSIFY_YES;
-      return { body: { message: { content: b.model === 'gemma4:12b' ? '' : JSON.stringify(rawArticle('145')) }, done_reason: 'stop' } };
-    }
-    return { status: 404 };
-  });
-  const a5 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
-  check('先頭のモデル（gemma4:12b）が空の応答なら、次のモデル（qwen3.5:9b）で書く', a5.model === 'qwen3.5:9b', a5.model);
-
-  // どちらも入っていない → 従来の分割読み
-  llm.reset();
-  ollamaCalls = 0;
-  fakeFetch((url, opts) => {
-    if (url.includes('generativelanguage')) return BUSY;
-    if (url.endsWith('/api/tags')) return OLLAMA_TAGS;
-    if (url.endsWith('/api/chat')) {
-      if (isClassify(opts)) return CLASSIFY_YES;
-      ollamaCalls++;
-      return { body: { message: { content: ollamaCalls === 1 ? '・145名' : JSON.stringify(rawArticle('145')) }, done_reason: 'stop' } };
-    }
-    return { status: 404 };
-  });
-  const a6 = await writer.writeArticle(PAPER, PAPER_TEXT, READINGS);
-  check('新しいモデルが入っていなければ、従来の分割読み（qwen2.5:14b）に戻る', a6.model === config.ollama.model && ollamaCalls === 2, a6.model + ' ' + ollamaCalls);
 
   // ---------- 字数 ----------
   const short = { sections: { what: 'a'.repeat(130), nextLead: 'b'.repeat(70) },
