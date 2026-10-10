@@ -125,16 +125,16 @@
   "figure": {
     "target": [
       {
-        "text": "PISA 2015に参加した/3か国の生徒",
-        "evidence": "the researchers determined the sample by selecting the students from three countries that participated in PISA 2015"
+        "text": "日本の生徒6411名/インドネシア5800名",
+        "evidence": "Japan 198 6411 534 81.092 Indonesia 218 5800 396 72.844"
       },
       {
-        "text": "数学の平均点:/日本は534点",
-        "evidence": "The average of the students‟ math scores for Japan (M = 534) outweighs the average score determined by OECD (M = 494)."
+        "text": "アルジェリアの生徒/4460名",
+        "evidence": "Algeria 155 4460 364 59.265"
       },
       {
-        "text": "インドネシア396点/アルジェリア364点",
-        "evidence": "The students from Indonesia and Algeria have an average score in mathematics learning achievement (M = 396 and M = 364 respectively)"
+        "text": "PISA 2015の二次データ/3か国",
+        "evidence": "This research is the analysis of PISA 2015 secondary data for Japan, Indonesia, and Algeria."
       }
     ],
     "conditions": [
