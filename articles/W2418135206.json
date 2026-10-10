@@ -146,23 +146,40 @@
   "createdAt": "2026-10-11 00:05",
   "figure": {
     "target": [
-      "英国の小学1年生60名",
-      "就学前段階の児童34名",
-      "横断調査データ"
+      {
+        "text": "研究1の対象/（60名）",
+        "evidence": "A complete dataset was obtained for 60 pupils."
+      }
     ],
     "conditions": [
-      "微細運動精度・/微細運動統合",
-      "単語読解・数学的推理",
-      "非言語IQ・/言語的短期記憶"
+      {
+        "text": "予測変数/（微細運動技能）",
+        "evidence": "Fine Motor Precision and Fine Motor Integration"
+      },
+      {
+        "text": "予測される変数/（読解・算数）",
+        "evidence": "early reading and maths development"
+      }
     ],
     "measures": [
-      "BOT-2/（微細運動技能）",
-      "WIAT-II/（読解・数学推理）",
-      "認知機能テスト/（WPPSI-III等）"
+      {
+        "text": "BOT-2/（微細運動技能）",
+        "evidence": "The Bruininks–Oseretsky Test of Motor Proficiency, Second Edition (BOT-2; Bruininks and Bruininks, 2005) was used to assess ﬁne motor skills."
+      },
+      {
+        "text": "WIAT-II/（読解・算数）",
+        "evidence": "Early scholastic achievement was evaluated using the Wechsler Individual Achievement Test, Second Edition (WIAT-IIUK; Wechsler, 2005)."
+      }
     ],
     "results": [
-      "階層的複数回帰分析",
-      "微細運動による数学予測/決定係数変化量0.36"
+      {
+        "text": "読解能力/（算数より有意に高い）",
+        "evidence": "a paired-samples t-test demonstrated that the overall group diﬀerence in reading and maths ability was statistically signiﬁcant [t(59) = 4.71, p < 0.001] and was captured by a medium eﬀect size (Cohen’s d = 0.58)"
+      },
+      {
+        "text": "微細運動技能/（算数能力の予測）",
+        "evidence": "Fine Motor Integration remained a signiﬁcant predictor of maths ability, even after the inﬂuence of non-verbal IQ had been accounted for."
+      }
     ]
   }
 }

@@ -921,6 +921,35 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-10-11 00:05",
       "note": ""
+    },
+    "W2884567066": {
+      "doi": "10.1016/j.stueduc.2018.07.005",
+      "title": "Does the textbook matter? Longitudinal effects of textbook choice on primary school students’ achievement in mathematics",
+      "citedBy": 128,
+      "year": "2018",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-11 01:40"
+    },
+    "W3096913070": {
+      "doi": "10.1016/j.chb.2020.106613",
+      "title": "Teaching with and teaching about technology – Evidence for professional development of in-service teachers",
+      "citedBy": 125,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-11 01:40"
+    },
+    "W2619987262": {
+      "doi": "10.3389/fpsyg.2017.00869",
+      "title": "Executive Function Buffers the Association between Early Math and Later Academic Skills",
+      "citedBy": 125,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "実行機能は早期の数学能力と後の学力の関連を緩和する",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-11 01:42",
+      "note": ""
     }
   }
 }

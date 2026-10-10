@@ -132,22 +132,40 @@
   "createdAt": "2026-10-04 08:02",
   "figure": {
     "target": [
-      "中国の児童499名",
-      "10.1歳から11.2歳",
-      "認知テストと/2年間の学業成績"
+      {
+        "text": "中国の小学生/490名",
+        "evidence": "only 490 of them fully ﬁnished the whole tests"
+      },
+      {
+        "text": "中国語を母語とする/児童",
+        "evidence": "All children were native Chinese speakers"
+      },
+      {
+        "text": "5年生の成績/データ",
+        "evidence": "academic achievement of each child was estimated by their major curriculum tests of the school year evaluations in their ﬁfth grade"
+      }
     ],
     "conditions": [
-      "視空間能力/（予測する変数）",
-      "算数能力・読解能力/（媒介変数）",
-      "学業成績/（予測される変数）"
+      {
+        "text": "非言語IQ/読解関連認知因子",
+        "evidence": "non-verbal IQ and reading-related cognitive measures"
+      }
     ],
     "measures": [
-      "5年生秋学期：認知・/算数・読解テスト",
-      "5年・6年生：算数・/国語の学業成績追跡"
+      {
+        "text": "読解能力/認知因子の測定",
+        "evidence": "Reading ability and reading-related cognitive tests (rapid automatized naming, phonological awareness, and morphological awareness) were individually administered"
+      }
     ],
     "results": [
-      "構造方程式/モデリング",
-      "算数能力の媒介経路が/間接効果の83%"
+      {
+        "text": "相関分析/有意な相関",
+        "evidence": "Correlation analysis indicated that visual–spatial, arithmetic, and reading abilities and academic achievements were signiﬁcantly correlated with each other."
+      },
+      {
+        "text": "モデル3/間接効果の割合",
+        "evidence": "a major mediation path from visual–spatial ability to arithmetic ability to general academic achievement accounting 83% of the total indirect eﬀects, and (2) a minor serial mediation path from visual–spatial ability to arithmetic ability to reading ability, then to general academic achievement accounting for 17% of the total indirect eﬀects"
+      }
     ]
   }
 }

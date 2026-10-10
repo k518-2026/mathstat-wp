@@ -1,0 +1,145 @@
+{
+  "paper": {
+    "id": "W2619987262",
+    "doi": "10.3389/fpsyg.2017.00869",
+    "title": "Executive Function Buffers the Association between Early Math and Later Academic Skills",
+    "authors": [
+      "Andrew Ribner",
+      "Michael T. Willoughby",
+      "Clancy Blair"
+    ],
+    "authorCount": 3,
+    "venue": "Frontiers in Psychology",
+    "volume": "8",
+    "issue": "",
+    "pages": "869",
+    "year": "2017",
+    "citedBy": 125,
+    "url": "https://doi.org/10.3389/fpsyg.2017.00869",
+    "license": "cc-by",
+    "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00869/pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "実行機能は早期の数学能力と後の学力の関連を緩和する",
+    "sections": {
+      "what": "この研究は、アメリカの農村地域に住む低所得世帯の子供を対象とした縦断的調査です。研究の目的は、就学前の実行機能が、就学前の数学や読解の能力を超えて、小学校5年生時点での数学および読解の能力をどの程度予測するかを明らかにすることです。調査対象は1,292人の子供で、就学前の認知機能や学力、および5年生時点での学力を追跡調査しています。",
+      "novelty": "先行研究では、早期の学力が後の学力の強力な予測因子であることが示されてきました。しかし、早期の学力が高い子供が必ずしも後の学力に結びつくわけではない要因についても議論がありました。本研究の新規性は、実行機能が早期の学力と後の学力の関係を「緩和」する役割を検証している点にあります。つまり、初期の学力が低くても、高い実行機能を持つ子供がどのように追いつくのかというメカニズムに焦点を当てています。",
+      "method": "統計手法として、パス解析を用いて5年生の数学および読解のスコアを予測するモデルを構築しました。予測変数には、就学前の実行機能、数学能力、読解能力に加え、IQ、処理速度、受容語彙、累積リスクなどの認知変数を組み込んでいます。さらに、実行機能と早期の数学能力の交互作用項を追加し、実行機能が早期の学力と後の学力の関連を調整する効果を検証しました。複雑なサンプリング設計を考慮した重み付けを用いて分析を行っています。",
+      "validation": "分析の結果、就学前の実行機能は、他の認知変数を制御した後でも、5年生の数学および読解の能力を独自に予測することが示されました。特に、実行機能と早期の数学能力の交互作用は、5年生の数学および読解の能力に対して有意な予測値を示しました。単純傾斜分析により、就学前に高い実行機能を持つ子供は、早期の数学能力が低くても、後の学力において高い水準に到達できる可能性が示唆されました。",
+      "implications": "本研究は、実行機能が学力発達において重要な役割を果たすことを示唆しています。特に、初期の学力が低い子供でも、高い実行機能が「追いつく」ための補償的な役割を果たす可能性が示されました。ただし、本研究は相関および縦断的な分析であり、因果関係を断定するものではありません。また、指導の質や教室環境などの変数が考慮されていないため、今後の研究ではこれらの要因を含めたさらなる調査が求められます。",
+      "nextLead": "本研究では実行機能が早期の学力と後の学力の関係を緩和する可能性を提示しました。次に、実行機能がどのように数学や読解の学習に寄与するのか、あるいは実行機能と学力の関連をより詳細に検討した研究へと進むことで、教育現場への具体的な示唆を深めることができます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W3206463220",
+          "doi": "10.1016/j.jecp.2021.105306",
+          "title": "Why do early mathematics skills predict later mathematics and reading achievement? The role of executive function",
+          "authors": [
+            "Dieuwer ten Braak",
+            "Ragnhild Lenes",
+            "David J. Purpura",
+            "Sara A. Schmitt"
+          ],
+          "authorCount": 5,
+          "venue": "Journal of Experimental Child Psychology",
+          "volume": "214",
+          "issue": "",
+          "pages": "105306",
+          "year": "2021",
+          "citedBy": 136,
+          "url": "https://doi.org/10.1016/j.jecp.2021.105306"
+        },
+        "reason": "本論文で示された「実行機能が早期の数学能力と後の学力の関連を緩和する」という知見を、より直接的に「なぜ」というメカニズムの観点から掘り下げた研究であり、非常に密接に関連しています。"
+      },
+      {
+        "paper": {
+          "id": "W2062718236",
+          "doi": "10.1016/j.lindif.2011.01.007",
+          "title": "Relations between executive function and academic achievement from ages 5 to 17 in a large, representative national sample",
+          "authors": [
+            "John R. Best",
+            "Patricia H. Miller",
+            "Jack A. Naglieri"
+          ],
+          "authorCount": 3,
+          "venue": "Learning and Individual Differences",
+          "volume": "21",
+          "issue": "4",
+          "pages": "327–336",
+          "year": "2011",
+          "citedBy": 1302,
+          "url": "https://doi.org/10.1016/j.lindif.2011.01.007"
+        },
+        "reason": "本研究と同様に、大規模な代表的サンプルを用いて、5歳から17歳までの長期的な視点で実行機能と学力の関連を調査しており、発達の過程をより広く把握するのに役立ちます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "早期の数学能力が低い子供でも、高い「実行機能」があれば小学校高学年で追いつける可能性があることを、大規模な縦断データから明らかにしました。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-11",
+  "createdAt": "2026-10-11 01:42",
+  "figure": {
+    "target": [
+      {
+        "text": "1,279名の参加者",
+        "evidence": "leaving a total of 1,279 participants"
+      },
+      {
+        "text": "アメリカの農村地域",
+        "evidence": "representative of rural areas in two distinctive geographical parts of the United States"
+      },
+      {
+        "text": "低所得の家族",
+        "evidence": "sample of students living in low-income families"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "実行機能(EF)",
+        "evidence": "executive function (EF) (a construct made up of skills complicit in the achievement of goal-directed tasks)"
+      },
+      {
+        "text": "5年生の算数と読解",
+        "evidence": "predicting 5th grade math and reading ability"
+      },
+      {
+        "text": "認知変数の共変量",
+        "evidence": "other cognitive covariates including processing speed, vocabulary, and IQ"
+      }
+    ],
+    "measures": [
+      {
+        "text": "PreKの算数と読解",
+        "evidence": "Academic skills were measured prior to kindergarten entry (PreK)"
+      },
+      {
+        "text": "5歳時のEF評価",
+        "evidence": "EF data were drawn from direct assessment conducted during a home visit when children were 5 years old."
+      },
+      {
+        "text": "5年生の学力評価",
+        "evidence": "assess math and literacy skills again when children are in 5th grade."
+      }
+    ],
+    "results": [
+      {
+        "text": "パス解析による予測",
+        "evidence": "simultaneous models were estimated in a path analysis to regress 5th grade math and reading scores onto EF, PreK math and pre-literacy skills"
+      },
+      {
+        "text": "EFの有意な予測",
+        "evidence": "EF at age 5 strongly predicts 5th grade academic skills"
+      },
+      {
+        "text": "EFによる補償効果",
+        "evidence": "the interaction term of EF with PreK math signiﬁcantly predicted both 5th grade math (β = −0.585, p = 0.016) and 5th grade reading skills (β = −0.754, p = 0.007)"
+      }
+    ]
+  }
+}

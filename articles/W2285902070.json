@@ -147,22 +147,40 @@
   "createdAt": "2026-10-11 00:03",
   "figure": {
     "target": [
-      "イタリアの/中学校1〜3年生",
-      "数学不安が/高い生徒32名",
-      "数学不安が/低い生徒34名"
+      {
+        "text": "中学生/6〜8年生",
+        "evidence": "students (in grades six to eight)"
+      }
     ],
     "conditions": [
-      "数学不安が高い群",
-      "数学不安が低い群"
+      {
+        "text": "高数学不安/低数学不安",
+        "evidence": "32 students with HMA and 34 with LMA matched for age, gender, generalized anxiety, and vocabulary"
+      },
+      {
+        "text": "語彙力/全般的な不安",
+        "evidence": "matched for age, gender, generalized anxiety, and vocabulary"
+      },
+      {
+        "text": "予測変数/事実想起と抑制",
+        "evidence": "weaknesses in inhibitory control and fact retrieval were the strongest variables for classifying children as having HMA or LMA"
+      }
     ],
     "measures": [
-      "数学テスト・/読解・書字テスト",
-      "言語性短期記憶課題",
-      "リスニングスパン課題"
+      {
+        "text": "数学能力と/読解力のテスト",
+        "evidence": "completed tests on their mathematical proﬁciency and reading comprehension"
+      }
     ],
     "results": [
-      "ロジスティック/回帰分析",
-      "全体の分類精度/74.2%"
+      {
+        "text": "数学能力の有意差",
+        "evidence": "the LMA group outperformed the HMA group by more than 0.5 standard deviation"
+      },
+      {
+        "text": "記憶能力の有意差",
+        "evidence": "Individuals with HMA recalled signiﬁcantly fewer words than LMA children in the STM and LST and made more intrusion errors in the LST."
+      }
     ]
   }
 }

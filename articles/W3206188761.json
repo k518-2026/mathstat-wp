@@ -143,21 +143,44 @@
   "createdAt": "2026-10-10 23:48",
   "figure": {
     "target": [
-      "教員志望学生",
-      "モデル化未経験者72名",
-      "経験者36名"
+      {
+        "text": "博士課程の学生/4名",
+        "evidence": "Four PhD students whose doctoral thesis focused on metacognition and mathematical modeling or noticing"
+      }
     ],
     "conditions": [
-      "モデル化の/学習経験の有無"
+      {
+        "text": "モデルの知識/有無",
+        "evidence": "Group 1 (n = 72) had limited knowledge of mathematical modeling, while Group 2 (n = 36) had undergone a modeling seminar."
+      }
     ],
     "measures": [
-      "約3分間の/演劇風授業動画の提示",
-      "記述式設問（7問）",
-      "3段階レベルでの/質的符号化"
+      {
+        "text": "動画の検討/修正",
+        "evidence": "The first version of the staged videos was critically discussed by experts until consensus was reached."
+      },
+      {
+        "text": "質問項目の/修正",
+        "evidence": "This resulted in refinements of the open questions to clarify the focus of the questions and changes in wording to improve comprehension."
+      },
+      {
+        "text": "パイロット調査/実施",
+        "evidence": "We used the second version of the instrument in a pilot study with a pretest-posttest design with 15 pre-service teachers"
+      }
     ],
     "results": [
-      "マン・ホイットニーの/U検定",
-      "メタ認知戦略認識の差/p = 0.0107"
+      {
+        "text": "内容妥当性/確認",
+        "evidence": "In general, the experts agreed that all noteworthy aspects were covered as intended."
+      },
+      {
+        "text": "解釈レベルの/分析",
+        "evidence": "The Mann–Whitney U test revealed significant differences in participants’ abilities to interpret students’ difficulties, which have to do with a lack of motivation (p = 0.04), an incomplete modeling process when an interpretation of the mathematical result was missing (p = 0.04), and the use of the metacognitive strategy of monitoring (p = 0.0005)."
+      },
+      {
+        "text": "構成妥当性/確認",
+        "evidence": "The values (see Table 5) clearly indicated a good, or at least acceptable, fit according to the criteria provided by Schermelleh-Engel et al. (2003), with Chisq/df < 2, RMSEA < 0.05, and SRMR < 0.08, indicating a good fit, while the CFI was close to the cut-off value 0.95."
+      }
     ]
   }
 }

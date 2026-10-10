@@ -134,23 +134,52 @@
   "createdAt": "2026-10-10 23:51",
   "figure": {
     "target": [
-      "中国広東省の/幼稚園60園",
-      "年長児2012名",
-      "平均年齢6.65歳"
+      {
+        "text": "中国のK-3児童/2012名",
+        "evidence": "The participants were 2012 K-3 children (958 girls and 1054 boys, mean age = 6.65 years, SD = .14)"
+      },
+      {
+        "text": "広東省の3都市/60幼稚園",
+        "evidence": "The participants were 2012 K-3 children (958 girls and 1054 boys, mean age = 6.65 years, SD = .14) recruited from 60 kindergartens in three cities in Guangdong province, China."
+      }
     ],
     "conditions": [
-      "独立変数（言語能力）",
-      "媒介変数（非公式算数）",
-      "従属変数（公式算数）"
+      {
+        "text": "言語能力/非公式・公式算数",
+        "evidence": "The current study was conducted with two goals. First, it aimed to fill the abovementioned research gap by investigating whether Chinese-speaking children’s early language abilities, including both oral and literacy skills, were predictive of their informal and formal math skills respectively."
+      },
+      {
+        "text": "年齢・性別/非言語知能",
+        "evidence": "gender, age, and nonverbal intelligence were entered in Step 1 as control variables."
+      }
     ],
     "measures": [
-      "言語能力の評価/（聴解力・書き取り）",
-      "算数スキルの測定/（非公式・公式）",
-      "非言語性知能の測定"
+      {
+        "text": "非公式算数/7つのタスク",
+        "evidence": "Seven tasks were adopted to assess children’s early math skills. The informal math score was obtained by adding the raw scores in the first five tasks, namely object counting, forward counting, backward counting, missing number, and numerical magnitude comparison."
+      },
+      {
+        "text": "公式算数/加減算",
+        "evidence": "The formal math score was computed by summing up the raw scores in the remaining two tasks, namely addition, and subtraction."
+      },
+      {
+        "text": "言語能力/聴解・写字",
+        "evidence": "For the early language skills, listening comprehension and character dictation tasks were chosen."
+      }
     ],
     "results": [
-      "マルチレベル/媒介分析",
-      "媒介効果が/全効果の62.98%"
+      {
+        "text": "言語能力の予測効果/31%",
+        "evidence": "the overall language abilities significantly predicted 31% unique variance of informal math (β = 0.66, t = 36.25, p < .001) when gender, age and nonverbal intelligence were statistically controlled"
+      },
+      {
+        "text": "公式算数への予測効果/26%",
+        "evidence": "the overall language abilities explained 26% unique variance (β = 0.61, t = 29.78, p < .001) with the same variables controlled"
+      },
+      {
+        "text": "非公式算数による/部分的な媒介",
+        "evidence": "the mediating effect accounted for 62.98% of the total effect."
+      }
     ]
   }
 }
