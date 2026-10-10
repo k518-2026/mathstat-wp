@@ -624,11 +624,11 @@
       "title": "Local wisdom-oriented problem solving learning model to improve mathematical problem solving ability",
       "citedBy": 44,
       "year": "2018",
-      "status": "ready",
+      "status": "skipped",
       "titleJa": "数学的問題解決能力を向上させるための地域の知恵を志向した問題解決学習モデル",
       "model": "gemini-3.5-flash",
       "createdAt": "2026-10-04 01:50",
-      "note": "(6) 次に読むべき論文はあるか？ が 358 字"
+      "note": "2026-10-10 ユーザー判断で投稿から外す（ライセンスが cc-by-nc＝非営利のみ）"
     },
     "W2765902427": {
       "doi": "10.1016/j.tine.2017.10.002",

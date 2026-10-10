@@ -8,8 +8,9 @@ name: WordPress に投稿
 # GitHub の cron は混んでいると数十分遅れることがある
 
 on:
-  # schedule:  # 2026-10-05 WordPress 異議申し立ての結果待ちのため一時停止。再開はこの2行のコメントを外す
-  #   - cron: '0 20 * * *'   # 毎日 05:00 (Asia/Tokyo) = 20:00 UTC 前日
+  # 2026-10-05 に WordPress の封鎖で停止（10/6 に解除）。2026-10-10 にユーザー判断で再開
+  schedule:
+    - cron: '0 20 * * *'   # 毎日 05:00 (Asia/Tokyo) = 20:00 UTC 前日
   workflow_dispatch:
     inputs:
       dry_run:
