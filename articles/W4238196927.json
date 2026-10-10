@@ -80,23 +80,56 @@
   "createdAt": "2026-10-04 04:01",
   "figure": {
     "target": [
-      "ジャカルタの小学校教員",
-      "第1段階252人",
-      "第2段階350人"
+      {
+        "text": "ジャカルタの/小学校教員252名",
+        "evidence": "The participants in the first sample consist of 252 primary school teachers in Jakarta, who were selected conveniently."
+      },
+      {
+        "text": "東ジャカルタの/小学校教員350名",
+        "evidence": "The participants in the second sample consist of 350 teachers from 75 different primary schools in East Jakarta."
+      }
     ],
     "conditions": [
-      "数学の本質",
-      "数学の指導",
-      "数学学習における評価"
+      {
+        "text": "数学の本質に/関する信念",
+        "evidence": "beliefs about the nature of mathematics (BN-M)"
+      },
+      {
+        "text": "数学の指導に/関する信念",
+        "evidence": "beliefs about the teaching of mathematics (BT-M)"
+      },
+      {
+        "text": "数学学習の/評価に関する信念",
+        "evidence": "beliefs about assessment in mathematics learning (BA-M)"
+      }
     ],
     "measures": [
-      "3つの下位尺度を作成/（当初計54項目）",
-      "第1段階の調査",
-      "第2段階の調査"
+      {
+        "text": "54項目の/6件法質問票案",
+        "evidence": "The draft scale includes 54 items using six-point Likert scales ranging from 1 (strongly disagree) to 6 (strongly agree)."
+      },
+      {
+        "text": "探索的因子分析に/よる構造評価",
+        "evidence": "exploratory factor analysis (EFA) was performed to evaluate the structure of the scale factor."
+      },
+      {
+        "text": "確証的因子分析に/よるモデル確認",
+        "evidence": "confirmatory factor analysis (CFA) was performed to confirm the factors resulted from the EFA."
+      }
     ],
     "results": [
-      "探索的因子分析と/確認的因子分析",
-      "信頼性係数/0.715から0.787"
+      {
+        "text": "各尺度で/2因子を特定",
+        "evidence": "There were two factors at each scale resulted from the analysis."
+      },
+      {
+        "text": "確証的因子分析で/十分な適合度",
+        "evidence": "The result of CFA indicated that the established model had sufficient fit indices."
+      },
+      {
+        "text": "内的整合性/0.715〜0.787",
+        "evidence": "each factor had an adequate internal consistency coefficient, which was in the range of 0.715–0.787."
+      }
     ]
   }
 }

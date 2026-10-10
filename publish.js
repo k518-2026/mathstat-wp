@@ -27,13 +27,14 @@ async function main() {
   const waiting = store.queue(ledger, posted);
   console.log('投稿待ち ' + waiting.length + ' 本');
 
-  // 図のある、いちばん古い記事を選ぶ。図の無い記事は飛ばす（写真は使わない）
-  const next = store.nextToPost(waiting, figure.hasFigure);
-  if (next.skipped.length) console.warn('図が無いため飛ばした記事: ' + next.skipped.join(', ') + '（この PC で make-figures.js を動かすと作れます）');
+  // 論文の本文からの根拠つきの図がある、いちばん古い記事を選ぶ。図の無い記事・記事から作った古い図の記事は飛ばす（写真は使わない）
+  // 結果の欄に数値が入った図の記事を先にする（数値の無い図は結果が伝わらないため。作り直されれば全部に数値が入る）
+  const next = store.nextToPost(waiting, figure.isPostable, figure.resultsHaveNumbers);
+  if (next.skipped.length) console.warn('根拠つきの図が無いため飛ばした記事: ' + next.skipped.join(', ') + '（この PC で make-figures.js を動かすと作り直せます）');
   const id = pick || next.id;
   if (!id) {
     console.error(waiting.length
-      ? '投稿待ちの ' + waiting.length + ' 本には、どれも研究の流れ図がありません。この PC で make-figures.js を動かして push してください。'
+      ? '投稿待ちの ' + waiting.length + ' 本には、論文の本文からの根拠つきの研究の流れ図がありません。この PC で make-figures.js を動かして push してください。'
       : '投稿する記事がありません。手元の PC で generate.js が動いているか確かめてください。');
     process.exitCode = 1;
     return;

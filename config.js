@@ -119,8 +119,9 @@ module.exports = {
     maxItems: 3,          // 1つの欄に入れる項目の数
     maxChars: 28,         // 1項目の字数（図の枠に収まる長さ）
     dpi: 170,
-    note: '概念図：記事の記述から研究の流れを整理したもので、実際のデータの図ではありません',
-    credit: '記事の記述から作成した概念図',
+    // 図の下に「出典：○○ら（年）。」を付けて書く（figure.sourceNote）
+    note: '論文の記述から整理した研究の流れで、実際のデータの図ではありません',
+    credit: '論文の記述から作成した研究の流れ図',
     // タスク スケジューラーから動かすときは PATH が通らないので、場所を決めておく
     lualatex: process.env.LUALATEX || (process.platform === 'win32' ? 'C:\\texlive\\2026\\bin\\windows\\lualatex.exe' : 'lualatex'),
     pdftoppm: process.env.PDFTOPPM || (process.platform === 'win32' ? 'C:\\texlive\\2026\\bin\\windows\\pdftoppm.exe' : 'pdftoppm')

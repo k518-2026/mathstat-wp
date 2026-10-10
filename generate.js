@@ -85,7 +85,8 @@ async function processPaper(ledger, paper) {
               (article.warnings.length ? '\n  注意: ' + article.warnings.join(' / ') : ''));
 
   // 研究の流れ図（images/<論文ID>.png）。作れなくても記事は捨てない（図ができるまで投稿されず、次の実行で作り直す）
-  const figureSpec = await figure.makeFigure(paper.id, article, { write: !DRY });
+  // 材料は記事ではなく論文の本文（text）。根拠の文が本文にある項目だけが図に入る
+  const figureSpec = await figure.makeFigure(paper.id, entry, { write: !DRY, paperText: text });
   if (figureSpec) entry.figure = figureSpec;
   console.log('  研究の流れ図: ' + (figureSpec ? '作りました' : '作れませんでした（次の実行で作り直します。図ができるまで投稿されません）'));
 

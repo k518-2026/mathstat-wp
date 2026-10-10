@@ -4,3 +4,4 @@ logs/
 figures/_build/
 *.log
 *.aux
+figures/_cache/

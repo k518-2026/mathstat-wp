@@ -121,21 +121,40 @@
   "createdAt": "2026-10-04 04:01",
   "figure": {
     "target": [
-      "ヨルダンの/小学4・5年生",
-      "算数の学習困難児/60名"
+      {
+        "text": "数学に学習困難がある/小学4・5年生60名",
+        "evidence": "Sample consisted of sixty (60) students with Math learning difficulties attending 4th and 5th grade level resource rooms"
+      }
     ],
     "conditions": [
-      "実験群/（直接教授法）30名",
-      "統制群/（伝統的な指導）30名"
+      {
+        "text": "直接教授法による/訓練を受ける実験群",
+        "evidence": "Experimental students received training on basic Math skills using the Direct Instruction Strategy"
+      },
+      {
+        "text": "従来の指導法を/受ける統制群",
+        "evidence": "whereas the control groups students were taght traditionally."
+      }
     ],
     "measures": [
-      "事前テスト/（学力・態度）",
-      "指導の実施",
-      "事後テスト/（学力・態度）"
+      {
+        "text": "基礎的数学スキルの/達成度テスト",
+        "evidence": "Achievement test were built to measure basic mathematical skill among fourth and fifth grade students as a pre-test and post-test"
+      },
+      {
+        "text": "数学に対する/態度尺度",
+        "evidence": "To measure student attitudes to mathematics, attitudes to mathematics scale was developed and tested for validity and reliability."
+      }
     ],
     "results": [
-      "共分散分析",
-      "学力事後平均点：/実験群36.33・統制群18.30"
+      {
+        "text": "事後テストで/実験群の学力得点が高い",
+        "evidence": "experimental subjects scored higher (M=36.33) than the control subjects (M=18.30)."
+      },
+      {
+        "text": "事後テストで/実験群の態度得点が高い",
+        "evidence": "Results demonstrate that mean scores were higher (M=31.07) for experimental than for control (M=18.37) group members."
+      }
     ]
   }
 }

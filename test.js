@@ -365,50 +365,122 @@ async function run() {
   const pick2 = store.nextToPost(['W-nofig-1', 'W-nofig-2'], hasFig);
   check('投稿の選び方: どれも図が無ければ null（投稿は失敗にして知らせる）', pick2.id === null && pick2.skipped.length === 2, JSON.stringify(pick2));
   check('投稿の選び方: 先頭に図があれば、飛ばさない', store.nextToPost(['W-with-1'], hasFig).skipped.length === 0);
+  // 優先する記事（結果の欄に数値がある図）があれば先にする。古い順は、優先の中でも、そうでない中でも保つ
+  const pref = (id) => id === 'W-with-2' || id === 'W-with-3';
+  check('投稿の選び方: 優先する記事（結果に数値のある図）を先にし、その中は古い順',
+        store.nextToPost(['W-with-1', 'W-with-2', 'W-with-3'], hasFig, pref).id === 'W-with-2');
+  check('投稿の選び方: 優先する記事が無ければ、図のある古い順', store.nextToPost(['W-with-1', 'W-with-2'], hasFig, () => false).id === 'W-with-1');
+  check('投稿の選び方: 優先する記事に図が無ければ、飛ばして次を選ぶ',
+        store.nextToPost(['W-with-1', 'W-nofig-1'], hasFig, (id) => id === 'W-nofig-1').id === 'W-with-1');
   check('画像: Pixabay の部品は使わない（lib/pixabay.js が無い）', !fs.existsSync(path.join(__dirname, 'lib', 'pixabay.js')));
 
 
-  // ---------- 研究の流れ図 ----------
+  // ---------- 研究の流れ図（論文の本文から、根拠の文を照合して作る） ----------
   const fig = require('./lib/figure');
-  const figArticle = { sections: { what: '小学4年生145名を対象にしました。', novelty: '', method: '階層的回帰分析を用いました。', validation: '説明率は21%でした（R2 = .21）。', implications: '', nextLead: '' } };
-  const okSpec = { target: ['小学4年生/145名'], conditions: ['ワーキングメモリ', '数学不安'], measures: ['各種テスト'], results: ['階層的回帰分析', '説明率21%'] };
-  check('図: 記事にある語句と数値なら合格', fig.validateSpec(okSpec, figArticle).length === 0, fig.validateSpec(okSpec, figArticle));
-  const badNum = { ...okSpec, results: ['階層的回帰分析', '説明率35%'] };
-  check('図: 記事にない数値（35%）は不合格', fig.validateSpec(badNum, figArticle).some((p) => /35/.test(p)), fig.validateSpec(badNum, figArticle));
-  const sum = { ...okSpec, target: ['小学4年生/290名'] };
-  check('図: 数値の和（145+145）も通さない', fig.validateSpec(sum, figArticle).some((p) => /290/.test(p)), fig.validateSpec(sum, figArticle));
-  const longItem = { ...okSpec, conditions: ['あ'.repeat(config.figure.maxChars + 1)] };
+  // 論文の本文（pdftotext の出力に似せて、改行・ハイフンでの語の分割を入れてある）
+  const paperText = [
+    'Method', 'Participants', 'A total of 145 fourth-grade students from three primary schools in Italy took part in the study.',
+    'Measures', 'Working memory was assessed with the listening span task and the backward digit re-',
+    'call task. Math anxiety was measured by the MARS-R questionnaire.',
+    'Data analysis', 'Hierarchical multiple regression analyses were carried out. The model explained 21% of the variance (R2 = .21).',
+    'References', 'Smith, J. (2000). An unrelated study of 999 students.'
+  ].join('\n');
+  const ctx = fig.makeContext(paperText);
+  const good = (text, evidence) => ({ text, evidence });
+  const okSpec = {
+    target: [good('イタリアの/小学4年生145名', 'A total of 145 fourth-grade students from three primary schools in Italy')],
+    conditions: [good('作業記憶', 'Working memory was assessed with the listening span task'), good('数学不安', 'Math anxiety was measured by the MARS-R questionnaire')],
+    measures: [good('リスニングスパン課題', 'Working memory was assessed with the listening span task')],
+    results: [good('階層的重回帰分析', 'Hierarchical multiple regression analyses were carried out'), good('説明率21%', 'The model explained 21% of the variance')]
+  };
+  check('図: 根拠の文が論文の本文にあり、数値が根拠の文にあれば合格', fig.validateSpec(okSpec, ctx).length === 0, fig.validateSpec(okSpec, ctx));
+  const probs = (spec) => fig.validateSpec(spec, ctx).join(' / ');
+  const withItem = (key, item) => ({ ...okSpec, [key]: [item] });
+  check('図: 根拠の文が論文の本文に無ければ不合格（言い換え・作り話を通さない）',
+        /本文にありません/.test(probs(withItem('conditions', good('作業記憶', 'Working memory was measured by a computerised battery of tests')))), probs(withItem('conditions', good('作業記憶', 'x'.repeat(30)))));
+  check('図: 根拠の文は、改行とハイフンでの語の分割（re-/call）・空白・大文字小文字の違いを越えて一致する',
+        fig.validateSpec(withItem('measures', good('逆唱課題', 'the backward digit recall task. math anxiety was measured')), ctx).length === 0);
+  check('図: 参考文献リストにしか無い文は根拠にならない（参考文献は照合の範囲から除く）',
+        /本文にありません/.test(probs(withItem('target', good('999名', 'An unrelated study of 999 students')))));
+  check('図: 数値が根拠の文に無ければ不合格（根拠は本文にあっても、別の数値を書かせない）',
+        /数値.*35.*根拠の文にありません/.test(probs(withItem('results', good('説明率35%', 'The model explained 21% of the variance')))), probs(withItem('results', good('説明率35%', 'The model explained 21% of the variance'))));
+  check('図: 数値の和（145+145）も通さない',
+        /290/.test(probs(withItem('target', good('小学4年生290名', 'A total of 145 fourth-grade students from three primary schools in Italy')))));
+  check('図: 根拠の文が短すぎる・空なら不合格',
+        /短すぎるか空/.test(probs(withItem('target', good('145名', 'in Italy')))) && /短すぎるか空/.test(probs(withItem('target', good('145名', '')))));
+  const longItem = { ...okSpec, conditions: [good('あ'.repeat(config.figure.maxChars + 1), 'Working memory was assessed with the listening span task')] };
   const empty = { ...okSpec, measures: [] };
-  const withUrl = { ...okSpec, conditions: ['https://example.com/x'] };
+  const withUrl = { ...okSpec, conditions: [good('https://example.com/x', 'Working memory was assessed with the listening span task')] };
   check('図: 長すぎる項目・空の欄・URL は不合格',
-        fig.validateSpec(longItem, figArticle).length === 1 && fig.validateSpec(empty, figArticle).length === 1 && fig.validateSpec(withUrl, figArticle).length >= 1);
-  // 「/」の位置と、枠の幅（約10字）での自動の折り返しが、カタカナの語の途中に来ないか。簡易な近似なので、最後は目で見る
-  const midWord = { ...okSpec, conditions: ['相互教授法／生徒ファシリテー/ター・説明法'] };
-  const autoBreak = { ...okSpec, conditions: ['相互教授法／生徒ファシリテーター・説明法'] };   // 10字目が「ー」の途中
-  const fine = { ...okSpec, conditions: ['インドネシアの公立高校生'] };
-  const kana = (s) => fig.validateSpec(s, figArticle).filter((p) => /切れ目|単語の途中/.test(p)).length;
+        fig.validateSpec(longItem, ctx).length === 1 && fig.validateSpec(empty, ctx).length === 1 && fig.validateSpec(withUrl, ctx).length >= 1,
+        [fig.validateSpec(longItem, ctx), fig.validateSpec(empty, ctx), fig.validateSpec(withUrl, ctx)]);
+  // 照合に通らない項目は取り除き、残った項目で図を作る。どの欄も空にならなければ採用
+  const mixed = { ...okSpec, conditions: [good('作業記憶', 'Working memory was assessed with the listening span task'), good('知能', 'Intelligence was assessed with Raven matrices in all children')] };
+  const pruned = fig.pruneSpec(mixed, ctx);
+  check('図: 照合に通らない項目（本文に無い「知能」）だけを取り除き、通る項目は残す',
+        pruned.spec.conditions.length === 1 && pruned.spec.conditions[0].text === '作業記憶' && pruned.dropped.join() === '知能', JSON.stringify(pruned));
+  // 「/」の位置で改行し、数値の照合と字数は「/」を除いた文字で行う
+  const kana = (text) => fig.itemProblems(good(text, 'Working memory was assessed with the listening span task'), ctx).filter((p) => /切れ目|単語の途中/.test(p)).length;
   check('図: 「/」が単語の途中にあれば不合格。「/」が無く枠の幅でカタカナの語が切れる項目も不合格。切れない項目は合格',
-        kana(midWord) === 1 && kana(autoBreak) === 1 && kana(fine) === 0, [kana(midWord), kana(autoBreak), kana(fine)]);
+        kana('相互教授法／生徒ファシリテー/ター・説明法') === 1 && kana('相互教授法／生徒ファシリテーター・説明法') === 1 && kana('インドネシアの公立高校生') === 0,
+        [kana('相互教授法／生徒ファシリテー/ター・説明法'), kana('相互教授法／生徒ファシリテーター・説明法'), kana('インドネシアの公立高校生')]);
   check('図: 「/」の位置で改行し、数値の照合と字数は「/」を除いた文字で行う',
         fig.breakable('媒介効果が/全効果の62.98%') === '媒介効果が\\\\全効果の62.98\\%' && fig.plainItem('小学4年生/145名') === '小学4年生145名');
   check('図: LaTeX の特殊文字（% & _ # $）を逃がす', fig.texEscape('a%b&c_d#e$f') === 'a\\%b\\&c\\_d\\#e\\$f');
-  const tex = fig.buildTex(okSpec);
-  check('図: LaTeX は4つの欄の題と語句を含み、欄の間に矢印が3本ある',
-        ['対象', '条件・変数', '測定・手順', '分析と結果', '小学4年生\\\\145名', '階層的回帰分析'].every((t) => tex.includes(t)) && (tex.match(/\\draw\[arr\]/g) || []).length === 3);
+  const meta = { authors: ['Maria Chiara Passolunghi', 'Elisa Cargnelutti', 'Sandra Pellizzoni'], authorCount: 3, year: '2018' };
+  check('図: 出典は「第一著者の姓 ら（年）」', fig.sourceNote(meta).startsWith('出典：Passolunghi ら（2018）。') && fig.sourceNote({ authors: ['A. One'], year: '2020' }).startsWith('出典：One（2020）。'), fig.sourceNote(meta));
+  const tex = fig.buildTex(okSpec, meta);
+  check('図: LaTeX は4つの欄の題と項目と出典を含み、欄の間に矢印が3本ある',
+        ['対象', '条件・変数', '測定・手順', '分析と結果', 'イタリアの\\\\小学4年生145名', '階層的重回帰分析', 'Passolunghi'].every((t) => tex.includes(t)) && (tex.match(/\\draw\[arr\]/g) || []).length === 3);
   const nodeLines = tex.split('\n').filter((l) => /^\\node\[(t?box)\]/.test(l));
-  check('図: 語句の枠（\\node）に「/」が残らず、「%」は \\% に逃がしてある',
-        nodeLines.length === 6 && nodeLines.every((l) => !l.includes('/')) && nodeLines.some((l) => l.includes('説明率21\\%')), nodeLines.join(' | '));
-  // 投稿のとき: 図があれば添付し、無ければ null（Pixabay に戻る）
+  check('図: 項目の枠（\\node）に「/」と根拠の文が出ず、「%」は \\% に逃がしてある',
+        nodeLines.length === 6 && nodeLines.every((l) => !l.includes('/') && !/Hierarchical|Working memory/.test(l)) && nodeLines.some((l) => l.includes('説明率21\\%')), nodeLines.join(' | '));
+  // 投稿のとき: 図があれば添付し、無ければ null（図の無い記事は投稿しない）
   const have = fig.loadFigureImage('W2755739173');
   check('図: images/<ID>.png があれば添付（PNG・ファイル名・出典）、無ければ null',
         have === null || (have.contentType === 'image/png' && have.buffer.slice(1, 4).toString() === 'PNG' && /^mathstat-w\d+\.png$/.test(have.filename) && have.credit === config.figure.credit));
-  check('図: 無い ID は null（Pixabay の写真に戻る）', fig.loadFigureImage('W0000000000') === null);
+  check('図: 無い ID は null（図の無い記事は投稿しない）', fig.loadFigureImage('W0000000000') === null);
+
+  // 根拠の記録がある図だけを「根拠つき」とみなす（記事から作った古い図は作り直す）
+  const grounded = { figure: { target: [good('a', 'x'.repeat(20))], conditions: [good('b', 'y'.repeat(20))], measures: [good('c', 'z'.repeat(20))], results: [good('d', 'w'.repeat(20))] } };
+  const oldStyle = { figure: { target: ['小学4年生145名'], conditions: ['作業記憶'], measures: ['テスト'], results: ['回帰分析'] } };
+  check('図: 根拠の文つきの項目だけの図は「根拠つき」。文字列だけの古い図・記録の無い図は違う',
+        fig.isGrounded(grounded) === true && fig.isGrounded(oldStyle) === false && fig.isGrounded({}) === false && fig.isGrounded(null) === false);
+
+  // 項目を作る流れ（言語モデルは偽物）: 1回目は本文に無い根拠 → 問題点を伝えて2回目で直す
+  llm.reset();
+  setEnv({ GEMINI_API_KEY: 'G' });
+  const asks = [];
+  fakeFetch((url, opts) => {
+    if (!url.includes('generativelanguage')) return { status: 404 };
+    const prompt = JSON.parse(opts.body).contents[0].parts.map((p) => p.text).join('\n');
+    asks.push(prompt);
+    const bad = asks.length === 1;
+    const spec = {
+      target: [good('小学4年生145名', bad ? 'Participants were 300 sixth graders from Spain' : 'A total of 145 fourth-grade students from three primary schools in Italy')],
+      conditions: [good('作業記憶', 'Working memory was assessed with the listening span task')],
+      measures: [good('MARS-R', 'Math anxiety was measured by the MARS-R questionnaire')],
+      results: [good('階層的重回帰分析', 'Hierarchical multiple regression analyses were carried out')]
+    };
+    return geminiOk(spec);
+  });
+  const made = await fig.makeSpec({ paper: { title: 'T', venue: 'V', year: '2018' } }, paperText);
+  check('図: 本文に無い根拠は直させ（2回目）、直れば採用する。問題点は次の依頼に書く',
+        made && made.target[0].evidence.startsWith('A total of 145') && asks.length === 2 && /本文にありません/.test(asks[1]) &&
+        asks[0].includes('A total of 145 fourth-grade') && !asks[0].includes('The model explained 99%'), JSON.stringify(made) + ' ' + asks.length);
+  check('図: 依頼には論文の本文（参考文献は除く）を渡し、記事の文章は渡さない', asks[0].includes('Hierarchical multiple regression') && !asks[0].includes('An unrelated study of 999'));
+
+  // 2回とも本文に無ければ、その項目を外す。欄が空になれば図は作らない
+  llm.reset();
+  const alwaysBad = { target: [good('小学4年生145名', 'Participants were 300 sixth graders from Spain')], conditions: okSpec.conditions, measures: okSpec.measures, results: okSpec.results };
+  fakeFetch(() => geminiOk(alwaysBad));
+  check('図: 2回とも根拠が本文に無く、欄が空になるなら null（作らない）', (await fig.makeSpec({ paper: { title: 'T' } }, paperText)) === null);
 
   // LaTeX が入っている環境（この PC）だけ、実際に描く
   const hasLatex = fs.existsSync(config.figure.lualatex) || (() => { try { require('child_process').execFileSync(config.figure.lualatex, ['--version'], { stdio: 'ignore' }); return true; } catch (e) { return false; } })();
   if (hasLatex) {
     let png = null, errPng = null;
-    try { png = fig.renderPng(okSpec, 'selftest'); } catch (e) { errPng = e; }
+    try { png = fig.renderPng(okSpec, 'selftest', meta); } catch (e) { errPng = e; }
     check('図: LuaLaTeX で実際に描ける（PNG になり、横幅が 1000 px 以上）',
           png && png.slice(1, 4).toString() === 'PNG' && png.readUInt32BE(16) >= 1000, errPng && errPng.message);
   }
