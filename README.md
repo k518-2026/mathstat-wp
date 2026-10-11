@@ -16,9 +16,9 @@ Google Apps Script 版（PaperIntro / MathStat）の後継です。2026年10月�
 1. OpenAlex で、オープンアクセス・英語・学術誌の論文を被引用数の多い順に探す（条件は `config.js`）
 2. 本文の PDF を取り、`pdftotext` で文字にする
 3. 言語モデルに6観点の記事を書かせる。論文の全文を1回で読ませる。使う順番は次のとおり（記事も図も短い問い合わせも同じ順）
-   1. **Ollama**（`http://192.168.128.62:11434`。`gemma4:12b`、次に `qwen3.5:9b`。無料・手元）
-   2. **LM Studio など OpenAI 互換の API**（`http://192.168.128.16:1234`。入っているモデルを順に最大2個）
-   3. **外部 API**: Gemini（無料。混雑・上限なら次のモデルへ）→ Claude（従量課金）。手元の2台が起動していないときの第3候補
+   1. **Ollama**（接続先は `.env` の `OLLAMA_HOST`。モデルは `gemma4:12b`、次に `qwen3.5:9b`。無料・手元）
+   2. **LM Studio など OpenAI 互換の API**（接続先は `.env` の `LMSTUDIO_HOST`。モデルは `google/gemma-4-12b-qat`、次に `google/gemma-4-26b-a4b-qat`。入っていなければサーバーが返すモデルを順に最大2個）
+   3. **外部 API**: Gemini（無料。`gemini-3.6-flash` → `gemini-3.8-flash` → `gemini-3.5-flash` → `gemini-3.7-flash` の順。混雑・上限なら次のモデルへ）→ Claude（従量課金。`claude-sonnet-5`、effort は medium）。手元の2台が起動していないときの第3候補
    手元の2台は、起動していなければ（届かなければ）その実行では飛ばして次へ回します。
 4. 手元のモデルが書いた記事は、数値が論文の本文にあるかをプログラムで照合し、無ければ使わず次の候補で書き直します。
    テーマに合うかは、問いを分けて「はい／いいえ」で答えさせて決めます

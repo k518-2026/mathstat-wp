@@ -8,6 +8,9 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
+// 手元の2台の接続先は .env に置く（GitHub に載せない）。テストは偽物のサーバーの架空の住所を使う
+process.env.OLLAMA_HOST = 'http://ollama.test:11434';
+process.env.LMSTUDIO_HOST = 'http://lmstudio.test:1234';
 const config = require('./config');
 const llm = require('./lib/llm');
 const writer = require('./lib/writer');

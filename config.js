@@ -65,9 +65,9 @@ module.exports = {
   temperature: 0.4,
   maxOutputTokens: 16384,
 
-  // 1番目: Ollama。以前の Mac mini（192.168.128.59）に代わって、2026-10-11 から 192.168.128.62
+  // 1番目: Ollama。接続先は .env の OLLAMA_HOST（GitHub には載せない。未設定なら手元の言語モデルは使わない）
   ollama: {
-    host: process.env.OLLAMA_HOST || 'http://192.168.128.62:11434',
+    host: process.env.OLLAMA_HOST || '',
     // 入っているモデル（2026-10-11）: gemma4:12b・qwen3.5:9b・shosetsu:latest（小説用と思われるので論文には使わない）。
     // どちらも 26万トークンまで読める。同じ論文（ドリルとエチュード）で比べた結果（2026-10-04、旧サーバー）:
     //   qwen3.5:9b  題名を「豊かなたすき」と誤訳した回があり、ベイズ因子の数値が入らず、
@@ -80,12 +80,12 @@ module.exports = {
     timeoutMs: 15 * 60 * 1000
   },
 
-  // 2番目: LM Studio など OpenAI 互換の API（/v1/chat/completions）。2026-10-11 に 192.168.128.16:1234 と指定された。
+  // 2番目: LM Studio など OpenAI 互換の API（/v1/chat/completions）。接続先は .env の LMSTUDIO_HOST（GitHub には載せない）。
   // 未確認: 指定の時点でこのサーバーは応答せず（起動していない）、入っているモデルと文脈の長さは確かめていない。
   // models が空なら、サーバーが返すモデルを順に最大 autoMax 個使う。文脈の長さは読み込むときに決まり、
   // 論文の全文が入りきらなければ 400 になって次の候補へ回る
   lmstudio: {
-    host: process.env.LMSTUDIO_HOST || 'http://192.168.128.16:1234',
+    host: process.env.LMSTUDIO_HOST || '',
     // 2026-10-11 の実機での測定（論文の全文を渡し、図の項目を作らせた）:
     //   google/gemma-4-12b-qat       3回中2回で図の項目が作れた。1本 約3〜4分。7.2GB
     //   google/gemma-4-26b-a4b-qat   1回で作れなかった（根拠の文を本文のとおりに写せない項目が多かった）。15.6GB
