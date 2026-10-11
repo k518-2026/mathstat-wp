@@ -84,5 +84,43 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-10-11",
-  "createdAt": "2026-10-11 08:02"
+  "createdAt": "2026-10-11 08:02",
+  "figure": {
+    "target": [
+      {
+        "text": "イタリアの女子大学生/328名",
+        "evidence": "The participants were 328 female psychology students (Mage = 20.8; SD = 3; range 18 to 53 years) from the University of Florence, Italy."
+      },
+      {
+        "text": "イタリアの中学生/184名",
+        "evidence": "184 secondary school students participated in the study (Mage = 15.9; SD = .80; 15–19 years; 47% females)."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "ワーキングメモリ負荷",
+        "evidence": "Experiment 3 included a manipulation of working memory load."
+      }
+    ],
+    "measures": [
+      {
+        "text": "最終的な数学成績",
+        "evidence": "In Experiment 2, participants’ final secondary school maths grades were used."
+      }
+    ],
+    "results": [
+      {
+        "text": "実験1:直接・間接効果あり",
+        "evidence": "The INDIRECT procedure revealed a significant indirect effect of maths anxiety on cognitive reflection through maths knowledge (point estimate - .01, 95% CI = − .02 to - .004)."
+      },
+      {
+        "text": "実験2:直接・間接効果あり",
+        "evidence": "The results revealed a significant indirect effect of maths anxiety on cognitive reflection through maths achievement (estimate point -.007, 95% CI = − 0.014 to - 0.002)."
+      },
+      {
+        "text": "実験3:不安と負荷の主効果",
+        "evidence": "A 2x2 ANOVA with maths anxiety group (high/low) and WM load (WM load/no load) as betweensubjects factors indicated a significant effect of maths anxiety (F(1,88) = 8.68, p = .004, ηp2 = .09), and a significant effect of WM load (F(1,88) = 7.21, p = .009, ηp2 = .08)."
+      }
+    ]
+  }
 }
