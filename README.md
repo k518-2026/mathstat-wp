@@ -8,7 +8,7 @@ Google Apps Script 版（PaperIntro / MathStat）の後継です。2026年10月�
 | 役割 | 動く場所 | ファイル |
 |---|---|---|
 | 論文を探して記事を作り、貯める | 手元の Windows PC（タスク スケジューラー） | `generate.js` |
-| 貯めた記事を WordPress へメールで投稿する（毎朝 5時に1本） | GitHub Actions | `publish.js`、`.github/workflows/publish.yml` |
+| 貯めた記事を WordPress へメールで投稿する（毎朝 5:47 に1本） | GitHub Actions | `publish.js`、`.github/workflows/publish.yml` |
 | WordPress に出た記事を Bluesky で告知する | GitHub Actions | `announce.js`、`.github/workflows/announce.yml` |
 
 ## 記事の作り方
@@ -35,7 +35,9 @@ Google Apps Script 版（PaperIntro / MathStat）の後継です。2026年10月�
 - 言語モデルが記事の本文から4つの欄（対象／条件・変数／測定・手順／分析と結果）の短い語句を出し、固定のひな形で描きます
 - 数値は記事にあるものだけを使い、プログラムで照合します。図には「概念図（実際のデータの図ではありません）」と入れます
 - 図が無い記事は、**図ができるまで投稿しません**。記事づくりの実行のたびに、図の無い投稿待ちの記事へ作り直します
+- 図には**調査人数（N数）を必ず入れます**（対象の欄。論文の本文の人数。メタ分析なら研究の数）
 - 手で作るとき: `node make-figures.js`（`--id=W…`、`--force`、`--dry`）。一覧で見るとき: `node figures/make-sheet.js`
+- 人が項目を書いて作るとき: `node make-figures.js --id=W… --from=<項目のJSON>`。各項目の根拠の文が論文の本文にあるかを照合し、通らなければ何も保存しません
 - LaTeX が要るのはこの PC だけです（TeX Live と LuaTeX-ja）。GitHub Actions は PNG を添付するだけです
 
 ## ファイル
