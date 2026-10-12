@@ -1,0 +1,146 @@
+{
+  "paper": {
+    "id": "W2991020891",
+    "doi": "10.1016/j.tate.2019.102983",
+    "title": "Exploring the relationship between teacher enjoyment of mathematics, their attitudes towards student struggle and instructional time amongst early years primary teachers",
+    "authors": [
+      "James Russo",
+      "Janette Bobis",
+      "Peter Sullivan",
+      "Ann Downton"
+    ],
+    "authorCount": 7,
+    "venue": "Teaching and Teacher Education",
+    "volume": "88",
+    "issue": "",
+    "pages": "102983",
+    "year": "2019",
+    "citedBy": 103,
+    "url": "https://doi.org/10.1016/j.tate.2019.102983",
+    "license": "cc-by-nc-nd",
+    "pdfUrl": "https://researchmgt.monash.edu/ws/files/291264413/290231520_oa.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "オーストラリアの小学校低学年教員を対象に、数学指導の楽しさ、生徒の試行錯誤に対する態度、指導時間の関係を重回帰分析等で調査した量的実証研究であるため。",
+    "titleJa": "小学校低学年教員における数学指導の楽しさ、生徒の試行錯誤に対する態度、指導時間の関係",
+    "sections": {
+      "what": "オーストラリア・ビクトリア州の小学校低学年（5〜8歳担当）の教員98名を対象に、数学指導の楽しさ、生徒の粘り強い試行錯誤（struggle）に対する態度、そして週あたりの数学指導時間の関係を調べた研究です。先行研究では教員の数学不安など負の感情が注目されがちでしたが、本研究は「楽しさ」という正の感情に着目しています。また、教員が生徒の試行錯誤をどの程度容認・重視するかを測定する尺度を独自に開発し、教員の感情が授業の質や量にどのように関連しているかを明らかにすることを目的としています。",
+      "novelty": "これまでの研究では教員の負の感情の影響や、中等教育における調査が中心であり、初等教育段階における教員の「数学指導の楽しさ」と生徒の試行錯誤に対する態度の関係は十分に解明されていませんでした。また、教員の感情と指導時間との関連を示した先行研究は1980年代の少量サンプルによる米国での研究に限られており、現代の異なる教育文脈での再検証が必要とされていました。本研究は、生徒の試行錯誤に対する教員の態度を測る尺度の構築を含め、これらの課題に新たに取り組んだ点に価値があります。",
+      "method": "研究ではアンケート調査を実施し、既存の「数学指導の楽しさ」尺度（5項目）と、新たに開発した「試行錯誤に対する態度」尺度（6項目、信頼性係数alpha=0.74）、および週あたりの指導時間を測定しました。データ分析には相関分析と階層的重回帰分析を用いています。階層的重回帰分析では、まず教員の役職（リーダーシップの有無）などの属性変数をモデルに投入し、その上で「数学指導の楽しさ」を加えることで、試行錯誤への態度や指導時間の分散を独自に予測できるか検証しました。",
+      "validation": "分析の結果、数学指導の楽しさは生徒の試行錯誤に対する肯定的態度と強い正の相関を示しました（r = 0.52）。階層的重回帰分析では、役職の影響を制御した後も、指導の楽しさが試行錯誤に対する態度の分散の15%を独自に説明することが示されました。また、指導の楽しさは週あたりの指導時間とも正の相関を示し（r = 0.25）、役職の影響を制御した後も指導時間の分散の4%を独自に説明しました。これにより、指導を楽しむ教員ほど生徒の試行錯誤を重視し、指導時間を長く確保する傾向が確認されました。",
+      "implications": "本研究の結果は、教員が数学指導を楽しむことが、生徒に思考力を求める質の高い指導や十分な学習時間の確保につながる可能性を示唆しています。ただし、本研究は相関関係を示すものであり、因果関係を直接証明するものではありません。また、指導時間は自己報告に基づいているため、実際の授業観察データを用いた検証や、児童の学習成果への長期的影響の追跡が今後の課題として挙げられます。教員の感情を考慮した研修や支援体制の構築が重要であることを論文は指摘しています。",
+      "nextLead": "教員の感情と指導行動のつながりについて理解を深めた後は、感情の理論的枠組みや教員と生徒の感情の相互作用について探究するのが効果的です。以下の論文を読むことで理論的背景が明確になります。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2169365000",
+          "doi": "10.1007/s10648-006-9029-9",
+          "title": "The Control-Value Theory of Achievement Emotions: Assumptions, Corollaries, and Implications for Educational Research and Practice",
+          "authors": [
+            "Reinhard H. Pekrun"
+          ],
+          "authorCount": 1,
+          "venue": "Educational Psychology Review",
+          "volume": "18",
+          "issue": "4",
+          "pages": "315–341",
+          "year": "2006",
+          "citedBy": 5569,
+          "url": "https://doi.org/10.1007/s10648-006-9029-9"
+        },
+        "reason": "本文で教員の感情反応を説明するために用いられた統制価値理論の原典であり、楽しさや不安などの感情が生じる仕組みを深く理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W4385604822",
+          "doi": "10.1016/j.learninstruc.2023.101822",
+          "title": "Teacher emotions are linked with teaching quality: Cross-sectional and longitudinal evidence from two field studies",
+          "authors": [
+            "Irena Burić",
+            "Anne Christiane Frenzel"
+          ],
+          "authorCount": 2,
+          "venue": "Learning and Instruction",
+          "volume": "88",
+          "issue": "",
+          "pages": "101822",
+          "year": "2023",
+          "citedBy": 58,
+          "url": "https://doi.org/10.1016/j.learninstruc.2023.101822"
+        },
+        "reason": "本研究の知見を発展させ、教員の感情が実際の授業の質にどのように影響するかを縦断データ等で検証しており、因果関係の理解を深めるのに好適です。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "重回帰分析",
+        "wikiTitle": "重回帰分析"
+      },
+      {
+        "term": "相関分析",
+        "wikiTitle": "相関"
+      },
+      {
+        "term": "信頼性係数",
+        "wikiTitle": "信頼性 (心理学)"
+      }
+    ],
+    "links": [
+      {
+        "term": "重回帰分析",
+        "title": "重回帰分析",
+        "url": "https://ja.wikipedia.org/wiki/%E9%87%8D%E5%9B%9E%E5%B8%B0%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "相関分析",
+        "title": "相関",
+        "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%96%A2"
+      }
+    ],
+    "intro": "数学の授業を楽しむ先生ほど、児童の試行錯誤を温かく見守り指導時間も長く確保する傾向があります。教員の感情が授業の質と量に与える影響を探った研究を紹介します。",
+    "warnings": [],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-10-12",
+  "createdAt": "2026-10-12 10:01",
+  "figure": {
+    "target": [
+      {
+        "text": "授業時間分析の/対象93名",
+        "evidence": "Instructional Time 93 292.0 60.7 120 455"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "教師の楽しさと/困難への態度",
+        "evidence": "explored the relationship between teacher enjoyment of teaching mathematics, their attitudes towards student struggle"
+      },
+      {
+        "text": "数学指導の/授業時間",
+        "evidence": "and the amount of time teachers spent teaching mathematics."
+      }
+    ],
+    "measures": [
+      {
+        "text": "指導態度・行動の/オンライン調査",
+        "evidence": "Ninety-eight primary educators were surveyed regarding their attitudes and behaviors towards mathematics instruction."
+      },
+      {
+        "text": "困難への態度の/6項目尺度開発",
+        "evidence": "Following this deletion, there were six items included in the measure."
+      }
+    ],
+    "results": [
+      {
+        "text": "楽しさと困難態度が/相関（r=0.52）",
+        "evidence": "Enjoyment of teaching mathematics was strongly related to teacher attitudes towards student struggle (r ¼ 0.52)."
+      },
+      {
+        "text": "楽しさと指導時間が/相関（r=0.25）",
+        "evidence": "Enjoyment of teaching mathematics was related to instructional time spent on mathematics (r ¼ 0.25)."
+      }
+    ]
+  }
+}

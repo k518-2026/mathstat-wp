@@ -961,6 +961,26 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-11 08:02",
       "note": ""
+    },
+    "W2099395751": {
+      "doi": "10.14742/ajet.174",
+      "title": "Validating and modelling technological pedagogical content knowledge framework among Asian preservice teachers",
+      "citedBy": 107,
+      "year": "2013",
+      "status": "skipped",
+      "note": "テーマ外: 本論文はアジア4地域の教員志望者全般を対象にテクノロジーを活用した指導知識枠組みを検証した研究であり、算数・数学の学習や指導を対象とした研究ではないため。",
+      "checkedAt": "2026-10-12 10:00"
+    },
+    "W2991020891": {
+      "doi": "10.1016/j.tate.2019.102983",
+      "title": "Exploring the relationship between teacher enjoyment of mathematics, their attitudes towards student struggle and instructional time amongst early years primary teachers",
+      "citedBy": 103,
+      "year": "2019",
+      "status": "ready",
+      "titleJa": "小学校低学年教員における数学指導の楽しさ、生徒の試行錯誤に対する態度、指導時間の関係",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-10-12 10:01",
+      "note": ""
     }
   }
 }
