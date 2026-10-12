@@ -108,37 +108,53 @@
   "figure": {
     "target": [
       {
-        "text": "授業時間分析の/対象93名",
-        "evidence": "Instructional Time 93 292.0 60.7 120 455"
+        "text": "オーストラリアの/小学校教員98名",
+        "evidence": "Of the 98 teacher-participants, 80 (82%) were solely in a classroom teaching role"
+      },
+      {
+        "text": "うち女性が85名(87%)",
+        "evidence": "The majority of participants were female (n ¼ 85; 87%)."
+      },
+      {
+        "text": "研修の前に/オンライン調査",
+        "evidence": "Prior to the workshop beginning, participants were invited to complete an online survey. The survey took participants around 20e25 min to complete."
       }
     ],
     "conditions": [
       {
-        "text": "教師の楽しさと/困難への態度",
-        "evidence": "explored the relationship between teacher enjoyment of teaching mathematics, their attitudes towards student struggle"
+        "text": "予測する変数:/算数を教える楽しさ",
+        "evidence": "explored the relationship between teacher enjoyment of teaching mathematics, their attitudes towards student struggle, and the amount of time teachers spent teaching mathematics"
       },
       {
-        "text": "数学指導の/授業時間",
-        "evidence": "and the amount of time teachers spent teaching mathematics."
+        "text": "結果の変数:つまずきへの/態度と指導時間",
+        "evidence": "teacher enjoyment of teaching mathematics explained variance in both teacher attitudes towards student struggle and instructional time spent on mathematics"
       }
     ],
     "measures": [
       {
-        "text": "指導態度・行動の/オンライン調査",
-        "evidence": "Ninety-eight primary educators were surveyed regarding their attitudes and behaviors towards mathematics instruction."
+        "text": "楽しさ:5項目の/5段階尺度(5〜25点)",
+        "evidence": "The maximum score on this measure is 25 and the minimum score is 5."
       },
       {
-        "text": "困難への態度の/6項目尺度開発",
+        "text": "つまずきへの態度:/7項目から6項目に",
         "evidence": "Following this deletion, there were six items included in the measure."
+      },
+      {
+        "text": "指導時間:週の回数×/1回の長さ(週あたりの分)",
+        "evidence": "These two responses were used to derive a measure of instructional time, which equated to minutes of mathematical instruction per week."
       }
     ],
     "results": [
       {
-        "text": "楽しさと困難態度が/相関（r=0.52）",
+        "text": "階層的重回帰分析で/属性を統制して検討",
+        "evidence": "Data were analysed quantitatively, using SPSS Statistics, Version 25, using a combination of correlational analysis and hierarchical multiple regression."
+      },
+      {
+        "text": "楽しさと態度の相関/r=0.52",
         "evidence": "Enjoyment of teaching mathematics was strongly related to teacher attitudes towards student struggle (r ¼ 0.52)."
       },
       {
-        "text": "楽しさと指導時間が/相関（r=0.25）",
+        "text": "楽しさと指導時間の相関/r=0.25",
         "evidence": "Enjoyment of teaching mathematics was related to instructional time spent on mathematics (r ¼ 0.25)."
       }
     ]

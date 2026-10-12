@@ -147,38 +147,54 @@
   "figure": {
     "target": [
       {
-        "text": "研究1の対象/（60名）",
+        "text": "研究1:ノッティンガムの/1年生62名",
+        "evidence": "In total, 62 typically developing children attending Year 1 of primary school were recruited from three primary schools located in low SES areas within Nottingham."
+      },
+      {
+        "text": "研究2:幼児期の/子ども34名",
+        "evidence": "IDACI ranks ranged from 5920 to 31716, with a median value of 22512 (n = 34)"
+      },
+      {
+        "text": "研究1の分析は/完全なデータ60名",
         "evidence": "A complete dataset was obtained for 60 pupils."
       }
     ],
     "conditions": [
       {
-        "text": "予測変数/（微細運動技能）",
-        "evidence": "Fine Motor Precision and Fine Motor Integration"
+        "text": "予測する変数:/微細運動の精度と統合",
+        "evidence": "two components of ﬁne motor skills, Fine Motor Precision and Fine Motor Integration"
       },
       {
-        "text": "予測される変数/（読解・算数）",
-        "evidence": "early reading and maths development"
+        "text": "予測される変数:/読解と算数の力",
+        "evidence": "Fine Motor Precision and Fine Motor Integration, and early reading and maths development in two studies"
       }
     ],
     "measures": [
       {
-        "text": "BOT-2/（微細運動技能）",
-        "evidence": "The Bruininks–Oseretsky Test of Motor Proficiency, Second Edition (BOT-2; Bruininks and Bruininks, 2005) was used to assess ﬁne motor skills."
+        "text": "微細運動:BOT-2/(8つの下位検査)",
+        "evidence": "The Bruininks–Oseretsky Test of Motor Proﬁciency, Second Edition (BOT-2; Bruininks and Bruininks, 2005) was used to assess ﬁne motor skills. This age-adjusted measure is suitable for children aged 4–21 years and consists of eight subtests."
       },
       {
-        "text": "WIAT-II/（読解・算数）",
-        "evidence": "Early scholastic achievement was evaluated using the Wechsler Individual Achievement Test, Second Edition (WIAT-IIUK; Wechsler, 2005)."
+        "text": "学力:WIAT-II/(語の読みと数学的推論)",
+        "evidence": "Two subtests were used in this study. (1) Word Reading which assesses the ability to name single letters, recognize sounds in a word and read whole words, and (2) Mathematical Reasoning"
+      },
+      {
+        "text": "回帰分析では/非言語IQなども統制",
+        "evidence": "Fine Motor Integration remained a signiﬁcant predictor of maths ability, even after the inﬂuence of non-verbal IQ had been accounted for."
       }
     ],
     "results": [
       {
-        "text": "読解能力/（算数より有意に高い）",
-        "evidence": "a paired-samples t-test demonstrated that the overall group diﬀerence in reading and maths ability was statistically signiﬁcant [t(59) = 4.71, p < 0.001] and was captured by a medium eﬀect size (Cohen’s d = 0.58)"
+        "text": "読解が算数より有意に高い/t(59)=4.71(研究1)",
+        "evidence": "a paired-samples t-test demonstrated that the overall group diﬀerence in reading and maths ability was statistically signiﬁcant [t(59) = 4.71, p < 0.001]"
       },
       {
-        "text": "微細運動技能/（算数能力の予測）",
-        "evidence": "Fine Motor Integration remained a signiﬁcant predictor of maths ability, even after the inﬂuence of non-verbal IQ had been accounted for."
+        "text": "微細運動は算数を/より強く予測した",
+        "evidence": "ﬁne motor skills were a better predictor of early maths ability than they were of early reading ability."
+      },
+      {
+        "text": "短期記憶を入れると/読解は予測されない",
+        "evidence": "ﬁne motor skills did not signiﬁcantly predict reading ability when verbal short-term memory was taken into account"
       }
     ]
   }

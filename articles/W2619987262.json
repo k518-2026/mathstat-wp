@@ -87,58 +87,58 @@
   "figure": {
     "target": [
       {
-        "text": "1,279名の参加者",
-        "evidence": "leaving a total of 1,279 participants"
+        "text": "家族生活プロジェクトの/子ども1,279名",
+        "evidence": "Thirteen children were excluded from analyses for having no available direct assessment data, leaving a total of 1,279 participants."
       },
       {
-        "text": "アメリカの農村地域",
-        "evidence": "representative of rural areas in two distinctive geographical parts of the United States"
+        "text": "米国の貧困率が高い/2地域",
+        "evidence": "The Family Life Project (FLP) recruited children and their families from two distinct geographical areas of the United States with high rates of poverty."
       },
       {
-        "text": "低所得の家族",
-        "evidence": "sample of students living in low-income families"
+        "text": "最初に募集した家族は/1,292世帯(生後2か月)",
+        "evidence": "A total 1,292 families were recruited to take part in data collection when the child was 2 months of age"
       }
     ],
     "conditions": [
       {
-        "text": "実行機能(EF)",
-        "evidence": "executive function (EF) (a construct made up of skills complicit in the achievement of goal-directed tasks)"
+        "text": "予測する変数:/5歳時の実行機能(EF)",
+        "evidence": "EF data were drawn from direct assessment conducted during a home visit when children were 5 years old."
       },
       {
-        "text": "5年生の算数と読解",
-        "evidence": "predicting 5th grade math and reading ability"
+        "text": "統制する変数:処理速度・/語彙・IQ",
+        "evidence": "net of other cognitive covariates including processing speed, vocabulary, and IQ"
       },
       {
-        "text": "認知変数の共変量",
-        "evidence": "other cognitive covariates including processing speed, vocabulary, and IQ"
+        "text": "予測される変数:/5年生の算数と読解",
+        "evidence": "predicting 5th grade math and reading ability above and beyond math and reading ability prior to school entry"
       }
     ],
     "measures": [
       {
-        "text": "PreKの算数と読解",
-        "evidence": "Academic skills were measured prior to kindergarten entry (PreK)"
+        "text": "EFの評価:/6つの課題",
+        "evidence": "Executive function assessment comprised six tasks."
       },
       {
-        "text": "5歳時のEF評価",
-        "evidence": "EF data were drawn from direct assessment conducted during a home visit when children were 5 years old."
+        "text": "学力は就学前と/5年生の2時点で測定",
+        "evidence": "Academic skills were measured prior to kindergarten entry (PreK) and in 5th grade."
       },
       {
-        "text": "5年生の学力評価",
-        "evidence": "assess math and literacy skills again when children are in 5th grade."
+        "text": "欠測値は完全情報/最尤推定で処理",
+        "evidence": "missing data was accounted for using Full Information Maximum Likelihood estimation."
       }
     ],
     "results": [
       {
-        "text": "パス解析による予測",
-        "evidence": "simultaneous models were estimated in a path analysis to regress 5th grade math and reading scores onto EF, PreK math and pre-literacy skills"
+        "text": "パス解析:5年生の成績を/EFなどから予測",
+        "evidence": "Simultaneous models were estimated in a path analysis to regress 5th grade math and reading scores onto EF, PreK math and pre-literacy skills"
       },
       {
-        "text": "EFの有意な予測",
-        "evidence": "EF at age 5 strongly predicts 5th grade academic skills"
-      },
-      {
-        "text": "EFによる補償効果",
+        "text": "EF×就学前算数:/5年生の算数 β=-0.585",
         "evidence": "the interaction term of EF with PreK math signiﬁcantly predicted both 5th grade math (β = −0.585, p = 0.016) and 5th grade reading skills (β = −0.754, p = 0.007)"
+      },
+      {
+        "text": "EFが高いと/算数の差が縮まる",
+        "evidence": "participants who have high levels of EF can “catch up” to peers who perform better on assessments of early math ability"
       }
     ]
   }

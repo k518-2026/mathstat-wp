@@ -88,38 +88,58 @@
   "figure": {
     "target": [
       {
-        "text": "イタリアの女子大学生/328名",
+        "text": "実験1:イタリアの/女子大学生328名",
         "evidence": "The participants were 328 female psychology students (Mage = 20.8; SD = 3; range 18 to 53 years) from the University of Florence, Italy."
       },
       {
-        "text": "イタリアの中学生/184名",
+        "text": "実験2:イタリアの/中学・高校生184名",
         "evidence": "184 secondary school students participated in the study (Mage = 15.9; SD = .80; 15–19 years; 47% females)."
+      },
+      {
+        "text": "実験3:英国の大学生/31・29・29名(負荷別)",
+        "evidence": "31 participants (8 males) were allocated to the control group, 29 participants (8 males) were allocated to the low load, and 29 participants (7 males) were allocated to the high load condition."
       }
     ],
     "conditions": [
       {
-        "text": "ワーキングメモリ負荷",
+        "text": "予測する変数:/数学不安とテスト不安",
+        "evidence": "the Italian versions of the CRT, the AMAS, and the TAI were administered."
+      },
+      {
+        "text": "ワーキングメモリに/負荷をかける(実験3)",
         "evidence": "Experiment 3 included a manipulation of working memory load."
+      },
+      {
+        "text": "統制する変数:実験1は/数学の知識、実験2は成績",
+        "evidence": "even after controlling for the effects of general mathematical knowledge (in Experiment 1), school mathematical achievement (in Experiment 2)"
       }
     ],
     "measures": [
       {
-        "text": "最終的な数学成績",
-        "evidence": "In Experiment 2, participants’ final secondary school maths grades were used."
+        "text": "認知的熟慮テスト(CRT):/直感に頼らず考える力",
+        "evidence": "is a short test measuring a person’s tendency to override an intuitively compelling response"
+      },
+      {
+        "text": "数学の知識(実験1):/MPP 30問",
+        "evidence": "The test consists of 30 problems, and it has a multiple-choice format"
+      },
+      {
+        "text": "数学の成績(実験2):/学校の最終成績0〜10",
+        "evidence": "the final secondary school maths grades were used (range: 0–10)"
       }
     ],
     "results": [
       {
-        "text": "実験1:直接・間接効果あり",
-        "evidence": "The INDIRECT procedure revealed a significant indirect effect of maths anxiety on cognitive reflection through maths knowledge (point estimate - .01, 95% CI = − .02 to - .004)."
+        "text": "実験1・2:数学不安が/CRTを予測(統制後も)",
+        "evidence": "mathematical anxiety was a significant predictor of cognitive reflection, even after controlling for the effects of general mathematical knowledge (in Experiment 1), school mathematical achievement (in Experiment 2)"
       },
       {
-        "text": "実験2:直接・間接効果あり",
-        "evidence": "The results revealed a significant indirect effect of maths anxiety on cognitive reflection through maths achievement (estimate point -.007, 95% CI = − 0.014 to - 0.002)."
+        "text": "実験3:数学不安の/主効果 F(1,88)=8.68",
+        "evidence": "A 2x2 ANOVA with maths anxiety group (high/low) and WM load (WM load/no load) as betweensubjects factors indicated a significant effect of maths anxiety (F(1,88) = 8.68, p = .004, ηp2 = .09)"
       },
       {
-        "text": "実験3:不安と負荷の主効果",
-        "evidence": "A 2x2 ANOVA with maths anxiety group (high/low) and WM load (WM load/no load) as betweensubjects factors indicated a significant effect of maths anxiety (F(1,88) = 8.68, p = .004, ηp2 = .09), and a significant effect of WM load (F(1,88) = 7.21, p = .009, ηp2 = .08)."
+        "text": "実験3:負荷の主効果/F(1,88)=7.21",
+        "evidence": "and a significant effect of WM load (F(1,88) = 7.21, p = .009, ηp2 = .08)."
       }
     ]
   }
