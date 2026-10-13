@@ -981,6 +981,98 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-10-12 10:01",
       "note": ""
+    },
+    "W2919331839": {
+      "doi": "10.1111/jcal.12353",
+      "title": "Examining pre‐service teachers' Technological Pedagogical Content Knowledge as evolving knowledge domains: A longitudinal approach",
+      "citedBy": 99,
+      "year": "2019",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-13 08:00"
+    },
+    "W2997495504": {
+      "doi": "10.29333/iji.2020.13156a",
+      "title": "The Effect of Experiential Learning and Adversity Quotient on Problem Solving Ability",
+      "citedBy": 87,
+      "year": "2019",
+      "status": "skipped",
+      "note": "テーマ外: 本研究は会計専門職短期大学の学生を対象とした会計情報システム授業における体験学習と逆境指数の影響を検証したものであり、算数・数学の学習や指導を直接の対象とした研究ではないため。",
+      "checkedAt": "2026-10-13 08:10"
+    },
+    "W3006916105": {
+      "doi": "10.3991/ijet.v15i03.11690",
+      "title": "Does Technological Pedagogical Content Knowledge Impact on the Use of ICT In Pedagogy?",
+      "citedBy": 85,
+      "year": "2020",
+      "status": "skipped",
+      "note": "テーマ外: 本研究はインドネシアの中学校教員全般を対象に教育におけるICT活用やテクノロジー・ペダゴジー・内容知の影響を分析したものであり、算数・数学の指導や学習に限定した実証研究ではないため。",
+      "checkedAt": "2026-10-13 08:20"
+    },
+    "W3025274694": {
+      "doi": "10.13189/ujer.2020.080539",
+      "title": "Improving Fifth-Grade Students' Mathematical Problem-Solving and Critical Thinking Skills Using Problem-Based Learning",
+      "citedBy": 82,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-13 08:21"
+    },
+    "W2942599035": {
+      "doi": "10.3926/jotse.662",
+      "title": "A sequential explanatory investigation of TPACK: Indonesian science teachers’ survey and perspective",
+      "citedBy": 82,
+      "year": "2019",
+      "status": "skipped",
+      "note": "テーマ外: この論文はインドネシアの理科教師を対象としたテクノロジー統合に関する調査であり、算数・数学の学習や指導を対象とした研究ではないため。",
+      "checkedAt": "2026-10-13 08:31"
+    },
+    "W3016333446": {
+      "doi": "10.22342/jme.11.2.10818.259-276",
+      "title": "MATHEMATICS TEACHER’S SELF-EFFICACY OF TECHNOLOGY INTEGRATION AND TECHNOLOGICAL PEDAGOGICAL CONTENT KNOWLEDGE",
+      "citedBy": 81,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-13 08:31"
+    },
+    "W1587048926": {
+      "doi": "10.22342/jme.4.1.566.75-94",
+      "title": "Students’ Critical Mathematical Thinking Skills and Character:Experiments for Junior High School Students through Realistic Mathematics Education Culture-Based",
+      "citedBy": 78,
+      "year": "2013",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-13 08:31"
+    },
+    "W2746628399": {
+      "doi": "10.1080/23735082.2017.1360506",
+      "title": "Changing teachers’ TPACK and design beliefs through the Scaffolded TPACK Lesson Design Model (STLDM)",
+      "citedBy": 76,
+      "year": "2017",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-13 08:31"
+    },
+    "W2130725434": {
+      "doi": "10.14742/ajet.807",
+      "title": "Examining preservice teachers' perceived knowledge of TPACK and cyberwellness through structural equation modeling",
+      "citedBy": 75,
+      "year": "2012",
+      "status": "skipped",
+      "note": "テーマ外: 教員養成課程における一般的なICT講座を対象とした研究であり、算数・数学の学習や指導を対象とした実証研究ではないため。",
+      "checkedAt": "2026-10-13 08:42"
+    },
+    "W2605194101": {
+      "doi": "10.4236/ce.2017.83037",
+      "title": "The Influence of Attitudes towards Mathematics, and Metacognitive Awareness on Mathematics Achievements",
+      "citedBy": 71,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "数学に対する態度とメタ認知的気づきが数学の成績に及ぼす影響",
+      "model": "gemini-3.7-flash",
+      "createdAt": "2026-10-13 08:56",
+      "note": ""
     }
   }
 }

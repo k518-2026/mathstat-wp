@@ -1,0 +1,167 @@
+{
+  "paper": {
+    "id": "W2605194101",
+    "doi": "10.4236/ce.2017.83037",
+    "title": "The Influence of Attitudes towards Mathematics, and Metacognitive Awareness on Mathematics Achievements",
+    "authors": [
+      "Clara R. P. Ajisuksmo",
+      "Grace R. Saputri"
+    ],
+    "authorCount": 2,
+    "venue": "Creative Education",
+    "volume": "08",
+    "issue": "03",
+    "pages": "486–497",
+    "year": "2017",
+    "citedBy": 71,
+    "url": "https://doi.org/10.4236/ce.2017.83037",
+    "license": "cc-by",
+    "pdfUrl": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=75168"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "インドネシアの高校生を対象に、数学に対する態度とメタ認知的気づきが数学の成績に及ぼす影響を重回帰分析や分散分析によって検証した量的実証研究であるため。",
+    "titleJa": "数学に対する態度とメタ認知的気づきが数学の成績に及ぼす影響",
+    "sections": {
+      "what": "インドネシアの高校生103名（女子52名、男子51名）を対象に、数学に対する態度およびメタ認知的気づきが数学の成績に及ぼす影響を調べた研究です。あわせて成績における性差の有無も検証しています。態度は数学態度尺度（ATMI短縮版）、メタ認知的気づきはメタ認知的気づき尺度（MAI）で測定し、成績には学期の通知表の評価を用いています。",
+      "novelty": "国際的な学力調査で数学の成績低迷が課題となっているインドネシアを背景に、情意面である態度と自己制御に関わるメタ認知的気づきの双方が数学成績にどのように関連しているかを同時に検討した点に位置づけがあります。先行研究で重視されてきたメタ認知的スキルが、態度と並べた場合にどの程度成績を予測し得るかを同一のモデル内で確認しています。",
+      "method": "数学の成績を従属変数とし、数学に対する態度とメタ認知的気づきを独立変数とする重回帰分析を行いました。これにより両要因が成績をどの程度予測できるかを検証しています。また、男女間における成績の平均値の差を調べるために一元配置分散分析を用いました。分析に先立ち、コルモゴロフ・スミルノフ検定によってデータの正規性を確認しています。",
+      "validation": "重回帰分析の結果、決定係数は0.255（寄与率25.5パーセント）でモデル全体としては有意でした（F(2,102) = 17.145, p < 0.05）。しかし個別の寄与を見ると、数学への態度は有意に関連していた一方（B = 0.298, p < 0.001）、メタ認知は有意な寄与を示しませんでした（B = 0.004, p > 0.05）。相関係数でも態度と成績は中程度の正の相関（r = 0.505, p < 0.001）がありましたが、メタ認知と成績は無相関（r = 0.081, p > 0.05）でした。成績の性差も有意差はありませんでした（F(1,101) = 3.408, p > 0.05）。",
+      "implications": "生徒が数学に対して好意的な態度を持つことが学業成績と結びついている可能性が示唆されました。一方でメタ認知が成績と有意に関連しなかった理由について、論文は生徒が知識を持っていても実際の学習で調整方略を十分に活用できていない可能性を論じています。ただし横断的な相関研究であるため因果関係を示すものではなく、外部要因が検討されていない限界が残されています。",
+      "nextLead": "数学に対する態度と学業成績の関連をより大規模な知見から俯瞰する研究や、メタ認知的気づきの測定そのものの詳細を掘り下げた研究へと読み進めるのが適しています。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2012813264",
+          "doi": "10.2307/749662",
+          "title": "Assessing the Relationship between Attitude toward Mathematics and Achievement in Mathematics: A Meta-Analysis",
+          "authors": [
+            "Xin Ma",
+            "Nand Kishor"
+          ],
+          "authorCount": 2,
+          "venue": "Journal for Research in Mathematics Education",
+          "volume": "28",
+          "issue": "1",
+          "pages": "26",
+          "year": "1997",
+          "citedBy": 713,
+          "url": "https://doi.org/10.2307/749662"
+        },
+        "reason": "数学に対する態度と数学の成績との関係を多数の研究から統計的に統合したメタ分析であり、本研究で得られた関連の強さをより広い視点から捉え直すのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W2020143450",
+          "doi": "10.1006/ceps.1994.1033",
+          "title": "Assessing Metacognitive Awareness",
+          "authors": [
+            "Gregory J. Schraw",
+            "Rayne Sperling Dennison"
+          ],
+          "authorCount": 2,
+          "venue": "Contemporary Educational Psychology",
+          "volume": "19",
+          "issue": "4",
+          "pages": "460–475",
+          "year": "1994",
+          "citedBy": 3141,
+          "url": "https://doi.org/10.1006/ceps.1994.1033"
+        },
+        "reason": "本研究で用いられたメタ認知的気づき尺度（MAI）を開発した基礎研究であり、メタ認知の知識と調整という枠組みがどのように測定されるかを理解するのに適しています。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "重回帰分析",
+        "wikiTitle": "重回帰分析"
+      },
+      {
+        "term": "決定係数",
+        "wikiTitle": "決定係数"
+      },
+      {
+        "term": "分散分析",
+        "wikiTitle": "分散分析"
+      },
+      {
+        "term": "メタ認知",
+        "wikiTitle": "メタ認知"
+      }
+    ],
+    "links": [
+      {
+        "term": "重回帰分析",
+        "title": "重回帰分析",
+        "url": "https://ja.wikipedia.org/wiki/%E9%87%8D%E5%9B%9E%E5%B8%B0%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "決定係数",
+        "title": "決定係数",
+        "url": "https://ja.wikipedia.org/wiki/%E6%B1%BA%E5%AE%9A%E4%BF%82%E6%95%B0"
+      },
+      {
+        "term": "分散分析",
+        "title": "分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "メタ認知",
+        "title": "メタ認知",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%BF%E8%AA%8D%E7%9F%A5"
+      }
+    ],
+    "intro": "数学の成績を高めるのは好意的な態度か、それともメタ認知でしょうか。高校生を調査した結果、態度が成績と強く関連する一方でメタ認知の影響は見られませんでした。",
+    "warnings": [],
+    "model": "gemini-3.7-flash"
+  },
+  "asOf": "2026-10-13",
+  "createdAt": "2026-10-13 08:56",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシアの/高校生103名",
+        "evidence": "The respondents of this study were 103 students of a senior high school in Tangerang, Indonesia."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "数学への態度と/メタ認知的気づき",
+        "evidence": "The current study applied a quantitative approach, with two independent variables (1) attitude toward mathematics and (2) metacognitive awareness."
+      },
+      {
+        "text": "数学の学業成績",
+        "evidence": "The dependent variable of this study is Mathematics achievement"
+      }
+    ],
+    "measures": [
+      {
+        "text": "数学への態度の測定/（ATMI）",
+        "evidence": "Attitudes Towards Mathematics Inventory (ATMI) was used to measure students’ attitudes towards mathematics"
+      },
+      {
+        "text": "メタ認知的スキルの測定/（MAI）",
+        "evidence": "Metacognitive Awareness Inventory (MAI) was used to measure metacognitive ability"
+      },
+      {
+        "text": "学期の通知表による/数学成績の測定",
+        "evidence": "whereas mathematics achievement was measured from the value obtained in the school report cards of the semester when the research was being conducted."
+      }
+    ],
+    "results": [
+      {
+        "text": "態度は成績と相関/（r = 0.505）",
+        "evidence": "The results revealed that attitudes towards mathematics and students’ mathematics achievement were significantly correlated (r = 0.505; p < 0.001)."
+      },
+      {
+        "text": "重回帰分析で/寄与率25.5%",
+        "evidence": "predicting the contribution of attitudes towards mathematics and metacognitive skills on mathematic achievement for 25.5%."
+      },
+      {
+        "text": "分散分析で/数学成績に性差なし",
+        "evidence": "Students achievement on mathematics is not significantly different based on gender differences (F (1,101) = 3.408; p > 0.05)"
+      }
+    ]
+  }
+}
