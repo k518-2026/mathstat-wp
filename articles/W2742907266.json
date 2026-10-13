@@ -1,0 +1,169 @@
+{
+  "paper": {
+    "id": "W2742907266",
+    "doi": "10.3389/fpsyg.2017.01368",
+    "title": "Measures of Potential Flexibility and Practical Flexibility in Equation Solving",
+    "authors": [
+      "Le Xu",
+      "Ru‐De Liu",
+      "Jon R. Star",
+      "Jia Wang"
+    ],
+    "authorCount": 6,
+    "venue": "Frontiers in Psychology",
+    "volume": "8",
+    "issue": "",
+    "pages": "1368",
+    "year": "2017",
+    "citedBy": 57,
+    "url": "https://doi.org/10.3389/fpsyg.2017.01368",
+    "license": "cc-by",
+    "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.01368/pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "中国の中学1年生158名を対象に、方程式を解く際の潜在的柔軟性と実践的柔軟性を測定し、確証的因子分析や相関分析を用いて検証した実証研究であるため。",
+    "titleJa": "方程式を解く際の潜在的柔軟性と実践的柔軟性の測定",
+    "sections": {
+      "what": "中国の公立中学校1年生158名（女子93名、男子65名、平均年齢12.74歳）を対象に、方程式を解く際の戦略の柔軟性を評価した研究です。柔軟性には、複数の解法を知っていること（潜在的柔軟性、すなわち能力）と、実際に工夫した解法を実行できること（実践的柔軟性、すなわち遂行）の乖離があるという問題意識から、この2つを区別して測定する3段階柔軟性評価法を開発し、その信頼性と妥当性を検証することを目的としています。",
+      "novelty": "先行研究では、生徒が工夫した解法を知っていても実際の課題解決では標準的な解法ばかり使ってしまう現象が指摘されていましたが、解法知識（能力）と実際の使用（遂行）を明確に区別して定量的に測る枠組みはありませんでした。本研究は、複数の解法を生成・評価する潜在的柔軟性と、初手で工夫した解法を用いる実践的柔軟性という2つの概念を提唱し、それぞれを独立かつ関連したものとして同時に評価できる手法を確立した点に新規性があります。",
+      "method": "生徒に12問の1元1次方程式を解かせ、3つの段階で評価しました。第1段階では最も速く正確に解かせ、最初の解法が工夫されたものかを判定しました（実践的柔軟性）。第2段階では別解を生成させ、第3段階では自分の解法の中から工夫されたものを選択させました。第2段階と第3段階の組み合わせから潜在的柔軟性を得点化しました。これらが2因子として分かれるかを検証するため、カテゴリカルデータに対応した重み付き最小二乗平均分散調整推定法を用いた確証的因子分析を行いました。",
+      "validation": "確証的因子分析の結果、比較適合度指数が0.98、タッカー・ルイス指数が0.98、二乗平均平方根誤差が0.09となり、2因子モデルの良好な適合度が確認されました。潜在的柔軟性の内的一貫性係数は0.92、実践的柔軟性は0.89でした。生徒の正答率は88.83%（平均10.66点）と高かったのに対し、潜在的柔軟性は平均5.85点、実践的柔軟性は平均1.44点にとどまりました。両者には0.27という有意な正の相関（p < 0.001）が見られ、関連しつつも異なる能力であることが示されました。",
+      "implications": "正答率が高い生徒でも、38%の事例では工夫した解法を知っているのに最初の手続きとしては標準的な解法に頼っている実態が示されました。単に正しく解けることと、柔軟に工夫して解くことには隔たりがあり、知識があっても実践に移せない生徒が多い可能性を論文は示唆しています。ただし、本研究は横断的な調査であり、なぜ生徒が知っている工夫を使わないのかという認知的動機や判断基準の定性的な理由はインタビュー等で直接検証されていない点が限界として挙げられています。",
+      "nextLead": "生徒が知っている工夫された解法をなぜ実際の場面で使えないのか、その心理的・認知的要因をさらに掘り下げたい場合は、以下の研究が参考になります。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2802073332",
+          "doi": "10.3389/fpsyg.2018.00646",
+          "title": "Turning Potential Flexibility Into Flexible Performance: Moderating Effect of Self-Efficacy and Use of Flexible Cognition",
+          "authors": [
+            "Ru‐De Liu",
+            "Jia Wang",
+            "Jon R. Star",
+            "Rui Zhen"
+          ],
+          "authorCount": 6,
+          "venue": "Frontiers in Psychology",
+          "volume": "9",
+          "issue": "",
+          "pages": "646",
+          "year": "2018",
+          "citedBy": 29,
+          "url": "https://doi.org/10.3389/fpsyg.2018.00646"
+        },
+        "reason": "本研究で提唱された潜在的柔軟性が実践的な遂行へと結びつく過程について、自己効力感などの調整効果を検証した後続研究であり、直結する展開を学べます。"
+      },
+      {
+        "paper": {
+          "id": "W3036339321",
+          "doi": "10.1111/bjep.12364",
+          "title": "How mathematics anxiety affects students' inflexible perseverance in mathematics problem‐solving: Examining the mediating role of cognitive reflection",
+          "authors": [
+            "Ronghuan Jiang",
+            "Ru‐De Liu",
+            "Jon R. Star",
+            "Rui Zhen"
+          ],
+          "authorCount": 9,
+          "venue": "British Journal of Educational Psychology",
+          "volume": "91",
+          "issue": "1",
+          "pages": "237–260",
+          "year": "2020",
+          "citedBy": 55,
+          "url": "https://doi.org/10.1111/bjep.12364"
+        },
+        "reason": "知っている解法を活用できない背景として、数学不安や認知的熟慮が問題解決の固執に与える影響を分析しており、本研究の課題を深めるのに適しています。"
+      },
+      {
+        "paper": {
+          "id": "W4376143714",
+          "doi": "10.1007/s11858-023-01491-6",
+          "title": "Strategy flexibility in mathematics",
+          "authors": [
+            "Lieven Verschaffel"
+          ],
+          "authorCount": 1,
+          "venue": "ZDM",
+          "volume": "56",
+          "issue": "1",
+          "pages": "115–126",
+          "year": "2023",
+          "citedBy": 30,
+          "url": "https://doi.org/10.1007/s11858-023-01491-6"
+        },
+        "reason": "数学教育における戦略の柔軟性に関する概念や測定方法の動向を包括的に整理した論文であり、本研究の位置づけをより広い枠組みから捉え直すのに役立ちます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "確証的因子分析",
+        "wikiTitle": "確証的因子分析"
+      },
+      {
+        "term": "内的一貫性係数",
+        "wikiTitle": "信頼性 (統計学)"
+      },
+      {
+        "term": "正の相関",
+        "wikiTitle": "相関係数"
+      }
+    ],
+    "links": [
+      {
+        "term": "正の相関",
+        "title": "相関係数",
+        "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%96%A2%E4%BF%82%E6%95%B0"
+      }
+    ],
+    "intro": "方程式の解き方を複数知っているのに、なぜ生徒はワンパターンの解法に頼るのか？中学生158名のデータから「知っている柔軟性」と「使える柔軟性」のズレを検証しました。",
+    "warnings": [],
+    "model": "gemini-3.8-flash"
+  },
+  "asOf": "2026-10-13",
+  "createdAt": "2026-10-13 14:01",
+  "figure": {
+    "target": [
+      {
+        "text": "中国の中学1年生/158名",
+        "evidence": "The 158 seventh grade participants (93 female, 65 male; ages ranged from 11 to 14 years, M = 12.74, SD = 0.56) in this study were recruited from six classrooms within the same region and school system in a northern city of China."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "潜在的柔軟性と/実践的柔軟性",
+        "evidence": "In order to explore the competence/performance distinction in flexibility, this study developed and validated measures for potential flexibility (e.g., competence, or knowledge of multiple strategies) and practical flexibility (e.g., performance, use of innovative strategies) for solving equations."
+      },
+      {
+        "text": "4種類の/方程式問題タイプ",
+        "evidence": "The 12 problems were divided into four problem types, with three instances of each problem type (see Table 1)."
+      }
+    ],
+    "measures": [
+      {
+        "text": "4段階の/柔軟性評価セッション",
+        "evidence": "All students worked individually on the 12 problems on the assessment in one 90-min session that was conducted during students' regular mathematics classes. In addition to the three phases of Tri-Phase Flexibility Assessment, we designed a fourth phase."
+      },
+      {
+        "text": "解答・別解生成・/自己評価の3段階",
+        "evidence": "through a Tri-Phase Flexibility Assessment, in which the students were asked to solve each equation, generate additional strategies, and evaluate own multiple strategies."
+      }
+    ],
+    "results": [
+      {
+        "text": "潜在的柔軟性が/高値（t=12.97）",
+        "evidence": "A paired-samples T-test showed that participants earned significantly higher potential flexibility scores than practical flexibility scores (t = 12.97, p < 0.001)."
+      },
+      {
+        "text": "両柔軟性の正の相関/（r=0.27）",
+        "evidence": "Practical flexibility was found to be positively correlated with potential flexibility (r = 0.27, p < 0.01)."
+      },
+      {
+        "text": "確認的因子分析で/適合（CFI=0.98）",
+        "evidence": "The overall fitting indexes of the model were as the following: χ 2/df = 51.75 (p < 0.001), WRMR = 1.86, TLI = 0.98, CFI = 0.98, RMSEA = 0.09."
+      }
+    ]
+  }
+}

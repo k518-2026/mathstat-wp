@@ -1073,6 +1073,44 @@
       "model": "gemini-3.7-flash",
       "createdAt": "2026-10-13 08:56",
       "note": ""
+    },
+    "W3044245174": {
+      "doi": "10.1186/s40594-020-00234-3",
+      "title": "Examining the role of spatial skills and mathematics motivation on middle school mathematics achievement",
+      "citedBy": 67,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-13 12:00"
+    },
+    "W4281793706": {
+      "doi": "10.1038/s41539-022-00128-9",
+      "title": "Spatial thinking as the missing piece in mathematics curricula",
+      "citedBy": 62,
+      "year": "2022",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-13 12:00"
+    },
+    "W3170493274": {
+      "doi": "10.1007/s10649-021-10053-0",
+      "title": "Embodied instrumentation in learning mathematics as the genesis of a body-artifact functional system",
+      "citedBy": 62,
+      "year": "2021",
+      "status": "skipped",
+      "note": "テーマ外: 大学生1名を対象とした視線計測とビデオ記録による質的な事例分析を中心とした研究であり、量的データの統計的分析を行っていないため。",
+      "checkedAt": "2026-10-13 12:10"
+    },
+    "W2742907266": {
+      "doi": "10.3389/fpsyg.2017.01368",
+      "title": "Measures of Potential Flexibility and Practical Flexibility in Equation Solving",
+      "citedBy": 57,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "方程式を解く際の潜在的柔軟性と実践的柔軟性の測定",
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-10-13 14:01",
+      "note": ""
     }
   }
 }
