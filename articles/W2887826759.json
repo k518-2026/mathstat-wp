@@ -85,5 +85,55 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-10-14",
-  "createdAt": "2026-10-14 10:37"
+  "createdAt": "2026-10-14 10:37",
+  "figure": {
+    "target": [
+      {
+        "text": "小学校4年生36名/（10.36歳）",
+        "evidence": "The sample of 36 pupils (fourth grade of elementary school, age 10.36±0.55) were randomly assigned to an experimental (n1 = 19) or a control (n2 = 17) group."
+      },
+      {
+        "text": "外れ値として2名除外",
+        "evidence": "Two children, one from each group, were identified as Univariate outliers and were removed from the sample of respondents."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "身体活動を統合した/学習群",
+        "evidence": "The experimental group of subjects learned the envisaged knowledge of the above teaching topics exclusively through our integrated PA program."
+      },
+      {
+        "text": "従来の指導法を行う/統制群",
+        "evidence": "The control group of subjects learned the envisaged knowledge of the curriculum topics listed using traditional teaching methods for mathematics."
+      }
+    ],
+    "measures": [
+      {
+        "text": "介入前に事前テスト実施",
+        "evidence": "Initial administration of both tests was performed before the intervention."
+      },
+      {
+        "text": "各45分の統合授業を/4回実施",
+        "evidence": "The experiment consisted of four integrated lessons of mathematics/geometry and PA. Each lesson lasted for 45 minutes"
+      },
+      {
+        "text": "介入直後に事後テスト実施",
+        "evidence": "The final measurement was performed immediately after the end of the intervention."
+      }
+    ],
+    "results": [
+      {
+        "text": "介入群で幾何知識が/有意に向上（P<0.05）",
+        "evidence": "the group of subjects who gained their mathematics and geometry knowledge through our intervention program were significantly more successful (P<0.05)"
+      },
+      {
+        "text": "事前・事後テストで/群間に有意差なし（P>0.05）",
+        "evidence": "it can be observed that there was no significant difference between the groups in the initial testing or in the final testing (P>0.05)."
+      },
+      {
+        "text": "統制群の前後比較で/有意差なし（P<0.05）",
+        "evidence": "there is no statistically significant difference (P<0.05) within the control group between the initial and final measurements"
+      }
+    ]
+  }
 }
