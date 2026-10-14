@@ -1,0 +1,89 @@
+{
+  "paper": {
+    "id": "W2887826759",
+    "doi": "10.1371/journal.pone.0196024",
+    "title": "When mathematics meets physical activity in the school-aged child: The effect of an integrated motor and cognitive approach to learning geometry",
+    "authors": [
+      "Mladen Hraste",
+      "Andrea De Giorgio",
+      "Petra Mandić Jelaska",
+      "Johnny Padulo"
+    ],
+    "authorCount": 5,
+    "venue": "PLoS ONE",
+    "volume": "13",
+    "issue": "8",
+    "pages": "e0196024",
+    "year": "2018",
+    "citedBy": 56,
+    "url": "https://doi.org/10.1371/journal.pone.0196024",
+    "license": "cc-by",
+    "pdfUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0196024&type=printable"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "学童期の子供における数学と身体活動の融合：幾何学学習における運動と認知の統合的アプローチの効果",
+    "sections": {
+      "what": "この研究は、小学校4年生の児童を対象に、数学および幾何学の学習と身体活動を統合した新しい指導プログラムの有効性を検証したものです。研究では36人の児童を実験群と対照群に分け、4週間にわたる介入を行いました。実験群は身体活動を伴う統合的な手法で長方形や正方形、およびそれらの周囲の長さを学び、対照群は従来の指導法で同じ内容を学習しました。介入の前後で、幾何学の知識と数学の知識に関する2つのテストを実施し、学習効果を比較しました。",
+      "novelty": "本研究は、身体活動と認知能力の密接な関係に着目し、数学の指導に身体活動を意図的に組み込むことの有用性を探求しています。先行研究では、身体活動が認知機能や情緒に良い影響を与えることが示唆されていますが、本研究は具体的に幾何学の学習内容（長方形や正方形の概念）と身体的な運動課題をどのように統合し、それが児童の学習成果にどう反映されるかを検証している点に特徴があります。身体と精神の同期が、数学への不安やストレスを軽減する可能性を提示しています。",
+      "method": "統計解析には、群の差と介入の効果を同時に評価するため、2×2の混合デザイン分散分析が用いられました。独立変数は「群（実験群対対照群）」と「処置（初期測定対最終測定）」の2つです。信頼性の確保のため、テストの事前および事後実施において、ランダムな順序で再テストを行い、級内相関係数を用いて測定機器の信頼性を確認しました。また、データの正規性の確認にはコルモゴロフ・スミルノフ検定を用い、分散の均一性についてはバートレット検定を用いて分析の妥当性を担保しています。",
+      "validation": "分析の結果、群の要因および処置の要因の双方が統計的に有意な影響を及ぼしていることが示されました。具体的には、実験群において初期測定から最終測定にかけて幾何学の知識が有意に向上したことが確認されました。一方で、対照群においては初期と最終の測定の間に統計的に有意な差は見られませんでした。この結果は、身体活動を統合した指導法が、従来の指導法と比較して幾何学の知識獲得においてより効果的である可能性を支持する証拠として示されています。",
+      "implications": "本研究は、身体活動と認知活動を統合した指導法が、数学学習における効率的なアプローチとなる可能性を示唆しています。特に、身体の動きを伴う学習が、児童の数学に対する不安を和らげ、学習意欲を高める一助となる可能性があります。一方で、本研究には、介入期間が4週間と短期間であったことや、児童の初期の知識レベルのばらつき、また指導者が異なることなどの限界も指摘されています。これらの要因を考慮しつつ、身体活動の統合が学習の質を向上させる一つの指針となることが示唆されています。",
+      "nextLead": "本研究では、身体活動と幾何学学習の統合が児童の知識獲得に寄与する可能性が示されました。次に、身体活動の具体的な強度が認知処理に与える影響や、より長期的な介入が児童の運動能力や認知機能にどのような変化をもたらすかという視点で、後続の研究へ進むことが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W4286267904",
+          "doi": "10.1016/j.psychsport.2022.102254",
+          "title": "Two years of physically active mathematics lessons enhance cognitive function and gross motor skills in primary school children",
+          "authors": [
+            "Daniele Magistro",
+            "Simon B. Cooper",
+            "Fabio Carlevaro",
+            "Ilaria Marchetti"
+          ],
+          "authorCount": 7,
+          "venue": "Psychology of sport and exercise",
+          "volume": "63",
+          "issue": "",
+          "pages": "102254",
+          "year": "2022",
+          "citedBy": 36,
+          "url": "https://doi.org/10.1016/j.psychsport.2022.102254"
+        },
+        "reason": "本論文と同様に、小学校の児童を対象とした身体活動を伴う数学の授業が、認知機能や粗大運動能力に与える長期的な影響を調査しており、より長期的な視点での効果を把握するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W4310978630",
+          "doi": "10.1080/00313831.2022.2148271",
+          "title": "Unpacking physically active learning in education: a movement didaktikk approach in teaching?",
+          "authors": [
+            "Mathias Brekke Mandelid",
+            "Geir Kåre Resaland",
+            "Øystein Lerum",
+            "Ståle Bye Teslo"
+          ],
+          "authorCount": 10,
+          "venue": "Scandinavian Journal of Educational Research",
+          "volume": "68",
+          "issue": "3",
+          "pages": "341–354",
+          "year": "2022",
+          "citedBy": 22,
+          "url": "https://doi.org/10.1080/00313831.2022.2148271"
+        },
+        "reason": "身体活動を教育に統合する際の「運動の教育学（movement didaktikk）」というアプローチを論じており、本研究で示された統合的指導法の理論的背景を深めるために有用です。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "数学の学習に身体活動を組み合わせると、子供たちの理解はどう変わるでしょうか。身体を動かすことが幾何学の知識獲得に与える効果を、統計的なデータから探ります。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-14",
+  "createdAt": "2026-10-14 10:37"
+}

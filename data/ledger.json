@@ -1111,6 +1111,17 @@
       "model": "gemini-3.8-flash",
       "createdAt": "2026-10-13 14:01",
       "note": ""
+    },
+    "W2887826759": {
+      "doi": "10.1371/journal.pone.0196024",
+      "title": "When mathematics meets physical activity in the school-aged child: The effect of an integrated motor and cognitive approach to learning geometry",
+      "citedBy": 56,
+      "year": "2018",
+      "status": "ready",
+      "titleJa": "学童期の子供における数学と身体活動の融合：幾何学学習における運動と認知の統合的アプローチの効果",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-14 10:37",
+      "note": ""
     }
   }
 }
