@@ -127,42 +127,54 @@
   "figure": {
     "target": [
       {
-        "text": "中国の中学1年生/158名",
+        "text": "中国の北部の都市の/中学1年生158名",
         "evidence": "The 158 seventh grade participants (93 female, 65 male; ages ranged from 11 to 14 years, M = 12.74, SD = 0.56) in this study were recruited from six classrooms within the same region and school system in a northern city of China."
+      },
+      {
+        "text": "女子93名・男子65名/年齢は11〜14歳",
+        "evidence": "The 158 seventh grade participants (93 female, 65 male; ages ranged from 11 to 14 years, M = 12.74, SD = 0.56)"
+      },
+      {
+        "text": "同じ地域・学校系統の/6学級",
+        "evidence": "recruited from six classrooms within the same region and school system in a northern city of China."
       }
     ],
     "conditions": [
       {
-        "text": "潜在的柔軟性と/実践的柔軟性",
-        "evidence": "In order to explore the competence/performance distinction in flexibility, this study developed and validated measures for potential flexibility (e.g., competence, or knowledge of multiple strategies) and practical flexibility (e.g., performance, use of innovative strategies) for solving equations."
+        "text": "潜在的柔軟性:/複数の方法を知っているか",
+        "evidence": "potential ﬂexibility (e.g., competence, or knowledge of multiple strategies)"
       },
       {
-        "text": "4種類の/方程式問題タイプ",
-        "evidence": "The 12 problems were divided into four problem types, with three instances of each problem type (see Table 1)."
+        "text": "実践的柔軟性:/斬新な方法を実際に使うか",
+        "evidence": "practical ﬂexibility (e.g., performance, use of innovative strategies)"
       }
     ],
     "measures": [
       {
-        "text": "4段階の/柔軟性評価セッション",
-        "evidence": "All students worked individually on the 12 problems on the assessment in one 90-min session that was conducted during students' regular mathematics classes. In addition to the three phases of Tri-Phase Flexibility Assessment, we designed a fourth phase."
+        "text": "12問の一次方程式を/4つの型に分ける",
+        "evidence": "The assessment contained 12 linear equations"
       },
       {
-        "text": "解答・別解生成・/自己評価の3段階",
-        "evidence": "through a Tri-Phase Flexibility Assessment, in which the students were asked to solve each equation, generate additional strategies, and evaluate own multiple strategies."
+        "text": "1回90分の授業中に/4つの段階で実施",
+        "evidence": "All students worked individually on the 12 problems on the assessment in one 90-min session that was conducted during students’ regular mathematics classes."
+      },
+      {
+        "text": "解く→別解を考える→/自分の方法を評価する",
+        "evidence": "in which the students were asked to solve each equation, generate additional strategies, and evaluate own multiple strategies"
       }
     ],
     "results": [
       {
-        "text": "潜在的柔軟性が/高値（t=12.97）",
-        "evidence": "A paired-samples T-test showed that participants earned significantly higher potential flexibility scores than practical flexibility scores (t = 12.97, p < 0.001)."
+        "text": "内的一貫性(α):潜在的/0.92・実践的0.89",
+        "evidence": "The internal consistency coeﬃcient (Cronbach’s alpha) for Potential Flexibility was found to be 0.92, and the internal consistency coeﬃcient (Cronbach’s alpha) of Practical Flexibility was 0.89."
       },
       {
-        "text": "両柔軟性の正の相関/（r=0.27）",
-        "evidence": "Practical flexibility was found to be positively correlated with potential flexibility (r = 0.27, p < 0.01)."
+        "text": "確認的因子分析:/CFI=0.98 RMSEA=0.09",
+        "evidence": "χ 2/df = 51.75 (p < 0.001), WRMR = 1.86, TLI = 0.98, CFI = 0.98, RMSEA = 0.09."
       },
       {
-        "text": "確認的因子分析で/適合（CFI=0.98）",
-        "evidence": "The overall fitting indexes of the model were as the following: χ 2/df = 51.75 (p < 0.001), WRMR = 1.86, TLI = 0.98, CFI = 0.98, RMSEA = 0.09."
+        "text": "潜在的柔軟性のほうが/高い(t=12.97)",
+        "evidence": "participants earned signiﬁcantly higher potential ﬂexibility scores than practical ﬂexibility scores (t = 12.97, p < 0.001)"
       }
     ]
   }
