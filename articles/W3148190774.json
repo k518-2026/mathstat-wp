@@ -66,5 +66,51 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-10-15",
-  "createdAt": "2026-10-15 19:41"
+  "createdAt": "2026-10-15 19:41",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシアの小学5年生/101名",
+        "evidence": "The subjects of the present study were 101 fifth graders students in Lelak, Manggarai-Indonesia."
+      },
+      {
+        "text": "ランダムサンプリングによる選定",
+        "evidence": "The subject was chosen by a random sampling technique."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "実験群/Treffingerモデル",
+        "evidence": "The experiment group was presented with the Treffinger Creative Learning Model based on RME principles"
+      },
+      {
+        "text": "統制群/従来型モデル",
+        "evidence": "whereas the control group was presented with the conventional Learning Model."
+      },
+      {
+        "text": "従属変数/創造的思考と学習成果",
+        "evidence": "the dependent variables were the creative skill and mathematics learning outcome of the students."
+      }
+    ],
+    "measures": [
+      {
+        "text": "準実験/事後テストのみの設計",
+        "evidence": "experiment study with Quasi-Experimental Post-test Only Control Group design had deliberately chosen as the method of the study."
+      },
+      {
+        "text": "8回の授業と事後テスト",
+        "evidence": "Treatment was conducted in eight meetings, both for the experimental group and the control group, which was then completed with a post-test"
+      },
+      {
+        "text": "エッセイテスト/5項目",
+        "evidence": "The data related to creative thinking skill and mathematics learning outcomes were collected by using essay tests with five items each."
+      }
+    ],
+    "results": [
+      {
+        "text": "MANOVA/有意水準5%",
+        "evidence": "The hypothesis testing was done by using MANOVA at a 5% level of the significance level."
+      }
+    ]
+  }
 }
