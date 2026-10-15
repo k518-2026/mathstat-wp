@@ -1122,6 +1122,44 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-14 10:37",
       "note": ""
+    },
+    "W2151978753": {
+      "doi": "10.1186/s40536-014-0011-6",
+      "title": "Teaching for conceptual understanding: A cross-national comparison of the relationship between teachers’ instructional practices and student achievement in mathematics",
+      "citedBy": 56,
+      "year": "2015",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-15 19:37"
+    },
+    "W2606147589": {
+      "doi": "10.24832/jpnk.v1i3.496",
+      "title": "FAKTOR-FAKTOR YANG MEMENGARUHI CAPAIAN LITERASI MATEMATIKA SISWA INDONESIA DALAM PISA 2012",
+      "citedBy": 55,
+      "year": "2017",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-15 19:37"
+    },
+    "W2898535584": {
+      "doi": "10.1007/s11858-018-1008-3",
+      "title": "Changing experiences of being, becoming, and belonging: teachers’ professional identity revisited",
+      "citedBy": 52,
+      "year": "2018",
+      "status": "skipped",
+      "note": "テーマ外: 量的な統計分析ではない・質的研究のみ（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-10-15 19:39"
+    },
+    "W3148190774": {
+      "doi": "10.29333/iji.2021.14249a",
+      "title": "The Effect of Treffinger Creative Learning Model with the Use RME Principles on Creative Thinking Skill and Mathematics Learning Outcome",
+      "citedBy": 49,
+      "year": "2021",
+      "status": "ready",
+      "titleJa": "RMEの原則を用いたトレフィンジャー創造的学習モデルが創造的思考スキルと数学の学習成果に与える影響",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-15 19:41",
+      "note": ""
     }
   }
 }

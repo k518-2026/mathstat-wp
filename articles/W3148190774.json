@@ -1,0 +1,70 @@
+{
+  "paper": {
+    "id": "W3148190774",
+    "doi": "10.29333/iji.2021.14249a",
+    "title": "The Effect of Treffinger Creative Learning Model with the Use RME Principles on Creative Thinking Skill and Mathematics Learning Outcome",
+    "authors": [
+      "Dr., Universitas Katolik Indonesia Santu Paulus Ruteng, Indonesia, punyaku79@gmail.com",
+      "Sabina Ndiung",
+      "Sariyasa Sariyasa",
+      "Prof., Universitas Pendidikan Ganesha, Indonesia, sariyasa64@yahoo.com"
+    ],
+    "authorCount": 8,
+    "venue": "International Journal of Instruction",
+    "volume": "14",
+    "issue": "2",
+    "pages": "873–888",
+    "year": "2021",
+    "citedBy": 49,
+    "url": "https://doi.org/10.29333/iji.2021.14249a",
+    "license": "cc-by-nc-nd",
+    "pdfUrl": "https://doi.org/10.29333/iji.2021.14249a"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "RMEの原則を用いたトレフィンジャー創造的学習モデルが創造的思考スキルと数学の学習成果に与える影響",
+    "sections": {
+      "what": "この研究は、インドネシアの小学校5年生101名を対象に、創造的思考スキルと数学の学習成果を向上させるための教育手法を調査したものです。具体的には、トレフィンジャーの創造的学習モデルに「現実的数学教育（RME）」の原則を統合した指導法と、従来の指導法を比較しています。研究の目的は、21世紀の核となる能力の一つである創造的思考を、数学の学習プロセスを通じていかに育成できるかを探ることにあります。",
+      "novelty": "先行研究において、トレフィンジャーのモデルは主に中等教育以上の創造的能力の向上に焦点を当ててきました。この論文の新規性は、低年齢層である小学校段階において、創造的な学習環境を構築するために、トレフィンジャーのモデルとRMEの原則を組み合わせた点にあります。RMEの「現実性」や「活動」といった原則を統合することで、子供たちがより身近な問題解決を通じて創造性を発揮できるような枠組みを提示しています。",
+      "method": "研究手法には、準実験的な「事後テストのみの統制群設計」が採用されました。実験群にはRME原則を統合したトレフィンジャーモデルを、統制群には従来の指導法を適用しました。統計解析には多変量分散分析（MANOVA）が用いられ、創造的思考スキルと数学の学習成果という2つの従属変数の変化を同時に評価しています。分析に先立ち、正規性、等分散性、および多重共線性に関する前提条件の確認も行われています。",
+      "validation": "実験の結果、トレフィンジャーモデルを用いた群は、従来の指導法を用いた群よりも、創造的思考スキルと数学の学習成果の両方において有意に高いスコアを示しました。統計解析では、Wilksのλが17.195、有意確率が0.001未満という結果が得られています。これは、RMEの原則（現実性、活動、相互作用など）を統合した指導が、創造性の3要素である流暢性、柔軟性、独創性の向上、および数学の認知的な学習成果に寄与したことを示唆しています。",
+      "implications": "この研究は、数学を抽象的な知識としてではなく、現実の活動として捉えるアプローチが、児童の創造性を育む上で有効である可能性を示唆しています。特に、RMEの原則を組み合わせることで、児童が自ら問題を構築し、解決策を模索するプロセスが重要であることが示されています。一方で、本研究の介入は分数という特定の単元に限定されているため、他の単元や教科への汎用性については今後の課題として残されています。",
+      "nextLead": "この論文では、RMEの原則が創造的思考に与える影響が示されました。次に、RMEの具体的なアプローチが児童の数学的創造性にどのように寄与するかを、より詳細に調査したレビュー研究へと進むことで、理論的な裏付けを深めることができます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W4224089808",
+          "doi": "10.35706/sjme.v6i1.5739",
+          "title": "Study Literature Review: Realistic Mathematics Education Learning on Students’ Mathematical Creative Thinking Ability",
+          "authors": [
+            "Ratu Sarah Fauziah Iskandar",
+            "Dadang Juandi"
+          ],
+          "authorCount": 2,
+          "venue": "SJME (Supremum Journal of Mathematics Education)",
+          "volume": "6",
+          "issue": "1",
+          "pages": "35–42",
+          "year": "2022",
+          "citedBy": 20,
+          "url": "https://doi.org/10.35706/sjme.v6i1.5739"
+        },
+        "reason": "本論文で示されたRMEと創造的思考の関連性を、より広範な文献レビューを通じて確認できるため、理論的背景の理解を深めるのに適しています。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "MANOVA",
+        "wikiTitle": "多変量分散分析"
+      }
+    ],
+    "links": [],
+    "intro": "数学の授業で子供たちの創造性を引き出すにはどうすればよいか。RMEの原則とトレフィンジャーモデルの統合が、児童の思考スキルと学習成果を同時に高める可能性を調査した研究を紹介します。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-15",
+  "createdAt": "2026-10-15 19:41"
+}
