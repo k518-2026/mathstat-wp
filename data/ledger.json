@@ -1198,6 +1198,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-16 10:02",
       "note": ""
+    },
+    "W1807173821": {
+      "doi": "",
+      "title": "A Study of Geometry Content Knowledge of Elementary Preservice Teachers",
+      "citedBy": 49,
+      "year": "2015",
+      "status": "ready",
+      "titleJa": "小学校教員志望者における図形の教科内容知識に関する研究",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-10-17 08:37",
+      "note": "論文の本文に見つからない数値: 001"
     }
   }
 }

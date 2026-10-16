@@ -1,0 +1,185 @@
+{
+  "paper": {
+    "id": "W1807173821",
+    "doi": "",
+    "title": "A Study of Geometry Content Knowledge of Elementary Preservice Teachers",
+    "authors": [
+      "Fatma Aslan-Tutak",
+      "Thomasenia Lott Adams"
+    ],
+    "authorCount": 2,
+    "venue": "lnternational Electronic Journal of Elementary Education",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "year": "2015",
+    "citedBy": 49,
+    "url": "https://iejee.com/index.php/IEJEE/article/view/82",
+    "license": "",
+    "pdfUrl": "https://iejee.com/index.php/IEJEE/article/download/82/80"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "小学校教員志望者102名を対象に四角形の図形指導知識の成長を分散分析などの量的データを用いて評価している実証研究であるため。",
+    "titleJa": "小学校教員志望者における図形の教科内容知識に関する研究",
+    "sections": {
+      "what": "小学校教員志望者102名を対象に、図形領域（特に四角形）の指導に必要な専門的知識（教科内容知識）を向上させる指導法の効果を調べた研究です。質的調査で把握した課題を踏まえて具体的な教材や児童の学習成果の分析活動を作成し、指導法コースでの介入授業を実施しました。量的な評価として、通常授業を受ける対照群48名と、開発した活動を行う介入群54名に分けた準実験デザインを用い、事前・事後のテスト変化を分析しています。",
+      "novelty": "従来の教員養成研究では教員志望者の図形知識不足が指摘されていましたが、本研究は質的調査によって学生自身の学習体験や認知上のニーズを分析し、それを踏まえた具体的な指導活動を開発して量的効果を検証した点に独自性があります。単なる数学的知識の復習にとどまらず、実際の児童の解答や誤解の分析という指導文脈と数学コンテンツを統合した教材を導入し、教員養成の指導法授業内における効果を量的・質的に検討した位置づけが特徴的です。",
+      "method": "研究は3つの相から構成されています。第1相では3名の受講生へのインタビューと授業観察を行い、図形学習における意識や課題を質的に抽出しました。第2相ではその結果に基づき、図形の分類や属性の検討、児童の解答シートを分析する活動を開発しました。第3相では102名の受講生を介入群54名と対照群48名に分け、介入授業の前後に教員向け数学知識測定尺度の図形問題を実施しました。統計手法として介入群内の変化には繰り返し測定分散分析を、群間比較には混合分散分析を選びました。",
+      "validation": "介入群に対する繰り返し測定分散分析の結果、事前テストから事後テストにかけて図形教科内容知識に統計的に有意な高まりが認められました（F(1, 49) = 16.08, p < .001）。一方、介入群と対照群の知識変化を比較した混合分散分析では、時間の主効果は有意であったものの（F(1, 91) = 28.38, p < .001）、群と時間の交互作用は有意ではありませんでした（F(1, 91) = .21, p = .646）。つまり、開発した活動により介入群の知識は有意に向上しましたが、通常授業群との伸びの差までは統計的に実証されませんでした。",
+      "implications": "本研究は、教員養成における指導法授業において、単なる数学解法ではなく児童の誤解や解答の分析といった指導文脈に即したコンテンツ指導を組み込む重要性を示唆しています。ただし限界として、介入期間が合計6時間と短かったことや、対照群でも算数カリキュラムに基づく実践的な授業が行われていたことが挙げられます。そのため、教員志望者が実際の児童と接する機会の有無や、より長期間の介入による影響について、今後さらなる検証が必要であると論文では述べられています。",
+      "nextLead": "教員志望者が持つ教職に必要な数学的知識の構造や、その知識を高めるための指導法開発・児童の思考分析手法について理解を深めたい方は、以下の関連文献を読むとよいでしょう。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2140369176",
+          "doi": "10.3102/0013189x015002004",
+          "title": "Those Who Understand: Knowledge Growth in Teaching",
+          "authors": [
+            "Lee S. Shulman"
+          ],
+          "authorCount": 1,
+          "venue": "Educational Researcher",
+          "volume": "15",
+          "issue": "2",
+          "pages": "4–14",
+          "year": "1986",
+          "citedBy": 18477,
+          "url": "https://doi.org/10.3102/0013189x015002004"
+        },
+        "reason": "教員知識の概念的フレームワーク（教科内容知識と教授学的属性知識）を提示した基礎文献であり、本研究の理論的背景を理解するのに有用です。"
+      },
+      {
+        "paper": {
+          "id": "W2115258890",
+          "doi": "10.1177/0022487108324554",
+          "title": "Content Knowledge for Teaching",
+          "authors": [
+            "Deborah Loewenberg Ball",
+            "Mark N. Hoover",
+            "Geoffrey Phelps"
+          ],
+          "authorCount": 3,
+          "venue": "Journal of Teacher Education",
+          "volume": "59",
+          "issue": "5",
+          "pages": "389–407",
+          "year": "2008",
+          "citedBy": 5367,
+          "url": "https://doi.org/10.1177/0022487108324554"
+        },
+        "reason": "教師に必要な数学的知識（MKT）の領域を分類・定義した重要文献であり、本研究で使用された測定尺度や活動開発の基盤を理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W3010445050",
+          "doi": "10.1016/j.tate.2020.103038",
+          "title": "Examining the influence of van Hiele theory-based instructional activities on elementary preservice teachers’ geometry knowledge for teaching 2-D shapes",
+          "authors": [
+            "Minju Yi",
+            "Raymond Flores",
+            "Jian Wang"
+          ],
+          "authorCount": 3,
+          "venue": "Teaching and Teacher Education",
+          "volume": "91",
+          "issue": "",
+          "pages": "103038",
+          "year": "2020",
+          "citedBy": 45,
+          "url": "https://doi.org/10.1016/j.tate.2020.103038"
+        },
+        "reason": "本研究を引用し、ヴァン・ヒエーレ理論に基づく指導活動が教員志望者の2次元図形に関する教授知識に与える影響を深掘りした関連研究です。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "教科内容知識",
+        "wikiTitle": "教科内容知識"
+      },
+      {
+        "term": "準実験デザイン",
+        "wikiTitle": "実験計画法"
+      },
+      {
+        "term": "繰り返し測定分散分析",
+        "wikiTitle": "分散分析"
+      },
+      {
+        "term": "混合分散分析",
+        "wikiTitle": "分散分析"
+      }
+    ],
+    "links": [
+      {
+        "term": "準実験デザイン",
+        "title": "実験計画法",
+        "url": "https://ja.wikipedia.org/wiki/%E5%AE%9F%E9%A8%93%E8%A8%88%E7%94%BB%E6%B3%95"
+      },
+      {
+        "term": "繰り返し測定分散分析",
+        "title": "分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "混合分散分析",
+        "title": "分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      }
+    ],
+    "intro": "小学校の先生を目指す学生は図形の指導知識をどう高められるでしょうか。質的調査と授業介入実験からその効果を検証した研究を紹介します。",
+    "warnings": [
+      "論文の本文に見つからない数値: 001"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-10-17",
+  "createdAt": "2026-10-17 08:37",
+  "figure": {
+    "target": [
+      {
+        "text": "予備教員/3名",
+        "evidence": "Christiana, Emma and Liz (pseudonyms), the volunteered participants, were preservice elementary school teachers"
+      },
+      {
+        "text": "参加者/102名",
+        "evidence": "102 participants who enrolled in the methods course completed pre and post test of teachers’ geometry content knowledge."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "介入群/（n=54）",
+        "evidence": "Treatment group participants (n=54) received series of activities (geometry activities and student work analysis) focusing on quadrilaterals"
+      },
+      {
+        "text": "統制群/（n=48）",
+        "evidence": "control group participants (n=48) received traditional instruction."
+      }
+    ],
+    "measures": [
+      {
+        "text": "質的調査/（3段階）",
+        "evidence": "The research was conducted in three phases, Figure 1."
+      },
+      {
+        "text": "事前・事後テスト",
+        "evidence": "102 participants who enrolled in the methods course completed pre and post test of teachers’ geometry content knowledge."
+      },
+      {
+        "text": "幾何学の知識測定",
+        "evidence": "The instrument to measure change in participants’ geometry content knowledge, Content Knowledge for Teaching Mathematics Measures (CKT-M Measures)"
+      }
+    ],
+    "results": [
+      {
+        "text": "介入群/有意な変化",
+        "evidence": "Repeated measures ANOVA results showed a significant change in treatment group participants’ geometry content knowledge."
+      },
+      {
+        "text": "群間比較/有意差なし",
+        "evidence": "The mixed ANOVA results indicated a significant main effect of knowledge but no significant interaction between geometry content knowledge and grouping."
+      }
+    ]
+  }
+}
