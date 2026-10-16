@@ -82,5 +82,39 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-10-16",
-  "createdAt": "2026-10-16 10:02"
+  "createdAt": "2026-10-16 10:02",
+  "figure": {
+    "target": [
+      {
+        "text": "イタリアの小学1年生/115名",
+        "evidence": "the final sample included 115 children (59 boys)"
+      },
+      {
+        "text": "イギリスの小学3年生/120名",
+        "evidence": "Study 2: N = 120, conducted in the UK"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "数学不安/学習内容",
+        "evidence": "Math anxiety and math performance in young children."
+      }
+    ],
+    "measures": [
+      {
+        "text": "1週間後の/遅延事後テスト",
+        "evidence": "Session 2 was scheduled 7 days after the first session. Children completed a delayed posttest"
+      }
+    ],
+    "results": [
+      {
+        "text": "研究1: 順序不変性の学習/不安が影響",
+        "evidence": "math anxiety was negatively related to children’s performance on the immediate posttraining assessment on tasks tapping into the principle of order invariance of addends."
+      },
+      {
+        "text": "研究2: 記号学習/不安が影響",
+        "evidence": "math anxious children improved less than their non-anxious peers."
+      }
+    ]
+  }
 }
