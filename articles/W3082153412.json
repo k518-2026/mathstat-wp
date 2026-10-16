@@ -1,0 +1,86 @@
+{
+  "paper": {
+    "id": "W3082153412",
+    "doi": "10.1037/edu0000602",
+    "title": "Math anxiety interferes with learning novel mathematics contents in early elementary school",
+    "authors": [
+      "Carlo Tomasetto",
+      "Kinga Morsanyi",
+      "Veronica Guardabassi",
+      "Patrick Aaron O'Connor"
+    ],
+    "authorCount": 4,
+    "venue": "Journal of Educational Psychology",
+    "volume": "113",
+    "issue": "2",
+    "pages": "315–329",
+    "year": "2020",
+    "citedBy": 48,
+    "url": "https://doi.org/10.1037/edu0000602",
+    "license": "other-oa",
+    "pdfUrl": "https://pureadmin.qub.ac.uk/ws/files/220429463/Tomasetto_Morsanyi_Guardabassi_O_Connor_2020.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "数学不安は小学校低学年における新しい数学内容の学習を妨げる",
+    "sections": {
+      "what": "この研究は、小学校低学年の児童において、数学に対する不安が新しい数学知識の獲得（符号化）にどのような影響を与えるかを調査したものです。イタリアとイギリスの2つの国で、計235人の6歳児を対象とした2つの実験が行われました。児童には、それまでの学校のカリキュラムでは扱われていない2つの新しい数学的内容（「十の位の加算」や「加法の順序不変性」など）を提示し、学習前、学習直後、および1週間後の3つの時点で知識の習得度を測定しました。",
+      "novelty": "これまでの数学不安に関する研究の多くは、すでに習得した知識をテストの場面で思い出す際のパフォーマンスへの影響に焦点を当ててきました。しかし、本研究は、数学不安が「新しい知識を学習するプロセスそのもの」を妨げるかどうかを調査した最初の研究の一つです。特に、小学校の初期段階において、数学不安が知識の獲得を阻害し、それが時間の経過とともに数学能力の累積的な格差を生む可能性を指摘している点が重要です。",
+      "method": "統計分析では、Mplusを用いた縦断的な構造方程式モデリングが採用されました。児童の知識レベルを、学習前、直後、1週間後の3時点のスコアとしてモデル化し、数学不安を共変量として組み込みました。特に、データの非正規性やクラス内での児童の類似性を考慮するため、重み付き最小二乗法（WLSMV）による推定や、クラスを考慮した複雑な解析手法が用いられました。また、イギリスの調査では、ワーキングメモリの容量や社会経済的背景も変数として組み込まれました。",
+      "validation": "分析の結果、数学不安が高い児童は、学習前の知識レベルが低い傾向にあることが示されました。重要な発見として、数学不安が高い児童は、特定の学習内容において学習直後の知識獲得の割合が低く、その不利な状況が1週間後の遅延テストでも持続していることが示唆されました。また、イギリスの調査では、ワーキングメモリの容量が学習に影響を与える一方で、数学不安は学習の獲得率を低下させる独立した要因として示されました。これらの結果は、数学不安が知識の符号化を妨げる証拠として提示されています。",
+      "implications": "この研究は、数学不安が単にテストの点数を下げるだけでなく、初期段階での知識の獲得自体を阻害する可能性を示唆しています。これは、数学不安を早期に発見し介入することの重要性を裏付けるものです。一方で、全ての数学的内容において同様の傾向が見られたわけではなく、内容の複雑さや指導方法によって影響の度合いが異なる可能性も残されています。また、実験室での指導と実際の教室での指導の違いや、個人の主観的な評価が与える影響など、今後の検討課題として挙げられています。",
+      "nextLead": "数学不安が児童の学習に与える影響をより深く理解するためには、不安がどのように形成されるか、あるいは個人の認知特性とどのように相互作用するかを掘り下げる必要があります。特に、不安の心理的な側面や、それが児童の自己効力感や学習意欲とどのように関連しているかを探る研究へと進むことが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2150375290",
+          "doi": "10.1111/1467-8721.00196",
+          "title": "Math Anxiety: Personal, Educational, and Cognitive Consequences",
+          "authors": [
+            "Mark H. Ashcraft"
+          ],
+          "authorCount": 1,
+          "venue": "Current Directions in Psychological Science",
+          "volume": "11",
+          "issue": "5",
+          "pages": "181–185",
+          "year": "2002",
+          "citedBy": 1462,
+          "url": "https://doi.org/10.1111/1467-8721.00196"
+        },
+        "reason": "数学不安の心理的・認知的影響に関する基礎的な知見を提供しており、本研究で示された学習への影響の背景にある理論的枠組みを理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W4400476192",
+          "doi": "10.1111/bjep.12707",
+          "title": "The impact of math anxiety and self‐efficacy in middle school STEM choices: A 3‐year longitudinal study",
+          "authors": [
+            "Alessandro Cuder",
+            "Sandra Pellizzoni",
+            "Miriana Di Marco",
+            "Claudia Blason"
+          ],
+          "authorCount": 7,
+          "venue": "British Journal of Educational Psychology",
+          "volume": "94",
+          "issue": "4",
+          "pages": "1091–1108",
+          "year": "2024",
+          "citedBy": 38,
+          "url": "https://doi.org/10.1111/bjep.12707"
+        },
+        "reason": "数学不安が中学生のSTEM分野の選択に与える長期的な影響を追跡した研究であり、本論文で示唆された初期の学習阻害が将来の進路にどう繋がるかを考える上で重要です。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "数学不安は、単にテストの点数を下げるだけでしょうか？最新の研究では、子供たちが新しい数学の知識を「覚えること自体」を妨げている可能性が示唆されています。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-16",
+  "createdAt": "2026-10-16 10:02"
+}

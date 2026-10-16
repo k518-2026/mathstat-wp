@@ -1160,6 +1160,44 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-15 19:41",
       "note": ""
+    },
+    "W2995755330": {
+      "doi": "10.24042/ajpm.v10i2.5303",
+      "title": "Understanding of Mathematical Concepts in the Linear Equation with Two Variables: Impact of E-Learning and Blended Learning Using Google Classroom",
+      "citedBy": 49,
+      "year": "2019",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-16 10:00"
+    },
+    "W2139488241": {
+      "doi": "10.1016/j.compedu.2011.08.010",
+      "title": "Effects of a digital intervention on the development of algebraic expertise",
+      "citedBy": 49,
+      "year": "2011",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-16 10:00"
+    },
+    "W4200182901": {
+      "doi": "10.1111/nyas.14722",
+      "title": "The interplay between math anxiety and working memory on math performance: a longitudinal study",
+      "citedBy": 48,
+      "year": "2021",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-16 10:00"
+    },
+    "W3082153412": {
+      "doi": "10.1037/edu0000602",
+      "title": "Math anxiety interferes with learning novel mathematics contents in early elementary school",
+      "citedBy": 48,
+      "year": "2020",
+      "status": "ready",
+      "titleJa": "数学不安は小学校低学年における新しい数学内容の学習を妨げる",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-16 10:02",
+      "note": ""
     }
   }
 }
