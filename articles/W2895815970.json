@@ -1,0 +1,120 @@
+{
+  "paper": {
+    "id": "W2895815970",
+    "doi": "10.12973/iejme/3928",
+    "title": "Impact of Heuristic Strategy on Students’ Mathematics Ability in High Order Thinking",
+    "authors": [
+      "Hardi Tambunan"
+    ],
+    "authorCount": 1,
+    "venue": "International Electronic Journal of Mathematics Education",
+    "volume": "13",
+    "issue": "3",
+    "pages": "",
+    "year": "2018",
+    "citedBy": 47,
+    "url": "https://doi.org/10.12973/iejme/3928",
+    "license": "cc-by",
+    "pdfUrl": "https://www.iejme.com/download/impact-of-heuristic-strategy-on-students-mathematics-ability-in-high-order-thinking-3928.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "ヒューリスティック戦略が高次思考における生徒の数学能力に与える影響",
+    "sections": {
+      "what": "この研究は、ヒューリスティック戦略が高校生の数学における高次思考能力にどのような影響を与えるかを明らかにすることを目的としています。調査対象は、インドネシアの北スマトラ州にある8つの地区から選ばれた公立および私立高校の2年生の生徒です。分析には、ランダムに抽出された257人の生徒のデータが用いられました。研究では、高次思考能力を「概念の理解」「創造性」「数学的コミュニケーション」「問題解決」「推論能力」の5つの指標で捉えています。",
+      "novelty": "数学教育において高次思考能力（HOT）の重要性は指摘されていますが、その達成に向けた具体的な学習アプローチの有効性については、依然として重要な課題です。本研究は、教育学の専門家によって開発された「ヒューリスティック戦略」に着目し、それが数学の学習において具体的にどの能力をどの程度促進するのかを定量的に分析しています。従来の学習法と比較して、ヒューリスティック戦略が数学的な思考の深化にどのように寄与するかを明らかにしようとする点が特徴です。",
+      "method": "本研究は記述的研究として、相関デザインを採用しています。統計手法としては、線形回帰分析と分散分析（ANOVA）を用いて、ヒューリスティック戦略（独立変数）と高次思考能力（従属変数）の関連を分析しました。データの収集には、生徒の反応を問う質問票と、線形計画の教材を用いたテストが使用されました。ヒューリスティック戦略は、問題解決の4段階（問題の理解、解決策の計画、計画の実行、再確認）の各段階において、生徒を導くための指示や質問の提供として定義されています。",
+      "validation": "分析の結果、ヒューリスティック戦略は生徒の高次思考における数学能力に対して非常に強い影響を与えることが示されました。モデルの決定係数（R2）は0.755であり、ヒューリスティック戦略が数学能力の変動の75.5%を説明していることが分かりました。さらに、個別の指標についても有意な影響が確認されました。概念の理解（61.8%）、創造性（48.0%）、数学的コミュニケーション（62.5%）、問題解決（51.3%）、推論能力（62.2%）のそれぞれにおいて、ヒューリスティック戦略が数学能力に寄与していることが示唆されました。",
+      "implications": "本論文は、ヒューリスティック戦略が数学の学習において高次思考能力を促進する有効なアプローチである可能性を示唆しています。特に、問題解決の各段階で適切なヒューリスティック（手がかり）を提供することが、概念の理解や推論能力の向上に寄与する可能性を提示しています。ただし、本研究は相関関係を示すものであり、因果関係を断定するものではありません。また、特定の教材や地域に限定された調査であるため、他の教育環境や異なる数学のトピックにおいて同様の効果が得られるかについては、今後のさらなる検討が必要です。",
+      "nextLead": "ヒューリスティック戦略が数学能力に与える影響を定量的に示した本研究を踏まえ、次は、問題解決戦略や科学的アプローチが具体的にどのように高次思考能力を向上させるかという、より具体的な指導法に焦点を当てた研究へと進むことが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2913162969",
+          "doi": "10.29333/iejme/5715",
+          "title": "The Effectiveness of the Problem Solving Strategy and the Scientific Approach to Students’ Mathematical Capabilities in High Order Thinking Skills",
+          "authors": [
+            "Hardi Tambunan"
+          ],
+          "authorCount": 1,
+          "venue": "International Electronic Journal of Mathematics Education",
+          "volume": "14",
+          "issue": "2",
+          "pages": "",
+          "year": "2019",
+          "citedBy": 148,
+          "url": "https://doi.org/10.29333/iejme/5715"
+        },
+        "reason": "本論文を引用している後続研究であり、問題解決戦略や科学的アプローチが具体的にどのように高次思考能力に寄与するかをさらに深く探るための材料となります。"
+      },
+      {
+        "paper": {
+          "id": "W2765629965",
+          "doi": "10.5539/ies.v10n11p78",
+          "title": "The Relationship between Higher Order Thinking Skills and Academic Performance of Student in Mathematics Instruction",
+          "authors": [
+            "Benidiktus Tanujaya",
+            "Jeinne Mumu",
+            "Gaguk Margono"
+          ],
+          "authorCount": 3,
+          "venue": "International Education Studies",
+          "volume": "10",
+          "issue": "11",
+          "pages": "78",
+          "year": "2017",
+          "citedBy": 214,
+          "url": "https://doi.org/10.5539/ies.v10n11p78"
+        },
+        "reason": "高次思考能力と数学の学業成績の関連について述べた先行研究であり、本論文で示された能力の向上と実際の成績とのつながりを考察する際に役立ちます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "ヒューリスティック戦略は、数学の高次思考能力を向上させる鍵となるでしょうか。インドネシアの高校生を対象とした調査から、その強力な影響力が明らかになりました。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-18",
+  "createdAt": "2026-10-18 08:31",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシアの高校2年生/257名",
+        "evidence": "The population of this study were all second-grade public and private high school students representing schools from eight districts in North Sumatra province, and samples (N = 257) were taken randomly."
+      },
+      {
+        "text": "北スマトラ州の8つの地区",
+        "evidence": "representing schools from eight districts in North Sumatra province"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "ヒューリスティック戦略(X)",
+        "evidence": "the implementation of heuristic strategy (X)"
+      },
+      {
+        "text": "5つの構成概念(X1-X5)",
+        "evidence": "the syntax of understanding of the concept (X1), creativity (X2), mathematical communication (X3), problem solving (X4), and reasoning (X5)."
+      }
+    ],
+    "measures": [
+      {
+        "text": "アンケートとテストの実施",
+        "evidence": "Data collection techniques were carried out by giving questionnaires and tests to students."
+      }
+    ],
+    "results": [
+      {
+        "text": "ヒューリスティック戦略の影響度75.5%",
+        "evidence": "the heuristic strategy is very influential on the mathematical ability of students with HOT whose influence is 75.5%."
+      },
+      {
+        "text": "概念理解の影響度61.8%",
+        "evidence": "The effect of heuristic strategy on concept comprehension ability is 61.8%."
+      }
+    ]
+  }
+}

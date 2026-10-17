@@ -1209,6 +1209,35 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-10-17 08:37",
       "note": "論文の本文に見つからない数値: 001"
+    },
+    "W2109554298": {
+      "doi": "10.1186/s40536-014-0010-7",
+      "title": "The acquisition of problem solving competence: evidence from 41 countries that math and science education matters",
+      "citedBy": 48,
+      "year": "2014",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-18 08:29"
+    },
+    "W2134464802": {
+      "doi": "10.30827/pna.v6i4.6139",
+      "title": "On the development of early algebraic thinking",
+      "citedBy": 48,
+      "year": "2012",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-18 08:29"
+    },
+    "W2895815970": {
+      "doi": "10.12973/iejme/3928",
+      "title": "Impact of Heuristic Strategy on Students’ Mathematics Ability in High Order Thinking",
+      "citedBy": 47,
+      "year": "2018",
+      "status": "ready",
+      "titleJa": "ヒューリスティック戦略が高次思考における生徒の数学能力に与える影響",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-18 08:31",
+      "note": ""
     }
   }
 }
