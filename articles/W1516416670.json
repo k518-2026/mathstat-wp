@@ -1,0 +1,88 @@
+{
+  "paper": {
+    "id": "W1516416670",
+    "doi": "10.15700/saje.v35n3a1106",
+    "title": "Factors affecting Mathematics achievement of first-year secondary school students in Central Uganda",
+    "authors": [
+      "Henry Nsubuga Kiwanuka",
+      "Jan Van Damme",
+      "Wim Van Den Noortgate",
+      "Dickson Nkafu Anumendem"
+    ],
+    "authorCount": 5,
+    "venue": "South African Journal of Education",
+    "volume": "35",
+    "issue": "3",
+    "pages": "1–16",
+    "year": "2015",
+    "citedBy": 47,
+    "url": "https://doi.org/10.15700/saje.v35n3a1106",
+    "license": "cc-by",
+    "pdfUrl": "https://lirias.kuleuven.be/retrieve/cfb15a8e-1636-4908-b911-efe90e21b99e"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "ウガンダ中部の中等教育初等学年における数学の成績に影響を与える要因",
+    "sections": {
+      "what": "この研究は、ウガンダ中部の中等教育初等学年（7年生、約14〜15歳）の生徒4,819人を対象に、数学の成績に影響を与える要因を生徒、教室、学校の3つのレベルで調査したものです。研究の目的は、生徒個人の特性、教室内の環境やプロセス、そして学校全体の構造や特性が、数学の成績のばらつきにどのように寄与しているかを明らかにすることにあります。調査対象は49の学校から抽出された78の教室で構成されています。",
+      "novelty": "教育効果研究の文脈において、従来の研究では生徒レベルの要因が支配的であるとされることもあれば、学校レベルの要因も無視できない割合を占めるとされることもありました。本研究の新規性は、ウガンダのような教育システムにおいて、生徒、教室、学校という階層構造を考慮したマルチレベル分析を用いることで、各レベルの要因を切り離して評価しようとした点にあります。特に、教室のプロセスと構成の両方が学校レベルの成績のばらつきにどのように寄与するかを詳細に分析しています。",
+      "method": "統計手法として、生徒が教室に属し、教室が学校に属するという階層構造を考慮できるマルチレベル分析を採用しました。具体的には、生徒の家庭環境や性別、過去の成績などの個人特性に加え、教室のサイズや学習環境、評価の質、クラスの雰囲気、そして学校の種別や所在地、規模などの変数をモデルに組み込みました。また、欠損データに対しては、データがランダムに欠損していると仮定した完全情報最大尤度法を用いて推定を行っています。",
+      "validation": "分析の結果、数学の成績のばらつきのうち、生徒レベルが68.8％、教室レベルが14.2％、学校レベルが17.0％を占めると示されました。生徒レベルでは、性別（男子の方が成績が良い）、過去の数学の成績、親のサポートが有意な予測因子でした。教室レベルでは、生徒が知覚する「同級生の影響」や「良好な教室評価」が有意な予測因子となりました。学校レベルでは、学校の平均的な教室の雰囲気や、教室のプロセスと構成の組み合わせが成績のばらつきを説明することが示されました。",
+      "implications": "本研究は、数学の成績向上のためには、生徒個人の背景だけでなく、教室内の学習環境や評価の質、さらには学校全体の雰囲気や構造が相互に作用していることを示唆しています。特に、教室での形成的評価や同級生間の相互作用が重要である可能性が示されています。一方で、本研究には生徒の主観的な評価に依拠していることや、学校レベルの変数が不十分である可能性といった限界も指摘されています。今後は、家庭での学習時間や教科書の所有状況など、より詳細な要因の調査が求められます。",
+      "nextLead": "本研究では、教室内のプロセスや同級生の相互作用が成績に与える影響が示されました。次に、これらの要因が具体的にどのように生徒の数学に対する態度や不安に影響を与えるのか、あるいは性別の差を埋めるためにどのような介入が有効かを検討する研究へと進むことが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2162397375",
+          "doi": "10.1037//0033-2909.107.2.139",
+          "title": "Gender differences in mathematics performance: A meta-analysis",
+          "authors": [
+            "Janet Shibley Hyde",
+            "Elizabeth H. Fennema",
+            "Susan J. Lamon"
+          ],
+          "authorCount": 3,
+          "venue": "Psychological Bulletin",
+          "volume": "107",
+          "issue": "2",
+          "pages": "139–155",
+          "year": "1990",
+          "citedBy": 1730,
+          "url": "https://doi.org/10.1037//0033-2909.107.2.139"
+        },
+        "reason": "本研究で示された数学における性別の成績差について、メタ分析の手法を用いてより広範な知見を確認するために有用です。"
+      },
+      {
+        "paper": {
+          "id": "W2471242419",
+          "doi": "10.1080/09243453.2016.1201123",
+          "title": "How do student and classroom characteristics affect attitude toward mathematics? A multivariate multilevel analysis",
+          "authors": [
+            "Henry Nsubuga Kiwanuka",
+            "Jan Van Damme",
+            "Wim Van Den Noortgate",
+            "Dickson Nkafu Anumendem"
+          ],
+          "authorCount": 7,
+          "venue": "School Effectiveness and School Improvement",
+          "volume": "28",
+          "issue": "1",
+          "pages": "1–21",
+          "year": "2016",
+          "citedBy": 41,
+          "url": "https://doi.org/10.1080/09243453.2016.1201123"
+        },
+        "reason": "本研究と同様にマルチレベル分析を用いて、生徒や教室の特性が数学に対する態度にどのように影響するかを調査しており、関連性が高いです。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "ウガンダの生徒たちの数学の成績は、個人の背景、教室の環境、学校の構造のどれに最も影響されているのでしょうか。マルチレベル分析で明らかになった要因を探ります。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-19",
+  "createdAt": "2026-10-19 08:03"
+}

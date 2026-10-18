@@ -1238,6 +1238,26 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-18 08:31",
       "note": ""
+    },
+    "W2791338104": {
+      "doi": "10.3389/fpsyg.2018.00262",
+      "title": "Interactive Apps Promote Learning of Basic Mathematics in Children With Special Educational Needs and Disabilities",
+      "citedBy": 47,
+      "year": "2018",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-19 08:00"
+    },
+    "W1516416670": {
+      "doi": "10.15700/saje.v35n3a1106",
+      "title": "Factors affecting Mathematics achievement of first-year secondary school students in Central Uganda",
+      "citedBy": 47,
+      "year": "2015",
+      "status": "ready",
+      "titleJa": "ウガンダ中部の中等教育初等学年における数学の成績に影響を与える要因",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-19 08:03",
+      "note": ""
     }
   }
 }
