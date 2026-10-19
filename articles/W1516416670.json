@@ -84,5 +84,47 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-10-19",
-  "createdAt": "2026-10-19 08:03"
+  "createdAt": "2026-10-19 08:03",
+  "figure": {
+    "target": [
+      {
+        "text": "ウガンダの初等中等教育/（14-15歳）",
+        "evidence": "4,819 first-year secondary school students (Grade Seven, about 14-15 years old) from 78 classrooms of 49 schools"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "学生レベルの変数",
+        "evidence": "SES, gender, age, PMA and PASUP"
+      },
+      {
+        "text": "教室レベルの変数",
+        "evidence": "class size, class processes (learning environment, assessment, teacher support and peer influence), class climate (class mean of attitude toward mathematics (ATM)), and class composition variables"
+      },
+      {
+        "text": "学校レベルの変数",
+        "evidence": "school structure (type, location and size), school average of class processes and class climate, and school composition variables"
+      }
+    ],
+    "measures": [
+      {
+        "text": "学生用アンケート",
+        "evidence": "The student questionnaire was an instrument designed to collect demographic information, students’ perceptions of classroom teaching of Mathematics and of teacher, peer and parental support, and attitudinal factors."
+      }
+    ],
+    "results": [
+      {
+        "text": "3レベルの分散構成",
+        "evidence": "68.8%, 14.2% and 17.0% are situated at student, classroom and school level, respectively."
+      },
+      {
+        "text": "学生レベルの寄与",
+        "evidence": "SES, gender, age, PMA and PASUP together accounted for 7.6%, 29.3% and 31.2% of the student-, classroom- and school-level variance in achievement, respectively."
+      },
+      {
+        "text": "教室・学校レベルの寄与",
+        "evidence": "About 28.4% of the total variance was explained, and about 4.5% and 3.5% of the total variance was left unexplained at the classroom and school level, respectively."
+      }
+    ]
+  }
 }
