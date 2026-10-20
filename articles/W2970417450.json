@@ -1,0 +1,122 @@
+{
+  "paper": {
+    "id": "W2970417450",
+    "doi": "10.1007/s10639-019-09995-z",
+    "title": "Perspectives for effective integration of e-learning tools in university mathematics instruction for developing countries",
+    "authors": [
+      "Edwin Akugizibwe",
+      "Jeong-Yong Ahn"
+    ],
+    "authorCount": 2,
+    "venue": "Education and Information Technologies",
+    "volume": "25",
+    "issue": "2",
+    "pages": "889–903",
+    "year": "2019",
+    "citedBy": 46,
+    "url": "https://doi.org/10.1007/s10639-019-09995-z",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10639-019-09995-z.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "発展途上国における大学の数学教育へのeラーニングツールの効果的な統合に向けた展望",
+    "sections": {
+      "what": "この研究は、ウガンダの大学において、初年次の数学専攻学生39名を対象に、eラーニングツールを用いた数学教育の介入効果を調査したものです。具体的には、コンテンツ開発ツールであるXerteオンラインツールキットと、計算機代数システムとしてのRおよび行列計算機を組み合わせて使用しました。研究の目的は、これらのツールが学生の学習に対する関心や成績を向上させ、創造性や知識の応用能力をいかに高めるかを探ることです。学生の視点から、ツールの属性や成功要因、適切な指導法を明らかにしようとしています。",
+      "novelty": "多くの発展途上国では、eラーニングの導入が一般的になりつつありますが、数学という特定の科目に特化した効果的な実装に関する研究は不足していると著者らは述べています。この研究の新規性は、高価な商用ソフトではなく、オープンソースでオフラインでも利用可能なツールを選択し、コストやインターネット接続の制約がある環境に配慮している点にあります。また、単なるコンテンツ配信にとどまらず、計算機代数システムとコンテンツ開発ツールを統合することで、数学の知識をいかに実社会に応用できるかに焦点を当てている点が重要です。",
+      "method": "統計手法として、反復分散分析とロジスティック回帰分析を用いてデータを分析しました。反復分散分析では、伝統的な指導法と3種類のeラーニングツール（XOT、行列計算機、R）の各属性に対する評価を比較しました。また、ロジスティック回帰モデルでは、学生のeラーニングに対する満足度を目的変数とし、スキルの習得状況、インターネットの整備状況、コンテンツの質、問題解決能力を予測変数としてモデルを構築しました。これにより、満足度に寄与する主要な要因を特定しようとしています。",
+      "validation": "反復分散分析の結果、eラーニングツールは伝統的な手法と比較して、ユーザーフレンドリーさや学習への関心、知識の応用能力の向上において統計的に有意な差（p < 0.05）があることが示されました。特に行列計算機は最もユーザーフレンドリーであると評価されました。また、ロジスティック回帰分析では、インターネットの整備状況（p = 0.043）やコンテンツの質（p = 0.006）が満足度に有意に影響することが示されました。さらに、問題解決能力が向上するごとに満足度の対数オッズが7.351増加することも示唆されました。",
+      "implications": "本研究は、eラーニングツールが学生の自己調整学習を促し、知識の応用能力を高める可能性を示唆しています。特に、コンテンツ開発ツールで基本概念を説明し、計算機代数システムでそれを具体化する組み合わせが、創造的な思考を促す指導法として有効である可能性を提示しています。一方で、ツール単体よりも教師の指導や解説が重要であることも示されており、ブレンディッドラーニングの重要性が強調されています。また、インターネット環境やコンテンツの質が満足度に直結することから、インフラ整備と質の高い教材制作の両立が不可欠であることも示唆されています。",
+      "nextLead": "この研究では、計算機代数システム（CAS）とeラーニングツールの統合が、学生の自己調整学習や知識の応用能力に与える影響が示されました。次に、CASが数学の授業において具体的にどのような役割を果たし、教師の役割をどう変えるのか、より詳細な教育的知見を探る研究へと進むことが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2156709626",
+          "doi": "10.1046/j.0266-4909.2003.00004.x",
+          "title": "Using computer algebra systems in mathematical classrooms",
+          "authors": [
+            "Bracha Kramarski",
+            "C. Hirsch"
+          ],
+          "authorCount": 2,
+          "venue": "Journal of Computer Assisted Learning",
+          "volume": "19",
+          "issue": "1",
+          "pages": "35–45",
+          "year": "2003",
+          "citedBy": 47,
+          "url": "https://doi.org/10.1046/j.0266-4909.2003.00004.x"
+        },
+        "reason": "本論文で重要な役割を果たした計算機代数システム（CAS）の数学教育における具体的な活用法について、より詳細な知見を得るために適しています。"
+      },
+      {
+        "paper": {
+          "id": "W2587142401",
+          "doi": "10.1186/s41239-017-0043-4",
+          "title": "Blended learning effectiveness: the relationship between student characteristics, design features and outcomes",
+          "authors": [
+            "Mugenyi Justice Kintu",
+            "Chang Zhu",
+            "Edmond Kagambe"
+          ],
+          "authorCount": 3,
+          "venue": "International Journal of Educational Technology in Higher Education",
+          "volume": "14",
+          "issue": "1",
+          "pages": "",
+          "year": "2017",
+          "citedBy": 761,
+          "url": "https://doi.org/10.1186/s41239-017-0043-4"
+        },
+        "reason": "本研究で示唆されたブレンディッドラーニングの有効性について、学生の特性や設計要素と学習成果の関係を分析した研究であり、補完的な視点が得られます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "数学の知識をいかに実社会に応用させるか。ウガンダの大学での実験から、計算機代数システムとeラーニングツールの統合が学生の自己調整学習を促す可能性が見えてきました。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-20",
+  "createdAt": "2026-10-20 10:02",
+  "figure": {
+    "target": [
+      {
+        "text": "ウガンダの大学/学生 39名",
+        "evidence": "The study involved all the 39 first-year mathematics major students of Mountains of the Moon University (MMU), Uganda"
+      },
+      {
+        "text": "線形代数1の学生",
+        "evidence": "undertaking a course of Linear Algebra 1."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "eラーニングツール/4群",
+        "evidence": "e-learning type (Traditional, XOT, Matrix calculator (MC), R)"
+      },
+      {
+        "text": "満足度/予測変数",
+        "evidence": "Internet, Content and Problem solving were statistically significant (all have p value <0.05)."
+      }
+    ],
+    "measures": [
+      {
+        "text": "1週間の事前/トレーニング",
+        "evidence": "The students were using the e-learning tools for the first time and had received one-week training prior to the experiment."
+      },
+      {
+        "text": "事後アンケート調査",
+        "evidence": "At the end of the study, a survey was given to students to obtain their views on the mathematics e-learning experiment."
+      }
+    ],
+    "results": [
+      {
+        "text": "ロジスティック回帰/要因",
+        "evidence": "Internet, Content and Problem solving were statistically significant (all have p value <0.05)."
+      }
+    ]
+  }
+}

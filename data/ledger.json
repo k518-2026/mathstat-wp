@@ -1258,6 +1258,26 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-19 08:03",
       "note": ""
+    },
+    "W2563983813": {
+      "doi": "10.3102/0013189x14553660",
+      "title": "What’s Past Is Prologue",
+      "citedBy": 585,
+      "year": "2014",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-20 10:00"
+    },
+    "W2970417450": {
+      "doi": "10.1007/s10639-019-09995-z",
+      "title": "Perspectives for effective integration of e-learning tools in university mathematics instruction for developing countries",
+      "citedBy": 46,
+      "year": "2019",
+      "status": "ready",
+      "titleJa": "発展途上国における大学の数学教育へのeラーニングツールの効果的な統合に向けた展望",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-20 10:02",
+      "note": ""
     }
   }
 }
