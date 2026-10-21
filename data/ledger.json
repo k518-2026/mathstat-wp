@@ -1278,6 +1278,44 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-20 10:02",
       "note": ""
+    },
+    "W2790350502": {
+      "doi": "10.1111/jcal.12253",
+      "title": "When knowing is believing: A multi‐trait analysis of self‐reported TPCK",
+      "citedBy": 45,
+      "year": "2018",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-21 10:41"
+    },
+    "W3108506794": {
+      "doi": "10.1016/j.learninstruc.2020.101417",
+      "title": "Aged-based differences in spatial language skills from 6 to 10 years: Relations with spatial and mathematics skills",
+      "citedBy": 43,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-21 10:41"
+    },
+    "W2987849056": {
+      "doi": "10.1016/j.compedu.2019.103748",
+      "title": "Impact of graph technologies in K-12 science and mathematics education",
+      "citedBy": 39,
+      "year": "2019",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-21 10:41"
+    },
+    "W2969276070": {
+      "doi": "10.29333/iejme/5887",
+      "title": "TPACK: Technological, Pedagogical and Content Model Necessary to Improve the Educational Process on Mathematics through a Web Application?",
+      "citedBy": 39,
+      "year": "2019",
+      "status": "ready",
+      "titleJa": "TPACKモデル：ウェブアプリケーションを通じた数学教育プロセスの改善に必要な枠組みか？",
+      "model": "gemini-3.7-flash",
+      "createdAt": "2026-10-21 10:43",
+      "note": "意味が合わないリンクを外した: 決定木→決定木"
     }
   }
 }

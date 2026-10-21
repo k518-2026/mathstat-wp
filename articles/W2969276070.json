@@ -1,0 +1,165 @@
+{
+  "paper": {
+    "id": "W2969276070",
+    "doi": "10.29333/iejme/5887",
+    "title": "TPACK: Technological, Pedagogical and Content Model Necessary to Improve the Educational Process on Mathematics through a Web Application?",
+    "authors": [
+      "Ricardo-Adán Salas-Rueda"
+    ],
+    "authorCount": 1,
+    "venue": "International Electronic Journal of Mathematics Education",
+    "volume": "1",
+    "issue": "1",
+    "pages": "",
+    "year": "2019",
+    "citedBy": 39,
+    "url": "https://doi.org/10.29333/iejme/5887",
+    "license": "cc-by",
+    "pdfUrl": "https://www.iejme.com/download/tpack-technological-pedagogical-and-content-model-necessary-to-improve-the-educational-process-on-5887.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "メキシコの大学で基礎数学を受講した学生45名を対象に、一次関数を学ぶウェブアプリの効果を機械学習の線形回帰や決定木分析を用いて定量的に検証した実証研究であるため。",
+    "titleJa": "TPACKモデル：ウェブアプリケーションを通じた数学教育プロセスの改善に必要な枠組みか？",
+    "sections": {
+      "what": "大学の基礎数学コースにおいて、一次関数を学習するためのウェブアプリケーションを設計・運用し、その教育的効果を検証した研究です。メキシコの大学で2015年度に基礎数学を受講した経営学、商業学、会計学、マーケティング学専攻の1年生45名を対象としました。指導内容、教育法、技術の3要素を統合する教育枠組みに基づいて開発されたアプリが、一次関数の識別や関数の値の計算に関する知識の定着にどのような影響を与えるかを明らかにすることを目的としています。",
+      "novelty": "従来の数学教育における教育工学の活用研究では、個別のソフトウェアの導入効果を測定するものが中心でした。これに対し本研究は、技術的知識、指導法に関する知識、内容に関する知識を統合する枠組みをウェブアプリの設計段階から直接適用した点に特徴があります。さらに、質問紙による評価データを単に集計するだけでなく、データサイエンスの手法である機械学習の線形回帰や決定木分析を用いて、学習効果の予測モデルを構築した点に新規性があります。",
+      "method": "技術知識としてウェブ言語を用い、指導法知識として数値シミュレーションを採用し、内容知識として一次関数と傾きの公式を組み込んだアプリを開発しました。学習後に実施したアンケート調査のデータをもとに、機械学習ツールを用いて分析を行いました。アプリの内容が知識定着に与える影響を検証するため、訓練データの比率を50パーセント、60パーセント、70パーセントに分けた線形回帰分析を実施しました。さらに、専攻や性別、年齢などの属性と知識定着の関連を探るため、決定木分析による予測モデルを作成しました。",
+      "validation": "線形回帰分析の結果、アプリの内容が一次関数の識別に正の影響を与えるという仮説は、訓練データ70パーセントのモデルで傾きが0.661、二乗誤差0.533となり支持されました。また、関数の値の計算に正の影響を与えるという仮説も、訓練データ70パーセントで傾きが0.578、二乗誤差0.668となり支持されました。決定木分析では、識別の予測モデルで80.00パーセント、計算の予測モデルで75.56パーセントの分類精度が得られ、学生の専攻や性別、年齢によって受け止め方に複数の条件パターンが存在することが示されました。",
+      "implications": "特定の数学単元に特化した簡易なウェブツールであっても、指導法と教育内容を適切に結びつけて設計することで、学生の理解を助けられる可能性を示唆しています。ただし、本研究の分析対象は単一大学の45名と小規模であり、対照群を設けた比較実験ではないため、アプリ自体の直接的な指導効果が厳密に検証されたわけではありません。また、アプリの言語がスペイン語に限定されている点や一次関数のみを扱っている点も限界として挙げられており、論文では二次関数や指数関数など他単元への拡張を今後の課題としています。",
+      "nextLead": "本研究のように数学教育へ技術を取り入れる枠組みを深めるため、教師側の知識構造や高等教育の数学指導における技術活用を扱った研究へ読み進めることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2909849087",
+          "doi": "10.30935/cet.512515",
+          "title": "Technological Pedagogical Content Knowledge of Mathematics Teachers and the Effect of Demographic Variables",
+          "authors": [
+            "Fatma Özüdoğru",
+            "Melike Özüdoğru"
+          ],
+          "authorCount": 2,
+          "venue": "Contemporary Educational Technology",
+          "volume": "10",
+          "issue": "1",
+          "pages": "1–24",
+          "year": "2019",
+          "citedBy": 61,
+          "url": "https://doi.org/10.30935/cet.512515"
+        },
+        "reason": "数学教員を対象にTPACKの習熟度や人口統計学的変数の影響を定量的に調べており、指導者側の知識構造を理解する上で参考になるため。"
+      },
+      {
+        "paper": {
+          "id": "W3106690931",
+          "doi": "10.3390/educsci10120354",
+          "title": "Teaching Approaches and Educational Technologies in Teaching Mathematics in Higher Education",
+          "authors": [
+            "Renate Nantschev",
+            "Eva Feuerstein",
+            "Rodrigo Trujillo González",
+            "Israel García-Alonso"
+          ],
+          "authorCount": 8,
+          "venue": "Education Sciences",
+          "volume": "10",
+          "issue": "12",
+          "pages": "354",
+          "year": "2020",
+          "citedBy": 32,
+          "url": "https://doi.org/10.3390/educsci10120354"
+        },
+        "reason": "高等教育の数学指導における教育技術や指導アプローチの動向を論じた後続研究であり、大学数学での実践的な技術活用の広がりを把握できるため。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "一次関数",
+        "wikiTitle": "一次関数"
+      },
+      {
+        "term": "線形回帰",
+        "wikiTitle": "線形回帰"
+      },
+      {
+        "term": "決定木",
+        "wikiTitle": "決定木"
+      },
+      {
+        "term": "機械学習",
+        "wikiTitle": "機械学習"
+      }
+    ],
+    "links": [
+      {
+        "term": "一次関数",
+        "title": "一次関数",
+        "url": "https://ja.wikipedia.org/wiki/%E4%B8%80%E6%AC%A1%E9%96%A2%E6%95%B0"
+      },
+      {
+        "term": "線形回帰",
+        "title": "線形回帰",
+        "url": "https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%BD%A2%E5%9B%9E%E5%B8%B0"
+      },
+      {
+        "term": "機械学習",
+        "title": "機械学習",
+        "url": "https://ja.wikipedia.org/wiki/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92"
+      }
+    ],
+    "intro": "大学の数学で一次関数を学ぶウェブアプリの効果を、決定木や線形回帰で分析した研究があります。指導法と技術を統合した設計は、学生の理解定着を促したのでしょうか。",
+    "warnings": [
+      "意味が合わないリンクを外した: 決定木→決定木"
+    ],
+    "model": "gemini-3.7-flash"
+  },
+  "asOf": "2026-10-21",
+  "createdAt": "2026-10-21 10:43",
+  "figure": {
+    "target": [
+      {
+        "text": "メキシコの大学生45名",
+        "evidence": "The participants are 45 students, 19 men (42.22%) and 26 women (57.78%), who attended the Basic Math course (101 and 102 groups) in a Mexican university during the 2015 school year."
+      },
+      {
+        "text": "1年次の4専攻の学生",
+        "evidence": "These students attended the first semester of the Degrees in Administration (n=19, 42.22%), Commerce (n=13, 28.89%), Accounting (n=7, 15.56%) and Marketing (n=6, 13.33%)."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "WALFのコンテンツ",
+        "evidence": "The contents of WALF facilitate the process of learning about mathematics"
+      },
+      {
+        "text": "一次関数の識別・評価/に関する知識の同化",
+        "evidence": "The results of machine learning (linear regression) with 50%, 60% and 70% of training indicate that the contents of WALF influence the assimilation of knowledge about the identification and evaluation of the linear function."
+      }
+    ],
+    "measures": [
+      {
+        "text": "TPACKに基づく/ウェブアプリの利用",
+        "evidence": "The procedure of this quantitative research began with the use of the TPACK model in the educational process on the linear function (See Table 1)."
+      },
+      {
+        "text": "関数単元終了時の/質問紙調査",
+        "evidence": "Data collection was done in a Mexican university at the end of the Functions unit during the 2015 school year."
+      }
+    ],
+    "results": [
+      {
+        "text": "線形回帰で仮説1採択/（傾き0.661〜0.749）",
+        "evidence": "The results of machine learning with 50% (0.705), 60% (0.749) and 70% (0.661) of training indicate that hypothesis 1 is accepted"
+      },
+      {
+        "text": "線形回帰で仮説2採択/（傾き0.578〜0.657）",
+        "evidence": "The results of machine learning with 50% (0.656), 60% (0.657) and 70% (0.578) of training indicate that hypothesis 2 is accepted"
+      },
+      {
+        "text": "決定木での予測モデル/（精度75.50%超）",
+        "evidence": "Also, the decision tree technique (data science) identifies 2 predictive models on the use of WALF in the educational field and assimilation of knowledge with the accuracy greater than 75.50%."
+      }
+    ]
+  }
+}
