@@ -81,5 +81,51 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-10-22",
-  "createdAt": "2026-10-22 10:15"
+  "createdAt": "2026-10-22 10:15",
+  "figure": {
+    "target": [
+      {
+        "text": "南アフリカの/工学部1年生144名",
+        "evidence": "A total of 144 first year engineering students were exposed to a diagnostic entrance test"
+      },
+      {
+        "text": "3つのクラス群/（MI・TD1・TD2）",
+        "evidence": "These students were randomly assigned to three distinct class groups MI, TD1, and TD2, not more than 50 each"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "方法統合型/（MI）指導デザイン",
+        "evidence": "one group of participants followed an independence-oriented teaching style, aiming at a balance between students’ independent work and teacher’s guidance"
+      },
+      {
+        "text": "教員主導型/（TD）指導デザイン",
+        "evidence": "while two other groups were taught according to a more traditional teacher-guided style."
+      }
+    ],
+    "measures": [
+      {
+        "text": "事前診断テストと/事前・事後テスト",
+        "evidence": "exposed to a diagnostic entrance test, a modelling unit consisting of five lessons with ten tasks, enframed by a pre- and a post-test"
+      },
+      {
+        "text": "モデリング態度/質問紙（SATMM）",
+        "evidence": "and at the end a questionnaire on attitudes towards mathematical modelling."
+      }
+    ],
+    "results": [
+      {
+        "text": "線形混合/回帰モデル分析",
+        "evidence": "Linear mixed regression models were used to compare preand post-test results."
+      },
+      {
+        "text": "モデリング課題での/MI群の追加増加b=0.80",
+        "evidence": "MI and TD1 have significant additional increases (b = .80 resp. b = .98)"
+      },
+      {
+        "text": "全体テストでの/MI群の追加増加b=2.10",
+        "evidence": "MI shows significant additional increases in both versions (1, b = 2.10; 2, b = 2.71)"
+      }
+    ]
+  }
 }
