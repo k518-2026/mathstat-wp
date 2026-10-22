@@ -1316,6 +1316,35 @@
       "model": "gemini-3.7-flash",
       "createdAt": "2026-10-21 10:43",
       "note": "意味が合わないリンクを外した: 決定木→決定木"
+    },
+    "W2625413431": {
+      "doi": "10.1111/cdep.12240",
+      "title": "Pattern Understanding: Relationships With Arithmetic and Reading Development",
+      "citedBy": 53,
+      "year": "2017",
+      "status": "skipped",
+      "note": "テーマ外: 量的な統計分析ではない（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-10-22 10:07"
+    },
+    "W1542416779": {
+      "doi": "10.3390/computers4030234",
+      "title": "An Investigation of Turkish Pre-Service Teachers’ Technological, Pedagogical and Content Knowledge",
+      "citedBy": 39,
+      "year": "2015",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-22 10:07"
+    },
+    "W3174645691": {
+      "doi": "10.1007/s10649-021-10068-7",
+      "title": "Fostering mathematical modelling competency of South African engineering students: which influence does the teaching design have?",
+      "citedBy": 38,
+      "year": "2021",
+      "status": "ready",
+      "titleJa": "南アフリカの工学系学生の数学モデリング能力を育むための指導設計の影響",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-22 10:15",
+      "note": ""
     }
   }
 }
