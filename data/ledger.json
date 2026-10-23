@@ -1345,6 +1345,71 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-22 10:15",
       "note": ""
+    },
+    "W2153679612": {
+      "doi": "10.1177/0022219411407926",
+      "title": "Math Fluency Is Etiologically Distinct From Untimed Math Performance, Decoding Fluency, and Untimed Reading Performance",
+      "citedBy": 74,
+      "year": "2011",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-23 20:02"
+    },
+    "W2948741275": {
+      "doi": "10.3389/fpsyg.2019.01280",
+      "title": "Collaborative Problem Solving: Processing Actions, Time, and Performance",
+      "citedBy": 38,
+      "year": "2019",
+      "status": "skipped",
+      "note": "テーマ外: 本研究はPISA 2015の協調的問題解決タスクにおけるプロセスデータを分析したものであり、算数・数学の学習や指導を直接の対象とした研究ではないため。",
+      "checkedAt": "2026-10-23 20:03"
+    },
+    "W4321104764": {
+      "doi": "10.1007/s10639-023-11657-0",
+      "title": "Predicting Preservice Science Teachers’ TPACK through ICT usage",
+      "citedBy": 37,
+      "year": "2023",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-23 20:03"
+    },
+    "W4225295258": {
+      "doi": "10.3390/su14095436",
+      "title": "Mathematics Teachers’ Perceptions of Trends in International Mathematics and Science Study (TIMSS)-Related Practices in Abu Dhabi Emirate Schools",
+      "citedBy": 37,
+      "year": "2022",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-23 20:03"
+    },
+    "W2789236795": {
+      "doi": "10.21831/cp.v37i1.18787",
+      "title": "Mathematics problem solving skill acquisition: Learning by Problem Posing or by Problem Solving?",
+      "citedBy": 37,
+      "year": "2018",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-23 20:03"
+    },
+    "W2303776026": {
+      "doi": "10.14742/ajet.2289",
+      "title": "Exploring the technical pedagogical and content knowledge (TPACK) of Taiwanese university physics instructors",
+      "citedBy": 37,
+      "year": "2016",
+      "status": "skipped",
+      "note": "テーマ外: 本研究は大学の物理学教員を対象としており、算数・数学の学習や指導を対象とした研究ではないため。",
+      "checkedAt": "2026-10-23 20:03"
+    },
+    "W2094212698": {
+      "doi": "10.1590/s0103-636x2012000100008",
+      "title": "Investigation of eighth-grade students' understanding of the slope of the linear function",
+      "citedBy": 37,
+      "year": "2012",
+      "status": "ready",
+      "titleJa": "一次関数の傾きに対する中学8年生の理解に関する調査",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-10-23 20:04",
+      "note": "論文の本文に見つからない数値: 001 / (6) 次に読むべき論文はあるか？ が 359 字"
     }
   }
 }
