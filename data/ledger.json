@@ -1421,6 +1421,62 @@
       "model": "gemini-3.8-flash",
       "createdAt": "2026-10-24 13:35",
       "note": "(6) 次に読むべき論文はあるか？ が 338 字 / 用語の意味を確認できなかったためリンクなし: どの言語モデルも使えませんでした（試した順: Gemini → Claude） 最後の理由: 400 {\"type\":\"error\",\"error\":{\"typ"
+    },
+    "W4281683905": {
+      "doi": "10.31980/plusminus.v2i1.1087",
+      "title": "Peran Disposisi Matematis terhadap Kemampuan Pemahaman Konsep Matematika",
+      "citedBy": 36,
+      "year": "2022",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-25 08:00"
+    },
+    "W4221056195": {
+      "doi": "10.1007/s10639-022-10977-x",
+      "title": "Exploring secondary school teachers’ TPACK for video-based flipped learning: the role of pedagogical beliefs",
+      "citedBy": 36,
+      "year": "2022",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-25 08:00"
+    },
+    "W3171213571": {
+      "doi": "10.1016/j.cogdev.2021.101078",
+      "title": "Longitudinal relations between young students’ feelings about mathematics and arithmetic performance",
+      "citedBy": 36,
+      "year": "2021",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-25 08:00"
+    },
+    "W3133435595": {
+      "doi": "10.21831/cp.v40i1.31035",
+      "title": "FACTORS AFFECTING TEACHERS' TECHNOLOGICAL PEDAGOGICAL AND CONTENT KNOWLEDGE (A SURVEY ON ECONOMICS TEACHER KNOWLEDGE)",
+      "citedBy": 36,
+      "year": "2021",
+      "status": "skipped",
+      "note": "テーマ外: 算数・数学の学習が対象ではない（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-10-25 08:03"
+    },
+    "W3130821600": {
+      "doi": "10.30998/jkpm.v5i1.5173",
+      "title": "Pengaruh Konsep Diri dan Percaya Diri terhadap Kemampuan Kemampuan Berpikir Kritis Matematis",
+      "citedBy": 36,
+      "year": "2019",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-25 08:03"
+    },
+    "W2583720497": {
+      "doi": "",
+      "title": "The Effect of Formative Testing and Self-Directed Learning on Mathematics Learning Outcomes",
+      "citedBy": 36,
+      "year": "2016",
+      "status": "ready",
+      "titleJa": "形成的テストと自己主導型学習が数学の学習成果に与える影響",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-25 08:06",
+      "note": ""
     }
   }
 }

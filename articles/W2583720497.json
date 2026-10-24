@@ -1,0 +1,128 @@
+{
+  "paper": {
+    "id": "W2583720497",
+    "doi": "",
+    "title": "The Effect of Formative Testing and Self-Directed Learning on Mathematics Learning Outcomes",
+    "authors": [
+      "Mohamad Syarif Sumantri",
+      "Retni SATRIANI"
+    ],
+    "authorCount": 2,
+    "venue": "lnternational Electronic Journal of Elementary Education",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "year": "2016",
+    "citedBy": 36,
+    "url": "https://iejee.com/index.php/IEJEE/article/view/128",
+    "license": "",
+    "pdfUrl": "https://iejee.com/index.php/IEJEE/article/download/128/125"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "形成的テストと自己主導型学習が数学の学習成果に与える影響",
+    "sections": {
+      "what": "この研究は、形成的テストの形式と児童の自己主導型学習のレベルが、小学校の数学の学習成果にどのような影響を与えるかを明らかにすることを目的としています。調査はジャカルタ中心部の公立小学校で行われ、ランダムサンプリングによって選出された小学4年生の児童72名を対象としました。児童の自己主導型学習のレベルを「高」と「低」に分類し、形成的テストを「記述式」と「選択式」の2種類に分けて比較を行っています。",
+      "novelty": "この研究の重要な点は、単にテストの形式を比較するだけでなく、児童自身の「自己主導型学習」という属性変数が、テスト形式の効果とどのように相互作用するかを分析している点にあります。先行研究では記述式テストの方が高い学習成果を示す傾向があることが示唆されていましたが、本研究では児童の自律的な学習姿勢の有無によって、その効果がどのように変化するかを詳細に検討しており、より個別的な指導への示唆を含んでいます。",
+      "method": "統計手法として、2x2の処理×レベルデザインを用いた二元配置分散分析を採用しています。独立変数として「形成的テストの形式（記述式・選択式）」と「自己主導型学習のレベル（高・低）」を設定し、従属変数として数学の学習成果を置いています。まず二元配置分散分析によって主効果と交互作用の有無を検定し、交互作用が有意であった場合には、ダンネットのt検定を用いて各グループ内での単純な効果を比較する手順をとっています。",
+      "validation": "分析の結果、形成的テストの形式によって数学の学習成果に有意な差があることが示されました。記述式テストを受けたグループの平均点は71.60であったのに対し、選択式テストを受けたグループは66.00でした。また、自己主導型学習のレベルとテスト形式の間に交互作用が確認されました。具体的には、自己主導型学習レベルが高い児童は記述式テストでより高い成果を上げましたが、レベルが低い児童においては、記述式と選択式のテスト間で学習成果に有意な差は見られませんでした。",
+      "implications": "本研究は、児童の学習姿勢に合わせて適切なテスト形式を選択することの重要性を示唆しています。自己主導型学習の能力が高い児童には、思考力や表現力を引き出す記述式テストが有効である可能性が高い一方で、自律的な学習能力が低い児童に対しては、選択式テストの方が学習成果を維持するのに適している可能性が示されています。ただし、この研究は特定の学年・地域に限定されたものであり、すべての児童に一律のテスト形式を適用するのではなく、児童の特性に応じた柔軟な評価設計の必要性を提示しています。",
+      "nextLead": "次に、児童の自己主導型学習や自律性を支えるための具体的な指導法や、学習動機、自己調整能力がどのように学力に結びつくのかという心理的・構造的な側面を掘り下げる研究へ進むことが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2106341825",
+          "doi": "10.3102/0002831207312909",
+          "title": "Investigating Self-Regulation and Motivation: Historical Background, Methodological Developments, and Future Prospects",
+          "authors": [
+            "Barry J. Zimmerman"
+          ],
+          "authorCount": 1,
+          "venue": "American Educational Research Journal",
+          "volume": "45",
+          "issue": "1",
+          "pages": "166–183",
+          "year": "2008",
+          "citedBy": 3730,
+          "url": "https://doi.org/10.3102/0002831207312909"
+        },
+        "reason": "本論文で重要な変数として扱われた自己主導型学習の基盤となる、自己調整能力や学習動機の歴史的背景と理論的発展を理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W2067104856",
+          "doi": "10.1007/s10648-008-9092-5",
+          "title": "Toward a Synthesis of Cognitive Load Theory, Four-Component Instructional Design, and Self-Directed Learning",
+          "authors": [
+            "Jeroen J. G. van Merriënboer",
+            "Dominique M. A. Sluijsmans"
+          ],
+          "authorCount": 2,
+          "venue": "Educational Psychology Review",
+          "volume": "21",
+          "issue": "1",
+          "pages": "55–66",
+          "year": "2008",
+          "citedBy": 155,
+          "url": "https://doi.org/10.1007/s10648-008-9092-5"
+        },
+        "reason": "自己主導型学習と認知負荷理論、および指導設計の統合に関する理論的枠組みを提供しており、本論文の示唆を具体的な指導設計に落とし込むための知見が得られます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "児童の自律的な学習姿勢によって、最適なテスト形式は変わるのでしょうか。記述式と選択式テストの効果を、自己主導型学習のレベルと関連付けて分析した研究を紹介します。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-25",
+  "createdAt": "2026-10-25 08:06",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシア/小学4年生",
+        "evidence": "Seventy-two fourth-grade students who were selected using random sampling participated in this study."
+      },
+      {
+        "text": "調査人数/72名",
+        "evidence": "The sample population comprised 72 students."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "形成テスト/記述式と選択式",
+        "evidence": "The formative tests (A) included two forms: a formative essay test (A1) and a multiple choice test (A2)."
+      },
+      {
+        "text": "自己主導学習/高・低",
+        "evidence": "Student self-directed learning (B) was classified as either high (B1) or low (B2)."
+      }
+    ],
+    "measures": [
+      {
+        "text": "自己主導学習/質問票",
+        "evidence": "The students’ self-direction levels were assessed via a questionnaire."
+      },
+      {
+        "text": "学習成果/記述・選択式テスト",
+        "evidence": "The mathematics learning outcome data were measured using a learning outcomes test, which consisted of essay and multiple choice tests."
+      }
+    ],
+    "results": [
+      {
+        "text": "二元分散分析/交互作用あり",
+        "evidence": "The ANOVA results above show that the Fvalue had an interaction effect AB=6.32, whereas Ftable at α= .05 was 4.08."
+      },
+      {
+        "text": "記述式/平均71.60点",
+        "evidence": "The average mathematics learning results for the students who took the formative tests was 71.60"
+      },
+      {
+        "text": "選択式/平均66.00点",
+        "evidence": "whereas the students who took the formative multiple choice had an average mathematics learning result of 66.00."
+      }
+    ]
+  }
+}
