@@ -122,5 +122,47 @@
     "model": "gemini-3.8-flash"
   },
   "asOf": "2026-10-24",
-  "createdAt": "2026-10-24 13:35"
+  "createdAt": "2026-10-24 13:35",
+  "figure": {
+    "target": [
+      {
+        "text": "公立小学校2校の/4〜6年生263名",
+        "evidence": "The population is all students in the fourth through sixth grades at two primary schools (263 respondents)."
+      },
+      {
+        "text": "全体263名中/分析対象244名",
+        "evidence": "All of the population was taken as a sample, with a total of 244 (92.78%) out of 263 respondents"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "性別および学年/（低学年・高学年）",
+        "evidence": "testing the influence of gender and grade level on students’ problem-solving understanding and mathematics learning results"
+      },
+      {
+        "text": "問題解決の理解度と/数学の学習成果",
+        "evidence": "testing the influence of students’ problem-solving understanding on mathematics learning results."
+      }
+    ],
+    "measures": [
+      {
+        "text": "7問の数学テスト",
+        "evidence": "a mathematics test, which consists of seven questions."
+      },
+      {
+        "text": "4問の問題解決理解度/質問紙調査",
+        "evidence": "a questionnaire regarding mathematics problem-solving understanding, which consists of four questions."
+      }
+    ],
+    "results": [
+      {
+        "text": "t検定: 学年は理解度に/有意影響も学習成果にはなし",
+        "evidence": "The grade level has a significant influence on students’ problem-solving understanding but no significant influence on mathematics learning results."
+      },
+      {
+        "text": "線形回帰: 理解度が学習/成果に有意影響（p=0.000）",
+        "evidence": "The students’ problem-solving understanding has a significant influence on mathematics learning results, with a p value of 0.000."
+      }
+    ]
+  }
 }
