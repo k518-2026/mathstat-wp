@@ -1410,6 +1410,17 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-10-23 20:04",
       "note": "論文の本文に見つからない数値: 001 / (6) 次に読むべき論文はあるか？ が 359 字"
+    },
+    "W4321600472": {
+      "doi": "10.3389/feduc.2023.1088556",
+      "title": "The influence of students’ problem-solving understanding and results of students’ mathematics learning",
+      "citedBy": 36,
+      "year": "2023",
+      "status": "ready",
+      "titleJa": "児童の問題解決プロセスの理解と数学の学習成果への影響",
+      "model": "gemini-3.8-flash",
+      "createdAt": "2026-10-24 13:35",
+      "note": "(6) 次に読むべき論文はあるか？ が 338 字 / 用語の意味を確認できなかったためリンクなし: どの言語モデルも使えませんでした（試した順: Gemini → Claude） 最後の理由: 400 {\"type\":\"error\",\"error\":{\"typ"
     }
   }
 }

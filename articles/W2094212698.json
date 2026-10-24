@@ -135,5 +135,35 @@
     "model": "gemini-3.6-flash"
   },
   "asOf": "2026-10-23",
-  "createdAt": "2026-10-23 20:04"
+  "createdAt": "2026-10-23 20:04",
+  "figure": {
+    "target": [
+      {
+        "text": "トルコの/8年生115名",
+        "evidence": "The participants were 115 Turkish eighth-grade students in a city in the eastern part of the Black Sea region of Turkey."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "傾きの異なる/表現形式間の変換能力",
+        "evidence": "their performance of translation between the different representation modes related to the slope of linear functions."
+      }
+    ],
+    "measures": [
+      {
+        "text": "7問の筆記調査と/6名の半構造化面接",
+        "evidence": "Data was collected with an instrument consisting of seven written questions and a semi-structured interview protocol conducted with six students."
+      }
+    ],
+    "results": [
+      {
+        "text": "表現形式間の能力差/F値234.21で有意",
+        "evidence": "there was a significant difference for students’ competence in representation modes of slope of line [F (1, 114) = 234.21, p < .001]."
+      },
+      {
+        "text": "代数理解の平均1.31点/グラフ変換より有意に高値",
+        "evidence": "competence scores of the students in UAR (M = 1.31, SD = .85) were significantly higher than competence scores of the TAGR"
+      }
+    ]
+  }
 }

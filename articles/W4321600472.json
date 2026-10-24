@@ -1,0 +1,126 @@
+{
+  "paper": {
+    "id": "W4321600472",
+    "doi": "10.3389/feduc.2023.1088556",
+    "title": "The influence of students’ problem-solving understanding and results of students’ mathematics learning",
+    "authors": [
+      "Bornok Sinaga",
+      "Jonni Sitorus",
+      "Tiurmaida Situmeang"
+    ],
+    "authorCount": 3,
+    "venue": "Frontiers in Education",
+    "volume": "8",
+    "issue": "",
+    "pages": "",
+    "year": "2023",
+    "citedBy": 36,
+    "url": "https://doi.org/10.3389/feduc.2023.1088556",
+    "license": "cc-by",
+    "pdfUrl": "https://www.frontiersin.org/articles/10.3389/feduc.2023.1088556/pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "小学校4〜6年生を対象に、児童の問題解決プロセスの理解度や学年・性別が数学の学習成果に与える影響をt検定や線形回帰分析を用いて統計的に検証した量的実証研究であるため。",
+    "titleJa": "児童の問題解決プロセスの理解と数学の学習成果への影響",
+    "sections": {
+      "what": "本研究は、小学校4年生から6年生の児童を対象に、算数における問題解決プロセスの理解度と数学の学習成果の実態を調べ、性別や学年による違い、および問題解決の理解度が学習成果に及ぼす影響を検証した研究です。インドネシアの公立小学校2校の児童全263名のうち、244名（女子123名、男子121名、低学年群74名、高学年群170名）から得られた文章題テストとアンケートのデータを分析対象としています。",
+      "novelty": "先行研究では教員による問題解決型アプローチの授業実践が児童の学習成果に与える影響を扱ったものが多く見られました。これに対して本研究は、児童自身が問題解決のプロセスをどのように理解しているかという児童側の視点に着目した点に独自性があります。さらに、問題解決プロセスの理解度と学習成果の関係を検証するだけでなく、性別や学年といった児童の内的な要因がこれらにどのような影響を与えるかを合わせて検討した点も新しい位置づけとされています。",
+      "method": "算数の文章題テスト7問と、問題解決の4段階の理解度を問う質問紙4問、具体的な認知活動を尋ねる14項目を用いて調査を行いました。得点は100点満点に換算されています。統計分析では、性別や学年（4年生の低学年群と5・6年生の高学年群）が理解度や学習成果に与える差を検証するために独立した2標本のt検定を実施しました。また、問題解決の理解度が数学の学習成果に及ぼす影響を明らかにするため、単回帰分析を用いて影響の度合いを推定しました。",
+      "validation": "分析の結果、性別は問題解決の理解度（p=0.918）と学習成果（p=0.762）のいずれにも有意な影響を示しませんでした。学年は問題解決の理解度に対して有意な影響があり（p=0.001）、4年生の平均値（72.466）が5・6年生（64.503）より高かった一方、学習成果への影響は有意ではありませんでした（p=0.753）。単回帰分析では、問題解決の理解度が学習成果に有意な正の影響を与えており（p=0.000）、決定係数は0.72466でした。",
+      "implications": "本研究の結果は、問題解決の各手順への理解が算数の学習成果と強く結びついている可能性を示唆しています。著者は、教員が問題を解かせる前に解法のプロセスを理解させる指導や、児童同士の協働学習を取り入れることを提案しています。ただし本研究は相関関係を回帰分析で調べたものであり、直接的な介入効果を検証したわけではない点に留意が必要です。また、低学年群として4年生のみを対象にしており、各段階の詳細な影響までは検証されていない限界もあります。",
+      "nextLead": "問題解決型学習の具体的な実践方法や児童生徒の思考力向上への効果、あるいは児童が用いるヒューリスティクスや自己調整機能の働きについて、さらに理解を深めたい読者におすすめの文献です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2374484276",
+          "doi": "10.1103/physrevphyseducres.12.010130",
+          "title": "Assessing student written problem solutions: A problem-solving rubric with application to introductory physics",
+          "authors": [
+            "Jennifer L. Docktor",
+            "Jay Dornfeld",
+            "Evan Frodermann",
+            "Kenneth Heller"
+          ],
+          "authorCount": 9,
+          "venue": "Physical Review Physics Education Research",
+          "volume": "12",
+          "issue": "1",
+          "pages": "",
+          "year": "2016",
+          "citedBy": 183,
+          "url": "https://doi.org/10.1103/physrevphyseducres.12.010130"
+        },
+        "reason": "本研究が問題解決の5段階フレームワークとして依拠した研究であり、児童生徒の記述式答案から問題解決スキルをどのように評価・測定できるかを具体的に知る上で役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W2783973325",
+          "doi": "10.21831/jrpm.v4i2.17674",
+          "title": "Implementing the problem-based learning in order to improve the students’ HOTS and characters",
+          "authors": [
+            "Jailani Jailani",
+            "Sugiman Sugiman",
+            "Ezi Apino"
+          ],
+          "authorCount": 3,
+          "venue": "Jurnal Riset Pendidikan Matematika",
+          "volume": "4",
+          "issue": "2",
+          "pages": "247",
+          "year": "2017",
+          "citedBy": 130,
+          "url": "https://doi.org/10.21831/jrpm.v4i2.17674"
+        },
+        "reason": "本研究が問題解決力と学習成果の関連の根拠として挙げた研究であり、問題解決型学習が児童生徒の高次思考力や態度にどのような影響を与えるかを詳しく検討する際に参考になります。"
+      },
+      {
+        "paper": {
+          "id": "W4404773640",
+          "doi": "10.1080/19477503.2024.2430135",
+          "title": "The role of strategy keys in enhancing heuristics and self-regulation in mathematical problem-solving: A qualitative, explorative, and type-building study with primary school students",
+          "authors": [
+            "Raja Herold-Blasius"
+          ],
+          "authorCount": 1,
+          "venue": "Investigations in Mathematics Learning",
+          "volume": "17",
+          "issue": "4",
+          "pages": "289–308",
+          "year": "2024",
+          "citedBy": 6,
+          "url": "https://doi.org/10.1080/19477503.2024.2430135"
+        },
+        "reason": "本論文を引用している後続研究であり、小学生を対象に算数の問題解決におけるヒューリスティクスや自己調整をどう促すかを質的に探究しており、指導法の実践的示唆を広げられます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "t検定",
+        "wikiTitle": "スチューデントのt検定"
+      },
+      {
+        "term": "単回帰分析",
+        "wikiTitle": "回帰分析"
+      },
+      {
+        "term": "決定係数",
+        "wikiTitle": "決定係数"
+      },
+      {
+        "term": "相関関係",
+        "wikiTitle": "相関"
+      }
+    ],
+    "links": [],
+    "intro": "児童が算数の問題解決の手順をどれだけ理解しているかは学習成果にどう響くのでしょうか。小4〜小6の児童244名を対象にした調査と分析の結果を紹介します。",
+    "warnings": [
+      "(6) 次に読むべき論文はあるか？ が 338 字",
+      "用語の意味を確認できなかったためリンクなし: どの言語モデルも使えませんでした（試した順: Gemini → Claude） 最後の理由: 400 {\"type\":\"error\",\"error\":{\"typ"
+    ],
+    "model": "gemini-3.8-flash"
+  },
+  "asOf": "2026-10-24",
+  "createdAt": "2026-10-24 13:35"
+}
