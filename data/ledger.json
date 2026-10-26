@@ -1477,6 +1477,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-25 08:06",
       "note": ""
+    },
+    "W2147861533": {
+      "doi": "10.1016/j.jecp.2015.02.002",
+      "title": "Longitudinal development of number line estimation and mathematics performance in primary school children",
+      "citedBy": 111,
+      "year": "2015",
+      "status": "ready",
+      "titleJa": "小学校低学年の子供における数直線推定と数学の成績の縦断的発達",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-26 17:17",
+      "note": ""
     }
   }
 }
