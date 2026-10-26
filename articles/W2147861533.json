@@ -63,5 +63,39 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-10-26",
-  "createdAt": "2026-10-26 17:17"
+  "createdAt": "2026-10-26 17:17",
+  "figure": {
+    "target": [
+      {
+        "text": "オランダの児童/442名",
+        "evidence": "At the start of the study, 442 children were included with a mean age of 5 years 7 months (SD = 4.3 months)"
+      },
+      {
+        "text": "分析対象354名",
+        "evidence": "During the sixth and ﬁnal round of data collection in Grade 2, 354 participants completed the tasks presented in the current study"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "数直線精度/数学の成績",
+        "evidence": "number line acuity and mathematics performance"
+      }
+    ],
+    "measures": [
+      {
+        "text": "数直線への位置指定/6回",
+        "evidence": "they completed a number-to-position task every 6 months."
+      }
+    ],
+    "results": [
+      {
+        "text": "非循環電力モデル/優勢",
+        "evidence": "The most dominant category of number line placements was the non-cyclic power model for kindergarten and Grade 1 (T1–T4)"
+      },
+      {
+        "text": "1サイクルモデル/優勢",
+        "evidence": "and the one-cycle power model for Grade 2 (T5 and T6)."
+      }
+    ]
+  }
 }
