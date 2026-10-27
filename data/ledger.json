@@ -1488,6 +1488,44 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-26 17:17",
       "note": ""
+    },
+    "W4285409935": {
+      "doi": "10.15294/jpii.v11i1.32366",
+      "title": "Examining Perceptions of Technological Pedagogical Content Knowledge (TPACK): A Perspective from Indonesian Pre-service Teachers",
+      "citedBy": 35,
+      "year": "2022",
+      "status": "skipped",
+      "note": "テーマ外: 算数・数学の学習が対象ではない（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-10-27 10:02"
+    },
+    "W3090936460": {
+      "doi": "10.29333/iji.2020.13437a",
+      "title": "Domains of Technological Pedagogical and Content Knowledge: Factor Analysis of Indonesian In-Service EFL Teachers",
+      "citedBy": 35,
+      "year": "2020",
+      "status": "skipped",
+      "note": "テーマ外: 算数・数学の学習が対象ではない（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-10-27 10:04"
+    },
+    "W4200429648": {
+      "doi": "10.1016/j.actpsy.2021.103456",
+      "title": "Learning mathematics with shackles: How lower reading comprehension in the language of mathematics instruction accounts for lower mathematics achievement in speakers of different home languages",
+      "citedBy": 34,
+      "year": "2021",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-27 10:04"
+    },
+    "W2969325737": {
+      "doi": "10.3389/fpsyg.2019.02034",
+      "title": "Mental Images and School Learning: A Longitudinal Study on Children",
+      "citedBy": 34,
+      "year": "2019",
+      "status": "ready",
+      "titleJa": "心のイメージと学校での学習：子供を対象とした縦断的研究",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-27 10:06",
+      "note": ""
     }
   }
 }
