@@ -1526,6 +1526,44 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-27 10:06",
       "note": ""
+    },
+    "W2516417483": {
+      "doi": "10.63301/tme.v12i2.1843",
+      "title": "Coping with New Mathematics Teacher Roles in a Contradictory Context of Curriculum Change",
+      "citedBy": 35,
+      "year": "2015",
+      "status": "skipped",
+      "note": "テーマ外: 本研究はカリキュラム文書の分析や質的観察を中心とした質的研究であり、量的データを用いた統計的分析を行っていないため。",
+      "checkedAt": "2026-10-28 21:36"
+    },
+    "W2947115320": {
+      "doi": "10.1080/10409289.2019.1617012",
+      "title": "Pre-Schoolers’ Home Numeracy and Home Literacy Experiences and Their Relationships with Early Number Skills: Evidence from a UK Study",
+      "citedBy": 34,
+      "year": "2019",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-28 21:36"
+    },
+    "W2748803924": {
+      "doi": "10.21009/pip.281.7",
+      "title": "PENGARUH ADVERSITY QUOTIENT (AQ) DAN KEMAMPUAN BERPIKIR KRITIS TERHADAP PRESTASI BELAJAR MATEMATIKA",
+      "citedBy": 34,
+      "year": "2014",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-28 21:36"
+    },
+    "W3023161132": {
+      "doi": "10.29333/iejme/8234",
+      "title": "Factors Affecting Senior High School Students to Solve Three-Dimensional Geometry Problems",
+      "citedBy": 33,
+      "year": "2020",
+      "status": "ready",
+      "titleJa": "高校生の三次元図形問題解決能力に影響を与える要因",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-10-28 21:36",
+      "note": ""
     }
   }
 }

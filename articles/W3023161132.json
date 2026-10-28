@@ -1,0 +1,145 @@
+{
+  "paper": {
+    "id": "W3023161132",
+    "doi": "10.29333/iejme/8234",
+    "title": "Factors Affecting Senior High School Students to Solve Three-Dimensional Geometry Problems",
+    "authors": [
+      "Fiki Alghadari",
+      "Tatang Herman",
+      "Sufyani Prabawanto"
+    ],
+    "authorCount": 3,
+    "venue": "International Electronic Journal of Mathematics Education",
+    "volume": "15",
+    "issue": "3",
+    "pages": "em0590",
+    "year": "2020",
+    "citedBy": 33,
+    "url": "https://doi.org/10.29333/iejme/8234",
+    "license": "cc-by",
+    "pdfUrl": "https://www.iejme.com/download/factors-affecting-senior-high-school-students-to-solve-three-dimensional-geometry-problems-8234.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "インドネシアの高校生101名を対象に、三次元図形問題の解決能力に与える基礎コンピテンシー、自己効力感、学習アプローチ、性別の影響を分散分析やパス解析を用いて分析した実証研究であるため。",
+    "titleJa": "高校生の三次元図形問題解決能力に影響を与える要因",
+    "sections": {
+      "what": "インドネシアの高校生101名を対象に、三次元図形問題の解決能力に影響を与える要因を検証した研究です。生徒は探究的学習群（58名）と直接教授学習群（43名）に分けられ、図形の基礎コンピテンシー、数学的自己効力感、性別、学習アプローチの関連が調べられました。自己効力感はテスト受験に関する自己効力感と数学的技能に関する自己効力感の2つのモデルに分けて測定され、問題解決能力への影響が分析されました。",
+      "novelty": "従来の幾何教育研究では指導法やICTの活用が中心でしたが、本研究は基礎的な図形理解と2つのモデルに分けた自己効力感が問題解決能力に与えるパス構造を解明した点が特徴です。さらに、学習アプローチと性別の相互作用効果に着目し、問題解決の段階（組織化、視覚化、表現、概念適用）ごとに生徒が直面する具体的な障害傾向を分析した点に独自性があります。",
+      "method": "探究的学習と直接教授アプローチを適用した実験計画のもと、基礎コンピテンシー領域のテスト、自己効力感尺度、図形問題解決テストを実施しました。統計分析では、二元配置分散分析を用いて主効果および性別と学習アプローチの相互作用効果を検定しました。また、基礎学力が自己効力感を介して問題解決能力に与える影響をパス解析で検証し、誤り分析により問題解決プロセスの各段階での障害発生率を算出しました。",
+      "validation": "分散分析の結果、基礎コンピテンシー（F=14.150, p<0.05）、自己効力感全体（F=10.123, p<0.05）、テスト受験に関する自己効力感（F=16.832, p<0.05）の主効果と、学習アプローチと性別の相互作用効果（F=13.144, p<0.05）が統計的に有意であることが確認されました。誤り分析では、女子生徒は視覚化の段階でつまずきやすく、男子生徒は表現の段階で困難を抱えやすい傾向が示されました。",
+      "implications": "本研究は、図形問題の解決には基礎学力とテスト受験に関する自信が重要であり、性別に応じた学習障害の段階に留意した指導アプローチが有効である可能性を示唆しています。ただし、単一地域の小規模サンプルでの検証であり、基礎学力の測定がピタゴラスの定理を中心に限定されている課題があります。指導への応用にあたっては、生徒が視覚化と表現のどちらでつまずいているかを見極める必要があります。",
+      "nextLead": "図形学習における自己効力感の役割や性差、効果的なアプローチをさらに深く理解するために、関連する動機づけや立体図形指導の研究へ読み進めるのが適しています。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W835192896",
+          "doi": "10.1016/j.ijer.2015.06.008",
+          "title": "Mathematics achievement and self-efficacy: Relations with motivation for mathematics",
+          "authors": [
+            "Einar M. Skaalvik",
+            "Roger André Federici",
+            "Robert M. Klassen"
+          ],
+          "authorCount": 3,
+          "venue": "International Journal of Educational Research",
+          "volume": "72",
+          "issue": "",
+          "pages": "129–136",
+          "year": "2015",
+          "citedBy": 229,
+          "url": "https://doi.org/10.1016/j.ijer.2015.06.008"
+        },
+        "reason": "本研究で中心的な媒介変数となった数学的自己効力感と、達成度および動機づけの関連性を深く理解するための基礎的理論を提供しているためです。"
+      },
+      {
+        "paper": {
+          "id": "W2890645310",
+          "doi": "10.1007/s10212-018-0403-z",
+          "title": "Impact of math self-efficacy, math anxiety, and growth mindset on math and science career interest for middle school students: the gender moderating effect",
+          "authors": [
+            "Xiaoxia Huang",
+            "Jie Zhang",
+            "Laura Meeks Hudson"
+          ],
+          "authorCount": 3,
+          "venue": "European Journal of Psychology of Education",
+          "volume": "34",
+          "issue": "3",
+          "pages": "621–640",
+          "year": "2018",
+          "citedBy": 169,
+          "url": "https://doi.org/10.1007/s10212-018-0403-z"
+        },
+        "reason": "本研究でも示された性別の調節効果や自己効力感が数学の成果に与える影響について、中学生を対象に多角的に分析した先行研究として参考になります。"
+      },
+      {
+        "paper": {
+          "id": "W4390545315",
+          "doi": "10.29333/pr/14096",
+          "title": "Realist hands-on learning approach and its contributions to learners’ conceptual understanding and problem-solving skills on solid geometry",
+          "authors": [
+            "Girma Tessema",
+            "Kassa Michael",
+            "Solomon Areaya"
+          ],
+          "authorCount": 3,
+          "venue": "Pedagogical Research",
+          "volume": "9",
+          "issue": "1",
+          "pages": "em0186",
+          "year": "2024",
+          "citedBy": 8,
+          "url": "https://doi.org/10.29333/pr/14096"
+        },
+        "reason": "本研究を引用した最新の研究であり、立体図形の概念理解や問題解決力を高めるための具体的な手ハンズオンアプローチを提案しているためです。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "高校生の立体図形問題解決能力には何が影響しているのでしょうか？基礎学力や自己効力感に加え性別と指導法の相性が関係し女子は視覚化男子は表現でつまずきやすい傾向が示されました。",
+    "warnings": [],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-10-28",
+  "createdAt": "2026-10-28 21:36",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシアの/高校生101名",
+        "evidence": "This study involved 101 Indonesian high school students."
+      },
+      {
+        "text": "XII学年の生徒",
+        "evidence": "The samples were all students of XII grade of Senior High School Academic Year 2018/2019 in a regency of Bangka Belitung province, Indonesia."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "探究学習群と/直接教授群",
+        "evidence": "They were divided into two groups based on the implemented LA, namely the investigative learning group and the direct instruction group."
+      },
+      {
+        "text": "学習アプローチ・/性別・自己効力感",
+        "evidence": "Geometry mastery is a must for high school students, affected by several factors such as learning approach (LA), gender, level of basic geometry competencies (BGC) and level of mathematical self-efficacy (MSE) among others."
+      }
+    ],
+    "measures": [
+      {
+        "text": "BGC・GPS・MSE/の各種テスト",
+        "evidence": "Data were collected through three instrument types, namely test of BGC, GPS, and MSE."
+      },
+      {
+        "text": "幾何問題解決前の/自己効力感の測定",
+        "evidence": "MSE scale was completed by the students before they finished the problem of geometry."
+      }
+    ],
+    "results": [
+      {
+        "text": "BGCやMTSEの/有意な影響",
+        "evidence": "Data analysis results revealed that the level of BGC, MTSE as well as interactions between LA and gender had a significant impact on the GPS capability of students."
+      }
+    ]
+  }
+}
