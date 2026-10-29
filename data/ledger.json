@@ -1564,6 +1564,35 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-10-28 21:36",
       "note": ""
+    },
+    "W2920828737": {
+      "doi": "10.30998/jkpm.v2i1.1897",
+      "title": "Pengaruh Sikap Siswa pada Pelajaran Matematika dan Kemandirian Belajar Siswa terhadap Prestasi Belajar Matematika",
+      "citedBy": 44,
+      "year": "2017",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-29 10:00"
+    },
+    "W3024402481": {
+      "doi": "10.33751/jppguseda.v3i1.2013",
+      "title": "PENGARUH BERPIKIR KRITIS TERHADAP HASIL BELAJAR MATEMATIKA",
+      "citedBy": 33,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-29 10:00"
+    },
+    "W2139729449": {
+      "doi": "10.11114/jets.v1i1.24",
+      "title": "The Effect of Teacher Beliefs on Student Competence in Mathematical Modeling – An Intervention Study",
+      "citedBy": 33,
+      "year": "2013",
+      "status": "ready",
+      "titleJa": "教師の信念が数学的モデリングにおける生徒の能力に与える影響：介入研究",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-29 10:02",
+      "note": ""
     }
   }
 }
