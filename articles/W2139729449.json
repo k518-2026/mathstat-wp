@@ -58,5 +58,47 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-10-29",
-  "createdAt": "2026-10-29 10:02"
+  "createdAt": "2026-10-29 10:02",
+  "figure": {
+    "target": [
+      {
+        "text": "ドイツの小学6年生/教師54名",
+        "evidence": "Altogether 54 teachers and their classes (grade six) were recruited from the local area of Freiburg in Germany."
+      },
+      {
+        "text": "分析対象の児童959名",
+        "evidence": "The total sample, including imputed data, consisted of 54 classes and 959 records (students)."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "教師の介入条件/（教材のみ・教材と研修）",
+        "evidence": "Teachers without prior knowledge were assigned randomly to the intervention group “materials and training” or to the group “materials only.”"
+      },
+      {
+        "text": "教師の各種信念の評価項目",
+        "evidence": "teacher beliefs about the usefulness of mathematics, learning (constructivist and socio-constructivist beliefs) and teacher self-efficacy"
+      }
+    ],
+    "measures": [
+      {
+        "text": "事前事後テスト/（2008年・2009年）",
+        "evidence": "Pretest questionnaires were completed in October 2008, posttest questionnaires in June 2009."
+      },
+      {
+        "text": "2週間ごとの/教材指導の実践",
+        "evidence": "Teachers were supposed to implement the materials every two weeks between November 2008 and May 2009."
+      }
+    ],
+    "results": [
+      {
+        "text": "介入による児童能力への/直接効果なし",
+        "evidence": "The results showed no direct effect of the intervention on student modeling competence."
+      },
+      {
+        "text": "教師の事後学習信念による/児童能力の予測",
+        "evidence": "Student posttest modeling competence (class means) could only be predicted by teacher posttest learning beliefs"
+      }
+    ]
+  }
 }
