@@ -1,0 +1,170 @@
+{
+  "paper": {
+    "id": "W3201841602",
+    "doi": "10.11591/ijere.v11i1.22030",
+    "title": "Higher order thinking skills, school-based assessment and students’ mathematics achievement: Understanding teachers’ thoughts",
+    "authors": [
+      "Nurulwahida Azid",
+      "Ruzlan Md. Ali",
+      "Ihsana El Khuluqo",
+      "Sigid Edy Purwanto"
+    ],
+    "authorCount": 5,
+    "venue": "International Journal of Evaluation and Research in Education (IJERE)",
+    "volume": "11",
+    "issue": "1",
+    "pages": "290",
+    "year": "2022",
+    "citedBy": 32,
+    "url": "https://doi.org/10.11591/ijere.v11i1.22030",
+    "license": "cc-by-nc",
+    "pdfUrl": "https://ijere.iaescore.com/index.php/IJERE/article/download/22030/13281"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "マレーシアの13歳生徒158名を対象に、学校ベース評価における高次元思考スキルの導入と数学学習達成度との関係を重回帰分析等を用いて分析した英語論文です。",
+    "titleJa": "高次元思考スキル、学校ベース評価、および生徒の数学達成度：教師の考えの理解",
+    "sections": {
+      "what": "本研究は、マレーシアの中学校1年生（13歳）158名と数学教師3名を対象に、学校ベース評価における高次元思考スキルの導入が生徒の数学の学習達成度に与える影響を検討した研究です。説明的混合研究法を用いて、質問紙による定量データと半構造化インタビューによる定性データを収集し、生徒の数学成績への寄与度や教師が直面する指導上の課題を包括的に調査することを目的としています。",
+      "novelty": "従来の研究では、マレーシアなどのアジア諸国における学校ベース評価の実装や影響に関する実証的データが不足していました。本研究は、中央集権的試験への過度な依存を減らすために導入された学校ベース評価において、高次元思考スキルを組み合わせることが数学の成績にどのように寄与するかを、生徒の知見と教師の語りの双方から具体的に示した点に独自性があります。",
+      "method": "定量分析では、思考スキルと評価に関する質問紙調査を実施し、生徒の学校ベース評価の修得レベルと高次元思考スキルの適用度を測定しました。これらの予測変数が生徒の数学成績に与える影響を特定するため、重回帰分析を選択しています。また、教師3名へのインタビューに対しては内容分析を行い、定性的に評価の解釈や直面する課題を抽出しました。",
+      "validation": "重回帰分析の結果、教師による高次元思考スキルの適用（標準化係数0.30）および生徒の評価修得レベル（標準化係数0.28）の両方が数学成績に統計的に有意に寄与しており、全体として決定係数0.196（分散の19.6%を説明）を示しました。一方で、定性調査からは、生徒の数学的誤解や認知的な成熟度の不足、九九の暗記不足などが指導上の課題として報告されました。",
+      "implications": "本研究の結果は、学校ベース評価において高次元思考スキルを取り入れることが生徒の数学達成度の向上に寄与する可能性を示唆しています。ただし、本研究は単一校の相関データに基づく限定的な分析であり、指導法の因果的効果を直接証明するものではありません。また、教師が自作教材を作らず既存のワークブックに頼る傾向や時間的制約という限界も指摘されています。",
+      "nextLead": "学校ベース評価や高次元思考スキルの導入効果を深掘りした後は、より具体的な評価尺度の開発や、思考スキルを高める指導法の体系的なレビューへと読み進めるのが有効です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W4395660951",
+          "doi": "10.1002/pits.23213",
+          "title": "Development and validation of Mathematical Higher‐Order Thinking Scale for high school students",
+          "authors": [
+            "Ying Zhou",
+            "Yimin Ning",
+            "Jihe Chen",
+            "Wenjun Zhang"
+          ],
+          "authorCount": 5,
+          "venue": "Psychology in the Schools",
+          "volume": "61",
+          "issue": "8",
+          "pages": "3160–3192",
+          "year": "2024",
+          "citedBy": 17,
+          "url": "https://doi.org/10.1002/pits.23213"
+        },
+        "reason": "高校生を対象とした数学的高次元思考スキル尺度の開発と検証を行っており、本研究で扱われた高次元思考スキルの評価手法をより精密に測定・理解する上で参考になります。"
+      },
+      {
+        "paper": {
+          "id": "W4391914431",
+          "doi": "10.11591/edulearn.v18i2.21079",
+          "title": "Development of hots-based cognitive assessment instruments: ADDIE model",
+          "authors": [
+            "Lu'luil Maxnun",
+            "Kristiani Kristiani",
+            "Cicilia Dyah Sulistyaningrum"
+          ],
+          "authorCount": 3,
+          "venue": "Journal of Education and Learning (EduLearn)",
+          "volume": "18",
+          "issue": "2",
+          "pages": "489–498",
+          "year": "2024",
+          "citedBy": 16,
+          "url": "https://doi.org/10.11591/edulearn.v18i2.21079"
+        },
+        "reason": "高次元思考スキルに基づいた認知評価器具の開発プロセスを扱っており、本研究で課題とされた評価教材やテスト項目の作成法を具体的に補完する知見が得られます。"
+      },
+      {
+        "paper": {
+          "id": "W4399157442",
+          "doi": "10.32996/jlds.2024.2.2.3",
+          "title": "Higher Order Thinking and Critical Thinking Skills in Problem-Based Learning Environments: A Systematic Review",
+          "authors": [
+            "Rahma Hidayati Darwis",
+            "Alimuddin Alimuddin",
+            "Andi Patimbangi"
+          ],
+          "authorCount": 3,
+          "venue": "Journal of Learning and Development Studies",
+          "volume": "4",
+          "issue": "2",
+          "pages": "21–33",
+          "year": "2024",
+          "citedBy": 8,
+          "url": "https://doi.org/10.32996/jlds.2024.2.2.3"
+        },
+        "reason": "問題解決型学習環境における高次元思考スキルと批判的思考スキルの体系的レビューであり、本研究で示された高次元思考スキル導入の指導的示唆をより広い視点から整理できます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "重回帰分析",
+        "wikiTitle": "回帰分析"
+      },
+      {
+        "term": "内容分析",
+        "wikiTitle": "内容分析"
+      },
+      {
+        "term": "決定係数",
+        "wikiTitle": "決定係数"
+      }
+    ],
+    "links": [],
+    "intro": "学校ベース評価への高次元思考スキルの導入は生徒の数学成績にどう影響するのでしょうか。マレーシアの中学生を対象にした調査からその寄与と現場の課題を解明します。",
+    "warnings": [
+      "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-10-30",
+  "createdAt": "2026-10-30 16:25",
+  "figure": {
+    "target": [
+      {
+        "text": "マレーシアの/13歳生徒158名",
+        "evidence": "A total of 158 students (form one, aged 13 years old) were purposively selected to participate in this study"
+      },
+      {
+        "text": "数学教師3名",
+        "evidence": "A mixed-method case study design was used to assess a sample size of 158 students and three mathematics teachers."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "教師による/HOTS適用の評価スコア",
+        "evidence": "students’ perception on teachers’ application of HOTs in SBA (HOTS application)"
+      },
+      {
+        "text": "生徒の数学における/SBA習達度レベル",
+        "evidence": "students’ mathematics SBA mastery level and students’ mathematics achievement."
+      }
+    ],
+    "measures": [
+      {
+        "text": "20項目の質問紙による/評価の実施",
+        "evidence": "The 20-item questionnaire, adapted from critical thinking testing and assessment [60], measured the teachers’ application of HOTS and SBA mastery level."
+      },
+      {
+        "text": "KSSM基準に基づく/数学評価ペーパー",
+        "evidence": "standard statements by the form one students were recorded based on their KSSM mathematics assessment paper."
+      },
+      {
+        "text": "教師への/半構造化対面インタビュー",
+        "evidence": "The semi-structured interview protocol used to obtain teachers’ data, had also undergone the validity and reliability processes."
+      }
+    ],
+    "results": [
+      {
+        "text": "重回帰分析による/分散説明率19.6%",
+        "evidence": "Overall, the two predictor variables accounted for 19.6% (r=.443) variance change in the mathematics score F (2, 155)=2463.437, P<.05."
+      },
+      {
+        "text": "HOTS適用での/指導戦略見直しの効果",
+        "evidence": "The challenges in applying HOTS in SBA had a positive effect on teachers’ pedagogical approach in a sense that they could devise a new strategy for meeting the needs of students and teach topics in alternative ways."
+      }
+    ]
+  }
+}

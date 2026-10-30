@@ -1593,6 +1593,26 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-29 10:02",
       "note": ""
+    },
+    "W4320483847": {
+      "doi": "10.1057/s41599-023-01533-0",
+      "title": "TPACK–UotI: the validation of an assessment instrument for elementary school teachers",
+      "citedBy": 32,
+      "year": "2023",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-10-30 16:25"
+    },
+    "W3201841602": {
+      "doi": "10.11591/ijere.v11i1.22030",
+      "title": "Higher order thinking skills, school-based assessment and students’ mathematics achievement: Understanding teachers’ thoughts",
+      "citedBy": 32,
+      "year": "2022",
+      "status": "ready",
+      "titleJa": "高次元思考スキル、学校ベース評価、および生徒の数学達成度：教師の考えの理解",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-10-30 16:25",
+      "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
     }
   }
 }
