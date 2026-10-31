@@ -1,0 +1,106 @@
+{
+  "paper": {
+    "id": "W3173232499",
+    "doi": "10.3991/ijet.v16i12.23181",
+    "title": "The Effectiveness of Educational Pillars Based on Vygotsky's Theory in Achievement and Information Processing Among First Intermediate Class Students",
+    "authors": [
+      "Lina Fouad Jawad",
+      "Muayad Kadhim Raheem al-Haydary",
+      "Ban Hassan Majeed"
+    ],
+    "authorCount": 3,
+    "venue": "International Journal of Emerging Technologies in Learning (iJET)",
+    "volume": "16",
+    "issue": "12",
+    "pages": "246",
+    "year": "2021",
+    "citedBy": 32,
+    "url": "https://doi.org/10.3991/ijet.v16i12.23181",
+    "license": "cc-by",
+    "pdfUrl": "https://online-journals.org/index.php/i-jet/article/download/23181/9405"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "ヴィゴツキーの理論に基づく教育的支柱戦略が初等中等教育の生徒の成績と情報処理に与える効果",
+    "sections": {
+      "what": "この研究は、イラクのバグダッドにおける初等中等教育の第1学年女子生徒を対象に、ヴィゴツキーの社会構成主義理論に基づく「教育的支柱戦略」が数学の成績および情報処理スキルにどのような影響を与えるかを調査したものです。研究の目的は、従来の指導法と比較して、この新しい戦略が学習者の数学的達成度や、情報の要約、関係の特定、評価といった認知的な情報処理能力を向上させるかを確認することにあります。",
+      "novelty": "本研究の新規性は、教育的支柱戦略を独立変数として、数学の成績と情報処理という2つの重要な従属変数に同時に焦点を当てた点にあります。著者は、この戦略が数学教育の分野において十分に検討されてこなかったと述べており、特に社会構成主義の枠組みを用いて、学習者が自立的に学習できるようになるまでの段階的な支援（足場かけ）の効果を明らかにしようとしています。これは、従来の指導法の限界を克服するための現代的なアプローチとして位置づけられています。",
+      "method": "研究手法には、実験群と対照群を設ける準実験デザインが採用されました。実験群には教育的支柱戦略を用いた指導を行い、対照群には従来の指導法を適用しました。サンプルは、年齢や数学の基礎レベルが同等であることを確認した上で選ばれた66名の女子生徒で構成されています。統計分析では、両群の平均スコアの差を比較するために独立な2標本のt検定が用いられ、効果量についても算出されています。また、情報処理スキルの比較にはシェフェの検定が用いられました。",
+      "validation": "分析の結果、数学の成績テストにおいて実験群は対照群よりも統計的に有意に高い平均スコアを示しました。計算されたt値は表の値よりも大きく、有意水準0.05で仮説が棄却されました。また、情報処理スキルのテストにおいても、実験群のスコアは対照群を上回り、統計的に有意な差が認められました。効果量の算出においても、教育的支柱戦略が数学の成績および情報処理スキルの向上に対して非常に大きな効果を持つことが示されました。",
+      "implications": "この論文は、教育的支柱戦略が学習者の相互作用を促し、数学に対する不安を軽減しながら、段階的な支援を通じて自立的な学習能力を養う可能性を示唆しています。特に、情報の要約や概念間の関連性の特定といった高度な認知スキルの向上に寄与する可能性が示されています。一方で、この研究は特定の学年や地域に限定されたサンプルに基づいているため、他の教育段階や文化圏における普遍的な効果についてはさらなる検討が必要な論点として残されています。",
+      "nextLead": "この研究では、ヴィゴツキーの理論を具体的に「足場かけ」としてどのように教室で実装するかが焦点となっていました。次に、この足場かけの質を向上させるために、教師がどのような知識や感情的側面を考慮すべきか、あるいは学習者の自己調整能力とどのように関連するかを探る研究へと進むことが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2123463673",
+          "doi": "10.5951/jresematheduc.40.5.0530",
+          "title": "Knowledge Needed by a Teacher to Provide Analytic Scaffolding During Undergraduate Mathematics Classroom Discussions",
+          "authors": [
+            "Natasha M. Speer",
+            "Joseph F. Wagner"
+          ],
+          "authorCount": 2,
+          "venue": "Journal for Research in Mathematics Education",
+          "volume": "40",
+          "issue": "5",
+          "pages": "530–562",
+          "year": "2009",
+          "citedBy": 136,
+          "url": "https://doi.org/10.5951/jresematheduc.40.5.0530"
+        },
+        "reason": "本論文で扱われた「足場かけ」の概念を、より高度な数学の教室での議論に適用する際に教師が備えるべき具体的な知識に焦点を当てた研究であり、実践的な指導法の深化に役立ちます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "ヴィゴツキーの理論を応用した「教育的支柱戦略」は、数学の成績と情報処理能力をどう変えるのか。最新の準実験研究から、学習者の自立を促す段階的な支援の効果を探ります。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-10-31",
+  "createdAt": "2026-10-31 10:02",
+  "figure": {
+    "target": [
+      {
+        "text": "イラクの女子中学生/66名",
+        "evidence": "The research sample consisted of (66) female students from the first intermediate grade"
+      },
+      {
+        "text": "数学の達成度/情報処理スキル",
+        "evidence": "mathematical achievement and information processing of first-grade intermediate students"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "統制群/伝統的な指導",
+        "evidence": "control group taught traditionally"
+      },
+      {
+        "text": "数学の達成度/情報処理スキル",
+        "evidence": "two dependent variables, namely, mathematical attainment and information processing"
+      }
+    ],
+    "measures": [
+      {
+        "text": "指導/3・4学期分",
+        "evidence": "The third and fourth semesters (polynomials and open sentences) were taught in the first part of the mathematics textbook"
+      },
+      {
+        "text": "事後テスト/達成度とスキル",
+        "evidence": "The mathematical achievement test and the data processing skill test were applied to the experimental and control research groups"
+      }
+    ],
+    "results": [
+      {
+        "text": "情報処理スキル/Shiffe値 9.39",
+        "evidence": "the value of Shiffe computed between the experimental group and the control group is equal to (9.39)"
+      },
+      {
+        "text": "効果量/非常に大きい",
+        "evidence": "The size of the effect is very large in the results of Table (3)."
+      }
+    ]
+  }
+}

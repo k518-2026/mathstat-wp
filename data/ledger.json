@@ -1613,6 +1613,44 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-10-30 16:25",
       "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    },
+    "W2576758203": {
+      "doi": "10.30998/formatif.v6i1.752",
+      "title": "Prestasi Belajar Matematika Ditinjau dari Kepercayaan Diri dan Keaktifan Siswa di Kelas",
+      "citedBy": 36,
+      "year": "2016",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-31 10:00"
+    },
+    "W3192570333": {
+      "doi": "10.31980/plusminus.v1i2.1258",
+      "title": "Penerapan Model Pembelajaran Problem Posing dan Direct Instruction dalam Meningkatkan Kemampuan Pemecahan Masalah Matematis Siswa",
+      "citedBy": 32,
+      "year": "2021",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-31 10:00"
+    },
+    "W3186695055": {
+      "doi": "10.31316/j.derivat.v8i1.1641",
+      "title": "Pengaruh Kemandirian Belajar Siswa Terhadap Hasil Belajar Matematika",
+      "citedBy": 32,
+      "year": "2021",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-10-31 10:00"
+    },
+    "W3173232499": {
+      "doi": "10.3991/ijet.v16i12.23181",
+      "title": "The Effectiveness of Educational Pillars Based on Vygotsky's Theory in Achievement and Information Processing Among First Intermediate Class Students",
+      "citedBy": 32,
+      "year": "2021",
+      "status": "ready",
+      "titleJa": "ヴィゴツキーの理論に基づく教育的支柱戦略が初等中等教育の生徒の成績と情報処理に与える効果",
+      "model": "gemma4:12b",
+      "createdAt": "2026-10-31 10:02",
+      "note": ""
     }
   }
 }
