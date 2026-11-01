@@ -1651,6 +1651,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-10-31 10:02",
       "note": ""
+    },
+    "W3006599080": {
+      "doi": "10.1007/s13138-020-00160-5",
+      "title": "The Role of General and Subject-specific Language Skills when Learning Mathematics in Elementary School",
+      "citedBy": 32,
+      "year": "2020",
+      "status": "ready",
+      "titleJa": "小学校での算数学習における一般言語スキルと専門言語スキルの役割",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-01 10:02",
+      "note": ""
     }
   }
 }
