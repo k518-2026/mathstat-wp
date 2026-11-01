@@ -1,0 +1,145 @@
+{
+  "paper": {
+    "id": "W2884945003",
+    "doi": "10.15294/jpii.v6i2.9512",
+    "title": "Comparison of Mathematical Representation Skill and Science Learning Result in Classes with Problem-Based and Discovery Learning Model",
+    "authors": [
+      "Chandra Ertikanto",
+      "⁠Undang Rosidin",
+      "I Wayan Distrik",
+      "Yuberti Yuberti"
+    ],
+    "authorCount": 5,
+    "venue": "Jurnal Pendidikan IPA Indonesia",
+    "volume": "7",
+    "issue": "1",
+    "pages": "106–113",
+    "year": "2018",
+    "citedBy": 32,
+    "url": "https://doi.org/10.15294/jpii.v6i2.9512",
+    "license": "cc-by",
+    "pdfUrl": "https://journal.unnes.ac.id/nju/index.php/jpii/article/download/9512/7630"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "インドネシアの教員養成課程の学生を対象に、問題解決型学習と発見学習における数学的表現力と理科の学習成果を比較し、両者の関係を統計的に分析した実証研究であるため。",
+    "titleJa": "問題解決型学習および発見学習モデルのクラスにおける数学的表現力と理科の学習成果の比較",
+    "sections": {
+      "what": "ランプン大学の小学校教員養成課程の学生534名の中から、クラスターランダムサンプリングにより選ばれた35名ずつの2クラス（計70名）を対象とした研究です。1つのクラスには問題解決型学習モデル、もう1つのクラスには発見学習モデルを適用した授業を実施しました。授業後に記述式のテストを用いて学生の数学的表現力と理科の学習成果を測定し、学習モデルごとの成績の違いや、数学的表現力が理科の学習成果に与える影響を比較・検証することを目的としています。",
+      "novelty": "従来の研究では、問題解決型学習や発見学習が学習成果や数学的表現力を向上させることが示されていました。しかし、これら2つの学習モデルを直接比較し、それぞれのモデルにおいて数学的表現力が理科の学習成果にどのように影響するかを明示的に分析した研究は十分ではありませんでした。本研究は、自然科学の概念理解において重要とされる数学的表現力に着目し、異なる探究型学習モデルにおける表現力と理科の成績の関係性を同時に検討した点に位置づけ上の意義があります。",
+      "method": "研究では、数学的表現力を評価する5問の記述問題と、理科の学習成果を評価する10問の記述問題を使用しました。得られたデータに対して、まず正規性検定と等分散性検定を行い、データが適切な分布に従っていることを確認しました。次に、2つの学習モデル間で平均点に差があるかを調べるために独立サンプルのt検定を実施しました。さらに、数学的表現力と理科の学習成果の関係性を調べるため、ピアソンの積率相関係数の算出と単回帰分析を行い、影響の強さや予測式を算出しています。",
+      "validation": "分析の結果、理科の学習成果の平均は問題解決型学習群で82.11点、発見学習群で80.11点であり、数学的表現力の平均はそれぞれ70.57点と71.71点でした。独立サンプルのt検定では、両モデル間でこれらの数値に統計的な有意差は見られませんでした。一方、相関分析および回帰分析では、問題解決型学習群（相関係数0.661、決定係数0.436）および発見学習群（相関係数0.638、決定係数0.407）の双方において、数学的表現力が理科の学習成果に対して正の線形な影響を与えていることが示されました。",
+      "implications": "本研究結果は、問題解決型学習と発見学習のどちらにおいても、学生の数学的表現力が高まるほど理科の学習成果も向上する傾向があることを示唆しています。ただし、本研究は特定の大学の小規模なサンプルを対象とした実験研究であり、他の学年や単元にそのまま適用できるかは限られています。また、指導法の違いによる直接的な学習効果の差は見られなかったため、特定の指導モデルを選択するだけで成績が向上すると断定することはできず、具体的な指導内容や補佐的要因の検討が必要です。",
+      "nextLead": "探究的な学習モデルや多重表現の活用が、生徒や学生の概念理解・批判的思考力・理科の学習成果にどのように寄与するのかをさらに深く理解するため、関連する実証研究や発展的な研究へと読み進めることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W3157609751",
+          "doi": "10.3926/jotse.1151",
+          "title": "The effectiveness of the use of the Android-based Carom games comic integrated to discovery learning in improving critical thinking and mathematical representation abilities",
+          "authors": [
+            "Mega Septiana Ika Rahayu",
+            "Heru Kuswanto"
+          ],
+          "authorCount": 2,
+          "venue": "Journal of Technology and Science Education",
+          "volume": "11",
+          "issue": "2",
+          "pages": "270",
+          "year": "2021",
+          "citedBy": 20,
+          "url": "https://doi.org/10.3926/jotse.1151"
+        },
+        "reason": "発見学習と数学的表現力や批判的思考力の向上を組み合わせた後続研究であり、本論文が示した数学的表現力の重要性を現代のデジタル教材に応用した効果を確かめるのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W2587155870",
+          "doi": "10.21009/1.01105",
+          "title": "Pengaruh Pendekatan Multi Representasi dalam Pembelajaran Fisika Terhadap Kemampuan Kognitif Siswa SMA",
+          "authors": [
+            "Program Studi Pendidikan Fisika, Universitas Negeri Jakarta, Jakarta Timur 13220",
+            "Laras Widianingtiyas",
+            "Siswoyo Siswoyo",
+            "Fauzi Bakri"
+          ],
+          "authorCount": 4,
+          "venue": "Jurnal Penelitian & Pengembangan Pendidikan Fisika",
+          "volume": "01",
+          "issue": "1",
+          "pages": "31–38",
+          "year": "2015",
+          "citedBy": 81,
+          "url": "https://doi.org/10.21009/1.01105"
+        },
+        "reason": "物理・理科教育における多重表現アプローチが学習者の認知能力に与える影響を調べており、数学的表現力が理科の理解を支えるメカニズムをより詳しく理解する参考になります。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "問題解決型学習",
+        "wikiTitle": "課題解決型学習"
+      },
+      {
+        "term": "発見学習",
+        "wikiTitle": "発見学習"
+      },
+      {
+        "term": "独立サンプルのt検定",
+        "wikiTitle": "Student's t-test"
+      },
+      {
+        "term": "単回帰分析",
+        "wikiTitle": "線形回帰"
+      }
+    ],
+    "links": [],
+    "intro": "問題解決型学習と発見学習では、学生の数学的表現力や理科の学習成果に違いが出るのでしょうか。二つの学習モデルを比較し、表現力と学習成果の関係を分析した研究を紹介します。",
+    "warnings": [
+      "論文の本文に見つからない数値: 71.71",
+      "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-02",
+  "createdAt": "2026-11-02 08:56",
+  "figure": {
+    "target": [
+      {
+        "text": "実験群各35名/計70名の大学生",
+        "evidence": "In this study, the total number of samples used is 70 students with 35 students with problem-based learning model and 35 students with discovery learning model"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "問題基盤型学習群と/発見学習群",
+        "evidence": "The first class was treated using problembased learning model, while the second was treated using discovery learning model."
+      },
+      {
+        "text": "数学的表現力と/理科の学習成果",
+        "evidence": "The purpose of this research is to know the difference of mathematical representation skill, the result of science learning and its influence on problem-based learning and discovery learning model."
+      }
+    ],
+    "measures": [
+      {
+        "text": "数学的表現力を測る/記述テスト5問",
+        "evidence": "The first instrument is five descriptive items, which is used to assess mathematical representation skills, given at the end of each lesson."
+      },
+      {
+        "text": "理科学習成果を測る/記述テスト10問",
+        "evidence": "The second instrument is 10 descriptive items to assess the learning outcomes of Science, given at the end of all material delivery."
+      }
+    ],
+    "results": [
+      {
+        "text": "t検定で両群の/成果と表現力に差なし",
+        "evidence": "there is no difference between the learning result and the mathematical representation skill in the problem-based learning and discovery model."
+      },
+      {
+        "text": "PBL群:学習成果82.11/表現力70.57",
+        "evidence": "In problem-based learning class, it was obtained that the average score of students’ science learning outcomes was 82.11 and mathematical representation skill was 70.57."
+      }
+    ]
+  }
+}

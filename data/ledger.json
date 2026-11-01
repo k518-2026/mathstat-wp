@@ -1662,6 +1662,26 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-01 10:02",
       "note": ""
+    },
+    "W2803900143": {
+      "doi": "10.1037/edu0000277",
+      "title": "Predicting age of becoming a cardinal principle knower",
+      "citedBy": 32,
+      "year": "2018",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-02 08:56"
+    },
+    "W2884945003": {
+      "doi": "10.15294/jpii.v6i2.9512",
+      "title": "Comparison of Mathematical Representation Skill and Science Learning Result in Classes with Problem-Based and Discovery Learning Model",
+      "citedBy": 32,
+      "year": "2018",
+      "status": "ready",
+      "titleJa": "問題解決型学習および発見学習モデルのクラスにおける数学的表現力と理科の学習成果の比較",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-02 08:56",
+      "note": "論文の本文に見つからない数値: 71.71 / Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
     }
   }
 }
