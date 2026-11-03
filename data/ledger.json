@@ -1682,6 +1682,35 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-02 08:56",
       "note": "論文の本文に見つからない数値: 71.71 / Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    },
+    "W2810138508": {
+      "doi": "10.1037/edu0000286",
+      "title": "Raising early achievement in math with interactive apps: A randomized control trial",
+      "citedBy": 124,
+      "year": "2018",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-03 17:53"
+    },
+    "W2588842421": {
+      "doi": "10.24127/ajpm.v5i2.669",
+      "title": "PERANAN KEMAMPUAN VERBAL DAN KEMAMPUAN NUMERIK TERHADAP KEMAMPUAN BERPIKIR KRITIS MATEMATIKA",
+      "citedBy": 32,
+      "year": "2017",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-03 17:53"
+    },
+    "W2561895383": {
+      "doi": "10.52380/mojet.2017.5.1.93",
+      "title": "Students’ Performance in Geometrical Reflection using Geogebra",
+      "citedBy": 32,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "GeoGebraを用いた図形の鏡映における児童の学習パフォーマンス",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-03 17:55",
+      "note": "論文の本文に見つからない数値: 001"
     }
   }
 }

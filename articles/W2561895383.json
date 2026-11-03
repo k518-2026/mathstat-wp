@@ -1,0 +1,176 @@
+{
+  "paper": {
+    "id": "W2561895383",
+    "doi": "10.52380/mojet.2017.5.1.93",
+    "title": "Students’ Performance in Geometrical Reflection using Geogebra",
+    "authors": [
+      "Pavethira Seloraji",
+      "Kwan Eu Leong"
+    ],
+    "authorCount": 2,
+    "venue": "Malaysian Online Journal of Educational Technology",
+    "volume": "5",
+    "issue": "1",
+    "pages": "65–77",
+    "year": "2017",
+    "citedBy": 32,
+    "url": "https://doi.org/10.52380/mojet.2017.5.1.93",
+    "license": "cc-by-nc-nd",
+    "pdfUrl": "https://mojet.net/index.php/mojet/article/view/93/93"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "本研究は、プライマリースクールの1年生を対象に動的数学ソフトウェアGeoGebraを用いた図形の反転（鏡映）指導の効果を、事前・事後テストの対応のあるt検定や分散分析などの量的データ分析を用いて検証しているため。",
+    "titleJa": "GeoGebraを用いた図形の鏡映における児童の学習パフォーマンス",
+    "sections": {
+      "what": "本研究は、マレーシアの国際学校に通う1年生（5〜6歳）24名を対象に、動的幾何ソフトウェアであるGeoGebraを用いた授業が図形の鏡映（反転）の理解や学習パフォーマンスに与える影響を検討した実証研究です。児童を能力別（発展・標準・支援）および性別で分類し、従来型の指導による事前テストとGeoGebra導入後の事後テストを実施して、そのスコアの変化やグループ間の違いを検証しています。",
+      "novelty": "先行研究では、3次元の物体を2次元の画面や紙上に表現する際や、空間図形の視覚化において児童が課題を抱えやすいことが指摘されていました。本研究の新規性は、初等教育の極めて早い段階において、半具体的ツールとしてのGeoGebra導入が図形の鏡映概念の定着にどのように寄与するかを、性別や能力水準との関連も含めて包括的に評価した点にあります。",
+      "method": "研究デザインには1グループの事前・事後テスト手法を採用しています。事前テストでは伝統的な紙と鉛筆による指導を行い、その後GeoGebraを用いた授業を実施した上で事後テストを行いました。分析には、事前・事後スコアの比較のために対応のあるt検定を適用し、性別間の比較には独立サンプルのt検定、能力水準（発展・標準・支援の3群）による影響の比較には一元配置分散分析（ANOVA）およびTukeyのHSD多重比較検定を用いています。",
+      "validation": "分析の結果、事後テストの平均点は事前テストと比較して統計的に有意な上昇を示しました（t(23) = -6.801, p < .001）。性別比較では、女子の平均点（86.00）が男子（68.33）よりも有意に高い結果となりました（t(22) = 3.85, p = .001）。また、能力別のANOVA分析では群間に有意差が見られ（F(2, 21) = 15.070, p < .001）、Tukeyの検定により支援群（平均59.67）が標準群（80.17）や発展群（88.67）と比べて有意に低いことが確認されました。",
+      "implications": "本研究の結果は、GeoGebraのような動的ソフトウェアを活用することで、低学年の児童であっても図形の反転概念を効果的に視覚化し理解を深められる可能性を示唆しています。一方で、本研究は単一校の24名という小規模なサンプルに基づく短期間の実験にとどまるため、一般的な指導効果として断定することはできません。また、男子児童の関心を紙上の作業へどのように結びつけるかといった課題も提示されています。",
+      "nextLead": "ソフトウェアを活用した図形教育の可能性や具体的な課題をさらに深掘りするためには、GeoGebra導入に伴う制約や他国・他年代での実践研究へと関心を広げることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2936943395",
+          "doi": "10.29333/ejmste/108436",
+          "title": "Some of the Potential Affordances, Challenges and Limitations of Using GeoGebra in Mathematics Education",
+          "authors": [
+            "Yismaw Wassie",
+            "Gurju Awgichew"
+          ],
+          "authorCount": 2,
+          "venue": "Eurasia Journal of Mathematics Science and Technology Education",
+          "volume": "15",
+          "issue": "8",
+          "pages": "",
+          "year": "2019",
+          "citedBy": 79,
+          "url": "https://doi.org/10.29333/ejmste/108436"
+        },
+        "reason": "GeoGebraを数学教育に導入する際のアフォーダンスだけでなく課題や限界についても整理しており、本研究の知見をより多角的に相対化して理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W3085076159",
+          "doi": "10.4314/ajesms.v16i1.1",
+          "title": "GeoGebra integration and effectiveness in the teaching and learning of mathematics in secondary schools: A review of literature",
+          "authors": [
+            "Marie Sagesse Uwurukundo",
+            "Jean François Maniraho",
+            "Michael Tusiime"
+          ],
+          "authorCount": 3,
+          "venue": "African Journal of Educational Studies in Mathematics and Sciences",
+          "volume": "16",
+          "issue": "1",
+          "pages": "1–13",
+          "year": "2020",
+          "citedBy": 31,
+          "url": "https://doi.org/10.4314/ajesms.v16i1.1"
+        },
+        "reason": "中等教育におけるGeoGebraの統合と有効性に関する文献レビューであり、対象年齢や単元を広げた際の実証的エビデンスを総合的に把握するのに適しています。"
+      },
+      {
+        "paper": {
+          "id": "W3046512020",
+          "doi": "10.30935/conmaths/8431",
+          "title": "Integration of GeoGebra in Teaching and Learning Geometric Transformations at Ordinary Level in Zimbabwe",
+          "authors": [
+            "Chipo Makamure",
+            "Edmore Mukamba"
+          ],
+          "authorCount": 2,
+          "venue": "Contemporary Mathematics and Science Education",
+          "volume": "1",
+          "issue": "1",
+          "pages": "ep20001",
+          "year": "2020",
+          "citedBy": 22,
+          "url": "https://doi.org/10.30935/conmaths/8431"
+        },
+        "reason": "幾何学的変換の指導におけるGeoGebraの統合効果を異なる地域や学年の文脈で検証しており、図形学習における地域差や実践可能性の比較検討に有用です。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "GeoGebra",
+        "wikiTitle": "GeoGebra"
+      },
+      {
+        "term": "ANOVA",
+        "wikiTitle": "分散分析"
+      }
+    ],
+    "links": [
+      {
+        "term": "GeoGebra",
+        "title": "GeoGebra",
+        "url": "https://ja.wikipedia.org/wiki/GeoGebra"
+      },
+      {
+        "term": "ANOVA",
+        "title": "分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      }
+    ],
+    "intro": "図形の対称移動を教える際、動的ソフトウェアの活用は効果的でしょうか。小学1年生を対象にGeoGebraの効果を事前後テストと統計分析で検証した研究を紹介します。",
+    "warnings": [
+      "論文の本文に見つからない数値: 001"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-03",
+  "createdAt": "2026-11-03 17:55",
+  "figure": {
+    "target": [
+      {
+        "text": "国際学校の1年生24名",
+        "evidence": "A total of 24 Year One students were randomly selected from an international school."
+      },
+      {
+        "text": "男子12名・女子12名",
+        "evidence": "different gender: 12 boys and 12 girls."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "GeoGebraの導入/（事前・事後）",
+        "evidence": "The sample selected were taught and learnt by using GeoGebra software after the pre-test."
+      },
+      {
+        "text": "生徒の能力区分/（3グループ）",
+        "evidence": "The students in the class consisted of three groups namely Extension, Core and Support."
+      }
+    ],
+    "measures": [
+      {
+        "text": "伝統的指導後の/事前テスト",
+        "evidence": "They were taught what reflection is using the traditional method and asked to draw the reflection (pre-test)."
+      },
+      {
+        "text": "GeoGebraを用いた/授業の実施",
+        "evidence": "After the pre-test, the students were introduced to the GeoGebra software during their ICT lesson."
+      },
+      {
+        "text": "事後テストの実施",
+        "evidence": "Then, they were given the post-test a few days later."
+      }
+    ],
+    "results": [
+      {
+        "text": "対応のあるt検定で/事後に有意な向上",
+        "evidence": "There was significant difference in the scores for the GeoGebra group (M = -14.875, SD = 10.715), t (23) = -6.801, p = .00."
+      },
+      {
+        "text": "独立標本t検定で/女子が男子より高得点",
+        "evidence": "There was a significant difference in the scores for male (M = 68.33, SD = 13.506) and female (M = 86.00, SD=8.356) conditions; t (22) =3.85, p = .001."
+      },
+      {
+        "text": "分散分析で能力3群の/得点に有意差",
+        "evidence": "There was a statistically significant difference at the p < .05 level in scores for three ability groups F (2, 23) = 15.070, p < .05."
+      }
+    ]
+  }
+}
