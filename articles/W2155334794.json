@@ -1,0 +1,100 @@
+{
+  "paper": {
+    "id": "W2155334794",
+    "doi": "10.1007/s10649-012-9385-y",
+    "title": "The meaning of mathematics instruction in multilingual classrooms: analyzing the importance of responsibility for learning",
+    "authors": [
+      "Åse Hansson"
+    ],
+    "authorCount": 1,
+    "venue": "Educational Studies in Mathematics",
+    "volume": "81",
+    "issue": "1",
+    "pages": "103–125",
+    "year": "2012",
+    "citedBy": 32,
+    "url": "https://doi.org/10.1007/s10649-012-9385-y",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10649-012-9385-y.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "多言語の教室における数学指導の意味：学習に対する責任の重要性の分析",
+    "sections": {
+      "what": "この研究は、スウェーデンの多言語環境にある数学の教室において、教師の指導や支援が児童の学習成果にどのような影響を与えるかを調査したものです。具体的には、教師が学習プロセスに対してどの程度責任を持ち、どのような学習環境を構築しているかという「学習に対する責任」の概念に焦点を当てています。スウェーデンの中学8年生を対象としたTIMSS 2003のデータを用い、多言語環境における指導のあり方と、生徒の社会経済的背景や言語能力が学習成果に与える影響を分析しています。",
+      "novelty": "先行研究では、多言語環境における言語支援や教師の関与の重要性は指摘されてきましたが、本研究では「学習に対する責任」という多次元的な概念を導入した点が特徴です。教師の活動、生徒の活動、そして数学的内容の強調という3つの側面から指導を捉え直すことで、単なる指導法の一種としてではなく、教育の根本的な原理として指導の質を評価しようとしています。これにより、多言語環境において教師の責任がどのように分散、あるいは集中しているかをより詳細に分析することが可能になりました。",
+      "method": "統計手法として、生徒とクラスの階層構造を考慮できるマルチレベル構造方程式モデリングを採用しています。この手法を用いることで、個々の生徒の特性と、クラス全体の指導環境や構成というグループレベルの要因を同時に分析できるようになります。変数の設定では、教師の活動、生徒の活動、数学的内容の3つの潜在変数を含む「学習に対する責任」のモデルを構築しました。また、生徒の言語能力や社会経済的地位を制御変数として組み込み、指導の質が純粋に学習成果に与える影響を推定するモデルを組み立てています。",
+      "validation": "モデルの適合度を評価するために、カイ二乗検定やRMSEA、CFIなどの指標を用いて検証を行いました。分析の結果、教師が積極的に学習環境を整え、生徒を支援する「教師の活動」という責任の側面は、数学の学習成果に対して実質的な正の影響を与えることが示されました。特に、知識の応用や推論といった、より言語的な要素を含む課題においてその影響が顕著でした。一方で、教師が責任を生徒に委ねる「生徒の活動」の側面については、言語能力や社会経済的背景を制御した際に、学習成果との有意な相関が見られなくなることも示唆されました。",
+      "implications": "本研究は、教師が学習プロセスに対して積極的に責任を持ち、支援的な環境を整えることが、特に言語的障壁がある生徒の数学学習において重要である可能性を示唆しています。一方で、指導の質がクラスの構成（社会経済的背景や言語能力）によって左右される「教育的隔離」の存在も指摘しており、すべての生徒が等しく質の高い指導にアクセスできているかという課題を提示しています。ただし、本研究は相関関係に基づく分析であり、因果関係を断定するものではありません。また、生徒の自律的な学習の効果が背景要因と密接に関連している点については、さらなる詳細な調査が必要とされています。",
+      "nextLead": "この論文では、教師の関与と生徒の自律性のバランス、および背景要因による指導の質の格差が議論されました。次に、多言語環境における具体的な学習活動や、生徒の代数的な思考のプロセスに焦点を当てた研究へと進むことで、指導の質が具体的な学習行動にどう反映されるかをより深く理解できるでしょう。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W3110761934",
+          "doi": "10.1007/s10649-020-10007-y",
+          "title": "Learning actions indicating algebraic thinking in multilingual classrooms",
+          "authors": [
+            "Helena Eriksson",
+            "Inger Eriksson"
+          ],
+          "authorCount": 2,
+          "venue": "Educational Studies in Mathematics",
+          "volume": "106",
+          "issue": "3",
+          "pages": "363–378",
+          "year": "2020",
+          "citedBy": 19,
+          "url": "https://doi.org/10.1007/s10649-020-10007-y"
+        },
+        "reason": "本論文で示唆された多言語環境における指導の質が、実際の生徒の学習行動や代数的な思考のプロセスにどのように具体的に現れるかを探る上で、非常に密接に関連する研究です。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "教師の「責任」は多言語の教室でどう定義されるべきか。スウェーデンのデータから、指導の質と生徒の背景がもたらす教育的隔離の課題を探ります。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-11-04",
+  "createdAt": "2026-11-04 20:21",
+  "figure": {
+    "target": [
+      {
+        "text": "スウェーデン/の8年生",
+        "evidence": "focusing on mathematics for Swedish students in eighth grade."
+      },
+      {
+        "text": "3,237人の生徒/217クラス",
+        "evidence": "3,237 students in 217 classes"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "RELの3次元",
+        "evidence": "three theoretically based dimensions that identify and describe such responsibility, namely: Teacher Activity, Student Activity and a dimension that illustrates that the Mathematics Content is highlighted as an object of teaching"
+      },
+      {
+        "text": "背景要因",
+        "evidence": "Competence in the Language of Instruction and the cultural dimension of SES"
+      }
+    ],
+    "measures": [
+      {
+        "text": "TIMSS 2003データ",
+        "evidence": "The data source for the empirical study was the Trends in International Mathematics and Science Study, TIMSS 2003"
+      }
+    ],
+    "results": [
+      {
+        "text": "Teacher Activity/の影響",
+        "evidence": "Teacher Activity... explained about 9% of the achievement variance at the class level, which corresponds to an effect size of 0.44"
+      },
+      {
+        "text": "Student Activity/の結果",
+        "evidence": "no significant relations remained after control for the group composition in terms of Competence in the Language of Instruction and SesC."
+      }
+    ]
+  }
+}

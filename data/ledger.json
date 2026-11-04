@@ -1711,6 +1711,17 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-03 17:55",
       "note": "論文の本文に見つからない数値: 001"
+    },
+    "W2155334794": {
+      "doi": "10.1007/s10649-012-9385-y",
+      "title": "The meaning of mathematics instruction in multilingual classrooms: analyzing the importance of responsibility for learning",
+      "citedBy": 32,
+      "year": "2012",
+      "status": "ready",
+      "titleJa": "多言語の教室における数学指導の意味：学習に対する責任の重要性の分析",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-04 20:21",
+      "note": ""
     }
   }
 }
