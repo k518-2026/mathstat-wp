@@ -1,0 +1,153 @@
+{
+  "paper": {
+    "id": "W2757093712",
+    "doi": "10.6007/ijarbss/v7-i10/3387",
+    "title": "Validity and Reliability of The Instrument Using Exploratory Factor Analysis and Cronbach’s alpha",
+    "authors": [
+      "Liew Lee Chan",
+      "Noraini Idris"
+    ],
+    "authorCount": 2,
+    "venue": "International Journal of Academic Research in Business and Social Sciences",
+    "volume": "7",
+    "issue": "10",
+    "pages": "",
+    "year": "2017",
+    "citedBy": 290,
+    "url": "https://doi.org/10.6007/ijarbss/v7-i10/3387",
+    "license": "cc-by",
+    "pdfUrl": "http://hrmars.com/hrmars_papers/Validity_and_Reliability_of_The_Instrument.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama qwen3.5:9b の判定）",
+    "titleJa": "数学指導枠組みの信頼性と妥当性を検証する：探索的因子分析による尺度開発",
+    "sections": {
+      "what": "本研究は、マレーシア北部の公立大学と教員養成機関に在籍する数学教育専攻の学生 436 名を対象とした調査です。目的は、「数学指導枠組み（TF@Maths）」という質問紙の有効性と信頼性を検証することにあります。86 項目から成る 7 段階のリーチトールを用いて、准教師たちが数学的知識や指導力についてどのように考えているかを測定しました。この研究は、教育現場で使われる評価ツールの質を高めるための実証データを生成することを目的としています。",
+      "novelty": "既存の数学教育に関する尺度開発研究と比較すると、本研究の独自性は、特定の地域（マレーシア北部）の文脈において、教師養成課程の学生を対象に体系的な検証を行った点にあります。先行研究で用いられた複数の枠組みを統合し、新たな因子構造を明らかにしたことで、地域的な教育実情に即した評価指標を提供しています。これは、異なる文化圏における数学指導の質を測る際の参考資料として重要です。",
+      "method": "データ分析には SPSS を使用し、まず信頼性をクロンバックのアルファ係数で検証しました。次に、有効性を確認するために探索的因子分析（EFA）を行いました。主成分分析法とバリマックス回転を用いて、86 項目から共通する潜在的な構造を抽出しました。因子負荷量が 0.4 未満の項目や、複数の因子にまたがる項目は除外し、最終的に 62 項目で構成される 6 つの因子群を定めました。この手順により、冗長性を排除した簡潔な尺度を作成しています。",
+      "validation": "信頼性の検証結果として、全体のクロンバックのアルファ係数は 0.939 と非常に高い値を示しました。また、各構成概念についても 0.857 から 0.963 の範囲で良好な値が得られました。有効性については、バリタート検定の有意性と KMO 値 0.960 が因子分析の適性を支持しました。抽出された 6 つの因子は、数学的知識、指導的知識、学級経営スキルなど、教師に必要な能力を網羅しており、理論的な妥当性も確認されています。",
+      "implications": "本研究の結果は、数学指導の枠組みを設計する際の指針となりますが、介入効果については言及していません。相関関係のみを示すため、「特定の指導法が成績向上に直結する」と断定することはできません。しかし、抽出された 6 つの因子は、准教師の育成カリキュラムや自己評価ツールとして有用であることを示唆しています。今後の研究では、これらの因子が実際の授業パフォーマンスや生徒の学習成果とどう関連するかを縦断的に追跡することが必要かもしれません。",
+      "nextLead": "次に読むべき論文は、因子分析の手法論を深めるものや、異なる教育分野における尺度開発事例です。特に、サンプルサイズと因子構造の関係について詳しく扱った古典的かつ重要な文献を読むことで、本研究の統計的アプローチの背景を理解できます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2122376319",
+          "doi": "10.1037//1082-989x.4.1.84",
+          "title": "Sample size in factor analysis",
+          "authors": [
+            "Robert C. MacCallum",
+            "Keith F. Widaman",
+            "Shaobo Zhang",
+            "Sehee Hong"
+          ],
+          "authorCount": 4,
+          "venue": "Psychological Methods",
+          "volume": "4",
+          "issue": "1",
+          "pages": "84–99",
+          "year": "1999",
+          "citedBy": 5577,
+          "url": "https://doi.org/10.1037//1082-989x.4.1.84"
+        },
+        "reason": "本研究では探索的因子分析を用いて尺度を開発していますが、その手法の基礎理論やサンプルサイズの決定基準について詳しく知りたい場合に適しています。因子分析における統計的仮定の理解を深めるためにも推奨されます。"
+      },
+      {
+        "paper": {
+          "id": "W2010935687",
+          "doi": "10.1207/s15327752jpa7502_10",
+          "title": "Development and Validation of a Scale to Measure Perceived Control of Internal States",
+          "authors": [
+            "Julie Pallant"
+          ],
+          "authorCount": 1,
+          "venue": "Journal of Personality Assessment",
+          "volume": "75",
+          "issue": "2",
+          "pages": "308–337",
+          "year": "2000",
+          "citedBy": 192,
+          "url": "https://doi.org/10.1207/s15327752jpa7502_10"
+        },
+        "reason": "本研究でも参照されている信頼性指標の一つですが、心理測定学における尺度開発の古典的なアプローチを示しています。量的データを用いる教育研究全般において、尺度の質を評価する際の基本概念を知るために有益です。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "探索的因子分析",
+        "wikiTitle": "因子分析"
+      },
+      {
+        "term": "クロンバックのアルファ係数",
+        "wikiTitle": "信頼性（統計学）"
+      },
+      {
+        "term": "リーチトール",
+        "wikiTitle": "リッカート尺度"
+      },
+      {
+        "term": "主成分分析法",
+        "wikiTitle": "主成分分析"
+      },
+      {
+        "term": "バリマックス回転",
+        "wikiTitle": "軸回転"
+      }
+    ],
+    "links": [],
+    "intro": "数学教育の現場で使える評価ツールの質をどう担保するか。本研究は、准教師向けの質問紙開発を通じて、信頼性と有効性を統計的に検証するプロセスとその成果を紹介しています。",
+    "warnings": [
+      "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    ],
+    "model": "qwen3.5:9b"
+  },
+  "asOf": "2026-11-05",
+  "createdAt": "2026-11-05 14:02",
+  "figure": {
+    "target": [
+      {
+        "text": "マレーシアの学生/436名",
+        "evidence": "A survey was conducted in one public university and one institution of teacher education in Northern Zone of Malaysia towards 436 students from the Mathematics Education."
+      },
+      {
+        "text": "数学教育専攻の学生",
+        "evidence": "The respondents are studying Bachelor of Mathematics in Education."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "TF@Mathsの構成概念",
+        "evidence": "There are six domains in Part B that contains the total of 86 items which covers five related constructs of independent variables and one construct of dependent variable on quality mathematics teacher."
+      },
+      {
+        "text": "7段階のリッカート尺度",
+        "evidence": "A seven-point Likert scale was used for the respondents."
+      }
+    ],
+    "measures": [
+      {
+        "text": "質問票の配布と回収",
+        "evidence": "the researcher introduced herself and explaining the purpose of the study before the consent letter and questionnaire were distributed."
+      },
+      {
+        "text": "質問票の構成",
+        "evidence": "Part A is about respondents demographic and Part B is about the construct of the study."
+      }
+    ],
+    "results": [
+      {
+        "text": "Cronbachのα係数/0.939",
+        "evidence": "The Cronbach’s alpha test conducted shows that the overall score was 0.939 indicating high reliability of the items in the instrument."
+      },
+      {
+        "text": "6つの因子を抽出",
+        "evidence": "The factor analysis shows that the TF@Maths produced six factors, namely: mathematics content knowledge, mathematical pedagogical knowledge, general pedagogical knowledge, classroom management skill, mathematics disposition and quality mathematics teacher."
+      },
+      {
+        "text": "62項目の保持",
+        "evidence": "There were 62 items retaining with the factor loadings that was above 0.4."
+      }
+    ]
+  }
+}

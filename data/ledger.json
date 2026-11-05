@@ -1722,6 +1722,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-04 20:21",
       "note": ""
+    },
+    "W2757093712": {
+      "doi": "10.6007/ijarbss/v7-i10/3387",
+      "title": "Validity and Reliability of The Instrument Using Exploratory Factor Analysis and Cronbach’s alpha",
+      "citedBy": 290,
+      "year": "2017",
+      "status": "ready",
+      "titleJa": "数学指導枠組みの信頼性と妥当性を検証する：探索的因子分析による尺度開発",
+      "model": "qwen3.5:9b",
+      "createdAt": "2026-11-05 14:02",
+      "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
     }
   }
 }
