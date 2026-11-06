@@ -1733,6 +1733,17 @@
       "model": "qwen3.5:9b",
       "createdAt": "2026-11-05 14:02",
       "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    },
+    "W2425852787": {
+      "doi": "10.3389/fpsyg.2016.00825",
+      "title": "Are Individual Differences in Arithmetic Fact Retrieval in Children Related to Inhibition?",
+      "citedBy": 120,
+      "year": "2016",
+      "status": "ready",
+      "titleJa": "子供の計算事実の想起における個人差は抑制能力に関連しているか",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-06 19:31",
+      "note": ""
     }
   }
 }

@@ -1,0 +1,114 @@
+{
+  "paper": {
+    "id": "W2425852787",
+    "doi": "10.3389/fpsyg.2016.00825",
+    "title": "Are Individual Differences in Arithmetic Fact Retrieval in Children Related to Inhibition?",
+    "authors": [
+      "Elien Bellon",
+      "Wim Fias",
+      "Bert De Smedt"
+    ],
+    "authorCount": 3,
+    "venue": "Frontiers in Psychology",
+    "volume": "7",
+    "issue": "",
+    "pages": "825",
+    "year": "2016",
+    "citedBy": 120,
+    "url": "https://doi.org/10.3389/fpsyg.2016.00825",
+    "license": "cc-by",
+    "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00825/pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "子供の計算事実の想起における個人差は抑制能力に関連しているか",
+    "sections": {
+      "what": "この研究は、典型的な発達を遂げた小学3年生の児童86名を対象に、計算事実の想起能力と抑制能力の関連を調査したものです。具体的には、算数の基礎となる計算事実の想起能力が、認知的な抑制能力や数値の大きさの処理能力といった要因によってどのように左右されるかを明らかにすることを目的としています。調査では、数値および非数値のストループ課題、教師による質問票、数値の大きさの比較課題、そして加法と乗法の確認課題を用いてデータを収集しました。",
+      "novelty": "先行研究では、抑制能力が数学の成績全般に関連することが示唆されてきましたが、計算事実の想起という特定のスキルに対してどのように関与するかは不明な点が多く残されていました。本研究は、計算事実の想起において、数値の大きさの処理能力というドメイン固有の要因と、抑制能力というドメイン全般の要因の両方を同時に考慮することで、抑制能力が果たす独自の役割を精査しようとした点に特徴があります。これにより、数学スキルの個人差を規定する認知的な要因をより詳細に特定することを目指しています。",
+      "method": "統計手法として、相関分析、回帰分析、およびベイズ分析を組み合わせて用いています。特にベイズ分析を採用した理由は、従来のp値による有意差検定では、帰無仮説に対する証拠の強さを定量化できないという限界があるためです。ベイズ因子を用いることで、特定の予測変数がモデルの適合度にどの程度寄与しているかを「証拠の強さ」として評価しています。また、運動反応時間を制御変数として含めることで、純粋な認知能力の影響を分離するモデルを構築しています。",
+      "validation": "分析の結果、抑制能力と計算事実の想起との間に有意な関連は見られませんでした。ベイズ分析においても、抑制能力を含まないモデルの方がデータと適合する可能性が高いことが示されました。一方で、記号的な数値の大きさの処理能力は、計算事実の想起の非常に強力な予測因子であることが示されました。記号的な処理能力をモデルから除外すると、モデルの適合度が著しく低下したことから、この要因が計算事実の想起における個人差を説明する上で極めて重要な役割を果たしていることが示唆されました。",
+      "implications": "本研究は、計算事実の想起において抑制能力が直接的な役割を果たすという理論的な予測とは異なる結果を示しました。これは、抑制能力が計算事実の習得段階や、特定の障害を持つ児童において異なる役割を果たす可能性を示唆しています。また、計算事実の想起には抑制能力よりも、記号的な数値の大きさの処理能力がより強く寄与している可能性を提示しています。指導のあり方については、計算事実の自動化を支援する上で、数値の大きさの処理能力の育成が重要な鍵となる可能性をこの論文は示唆しています。",
+      "nextLead": "本研究では抑制能力と計算事実の想起の直接的な関連は見られませんでしたが、抑制能力が数学学習の他の側面や、より幼い段階での発達にどのように関与するかを検討することで、より広い文脈での認知機能の役割を理解する道が開かれます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2142887785",
+          "doi": "10.1207/s15326942dn1903_3",
+          "title": "Executive Functioning as a Predictor of Children's Mathematics Ability: Inhibition, Switching, and Working Memory",
+          "authors": [
+            "Rebecca Bull",
+            "Gaia Scerif"
+          ],
+          "authorCount": 2,
+          "venue": "Developmental Neuropsychology",
+          "volume": "19",
+          "issue": "3",
+          "pages": "273–293",
+          "year": "2001",
+          "citedBy": 1500,
+          "url": "https://doi.org/10.1207/s15326942dn1903_3"
+        },
+        "reason": "本研究では抑制能力と計算事実の想起の直接的な関連は見られませんでしたが、抑制能力やワーキングメモリが子供の数学能力の予測因子としてどのように機能するかをより広く検討した研究として、本論文の背景を理解する上で有益です。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "計算事実の想起において、抑制能力は本当に重要な役割を果たしているのでしょうか。最新の研究で、数値の大きさの処理能力との関係を詳しく分析した結果が明らかになりました。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-11-06",
+  "createdAt": "2026-11-06 19:31",
+  "figure": {
+    "target": [
+      {
+        "text": "ベルギーの小学3年生/86名",
+        "evidence": "the final sample comprised 86 typically developing third-graders (46 boys, 40 girls) between 8 years 3 months and 9 years 2 months"
+      },
+      {
+        "text": "通常発達の児童",
+        "evidence": "86 typically developing third-graders"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "抑制スキル",
+        "evidence": "cognitive inhibition (i.e., numerical and non-numerical stroop tasks) and a complementary, more ecologically valid measure of children’s inhibition in the classroom (i.e., teacher questionnaire)"
+      },
+      {
+        "text": "数値の大きさの処理",
+        "evidence": "numerical magnitude processing (i.e., symbolic and nonsymbolic numerical magnitude comparison)"
+      },
+      {
+        "text": "算術事実の想起",
+        "evidence": "arithmetic fact retrieval (i.e., two veriﬁcation tasks)"
+      }
+    ],
+    "measures": [
+      {
+        "text": "ストループ課題/教師質問票",
+        "evidence": "We administered measures of cognitive inhibition (i.e., numerical and non-numerical stroop tasks) and a complementary, more ecologically valid measure of children’s inhibition in the classroom (i.e., teacher questionnaire)"
+      },
+      {
+        "text": "知的能力/運動反応時間",
+        "evidence": "We additionally administered a test of intellectual ability and a motor reaction time task to exclude the possibility that associations between our variables of interest and arithmetic fact retrieval were explained by these confounds."
+      }
+    ],
+    "results": [
+      {
+        "text": "抑制と算術事実の想起/相関なし",
+        "evidence": "This study failed to observe a signiﬁcant association between inhibition and arithmetic fact retrieval."
+      },
+      {
+        "text": "数値の大きさの処理/強い予測因子",
+        "evidence": "symbolic numerical magnitude processing turned out to be a very powerful predictor of arithmetic fact retrieval, as indicated by both frequentist and Bayesian approaches."
+      },
+      {
+        "text": "ベイズ因子/抑制の影響なし",
+        "evidence": "Our results suggested that the data were more likely to occur under a model including no eﬀect for inhibition (Bayes factor 0.35 for numerical stroop and 0.76 for non-numerical stroop)"
+      }
+    ]
+  }
+}
