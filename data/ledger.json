@@ -1744,6 +1744,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-06 19:31",
       "note": ""
+    },
+    "W4405738790": {
+      "doi": "10.1007/s42330-024-00336-y",
+      "title": "The Effect of Concrete and Virtual Manipulative Blended Instruction on Mathematical Achievement for Elementary School Students",
+      "citedBy": 69,
+      "year": "2024",
+      "status": "ready",
+      "titleJa": "小学校の児童の数学的達成度に対する具体的および仮想的操作用具の混合指導の効果",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-07 10:02",
+      "note": ""
     }
   }
 }
