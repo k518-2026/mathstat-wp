@@ -81,5 +81,43 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-11-07",
-  "createdAt": "2026-11-07 10:02"
+  "createdAt": "2026-11-07 10:02",
+  "figure": {
+    "target": [
+      {
+        "text": "パキスタンの小学5年生/87名",
+        "evidence": "The total number of randomly selected participants from “intact sections” was 87."
+      },
+      {
+        "text": "実験群45名/統制群42名",
+        "evidence": "Among them, 45 students formed the experimental group whereas 42 constituted the control group."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "実験群/（混合操作教材）",
+        "evidence": "one section from a public school was chosen as a control group and the other section classified as an experimental group."
+      },
+      {
+        "text": "統制群/（伝統的教授法）",
+        "evidence": "While the experimental group received the intervention, the control group continued with traditional instruction."
+      }
+    ],
+    "measures": [
+      {
+        "text": "事前テスト/事後テスト",
+        "evidence": "The mathematical achievement of fifth graders was measured through mathematics achievement test (MAT), developed, and piloted for this particular study, in a pre–posttest design."
+      },
+      {
+        "text": "12週間の介入指導",
+        "evidence": "The intervention lasted 12 weeks, with sessions held approximately four times per week, each lasting 45–50 min."
+      }
+    ],
+    "results": [
+      {
+        "text": "ANCOVA/有意な差あり",
+        "evidence": "a statistically significant difference emerged between the control and experimental groups concerning post-intervention (posttest) scores on the mathematics achievement test, as evidenced by F(1, 84) = 429.415, p < 0.001"
+      }
+    ]
+  }
 }
