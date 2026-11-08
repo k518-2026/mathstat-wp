@@ -1,0 +1,123 @@
+{
+  "paper": {
+    "id": "W4404541810",
+    "doi": "10.29333/ejmste/15622",
+    "title": "Enhancing students’ achievement in mathematics education in the 21st century through technology integration, collaborative learning, and student motivation: The mediating role of student interest",
+    "authors": [
+      "Samuel Kwaku Boadu",
+      "Francis Ohene Boateng"
+    ],
+    "authorCount": 2,
+    "venue": "Eurasia Journal of Mathematics Science and Technology Education",
+    "volume": "20",
+    "issue": "11",
+    "pages": "em2534",
+    "year": "2024",
+    "citedBy": 76,
+    "url": "https://doi.org/10.29333/ejmste/15622",
+    "license": "cc-by",
+    "pdfUrl": "https://www.ejmste.com/download/enhancing-students-achievement-in-mathematics-education-in-the-21st-century-through-technology-15622.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "ガーナの高校生385人を対象に、ICT活用や協調学習が数学の学習到達度に与える影響を構造方程式モデリングにより統計的に分析した実証研究であるため。",
+    "titleJa": "21世紀の数学教育におけるテクノロジー統合、協調学習、学習モチベーションによる生徒の学力向上：生徒の興味の媒介役割",
+    "sections": {
+      "what": "ガーナのクマシ市にある6つの高級中学校（高校）の生徒385人を対象に、テクノロジーの活用、協調学習、学習モチベーションが、数学における学習到達度に与える影響を調べることを目的とした研究です。研究チームは目的抽出法や層化抽出法などの標本抽出手法を用いてデータを収集し、生徒の意識を5段階の尺度で測定しました。さらに、生徒の数学に対する興味が、テクノロジー活用や協調学習、モチベーションと学力との関係を仲介（媒介）しているかどうかについても統計的に検討しています。",
+      "novelty": "本研究は、これまで個別に検証されることが多かったテクノロジー統合、協調学習、学習モチベーションという3つの重要要因を単一のモデルにまとめ、さらに生徒の「興味」が与える媒介効果に着目した点に独自性があります。特に発展途上国であるガーナの地方都市における高校生の数学学力の低迷という実地的な課題に対し、これらの要因が直接的・間接的にどう作用するかを統合的な理論フレームワークに基づいて明らかにし、教育現場への具体的提言を目指している点が重要視されています。",
+      "method": "統計手法として、複雑な要因間の相関や因果関係を同時に検証できる構造方程式モデリングを採用しています。分析に先立ち、尺度の信頼性を確認するためのクロンプラグのアルファ係数算出や、尺度の妥当性を評価するための探索的因子分析および確認的因子分析を実施しました。具体的には、テクノロジー活用、協調学習、モチベーションの3つの独立変数、媒介変数としての生徒の興味、従属変数としての学力という5つの潜在変数を設定し、それらの直接効果と間接効果（媒介効果）を数値化しています。",
+      "validation": "構造方程式モデリングによる検証の結果、テクノロジー活用（パス係数0.366）および協調学習（パス係数0.201）は、生徒の数学学力に対して統計的に有意な直接のプラス効果を示しました。一方で、学習モチベーション（パス係数0.026）の直接効果は統計的に有意ではありませんでした。また、生徒の興味を介した間接効果はいずれの経路でも信頼区間にゼロを含んでおり、興味の媒介効果は確認されませんでした。適合度指標（CFI 0.952、RMSEA 0.044など）は良好なモデル適合を示しています。",
+      "implications": "この研究結果は、数学の学力を向上させるためには、単に生徒の意欲や興味を高めようとするだけでなく、テクノロジーを活用した授業設計や生徒同士が協力して問題を解く協調学習を直接授業に取り入れることが有効である可能性を示唆しています。ただし、本研究は特定の地域（ガーナ・クマシ市）における横断的なアンケート調査に基づく相関的分析にとどまるため、これらの指導法を導入すれば必ず学力が向上するという因果関係を断定するものではありません。",
+      "nextLead": "授業におけるテクノロジー活用や協調学習の理論的背景、またはデジタル技術を用いた学習が学力や問題解決能力に及ぼす影響をさらに深掘りしたい場合、以下の論文が参考になります。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2123184471",
+          "doi": "10.1111/j.1467-9620.2006.00684.x",
+          "title": "Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge",
+          "authors": [
+            "Punya Mishra",
+            "Matthew J. Koehler"
+          ],
+          "authorCount": 2,
+          "venue": "Teachers College Record The Voice of Scholarship in Education",
+          "volume": "108",
+          "issue": "6",
+          "pages": "1017–1054",
+          "year": "2006",
+          "citedBy": 16253,
+          "url": "https://doi.org/10.1111/j.1467-9620.2006.00684.x"
+        },
+        "reason": "本論文の理論的枠組みとして引用されているTPACK（テクノロジー・指導法・内容に関する知識）の概念を提示した原典であり、ICT活用の指導法を深める上で不可欠な文献です。"
+      },
+      {
+        "paper": {
+          "id": "W7136059473",
+          "doi": "10.12973/jmste.3.1.1",
+          "title": "Examining the Mediating Roles of Digital Literacy and Critical Thinking in the Relationship between ChatGPT Use and University Students’ Mathematical Problem-Solving Efficacy",
+          "authors": [
+            "Isaac Davor",
+            "Francis Ohene Boateng",
+            "Prince Osei-Tutu",
+            "Aaron Osei Bosompem"
+          ],
+          "authorCount": 6,
+          "venue": "Journal of mathematics science and technology education",
+          "volume": "3",
+          "issue": "1",
+          "pages": "1–15",
+          "year": "2026",
+          "citedBy": 12,
+          "url": "https://doi.org/10.12973/jmste.3.1.1"
+        },
+        "reason": "本研究を引用した後続研究であり、生成AIなどの最新テクノロジー活用が数学の問題解決能力に与える影響や媒介要因を詳細に分析しており、発展的理解に役立ちます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "ICT活用や協調学習は高校生の数学の学力を本当に高めるのでしょうか。ガーナの高校生を対象とした最新調査から、学力向上に直結する要素を探ります。",
+    "warnings": [],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-08",
+  "createdAt": "2026-11-08 15:04",
+  "figure": {
+    "target": [
+      {
+        "text": "ガーナ・クマシの/高校生385名",
+        "evidence": "A descriptive survey was used in the study, and 385 student samples from six senior high schools in the Kumasi metropolis were used."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "技術統合・協調学習・/学習動機と興味・成就度",
+        "evidence": "The current study consists of three independent variables (TCI, COL, SMO), one mediator (STI) and (ACH) as the dependent variable."
+      }
+    ],
+    "measures": [
+      {
+        "text": "目的・層化・単純/無作為抽出による選定",
+        "evidence": "A survey questionnaire was administered using purposive, stratified, and simple random sampling techniques to select students from the six schools."
+      },
+      {
+        "text": "5段階リッカート尺度/質問紙の実施",
+        "evidence": "A 5-point Likert scale, ranging from 1 (strongly disagree) to 5 (strongly agree), was used to score section B."
+      }
+    ],
+    "results": [
+      {
+        "text": "技術統合の数学学力への/正の直接効果（β=0.366）",
+        "evidence": "students’ achievement in mathematics was positively impacted by TCI (β = 0.366; C.R. = 3.873)."
+      },
+      {
+        "text": "協調学習の数学学力への/正の直接効果（β=0.201）",
+        "evidence": "COL has a direct effect on students’ achievement in mathematics (β = 0.201; CR= 0.059)."
+      },
+      {
+        "text": "学習動機の数学学力への/非有意な効果（β=0.026）",
+        "evidence": "The impact of SMO on mathematics achievement was directly favorable but statistically insignificant (β = 0.026; CR = 0.375)."
+      }
+    ]
+  }
+}

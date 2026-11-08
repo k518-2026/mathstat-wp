@@ -1755,6 +1755,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-07 10:02",
       "note": ""
+    },
+    "W4404541810": {
+      "doi": "10.29333/ejmste/15622",
+      "title": "Enhancing students’ achievement in mathematics education in the 21st century through technology integration, collaborative learning, and student motivation: The mediating role of student interest",
+      "citedBy": 76,
+      "year": "2024",
+      "status": "ready",
+      "titleJa": "21世紀の数学教育におけるテクノロジー統合、協調学習、学習モチベーションによる生徒の学力向上：生徒の興味の媒介役割",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-08 15:04",
+      "note": ""
     }
   }
 }
