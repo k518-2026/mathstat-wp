@@ -1766,6 +1766,17 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-08 15:04",
       "note": ""
+    },
+    "W4392811664": {
+      "doi": "10.1007/s10639-024-12614-1",
+      "title": "Understanding pre-service mathematics teachers’ intentions to use GeoGebra: The role of technological pedagogical content knowledge",
+      "citedBy": 71,
+      "year": "2024",
+      "status": "ready",
+      "titleJa": "数学教員志望生におけるGeoGebra利用意図の理解：テクノロジー・ペダゴジー・内容知識（TPACK）の役割",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-09 10:00",
+      "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
     }
   }
 }

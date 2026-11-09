@@ -1,0 +1,153 @@
+{
+  "paper": {
+    "id": "W4392811664",
+    "doi": "10.1007/s10639-024-12614-1",
+    "title": "Understanding pre-service mathematics teachers’ intentions to use GeoGebra: The role of technological pedagogical content knowledge",
+    "authors": [
+      "Esra YILDIZ",
+      "İbrahim Arpacı"
+    ],
+    "authorCount": 2,
+    "venue": "Education and Information Technologies",
+    "volume": "29",
+    "issue": "14",
+    "pages": "18817–18838",
+    "year": "2024",
+    "citedBy": 71,
+    "url": "https://doi.org/10.1007/s10639-024-12614-1",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10639-024-12614-1.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "本研究は、トルコの数学教員志望生205名を対象に、GeoGebraの継続利用意図に影響を与える要因を構造方程式モデリングにより統計的に分析した実証研究であるため。",
+    "titleJa": "数学教員志望生におけるGeoGebra利用意図の理解：テクノロジー・ペダゴジー・内容知識（TPACK）の役割",
+    "sections": {
+      "what": "本研究は、トルコの数学教員志望生205名（平均年齢22.87歳）を対象に、動的幾何学ソフトウェアであるGeoGebraを将来の数学授業で継続的に利用する意図がどのような要因によって影響を受けるかを調べた研究です。技術受容の統合モデル（UTAUT）の主要概念と、教員の専門的知識を表すモデル（TPACK）を統合した新しいリサーチモデルを構築し、教員志望生の意識と知識構造の影響を包括的に検証しています。",
+      "novelty": "従来の研究では、技術受容モデルと教員の知識枠組み（TPACK）はそれぞれ個別に研究されることが多く、教員志望生による特定の数学ソフトウェア（GeoGebra）の継続利用意図とTPACKとの関連性を直接つないだ研究は限られていました。本研究は、これら2つの理論的枠組みを統合したモデルを提示し、教員のテクノロジー・ペダゴジー・内容知識がソフトウェア受容要因とどう関連して継続利用意図を予測するかを明らかにした点に着目の価値があります。",
+      "method": "研究手法として構造方程式モデリング（SEM）を採用し、要因間の構造的関係を分析しました。予測因子として、性能期待（利用による指導向上への期待）、努力期待（操作の容易さ）、社会的影響（指導者や同僚からの期待）、促進条件（技術的環境や支援体制）、およびTPACK（テクノロジー・ペダゴジー・内容知識）の5つを設定しました。これらの因子が、従属変数であるGeoGebraの継続利用意図に与える強さを同時に推計できるモデルを評価しています。",
+      "validation": "確証的因子分析および構造方程式モデリングによりモデルの妥当性を評価した結果、モデルは十分な適合度（CMIN/DF = 1.711, CFI = 0.946, RMSEA = 0.059）を示しました。分析の結果、努力期待（標準化係数0.347、p < 0.001）、TPACK（標準化係数0.307、p < 0.001）、社会的影響（標準化係数0.305、p < 0.001）、性能期待（標準化係数0.179、p = 0.02）の4つが継続利用意図を有意に予測しました。一方で促進条件の影響は有意ではありませんでした（p = 0.421）。これらの要因で継続利用意図の分散の40%が説明されます。",
+      "implications": "本研究は、教員養成課程において単にソフトウェアの基本操作を教えるだけでなく、数学の指導法や内容とテクノロジーを結びつけた知識（TPACK）を高める育成カリキュラムが重要であることを示唆しています。また、使いやすさの感覚や周囲からの後押しも利用意図を高める重要な要素となります。ただし、本研究はトルコの特定の教員志望生による自己報告データに基づく相関分析であり、特定の指導法の効果を直接実験したものではない点や地域的な限界に配慮する必要があります。",
+      "nextLead": "本研究を踏まえ、教員の知識枠組みであるTPACKの原典や、実際にGeoGebra等のデジタル教材を活用した生徒側の学習成果への影響を調べる研究へと読み進めると理解が深まります。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2123184471",
+          "doi": "10.1177/016146810610800610",
+          "title": "Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge",
+          "authors": [
+            "Punya Mishra",
+            "Matthew J. Koehler"
+          ],
+          "authorCount": 2,
+          "venue": "Teachers College Record The Voice of Scholarship in Education",
+          "volume": "108",
+          "issue": "6",
+          "pages": "1017–1054",
+          "year": "2006",
+          "citedBy": 16267,
+          "url": "https://doi.org/10.1177/016146810610800610"
+        },
+        "reason": "TPACKの概念的枠組みを提案した原典論文であり、本研究で測定された教員知識の理論的基礎を詳しく知るために適しています。"
+      },
+      {
+        "paper": {
+          "id": "W4403844050",
+          "doi": "10.1007/s10639-024-13105-z",
+          "title": "Factors affecting teachers’ use of digital resources for teaching mathematical cultures: An extended UTAUT-2 model",
+          "authors": [
+            "Jinhai Liu",
+            "Qin Dai",
+            "Jihe Chen"
+          ],
+          "authorCount": 3,
+          "venue": "Education and Information Technologies",
+          "volume": "30",
+          "issue": "6",
+          "pages": "7659–7688",
+          "year": "2024",
+          "citedBy": 50,
+          "url": "https://doi.org/10.1007/s10639-024-13105-z"
+        },
+        "reason": "本研究を引用した後続研究であり、数学教育におけるデジタル資源の利用要因を拡張モデルで分析しているため比較検討に役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W4402544449",
+          "doi": "10.1007/s10639-024-13021-2",
+          "title": "Interactive GeoGebra applets to improving students’ learning performance in e-book-based learning environment",
+          "authors": [
+            "Serpil Yorgancı",
+            "M. Petek Subaşı"
+          ],
+          "authorCount": 2,
+          "venue": "Education and Information Technologies",
+          "volume": "30",
+          "issue": "5",
+          "pages": "5477–5500",
+          "year": "2024",
+          "citedBy": 17,
+          "url": "https://doi.org/10.1007/s10639-024-13021-2"
+        },
+        "reason": "GeoGebraアプリが実際の生徒の数学学習パフォーマンスに与える影響を検証した後続研究で、教員の利用意図から生徒への学習効果への展開を学べます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "GeoGebra",
+        "wikiTitle": "GeoGebra"
+      }
+    ],
+    "links": [],
+    "intro": "教員志望生が数学授業で動的幾何学ソフトGeoGebraを使い続ける決め手は何でしょうか。TPACKと技術受容モデルを統合し、継続利用意図に与える影響を分析した研究を紹介します。",
+    "warnings": [
+      "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-09",
+  "createdAt": "2026-11-09 10:00",
+  "figure": {
+    "target": [
+      {
+        "text": "トルコの/教員志望者205名",
+        "evidence": "Through “Structural Equation Modeling” (SEM) applied to data collected from 205 pre-service teachers, the research model was evaluated."
+      },
+      {
+        "text": "参加者の/平均年齢22.87歳",
+        "evidence": "The study involved 205 pre-service teachers (PSTs) with an average age of 22.87 years ± 5.68 (ranging from 18 to 47)."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "UTAUT構成概念/とTPACK",
+        "evidence": "This study introduced a novel research model by extending the “Unified Theory of Acceptance and Use of Technology” (UTAUT) with TPACK."
+      },
+      {
+        "text": "GeoGebraの/継続的使用意図",
+        "evidence": "significantly predicted the continuous use intention of GeoGebra."
+      }
+    ],
+    "measures": [
+      {
+        "text": "5件法による/オンライン調査",
+        "evidence": "The online survey comprised three categories: demographics, 17 five-point Likert items"
+      }
+    ],
+    "results": [
+      {
+        "text": "構造方程式モデリング/による分析",
+        "evidence": "The study utilized a “Structural Equation Modeling” (SEM) approach to assess the study hypotheses."
+      },
+      {
+        "text": "努力期待が使用意図に/影響（β=0.347）",
+        "evidence": "had a positively significant impact on the continuous intention to use (CIU) of GeoGebra (β = 0.179, p = .02; β = 0.347, p < .001; β = 0.305, p < .001)"
+      },
+      {
+        "text": "促進条件の影響は/非有意（p=0.421）",
+        "evidence": "However, the findings did not support H4, as the link between “Facilitating Conditions” (FC) and CIU was not significant (p = .421)."
+      }
+    ]
+  }
+}
