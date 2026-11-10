@@ -1777,6 +1777,17 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-09 10:00",
       "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    },
+    "W4319264452": {
+      "doi": "10.29333/ejmste/12938",
+      "title": "The effect of teaching conceptual knowledge on students’ achievement, anxiety about, and attitude toward mathematics",
+      "citedBy": 73,
+      "year": "2023",
+      "status": "ready",
+      "titleJa": "概念的知識の指導が生徒の数学における成績・不安・態度に与える影響",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-10 12:17",
+      "note": "論文の本文に見つからない数値: 001"
     }
   }
 }

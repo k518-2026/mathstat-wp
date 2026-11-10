@@ -1,0 +1,84 @@
+{
+  "paper": {
+    "id": "W4319264452",
+    "doi": "10.29333/ejmste/12938",
+    "title": "The effect of teaching conceptual knowledge on students’ achievement, anxiety about, and attitude toward mathematics",
+    "authors": [
+      "Yusuf Fakhraddin Hussein",
+      "Csaba Csíkos"
+    ],
+    "authorCount": 2,
+    "venue": "Eurasia Journal of Mathematics Science and Technology Education",
+    "volume": "19",
+    "issue": "2",
+    "pages": "em2226",
+    "year": "2023",
+    "citedBy": 73,
+    "url": "https://doi.org/10.29333/ejmste/12938",
+    "license": "cc-by",
+    "pdfUrl": "https://www.ejmste.com/download/the-effect-of-teaching-conceptual-knowledge-on-students-achievement-anxiety-about-and-attitude-12938.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "イラクの中学生200名を対象に、概念的理解に焦点を当てた数学指導が成績、数学不安、態度に与える影響を反復測定分散分析によって統計的に検証した実証研究であるため。",
+    "titleJa": "概念的知識の指導が生徒の数学における成績・不安・態度に与える影響",
+    "sections": {
+      "what": "本研究は、数学の指導において手続き的知識だけでなく概念的理解を深める指導を行うことが、生徒の数学の成績、数学に対する不安、および態度にどのような影響を与えるかを調査した研究です。イラクのエルビルにある公立中学校3校から選ばれた8年生（14歳）の生徒200名（女子110名、男子90名）を対象としています。5週間にわたり、概念的理解に焦点を当てた指導を行う実験群（100名）と、従来のやり方で手続き的指導を行う対照群（100名）に分けて検証を行いました。",
+      "novelty": "先行研究では概念的理解の重要性や数学不安と成績の負の相関が指摘されていましたが、中学生年代を対象に概念指導が成績・不安・態度の3要素へ同時に与える影響を実験的に検証した研究は限られていました。本研究は、イラクのクルド地域というこれまで調査が少なかった地域の中学校において、学力や社会経済的背景を揃えた統制群と比較し、概念指導が感情的・認知的な側面に及ぼす複合的な効果や性別による違いまでを実証的に明らかにした点に独自性があります。",
+      "method": "研究手法には実験的アプローチが採用されました。学校ごとの生徒を前年度の成績に基づき均等になるよう同規模の群に分け、ランダムに実験群と対照群に割り当てました。実験群では専門用語の正確な使用や概念同士の結合を重視した指導を実施し、対照群では計算手順の暗記を中心とする従来型の指導を行いました。5週間（計25コマ）の介入前後で、25問のテストによる成績、20項目の数学態度尺度、9項目の簡略版数学不安尺度を測定し、混合分散分析を用いて分析しました。",
+      "validation": "実験前後での比較結果として、数学の成績において実験群と対照群の間に統計的に有意な差が示されました（p < .001）。具体的には、実験群のテスト平均点は69.0%から72.1%に向上したのに対し、対照群は69.4%から69.9%にとどまりました。さらに、性別と介入時期との3要因交互作用も有意であり（F(1, 196)=4.52, p=0.035, partial eta squared=0.023）、特に女子において成績向上と不安の低減効果（F(1, 198)=117, p<0.001）が顕著であることが示されました。",
+      "implications": "この研究は、公式や解法の暗記に頼る手続き的指導から、概念の繋がりや意味を理解させる指導へ切り替えることで、生徒の学習意欲を高め数学不安を和らげられる可能性を示唆しています。ただし、本研究の対象はエルビルの公立中学校の生徒200名という限定的なサンプルであり、実験期間も5週間と短期的です。そのため、異なる地域や異なる学年においても同様の効果が得られるかや、長期的にも効果が持続するかについては更なる検証が必要です。",
+      "nextLead": "概念的な指導が認知面や感情面に与える影響を理解した後は、数学不安が脳の認知資源やワーキングメモリに及ぼす影響や、不安が学力低下を引き起こすメカニズムについての研究を読むと理解がさらに深まります。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W1997301264",
+          "doi": "10.5951/jresematheduc.21.1.0033",
+          "title": "The Nature, Effects, and Relief of Mathematics Anxiety",
+          "authors": [
+            "Ray Hembree"
+          ],
+          "authorCount": 1,
+          "venue": "Journal for Research in Mathematics Education",
+          "volume": "21",
+          "issue": "1",
+          "pages": "33",
+          "year": "1990",
+          "citedBy": 2249,
+          "url": "https://doi.org/10.5951/jresematheduc.21.1.0033"
+        },
+        "reason": "数学不安の概念やその測定、学力への影響に関する初期の広範なメタ分析であり、本研究の背景理論を理解する上で有益な文献です。"
+      },
+      {
+        "paper": {
+          "id": "W2163533896",
+          "doi": "10.1037/0096-3445.130.2.224",
+          "title": "The relationships among working memory, math anxiety, and performance",
+          "authors": [
+            "Mark H. Ashcraft",
+            "Elizabeth P. Kirk"
+          ],
+          "authorCount": 2,
+          "venue": "Journal of Experimental Psychology General",
+          "volume": "130",
+          "issue": "2",
+          "pages": "224–237",
+          "year": "2001",
+          "citedBy": 1649,
+          "url": "https://doi.org/10.1037/0096-3445.130.2.224"
+        },
+        "reason": "数学不安がどのような認知メカニズム（ワーキングメモリの阻害など）を通じてパフォーマンスに影響を与えるかを実験的に検証しており、本研究の結果を深掘りするのに役立ちます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "数学の指導で「なぜそうなるのか」という概念的理解を深めると、生徒の成績だけでなく数学への不安や態度にも良い変化が生まれるのでしょうか。中学生200名を対象とした実験研究を紹介します。",
+    "warnings": [
+      "論文の本文に見つからない数値: 001"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-10",
+  "createdAt": "2026-11-10 12:17"
+}
