@@ -80,5 +80,43 @@
     "model": "gemini-3.6-flash"
   },
   "asOf": "2026-11-10",
-  "createdAt": "2026-11-10 12:17"
+  "createdAt": "2026-11-10 12:17",
+  "figure": {
+    "target": [
+      {
+        "text": "エルビル市の公立校/3校",
+        "evidence": "Purposive sampling was used to select three public secondary schools in Erbil, in the Kurdistan region of Iraq."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "実験群/概念的指導",
+        "evidence": "In the experimental (treatment) groups, mathematics instructors focused on teaching for conceptual understanding."
+      },
+      {
+        "text": "統制群/従来型指導",
+        "evidence": "In the control groups, they taught mathematics subjects conventionally."
+      }
+    ],
+    "measures": [
+      {
+        "text": "事前・事後テスト/学力",
+        "evidence": "Pre- and post-tests were conducted on both groups of students (Appendix A)."
+      },
+      {
+        "text": "態度尺度/不安尺度",
+        "evidence": "Mathematics attitude scale (MAS) developed by Aiken and Dreger (1961) and abbreviated math anxiety scale (AMAS) developed by Hopko et al. (2003) were adopted"
+      }
+    ],
+    "results": [
+      {
+        "text": "実験群/事後72.1点",
+        "evidence": "Post-grade Experimental 100 72.1"
+      },
+      {
+        "text": "統制群/事後69.9点",
+        "evidence": "Control 100 69.9"
+      }
+    ]
+  }
 }
