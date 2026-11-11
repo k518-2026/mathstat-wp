@@ -1788,6 +1788,17 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-10 12:17",
       "note": "論文の本文に見つからない数値: 001"
+    },
+    "W4386247094": {
+      "doi": "10.1016/j.heliyon.2023.e19539",
+      "title": "Cognitive and socioeconomic factors that influence the mathematical problem-solving skills of students",
+      "citedBy": 69,
+      "year": "2023",
+      "status": "ready",
+      "titleJa": "生徒の数学的問題解決力に影響を与える認知力および社会経済的要因",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-11 12:00",
+      "note": ""
     }
   }
 }

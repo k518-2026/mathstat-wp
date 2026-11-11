@@ -1,0 +1,152 @@
+{
+  "paper": {
+    "id": "W4386247094",
+    "doi": "10.1016/j.heliyon.2023.e19539",
+    "title": "Cognitive and socioeconomic factors that influence the mathematical problem-solving skills of students",
+    "authors": [
+      "Ijtihadi Kamilia Amalina",
+      "Tibor Vidákovich"
+    ],
+    "authorCount": 2,
+    "venue": "Heliyon",
+    "volume": "9",
+    "issue": "9",
+    "pages": "e19539",
+    "year": "2023",
+    "citedBy": 69,
+    "url": "https://doi.org/10.1016/j.heliyon.2023.e19539",
+    "license": "cc-by-nc-nd",
+    "pdfUrl": "http://publicatio.bibl.u-szeged.hu/28238/1/1-s2.0-S2405844023067476-main2_compressed.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "インドネシアの中学生1067名を対象に、数学の問題解決力に与える認知・社会経済的要因を構造方程式モデリングにより統計的に分析した実証研究であるため。",
+    "titleJa": "生徒の数学的問題解決力に影響を与える認知力および社会経済的要因",
+    "sections": {
+      "what": "理科の文脈を含む数学的問題解決力に影響を与える要因を明らかにするため、インドネシアの中学校7年生から9年生の生徒1,067名を対象に調査を行った研究です。認知的な要因として数学の領域固有の既習知識、理科の背景知識、文章理解力を測定し、社会経済的要因として両親の教育水準および世帯収入を評価しました。これらの多様な要因が、生徒の数学的問題解決力に対してどのように直接的あるいは間接的に作用しているのかを構造方程式モデリングを用いて一体的に検証しています。",
+      "novelty": "従来の研究では、数学の問題解決力に対して領域固有の知識や読解力、社会経済的地位といった個別の要因が独立して検討される傾向があり、すべての独立変数を同時に扱った統合的な検証は不足していました。また、保護者の教育水準と世帯収入のような密接に関連する社会経済的指標が互いにどのように影響し合って問題解決力に結びつくかという構造的経路も明確ではありませんでした。本研究は、これら複数の認知要因と家庭環境要因の相互関係を包括的なモデルとして提示した点に新規性があります。",
+      "method": "研究手法には構造方程式モデリングを採用しています。この統計手法を選ぶことで、複数の要因が問題解決力へ与える直接的な影響だけでなく、他の変数を介した間接的な影響も同時に分析することが可能となります。具体的には、理論に基づいた初期モデルを作成し、適合度指標に基づいて有意でない経路を削除した修正モデルを構築・比較しました。モデル内では、読解力が理科知識を媒介して問題解決力に及ぼす影響や、両親の教育水準が世帯収入を介して及ぼす間接的な影響などの経路が設定されています。",
+      "validation": "修正モデルの分析結果から、設定された変数の適合度指標（CFIが0.932、TLIが0.915、RMSEAが0.088、SRMRが0.076）が妥当な基準を満たすことが確認されました。分析の結果、数学的問題解決力に最も強い直接的影響を与えていたのは数学の領域固有の既習知識（標準化係数0.478）であり、次いで理科の背景知識（0.373）、文章理解力（0.227）の順でした。一方、両親の教育水準は直接的な影響を示さず、世帯収入（0.062）を介して間接的に影響を与えることが示されました。",
+      "implications": "本研究は、文脈付きの数学的問題解決力を高めるためには、基礎的な数学知識の定着が最優先であり、加えて理科知識や文章解読力の育成も重要であることを示唆しています。ただし本調査は相関関係や因果モデルに基づく分析であり、特定の指導法の効果を直接確認した実験研究ではない点に留意が必要です。また、データの収集がインドネシアの特定の地域に限られている点や、理科成績の測定方法に関する制限、変数の標準偏差が大きい点などが論文内の限界として挙げられています。",
+      "nextLead": "数学的問題解決力における文章理解の役割や、保護者の教育水準が子供の発達に与える影響について理解を深めるため、以下の関連文献を読むことが有効です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W3153428726",
+          "doi": "10.1177/0963721421993116",
+          "title": "The Role of Parent Educational Attainment in Parenting and Children’s Development",
+          "authors": [
+            "Pamela E. Davis-Kean",
+            "Lauren Adams Tighe",
+            "Nicholas E. Waters"
+          ],
+          "authorCount": 3,
+          "venue": "Current Directions in Psychological Science",
+          "volume": "30",
+          "issue": "2",
+          "pages": "186–192",
+          "year": "2021",
+          "citedBy": 413,
+          "url": "https://doi.org/10.1177/0963721421993116"
+        },
+        "reason": "本論文で両親の教育水準が世帯収入等を介して影響することが議論されたことに関連し、保護者の教育水準が養育や子供の発達に与える役割を深く理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W2171626238",
+          "doi": "10.1080/01443410701708228",
+          "title": "The association between mathematical word problems and reading comprehension",
+          "authors": [
+            "Piia Vilenius-Tuohimaa",
+            "Kaisa Aunola",
+            "Jari‐Erik Nurmi"
+          ],
+          "authorCount": 3,
+          "venue": "Educational Psychology",
+          "volume": "28",
+          "issue": "4",
+          "pages": "409–426",
+          "year": "2008",
+          "citedBy": 374,
+          "url": "https://doi.org/10.1080/01443410701708228"
+        },
+        "reason": "本論文で数学的問題解決力に対する読解力や文章理解の直接的・間接的影響が確認されたことに関連し、算数・数学の文章題と読解力の関係性を理解するのに適しています。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "構造方程式モデリング",
+        "wikiTitle": "構造方程式モデリング"
+      },
+      {
+        "term": "相関関係",
+        "wikiTitle": "相関"
+      },
+      {
+        "term": "標準偏差",
+        "wikiTitle": "標準偏差"
+      }
+    ],
+    "links": [
+      {
+        "term": "構造方程式モデリング",
+        "title": "共分散構造分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%B1%E5%88%86%E6%95%A3%E6%A7%8B%E9%80%A0%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "相関関係",
+        "title": "相関",
+        "url": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%96%A2"
+      },
+      {
+        "term": "標準偏差",
+        "title": "標準偏差",
+        "url": "https://ja.wikipedia.org/wiki/%E6%A8%99%E6%BA%96%E5%81%8F%E5%B7%AE"
+      }
+    ],
+    "intro": "理科の文脈を含む数学の問題解決力には、どの要因が最も強く影響するのでしょうか。中学生約1000人のデータから、認知能力と家庭環境の直接的・間接的な影響を紐解きます。",
+    "warnings": [],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-11",
+  "createdAt": "2026-11-11 12:00",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシアの/中学生1067名",
+        "evidence": "The data considered in this study included tests, documents, and a questionnaire from grade seven to nine students (n = 1067)."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "認知要因と/SES要因",
+        "evidence": "In this study, we investigated the cognitive (i.e., mathematics domain-specific prior knowledge (DSPK), science background knowledge, and text comprehension skills) and socioeconomic status (SES) (i.e., parents’ educational level and family income) factors that affect students’ mathematical problem-solving skills."
+      }
+    ],
+    "measures": [
+      {
+        "text": "テストとアンケートの/実施",
+        "evidence": "On the first day, the students were asked to take the science-related mathematical problem-solving test for 3 h (with a break in every hour) using a paper-based technique. Then, on another day, the students used an online platform to take the mathematics DSPK test (90 min) and SES questionnaire (15 min)."
+      },
+      {
+        "text": "学校からの/成績データの収集",
+        "evidence": "In addition, the students’ grades for science and text comprehension were requested from the schools."
+      }
+    ],
+    "results": [
+      {
+        "text": "構造方程式/モデリング解析",
+        "evidence": "In addition, a theoretical model was constructed using structural equation modeling."
+      },
+      {
+        "text": "数学DSPKの/影響（r=0.478）",
+        "evidence": "The most influential variable was mathematics DSPK (r = 0.478)."
+      },
+      {
+        "text": "文章理解力の/直接と間接効果",
+        "evidence": "The results for Model 1 demonstrated that text comprehension skills affected mathematical problem-solving skills both directly (r = 0.228) and indirectly (r = 0.109)."
+      }
+    ]
+  }
+}
