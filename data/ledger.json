@@ -1799,6 +1799,44 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-11 12:00",
       "note": ""
+    },
+    "W2899923204": {
+      "doi": "10.1371/journal.pone.0206211",
+      "title": "Roles of metacognition and achievement goals in mathematical modeling competency: A structural equation modeling analysis",
+      "citedBy": 73,
+      "year": "2018",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-12 12:00"
+    },
+    "W2005155684": {
+      "doi": "10.1016/j.learninstruc.2015.03.004",
+      "title": "Early language and executive skills predict variations in number and arithmetic skills in children at family-risk of dyslexia and typically developing controls",
+      "citedBy": 70,
+      "year": "2015",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-12 12:00"
+    },
+    "W3024250123": {
+      "doi": "10.33751/jppguseda.v3i1.2014",
+      "title": "PENGARUH MINAT BELAJAR SISWA TERHADAP HASIL BELAJAR MATA PELAJARAN MATEMATIKA",
+      "citedBy": 66,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-12 12:00"
+    },
+    "W4400370541": {
+      "doi": "10.1016/j.tsc.2024.101591",
+      "title": "Role of creative self-efficacy and perceived creativity as predictors of mathematical creative thinking: Mediating role of computational thinking",
+      "citedBy": 60,
+      "year": "2024",
+      "status": "ready",
+      "titleJa": "数学的創造的思考力の予測因子としての創造的自己効力感と認識された創造性の役割：計算的思考の媒介効果",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-12 12:00",
+      "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
     }
   }
 }

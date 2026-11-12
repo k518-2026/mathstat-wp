@@ -1,0 +1,154 @@
+{
+  "paper": {
+    "id": "W4400370541",
+    "doi": "10.1016/j.tsc.2024.101591",
+    "title": "Role of creative self-efficacy and perceived creativity as predictors of mathematical creative thinking: Mediating role of computational thinking",
+    "authors": [
+      "Suherman Suherman",
+      "Tibor Vidákovich"
+    ],
+    "authorCount": 2,
+    "venue": "Thinking Skills and Creativity",
+    "volume": "53",
+    "issue": "",
+    "pages": "101591",
+    "year": "2024",
+    "citedBy": 60,
+    "url": "https://doi.org/10.1016/j.tsc.2024.101591",
+    "license": "cc-by-nc-nd",
+    "pdfUrl": "http://publicatio.bibl.u-szeged.hu/34342/1/Suherman_Roleofcreativeself-efficacyandperceivedcreativityaspredictorsofmathematicalcreativethinking-Mediatingroleofcomputationalthinking.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "インドネシアの中学生896名を対象に、数学的創造的思考力に対する計算的思考や創造的自己効力感などの影響を構造方程式モデリングにより実証分析した研究であるため。",
+    "titleJa": "数学的創造的思考力の予測因子としての創造的自己効力感と認識された創造性の役割：計算的思考の媒介効果",
+    "sections": {
+      "what": "インドネシアのランプン州にある中学校の生徒896名（女子52.9%、男子47.1%）を対象に、数学的創造的思考力の予測因子を検討した横断研究です。本研究は、生徒が捉える自身の創造性（認識された創造性）、創造的作業に対する自信（創造的自己効力感）、および問題解決に必要な計算的思考が、どのように相互に関連して数学的創造的思考力に影響を与えるかを明らかにすることを目的としています。",
+      "novelty": "これまでにも認識された創造性や創造的自己効力感、計算的思考が生徒の21世紀型スキルに与える影響は個別に検討されてきました。しかし、これらの概念がどのように組み合わさり、数学的創造的思考力へ影響を与えるかという包括的な構造モデルは十分に解明されていませんでした。本研究は、民族数学の要素を取り入れたテストを用いて数学的創造力を測定し、計算的思考の媒介的な役割を一体的に検証した点に独自性があります。",
+      "method": "データ収集には各種の質問紙調査と、民族数学に基づいた数学的創造的思考力テストが用いられました。統計解析には構造方程式モデリング（SEM）が採用され、仮説モデルの適合度や標準化パス係数を算出しました。統計手法としてSEMを選んだ理由は、観察できない潜在変数間の複雑な直接的・間接的な関係を同時に検証できるためです。適合度指標にはCFIやTLI、RMSEAなどが用いられ、モデルの妥当性が慎重に評価されています。",
+      "validation": "分析の結果、構造方程式モデルの適合度は許容水準を満たしていました（CFIは0.91、TLIは0.94、RMSEAは0.04）。分析において計算的思考は数学的創造的思考力に対して正の関連を示し、認識された創造性も直接的・間接的に正の影響を与えていました。一方で、創造的自己効力感は数学的創造的思考力に対して負の直接的関連を示す（標準化パス係数マイナス0.097）という意外な結果が得られました。また、計算的思考は重要な媒介役を果たしていました。",
+      "implications": "本研究の結果は、学校の数学教育において計算的思考や認識された創造性を育む指導を取り入れることの重要性を示唆しています。ただし、本研究は横断的な相関研究であるため、指導法による直接的な因果効果を確定するものではありません。また、創造的自己効力感が負の関連を示した点については、認知負荷などの影響が考えられるため、今後の縦断研究や介入研究を通じて詳細なメカニズムを検証する必要があります。",
+      "nextLead": "本研究を踏まえ、さらにSTEM教育での実践や、AI活用、創造的自己効力感が数学的思考力に及ぼす影響について学びを深めたい方は、以下の関連文献を読むことをお勧めします。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W4412654092",
+          "doi": "10.3390/jintelligence13070088",
+          "title": "The Role of STEM Teaching in Education: An Empirical Study to Enhance Creativity and Computational Thinking",
+          "authors": [
+            "Suherman Suherman",
+            "Tibor Vidákovich",
+            "Mujib Mujib",
+            "Hidayatulloh Hidayatulloh"
+          ],
+          "authorCount": 6,
+          "venue": "Journal of Intelligence",
+          "volume": "13",
+          "issue": "7",
+          "pages": "88",
+          "year": "2025",
+          "citedBy": 44,
+          "url": "https://doi.org/10.3390/jintelligence13070088"
+        },
+        "reason": "本論文を引用した後続研究であり、STEM指導が創造性と計算的思考をどのように向上させるかを実証的に検証しているため、教育実践への応用を理解するのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W4411277409",
+          "doi": "10.1016/j.yjoc.2025.100099",
+          "title": "Ethnomathematical test for mathematical creative thinking",
+          "authors": [
+            "Suherman Suherman",
+            "Tibor Vidákovich"
+          ],
+          "authorCount": 2,
+          "venue": "Journal of Creativity",
+          "volume": "35",
+          "issue": "2",
+          "pages": "100099",
+          "year": "2025",
+          "citedBy": 24,
+          "url": "https://doi.org/10.1016/j.yjoc.2025.100099"
+        },
+        "reason": "本論文で用いられた民族数学に基づく創造的思考力テストに注目した後続研究であり、文化的要素を取り入れた評価手法の詳細を知る上で有益です。"
+      },
+      {
+        "paper": {
+          "id": "W4409678372",
+          "doi": "10.1080/00220671.2025.2495329",
+          "title": "Creative self-efficacy, attitudes, creative style, and environmental literacy: Promoting mathematical creative thinking",
+          "authors": [
+            "Suherman Suherman",
+            "Tibor Vidákovich"
+          ],
+          "authorCount": 2,
+          "venue": "The Journal of Educational Research",
+          "volume": "118",
+          "issue": "5",
+          "pages": "475–485",
+          "year": "2025",
+          "citedBy": 20,
+          "url": "https://doi.org/10.1080/00220671.2025.2495329"
+        },
+        "reason": "本論文で負の関連が見られた創造的自己効力感を含む多様な心理的要因が、数学的創造的思考力をどのように促進するかを追究しているため、比較検討に適しています。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "構造方程式モデリング",
+        "wikiTitle": "構造方程式モデリング"
+      },
+      {
+        "term": "自己効力感",
+        "wikiTitle": "自己効力感"
+      },
+      {
+        "term": "横断研究",
+        "wikiTitle": "横断研究"
+      },
+      {
+        "term": "計算的思考",
+        "wikiTitle": "計算論的思考"
+      }
+    ],
+    "links": [],
+    "intro": "計算的思考や自己効力感は中学生の数学的創造性にどう影響するのでしょうか。インドネシアでの調査から見えてきた意外な関係を紹介します。",
+    "warnings": [
+      "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-12",
+  "createdAt": "2026-11-12 12:00",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシアの/中学生896名",
+        "evidence": "The participants consisted of 896 secondary school students (52.9 % female; 47.1 % male) in Indonesia who were asked to complete a series of online questionnaires and tests."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "知覚された創造性と/自己効力感および計算論的思考",
+        "evidence": "Thus, this cross-sectional study examines the predictors of such thinking by specifically focusing on the roles of perceived creativity, creative selfefficacy, and computational thinking."
+      }
+    ],
+    "measures": [
+      {
+        "text": "オンラインでの/質問紙およびテストの実施",
+        "evidence": "The participants consisted of 896 secondary school students (52.9 % female; 47.1 % male) in Indonesia who were asked to complete a series of online questionnaires and tests."
+      },
+      {
+        "text": "20項目による/MCTBEテストの測定",
+        "evidence": "This test, developed by Suherman & Vida´kovich, 2024a, included 20 items related to fluency, flexibility, elaboration, and originality."
+      }
+    ],
+    "results": [
+      {
+        "text": "計算論的思考による/媒介作用の確認",
+        "evidence": "As for the empirical model, it revealed that computational thinking plays a mediating role, connecting perceived creativity and creative self-efficacy to mathematical creative thinking."
+      }
+    ]
+  }
+}
