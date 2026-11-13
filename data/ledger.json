@@ -1837,6 +1837,35 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-12 12:00",
       "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    },
+    "W2156209818": {
+      "doi": "10.1080/15391523.2012.10782598",
+      "title": "TPACK Development in Teacher Education: A Longitudinal Study of Preservice Teachers in a Secondary M.A.Ed. Program",
+      "citedBy": 238,
+      "year": "2012",
+      "status": "skipped",
+      "note": "テーマ外: 算数・数学の学習が対象ではない（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-11-13 11:08"
+    },
+    "W4387653792": {
+      "doi": "10.1016/j.tine.2023.100217",
+      "title": "Foundations for future math achievement: Early numeracy, home learning environment, and the absence of math anxiety",
+      "citedBy": 59,
+      "year": "2023",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-13 11:08"
+    },
+    "W3047896217": {
+      "doi": "10.1007/s10212-020-00491-4",
+      "title": "Transfer effects of mathematical literacy: an integrative longitudinal study",
+      "citedBy": 56,
+      "year": "2020",
+      "status": "ready",
+      "titleJa": "数学的リテラシーの転移効果：統合的な縦断的研究",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-13 11:13",
+      "note": ""
     }
   }
 }
