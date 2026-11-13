@@ -81,5 +81,35 @@
     "model": "gemma4:12b"
   },
   "asOf": "2026-11-13",
-  "createdAt": "2026-11-13 11:13"
+  "createdAt": "2026-11-13 11:13",
+  "figure": {
+    "target": [
+      {
+        "text": "ドイツの/中学生",
+        "evidence": "N = 4001 secondary school students in Grades 5 to 9"
+      },
+      {
+        "text": "NEPSの/縦断データ",
+        "evidence": "We examined our research questions using data from the National Educational Panel Study (NEPS)"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "予測変数/と結果変数",
+        "evidence": "predictive effects of math grade, mathematical self-concept, reasoning, and prior achievement on ML"
+      }
+    ],
+    "measures": [
+      {
+        "text": "ML/と他領域の能力",
+        "evidence": "A mathematical competence assessment was administered consisting of 24 items in Grade 5 and 34 items in Grade 9."
+      }
+    ],
+    "results": [
+      {
+        "text": "構造方程式モデル/の適合",
+        "evidence": "The model produced a good fit of the data (cf., Hu and Bentler 1999), with RMSEA = .035, CFI = .998, and TLI = .982."
+      }
+    ]
+  }
 }
