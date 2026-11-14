@@ -1866,6 +1866,35 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-13 11:13",
       "note": ""
+    },
+    "W3037811231": {
+      "doi": "10.46244/numeracy.v7i1.1038",
+      "title": "PENINGKATAN KEMAMPUAN KOMUNIKASI MATEMATIS DAN DISPOSISI MATEMATIS SISWA SMP MELALUI MODEL PROBLEM BASED LEARNING",
+      "citedBy": 56,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-14 10:12"
+    },
+    "W4213219357": {
+      "doi": "10.1080/2331186x.2022.2034240",
+      "title": "The effect of GeoGebra on STEM students learning trigonometric functions",
+      "citedBy": 55,
+      "year": "2022",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-14 10:12"
+    },
+    "W2533375324": {
+      "doi": "10.1007/s10649-016-9735-2",
+      "title": "Teachers’ pedagogical content knowledge and mathematics achievement of students in Peru",
+      "citedBy": 54,
+      "year": "2016",
+      "status": "ready",
+      "titleJa": "ペルーにおける教員の指導的教科知識と児童の数学学力",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-14 10:13",
+      "note": "論文の本文に見つからない数値: 0.28 / 意味が合わないリンクを外した: 指導的教科知識→教科教育学"
     }
   }
 }

@@ -1,0 +1,163 @@
+{
+  "paper": {
+    "id": "W2533375324",
+    "doi": "10.1007/s10649-016-9735-2",
+    "title": "Teachers’ pedagogical content knowledge and mathematics achievement of students in Peru",
+    "authors": [
+      "Santiago Cueto",
+      "Juan León",
+      "M. Alejandra Sorto",
+      "Alejandra Miranda"
+    ],
+    "authorCount": 4,
+    "venue": "Educational Studies in Mathematics",
+    "volume": "94",
+    "issue": "3",
+    "pages": "329–345",
+    "year": "2016",
+    "citedBy": 54,
+    "url": "https://doi.org/10.1007/s10649-016-9735-2",
+    "license": "",
+    "pdfUrl": "https://ora.ox.ac.uk/objects/uuid:9353b84e-8fda-4c05-b160-ea394a97fff1/files/m66c5112309184eaddfce33a2e99adac3"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "ペルーの小学生および教員を対象に、教員の指導的教科知識（PCK）と児童の数学学力や社会経済的背景との関連を統計的に分析した実証研究であるため。",
+    "titleJa": "ペルーにおける教員の指導的教科知識と児童の数学学力",
+    "sections": {
+      "what": "本研究は、ペルーの小学4年生児童312名と担当教員145名を対象に、国際縦断調査のデータを用いて教員の指導的教科知識と児童の数学学力との関連を分析したものです。指導的教科知識の中でも、特に児童の誤答パターンや思考過程を理解・予測する能力に着目し、発展途上国における教育格差や児童の背景要因が学力に与える影響について具体的に解明することを目的としています。",
+      "novelty": "発展途上国における教員の指導的教科知識に関する実証研究は非常に少なく、生後1歳時点からの長期的縦断データと教員データを結びつけた分析は極めて稀です。児童の初期の社会経済的状況や就学前の認知能力を統計的に考慮した上で、教員の能力が学力に及ぼす影響や、不平等な教育システムにおける教員配置の実態を明らかにした点に独自性があります。",
+      "method": "分析には、学校単位の相関を補正するクラスター分散推定量を用いた最小二乗回帰分析を採用しました。児童の生後1歳および8歳時点の資産指数、母親の教育水準、5歳時点の認知能力スコア、学校の地域や設置形態を制御変数として設定しました。教員の知識レベルは連続スコアおよび上位25パーセンタイルの閾値ダミー変数としてモデル化し、教員属性との関係はロジスティック回帰で検証しました。",
+      "validation": "生後1歳時点の家計資産や母親の教育水準は、小学4年生時の担当教員の知識スコアと統計的に有意な正の相関（資産相関0.21、母親教育相関0.28）を示しました。教員の知識スコアを閾値化したモデルでは、一定基準以上の知識を持つ教員が学力と正の関連を示したものの、他の教員変数を加えた最終モデルでは有意差が見られなくなりました。児童の学力を最も強く予測した変数は、生後1歳時点の家計資産でした。",
+      "implications": "本研究は、恵まれた背景を持つ児童に質の高い教員が配置されやすい不平等な状況を示唆しています。ただし、観察データに基づく分析であるため、教員の知識が直接学力を高めるという因果関係を確定するものではありません。教員教育や配置政策の議論において重要ですが、最富裕層地区が標本から除外されている点などの限界を踏まえて解釈する必要があります。",
+      "nextLead": "教員の指導的教科知識の概念や測定手法について知見を深めたい場合や、他国における数学学力との関連を検証した比較研究に関心がある場合は、以下の文献に進むと理解が深まります。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2140369176",
+          "doi": "10.3102/0013189x015002004",
+          "title": "Those Who Understand: Knowledge Growth in Teaching",
+          "authors": [
+            "Lee S. Shulman"
+          ],
+          "authorCount": 1,
+          "venue": "Educational Researcher",
+          "volume": "15",
+          "issue": "2",
+          "pages": "4–14",
+          "year": "1986",
+          "citedBy": 22252,
+          "url": "https://doi.org/10.3102/0013189x015002004"
+        },
+        "reason": "Shulmanによる本論文は、教員の指導的教科知識（PCK）の概念を初めて提唱した基礎的文献であり、本研究の理論的枠組みを理解する上で不可欠です。"
+      },
+      {
+        "paper": {
+          "id": "W2122081458",
+          "doi": "10.3102/00028312042002371",
+          "title": "Effects of Teachers’ Mathematical Knowledge for Teaching on Student Achievement",
+          "authors": [
+            "Heather C. Hill",
+            "Brian Rowan",
+            "Deborah Loewenberg Ball"
+          ],
+          "authorCount": 3,
+          "venue": "American Educational Research Journal",
+          "volume": "42",
+          "issue": "2",
+          "pages": "371–406",
+          "year": "2005",
+          "citedBy": 2971,
+          "url": "https://doi.org/10.3102/00028312042002371"
+        },
+        "reason": "アメリカの小学校における教員の指導的教科知識と児童の数学力向上との関連を検証した研究であり、本研究の統計的アプローチや結果を比較する上で参考になります。"
+      },
+      {
+        "paper": {
+          "id": "W2141462352",
+          "doi": "10.3102/0002831209345157",
+          "title": "Teachers’ Mathematical Knowledge, Cognitive Activation in the Classroom, and Student Progress",
+          "authors": [
+            "Jürgen Baumert",
+            "Mareike Kunter",
+            "Werner Friedrich Blum",
+            "Martin Brunner"
+          ],
+          "authorCount": 10,
+          "venue": "American Educational Research Journal",
+          "volume": "47",
+          "issue": "1",
+          "pages": "133–180",
+          "year": "2009",
+          "citedBy": 2341,
+          "url": "https://doi.org/10.3102/0002831209345157"
+        },
+        "reason": "中学校の数学指導における教員のPCKが学習到達度に与える影響と、授業中の認知の活性化が果たす媒介的役割を解明しており、指導の質に関する知見を深められます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "指導的教科知識",
+        "wikiTitle": "教科教育学"
+      },
+      {
+        "term": "最小二乗回帰分析",
+        "wikiTitle": "最小二乗法"
+      }
+    ],
+    "links": [
+      {
+        "term": "最小二乗回帰分析",
+        "title": "最小二乗法",
+        "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%97%E6%B3%95"
+      }
+    ],
+    "intro": "教員の指導的教科知識は子どもの数学力にどう影響するのでしょうか。ペルーの縦断データから、幼児期の家庭環境と教員の質、そして学力との複雑な関連を紐解きます。",
+    "warnings": [
+      "論文の本文に見つからない数値: 0.28",
+      "意味が合わないリンクを外した: 指導的教科知識→教科教育学"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-14",
+  "createdAt": "2026-11-14 10:13",
+  "figure": {
+    "target": [
+      {
+        "text": "ペルーの小学4年生312名",
+        "evidence": "There are 312 students grouped in 102 schools; on average, there are two students per teacher."
+      },
+      {
+        "text": "対象児童の/算数教師",
+        "evidence": "In this study we focus only on Young Lives children who were in fourth grade at the time of data collection and their mathematics teachers."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "教師のPCK/（内容と生徒に関する知識）",
+        "evidence": "Specifically, in this study we analyze one of the areas of PCK which is knowledge of content and students."
+      },
+      {
+        "text": "児童の算数学力",
+        "evidence": "Achievement of children was measured through a test that focused on number and number sense"
+      }
+    ],
+    "measures": [
+      {
+        "text": "児童向け算数テスト/（全37項目）",
+        "evidence": "The test had 37 items, which were taken from national standardized tests"
+      },
+      {
+        "text": "教師向けPCKテスト/（最終10項目）",
+        "evidence": "We dropped four items with poor item-total correlation (below 0.10), for a final set of 10 items."
+      }
+    ],
+    "results": [
+      {
+        "text": "OLS回帰分析による/PCKと学力の相関（r=0.17）",
+        "evidence": "With regard to our second research question, we correlated teachers´ PCK and student achievement in mathematics and the coefficient was 0.17 (p<.05)."
+      }
+    ]
+  }
+}
