@@ -1,0 +1,120 @@
+{
+  "paper": {
+    "id": "W4205473246",
+    "doi": "10.3389/fpsyg.2021.797807",
+    "title": "Creative Mathematical Reasoning: Does Need for Cognition Matter?",
+    "authors": [
+      "Bert Jonsson",
+      "Julia Mossegård",
+      "Johan Lithner",
+      "Linnea Karlsson Wirebring"
+    ],
+    "authorCount": 4,
+    "venue": "Frontiers in Psychology",
+    "volume": "12",
+    "issue": "",
+    "pages": "797807",
+    "year": "2022",
+    "citedBy": 52,
+    "url": "https://doi.org/10.3389/fpsyg.2021.797807",
+    "license": "cc-by",
+    "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2021.797807/pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "創造的な数学的推論：認知欲求は影響を与えるか？",
+    "sections": {
+      "what": "この研究は、数学学習における創造的な数学的推論（CMR）とアルゴリズム的推論（AR）が、生徒の数学的パフォーマンスにどのような影響を与えるかを調査したものです。スウェーデンの高校生137名を対象に、CMRとARのそれぞれを用いた練習セッションを実施し、その後のテスト成績を比較しました。特に、個人の内的な認知動機である「認知欲求（NFC）」や「ワーキングメモリ容量（WMC）」といった認知特性が、これらの推論スタイルの効果にどのように関与しているかを明らかにすることを目的としています。",
+      "novelty": "先行研究では、CMRを用いた練習がARを用いた練習よりも優れた成績をもたらすことが示されてきましたが、個人の内的な認知動機がどの程度役割を果たしているかはこれまで十分に検討されていませんでした。本研究の新規性は、認知欲求（NFC）という個人の思考に対する好みを変数として導入した点にあります。NFCが高い生徒が、CMRのような「苦労を伴う」創造的な問題解決プロセスにおいて、より複雑で正確な戦略を選択する傾向があるのかを検証したことが重要な位置づけとなっています。",
+      "method": "統計手法として、構造方程式モデリング（SEM）を用いて、ワーキングメモリ容量（WMC）と認知欲求（NFC）がテスト成績に与える影響を分析しました。WMCは、操作スパン、ブロックスパン、デジットスパンの3つの指標から構成される潜在変数として設定されました。また、NFCは30項目の質問紙から算出された指標です。分析では、WMCとNFCの相関を制御しながら、CMRグループとARグループのそれぞれにおいて、これらの変数がテスト成績をどの程度予測するのかをモデル化しました。",
+      "validation": "分析の結果、CMRグループの生徒はARグループよりも高いテスト成績を収めたことが確認されました。構造方程式モデリングでは、WMCはグループに関わらず数学的パフォーマンスの強い予測因子であることが示されました。特筆すべき点として、NFCはCMRグループの成績を予測する有意な因子となりましたが、ARグループでは有意な予測因子とはなりませんでした。これは、CMRが要求する「苦労を伴うプロセス」において、個人の認知的な動機付けが重要な役割を果たしていることを示唆する結果です。",
+      "implications": "この研究は、数学の概念的理解を深めるためには、生徒に独自の解決策を構築させるための時間と機会を提供し、あえて「苦労」を経験させることが有効である可能性を示唆しています。また、認知欲求が高い生徒ほど複雑な戦略を好む傾向がある一方で、WMCが成績に与える影響はグループ間で共通していることから、CMRの指導は認知能力の高さに関わらず効果的である可能性も示されています。ただし、サンプルサイズや対象が高校生に限定されていることなど、一般化には注意が必要です。",
+      "nextLead": "本研究では、創造的な数学的推論における認知動機の影響が示されました。次に、この創造的な推論の枠組みそのものや、脳活動を用いたより詳細なメカニズムの解明へと関心を広げることが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2058371183",
+          "doi": "10.1007/s10649-007-9104-2",
+          "title": "A research framework for creative and imitative reasoning",
+          "authors": [
+            "Johan Lithner"
+          ],
+          "authorCount": 1,
+          "venue": "Educational Studies in Mathematics",
+          "volume": "67",
+          "issue": "3",
+          "pages": "255–276",
+          "year": "2007",
+          "citedBy": 672,
+          "url": "https://doi.org/10.1007/s10649-007-9104-2"
+        },
+        "reason": "本論文の基礎となっている「創造的推論と模倣的推論の枠組み」を定義した重要な研究であり、CMRの概念を深く理解するために不可欠な文献です。"
+      },
+      {
+        "paper": {
+          "id": "W4304688394",
+          "doi": "10.1016/j.tine.2022.100193",
+          "title": "An fMRI intervention study of creative mathematical reasoning: behavioral and brain effects across different levels of cognitive ability",
+          "authors": [
+            "Linnea Karlsson Wirebring",
+            "Carola Wiklund‐Hörnqvist",
+            "Sara Stillesjö",
+            "Carina Granberg"
+          ],
+          "authorCount": 8,
+          "venue": "Trends in Neuroscience and Education",
+          "volume": "29",
+          "issue": "",
+          "pages": "100193",
+          "year": "2022",
+          "citedBy": 21,
+          "url": "https://doi.org/10.1016/j.tine.2022.100193"
+        },
+        "reason": "CMRと脳活動の関係をfMRIを用いて調査した研究であり、本論文で示唆された認知プロセスが脳内でどのように機能しているかを知るための発展的な研究です。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "数学の「苦労」は学習に良いのか？創造的な推論と個人の認知動機の関係を、構造方程式モデリングで解き明かした研究を紹介します。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-11-15",
+  "createdAt": "2026-11-15 10:03",
+  "figure": {
+    "target": [
+      {
+        "text": "スウェーデン/の高校生",
+        "evidence": "137 Swedish upper secondary students from the north of Sweden"
+      },
+      {
+        "text": "参加者137名",
+        "evidence": "the experiment included 137 Swedish upper secondary students"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "WMC/とNFC",
+        "evidence": "assessing the influence of NFC and WMC on math performance independent of group and separately for CMR and AR groups"
+      }
+    ],
+    "measures": [
+      {
+        "text": "WMC/とNFCの測定",
+        "evidence": "The working memory measures and the NFC survey were completed 1 week before the practice session"
+      }
+    ],
+    "results": [
+      {
+        "text": "NFCはCMR群で有意",
+        "evidence": "NFC was a significant predictor of math performance for the CMR group but not for the AR group"
+      },
+      {
+        "text": "WMCは両群で有意",
+        "evidence": "WMC was a strong predictor of math performance independent of group"
+      }
+    ]
+  }
+}

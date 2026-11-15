@@ -1895,6 +1895,26 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-14 10:13",
       "note": "論文の本文に見つからない数値: 0.28 / 意味が合わないリンクを外した: 指導的教科知識→教科教育学"
+    },
+    "W3215431207": {
+      "doi": "10.17275/per.22.46.9.2",
+      "title": "The role of technological pedagogical content knowledge and social cognitive variables in teachers’ technology integration behaviors",
+      "citedBy": 54,
+      "year": "2021",
+      "status": "skipped",
+      "note": "テーマ外: 算数・数学の学習が対象ではない（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-11-15 10:01"
+    },
+    "W4205473246": {
+      "doi": "10.3389/fpsyg.2021.797807",
+      "title": "Creative Mathematical Reasoning: Does Need for Cognition Matter?",
+      "citedBy": 52,
+      "year": "2022",
+      "status": "ready",
+      "titleJa": "創造的な数学的推論：認知欲求は影響を与えるか？",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-15 10:03",
+      "note": ""
     }
   }
 }
