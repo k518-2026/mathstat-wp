@@ -1,0 +1,178 @@
+{
+  "paper": {
+    "id": "W3004415170",
+    "doi": "10.22460/infinity.v9i1.p41-48",
+    "title": "THE EFFECT OF GEOGEBRA-ASSISTED DIRECT INSTRUCTION ON STUDENTS’ SELF-EFFICACY AND SELF-REGULATION",
+    "authors": [
+      "Zetriuslita Zetriuslita",
+      "Nofriyandi Nofriyandi",
+      "Endang Istikomah"
+    ],
+    "authorCount": 3,
+    "venue": "Infinity Journal",
+    "volume": "9",
+    "issue": "1",
+    "pages": "41",
+    "year": "2020",
+    "citedBy": 52,
+    "url": "https://doi.org/10.22460/infinity.v9i1.p41-48",
+    "license": "cc-by-sa",
+    "pdfUrl": "http://e-journal.stkipsiliwangi.ac.id/index.php/infinity/article/download/1603/942"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "大学の数学教育においてGeoGebraを活用した直接教授法が学生の自己効力感や自己調整学習に与える影響を、t検定やマン・ホイットニーのU検定を用いて検証した量的実証研究であるため。",
+    "titleJa": "GeoGebraを活用した直接教授法が学生の自己効力感および自己調整学習に与える影響",
+    "sections": {
+      "what": "GeoGebraを活用した直接教授法が、大学で解析幾何学を学ぶ学生の自己効力感と自己調整学習に与える影響を調査した研究です。インドネシアの大学で解析幾何学を受講する数学教育専攻の3学期生84名を対象とし、クラス単位で実験群42名と対照群42名に分けました。実験群にはGeoGebraを用いた直接教授法を、対照群には従来の授業者中心の学習を適用し、アンケートによる定量データとインタビューによる定性データを組み合わせた混合研究法を用いて効果を分析しています。",
+      "novelty": "数学教育におけるICTツールの活用は概念理解の促進として研究されてきましたが、直接教授法とGeoGebraの組み合わせが、知識面だけでなく受講生の自己効力感や自己調整学習といった心理的・主体的側面へ及ぼす影響を評価した点に着目しています。動的な視覚化ツールを導入することで、単に理解を助けるだけでなく、自力で学習を調整する姿勢や数学的課題に対する自己信頼感をどのように育めるかを定量・定性の両面から明らかにした点に位置づけがあります。",
+      "method": "研究デザインには非同等統制群前測後測デザインという準実験デザインを採用しました。アンケートで収集した順序データは連続的な区間データへ変換した上で分析されています。自己調整学習の達成度については、データの正規性と同質性が確認されたため独立標本のt検定を用いて両群の平均値を比較しました。一方、自己効力感のデータは正規性の仮定を満たさなかったため、非パラメトリック手法であるマン・ホイットニーのU検定を適用して群間の差を統計的に検証しています。",
+      "validation": "検証の結果、自己調整学習の事後テストにおいて実験群の平均値は117.74（標準偏差8.36）、対照群の平均値は102.48（標準偏差10.03）となり、t検定により実験群が有意に高いことが示されました（有意水準0.05未満）。また、自己効力感においても実験群の平均順位が50.75、対照群が34.25となり、マン・ホイットニーのU検定で有意な差が確認されました（有意確率0.002）。インタビューでも、GeoGebraによる図形の視覚化が理解と確信を深め、自発的な試行錯誤を促すという応答が得られています。",
+      "implications": "幾何学概念の示演や視覚化にGeoGebraを用いた直接教授法を取り入れることで、学生の自己効力感や自己調整学習の達成を促進できる可能性が示唆されています。ただし、本研究は特定の大学の解析幾何学講義における計84名のサンプルに基づいているため、他の分野や異なる学年の生徒・学生へ一般化するには慎重な検討が必要です。また、介入が長期的な算数・数学の学力や学習成果にどのように結びつくかについての継続的な調査が残された課題とされています。",
+      "nextLead": "動的視覚化ツールの導入が自己効力感や自己調整学習に与える影響について理解を深めた後は、自己調整学習理論の基礎的な枠組みや、ICTメディアを活用した他の指導法に関する研究へと関心を広げることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2062251337",
+          "doi": "10.1037/0022-0663.81.3.329",
+          "title": "A social cognitive view of self-regulated academic learning",
+          "authors": [
+            "Barry J. Zimmerman"
+          ],
+          "authorCount": 1,
+          "venue": "Journal of Educational Psychology",
+          "volume": "81",
+          "issue": "3",
+          "pages": "329–339",
+          "year": "1989",
+          "citedBy": 4363,
+          "url": "https://doi.org/10.1037/0022-0663.81.3.329"
+        },
+        "reason": "本論文の理論的背景となっている自己調整学習のモデルを提示した原典であり、学生の自己観察や目標設定のメカニズムを深く理解するのに適しているため。"
+      },
+      {
+        "paper": {
+          "id": "W2064754950",
+          "doi": "10.1207/s15326985ep2501_2",
+          "title": "Self-Regulated Learning and Academic Achievement: An Overview",
+          "authors": [
+            "Barry J. Zimmerman"
+          ],
+          "authorCount": 1,
+          "venue": "Educational Psychologist",
+          "volume": "25",
+          "issue": "1",
+          "pages": "3–17",
+          "year": "1990",
+          "citedBy": 4090,
+          "url": "https://doi.org/10.1207/s15326985ep2501_2"
+        },
+        "reason": "本論文で参照されている自己調整学習と学業成就に関する体系的な概説論文であり、自己効力感や自己調整が学習成果に結びつく理論的基盤を理解するのに有益であるため。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "GeoGebra",
+        "wikiTitle": "GeoGebra"
+      },
+      {
+        "term": "自己効力感",
+        "wikiTitle": "自己効力感"
+      },
+      {
+        "term": "自己調整学習",
+        "wikiTitle": "自己調整学習"
+      },
+      {
+        "term": "混合研究法",
+        "wikiTitle": "混合研究法"
+      },
+      {
+        "term": "準実験",
+        "wikiTitle": "実験計画法"
+      },
+      {
+        "term": "t検定",
+        "wikiTitle": "t検定"
+      },
+      {
+        "term": "マン・ホイットニーのU検定",
+        "wikiTitle": "マン・ホイットニーのU検定"
+      }
+    ],
+    "links": [
+      {
+        "term": "GeoGebra",
+        "title": "GeoGebra",
+        "url": "https://ja.wikipedia.org/wiki/GeoGebra"
+      },
+      {
+        "term": "自己効力感",
+        "title": "自己効力感",
+        "url": "https://ja.wikipedia.org/wiki/%E8%87%AA%E5%B7%B1%E5%8A%B9%E5%8A%9B%E6%84%9F"
+      },
+      {
+        "term": "自己調整学習",
+        "title": "自己調整学習",
+        "url": "https://ja.wikipedia.org/wiki/%E8%87%AA%E5%B7%B1%E8%AA%BF%E6%95%B4%E5%AD%A6%E7%BF%92"
+      },
+      {
+        "term": "t検定",
+        "title": "T検定",
+        "url": "https://ja.wikipedia.org/wiki/T%E6%A4%9C%E5%AE%9A"
+      },
+      {
+        "term": "マン・ホイットニーのU検定",
+        "title": "マン・ホイットニーのU検定",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%B3%E3%83%BB%E3%83%9B%E3%82%A4%E3%83%83%E3%83%88%E3%83%8B%E3%83%BC%E3%81%AEU%E6%A4%9C%E5%AE%9A"
+      }
+    ],
+    "intro": "GeoGebraを採り入れた直接教授法は、大学生の数学における自己効力感や自己調整学習を高めるのでしょうか。実験群と対照群の比較検証結果を紹介します。",
+    "warnings": [
+      "論文の本文に見つからない数値: 84",
+      "意味が合わないリンクを外した: 準実験→実験計画法"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-16",
+  "createdAt": "2026-11-16 10:01",
+  "figure": {
+    "target": [
+      {
+        "text": "第3学期の数学教育専攻学生/（各群42名）",
+        "evidence": "Jumlah sampel and each class totaling 42 people."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "GeoGebra活用の直接指導/（実験群）",
+        "evidence": "The experimental group applied Geogebra Assisted Direct Instruction while the control group used conventional learning."
+      },
+      {
+        "text": "従来型の学習/（統制群）",
+        "evidence": "The experimental group applied Geogebra Assisted Direct Instruction while the control group used conventional learning."
+      }
+    ],
+    "measures": [
+      {
+        "text": "自己効力感と/自己調整の質問紙調査",
+        "evidence": "The research instruments were self-efficacy and self-regulation questionnaires for quantitative data and interview sheets for qualitative data."
+      },
+      {
+        "text": "学生へのインタビュー調査",
+        "evidence": "The research instruments were self-efficacy and self-regulation questionnaires for quantitative data and interview sheets for qualitative data."
+      }
+    ],
+    "results": [
+      {
+        "text": "自己調整のt検定/（平均差15.26で実験群が優位）",
+        "evidence": "this can be seen from the mean difference of 15.26."
+      },
+      {
+        "text": "自己効力感の検定/（平均差4.43で実験群が優位）",
+        "evidence": "the result of Self efficacy of experimental class students is better than control class students, the difference is 4.43."
+      }
+    ]
+  }
+}

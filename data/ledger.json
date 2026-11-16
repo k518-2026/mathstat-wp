@@ -1915,6 +1915,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-15 10:03",
       "note": ""
+    },
+    "W3004415170": {
+      "doi": "10.22460/infinity.v9i1.p41-48",
+      "title": "THE EFFECT OF GEOGEBRA-ASSISTED DIRECT INSTRUCTION ON STUDENTS’ SELF-EFFICACY AND SELF-REGULATION",
+      "citedBy": 52,
+      "year": "2020",
+      "status": "ready",
+      "titleJa": "GeoGebraを活用した直接教授法が学生の自己効力感および自己調整学習に与える影響",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-16 10:01",
+      "note": "論文の本文に見つからない数値: 84 / 意味が合わないリンクを外した: 準実験→実験計画法"
     }
   }
 }
