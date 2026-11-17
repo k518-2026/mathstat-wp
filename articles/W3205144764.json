@@ -1,0 +1,171 @@
+{
+  "paper": {
+    "id": "W3205144764",
+    "doi": "10.1007/s11858-021-01315-5",
+    "title": "The relation between creativity and students’ performance on different types of geometrical problems in elementary education",
+    "authors": [
+      "Eveline M. Schoevers",
+      "Evelyn H. Kroesbergen",
+      "Mirjam Moerbeek",
+      "Paul P. M. Leseman"
+    ],
+    "authorCount": 4,
+    "venue": "ZDM",
+    "volume": "54",
+    "issue": "1",
+    "pages": "133–147",
+    "year": "2021",
+    "citedBy": 61,
+    "url": "https://doi.org/10.1007/s11858-021-01315-5",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s11858-021-01315-5.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "本研究はオランダの小学生1665名を対象に創造性と異なるタイプの幾何問題の成績との関連を多変量マルチレベル分析により検証した量的実証研究であるため。",
+    "titleJa": "初等教育における創造性と様々な種類の幾何問題に対する児童の成績との関係",
+    "sections": {
+      "what": "オランダの小学校3年生から6年生の児童1665名（50校、92学級）を対象に、一般的な創造性と異なるタイプの幾何問題の解答成績との関係を調べた研究です。幾何問題として、定型的な閉じられた問題（4問）、美術作品に関連した非定型的な閉じられた問題（6問）、複数の解答を求める非定型的な開かれた問題（5問）の3種類を使用し、創造性の評価には描画による創造的思考テストを用いました。児童の視空間作業記憶や一般的な数学能力なども考慮して分析が行われました。",
+      "novelty": "先行研究では非定型問題や開かれた問題が創造性を引き出す可能性が指摘されていましたが、問題のタイプごとの創造性の役割を直接かつ体系的に比較した研究はほとんどありませんでした。本研究は「開かれているか／閉じられているか」および「定型的か／非定型的か」という2つの軸で問題を分類し、領域全般的な創造性がそれぞれのタイプの幾何問題の解法にどの程度関与しているかを同一標本で検証した点で新規性と重要性があります。",
+      "method": "データが「問題（レベル1）」「児童（レベル2）」「学級（レベル3）」という階層構造を持つこと、および3つの問題タイプの成績が互いに相関することを考慮し、多変量マルチレベル分析を適用しています。モデルでは、視空間作業記憶、年齢、性別、家庭の経済的背景、一般的な数学能力、教師の指導経験年数、使用している教科書の種類を統制変数として投入し、創造性が各問題タイプの成績に与える独自の影響を評価しました。",
+      "validation": "分析の結果、創造性はすべての幾何問題の成績に対して有意な予測因子でした。具体的には、閉じられた定型問題（標準化予測係数0.09）および閉じられた非定型問題（0.09）と比べて、開かれた非定型問題（0.17）で創造性との関連が有意に強いことが確認されました。一方で、視空間作業記憶は閉じられた問題（定型0.13、非定型0.09）のみで有意であり、開かれた非定型問題（-0.03）では有意な影響が見られませんでした。",
+      "implications": "この結果は、複数の解答を求める開かれた幾何問題が、児童の創造的思考プロセスを特に強く呼び起こす可能性を示唆しています。授業において開かれた問題を取り入れることが児童の創造性を高める手助けになる可能性があります。ただし、本研究は横断的な相関研究であるため、因果関係を断定することはできません。また幾何以外の数学分野や他の問題形式への汎用性については今後の課題として挙げられています。",
+      "nextLead": "児童の作業記憶や全般的な学力と算数・数学の成果との関係を深掘りしたい場合や、数学的視点から創造性や幾何指導をどのように位置付けるかを探る際には、以下の関連文献を読むと理解が深まります。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2134860728",
+          "doi": "10.1016/j.jecp.2009.11.003",
+          "title": "Investigating the predictive roles of working memory and IQ in academic attainment",
+          "authors": [
+            "Tracy Packiam Alloway",
+            "Ross G. Alloway"
+          ],
+          "authorCount": 2,
+          "venue": "Journal of Experimental Child Psychology",
+          "volume": "106",
+          "issue": "1",
+          "pages": "20–29",
+          "year": "2009",
+          "citedBy": 1685,
+          "url": "https://doi.org/10.1016/j.jecp.2009.11.003"
+        },
+        "reason": "児童の作業記憶が学力達成にどのように影響するかを分析した研究であり、本論文で統制変数として扱われた視空間作業記憶の役割を深掘りする上で役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W157822332",
+          "doi": "10.1007/s11858-997-0003-x",
+          "title": "Fostering creativity through instruction rich in mathematical problem solving and problem posing",
+          "authors": [
+            "Edward A. Silver"
+          ],
+          "authorCount": 1,
+          "venue": "ZDM",
+          "volume": "29",
+          "issue": "3",
+          "pages": "75–80",
+          "year": "1997",
+          "citedBy": 1315,
+          "url": "https://doi.org/10.1007/s11858-997-0003-x"
+        },
+        "reason": "数学における問題解決や問題作成を通じて創造性をどのように育成するかを論じた研究であり、本論文の背景にある数学教育と創造性の関係性をより深く理解できます。"
+      },
+      {
+        "paper": {
+          "id": "W4383262576",
+          "doi": "10.3390/educsci13070682",
+          "title": "Teaching and Learning of Geometry—A Literature Review on Current Developments in Theory and Practice",
+          "authors": [
+            "Simone Jablonski",
+            "Matthias Ludwig"
+          ],
+          "authorCount": 2,
+          "venue": "Education Sciences",
+          "volume": "13",
+          "issue": "7",
+          "pages": "682",
+          "year": "2023",
+          "citedBy": 99,
+          "url": "https://doi.org/10.3390/educsci13070682"
+        },
+        "reason": "幾何指導と学習に関する理論的・実践的展開を包括的にレビューした文献であり、本論文で扱われた幾何教育の位置づけや今後の課題を把握するのに適しています。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "幾何",
+        "wikiTitle": "幾何学"
+      },
+      {
+        "term": "視空間作業記憶",
+        "wikiTitle": "ワーキングメモリ"
+      },
+      {
+        "term": "多変量マルチレベル分析",
+        "wikiTitle": "多層モデル"
+      },
+      {
+        "term": "相関研究",
+        "wikiTitle": "相関係数"
+      }
+    ],
+    "links": [
+      {
+        "term": "幾何",
+        "title": "幾何学",
+        "url": "https://ja.wikipedia.org/wiki/%E5%B9%BE%E4%BD%95%E5%AD%A6"
+      }
+    ],
+    "intro": "小学生の一般的な創造力は数学の幾何問題を解く力とどう関係しているでしょうか。1665名を対象とした分析により、複数解を求める問題で最も強い関連があることが示されました。",
+    "warnings": [
+      "意味が合わないリンクを外した: 視空間作業記憶→ワーキングメモリ, 相関研究→相関係数"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-17",
+  "createdAt": "2026-11-17 14:00",
+  "figure": {
+    "target": [
+      {
+        "text": "オランダの小学3-6年生/1665名",
+        "evidence": "Participants were 1665 students from grades 3 to 6, in 92 classes at 50 schools in The Netherlands."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "3種類の幾何学問題",
+        "evidence": "The geometry test consisted of four closed-ended routine problems, six closed-ended non-routine problems"
+      },
+      {
+        "text": "全般的な創造性",
+        "evidence": "The Test of Creative Thinking—Drawing Production was used to measure students’ creativity."
+      }
+    ],
+    "measures": [
+      {
+        "text": "幾何学能力テストの実施",
+        "evidence": "The GAT took between 20–30 min and was stopped after 30 min."
+      },
+      {
+        "text": "幾何学複数解課題の実施",
+        "evidence": "The GMST, based on the mathematical multiple solution task (Kattou et al., 2013; Schoevers et al., 2020a), took between 20 and 30 min."
+      },
+      {
+        "text": "創造的思考テストの実施",
+        "evidence": "Students have to complete a drawing using given figural fragments, such as a half circle and a half square, within 15 min (Urban & Jellen, 1996)."
+      }
+    ],
+    "results": [
+      {
+        "text": "多変量多次元階層分析",
+        "evidence": "Multivariate multilevel analyses were conducted to take the nested structure of the data into account."
+      },
+      {
+        "text": "全問題で創造性が/有意な予測因子",
+        "evidence": "creativity was a significant predictor of students’ performance on all types of geometrical problems"
+      }
+    ]
+  }
+}

@@ -1926,6 +1926,62 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-16 10:01",
       "note": "論文の本文に見つからない数値: 84 / 意味が合わないリンクを外した: 準実験→実験計画法"
+    },
+    "W2594401864": {
+      "doi": "10.21009/jpd.072.01",
+      "title": "KEMAMPUAN BERPIKIR KRITIS DAN KEMANDIRIAN BELAJAR DENGAN HASIL BELAJAR MATEMATIKA: Berpikir Kritis",
+      "citedBy": 166,
+      "year": "2016",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-17 14:00"
+    },
+    "W3006455801": {
+      "doi": "10.37303/jelmar.v1i1.12",
+      "title": "Pembelajaran Berbasis Masalah dalam Meningkatkan Kemampuan Pemecahan Masalah Matematika",
+      "citedBy": 75,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-17 14:00"
+    },
+    "W4389003900": {
+      "doi": "10.23887/jisd.v7i3.58660",
+      "title": "Improve The Numeracy Skills of Fifth-Grade Students Through Self-Efficacy in Elementary Schools",
+      "citedBy": 74,
+      "year": "2023",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-17 14:00"
+    },
+    "W4405135211": {
+      "doi": "10.14742/apubs.2011.1741",
+      "title": "Modeling pre-service teachers' technological pedagogical content knowledge (TPACK) perceptions: The influence of demographic factors and TPACK constructs",
+      "citedBy": 71,
+      "year": "2011",
+      "status": "skipped",
+      "note": "テーマ外: 本研究は教員養成課程における全般的なICT活用指導力（TPACK）の認識を分析したものであり、算数・数学の学習や指導を対象とした実証研究ではないため。",
+      "checkedAt": "2026-11-17 14:00"
+    },
+    "W4402455899": {
+      "doi": "10.19109/jpmrafa.v8i2.14770",
+      "title": "Peningkatan Hasil Belajar Matematika Siswa Melalui Pembelajaran Berdiferensiasi dalam Mewujudkan Merdeka Belajar",
+      "citedBy": 66,
+      "year": "2022",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-17 14:00"
+    },
+    "W3205144764": {
+      "doi": "10.1007/s11858-021-01315-5",
+      "title": "The relation between creativity and students’ performance on different types of geometrical problems in elementary education",
+      "citedBy": 61,
+      "year": "2021",
+      "status": "ready",
+      "titleJa": "初等教育における創造性と様々な種類の幾何問題に対する児童の成績との関係",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-17 14:00",
+      "note": "意味が合わないリンクを外した: 視空間作業記憶→ワーキングメモリ, 相関研究→相関係数"
     }
   }
 }
