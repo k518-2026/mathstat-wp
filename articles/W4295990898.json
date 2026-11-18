@@ -1,0 +1,168 @@
+{
+  "paper": {
+    "id": "W4295990898",
+    "doi": "10.29333/ejmste/12458",
+    "title": "Modeling student’s interest in mathematics: Role of history of mathematics, peer-assisted learning, and student’s perception",
+    "authors": [
+      "Yarhands Dissou Arthur",
+      "Simon Kojo Appiah",
+      "Kwadwo Amo-Asante",
+      "Bright Asare"
+    ],
+    "authorCount": 4,
+    "venue": "Eurasia Journal of Mathematics Science and Technology Education",
+    "volume": "18",
+    "issue": "10",
+    "pages": "em2168",
+    "year": "2022",
+    "citedBy": 57,
+    "url": "https://doi.org/10.29333/ejmste/12458",
+    "license": "cc-by",
+    "pdfUrl": "https://www.ejmste.com/download/modeling-students-interest-in-mathematics-role-of-history-of-mathematics-peer-assisted-learning-and-12458.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "本研究は、ガーナの高校生394名の量的データを用い、数学史の活用やピアアシスト学習が数学への関心に与える影響を構造方程式モデリングによって統計的に分析した実証研究であるため。",
+    "titleJa": "生徒の数学への関心のモデル化：数学史、ピアアシスト学習、および生徒の認識の役割",
+    "sections": {
+      "what": "本研究は、ガーナのアシャンティ州にある4つの高級中学校（高校）に通う生徒394名を対象に、授業での数学史の活用およびピアアシスト学習が、生徒の数学に対する関心へ与える影響を明らかにすることを目的としています。また、生徒自身の数学に対する認識がこれらの関係においてどのような媒介役割を果たすかを検証しています。構造化質問紙を用いてデータを収集し、学力向上や学習意欲を高めるための教育的介入の示唆を得ることを目指した実証研究です。",
+      "novelty": "先行研究では、数学史の授業への導入やピアアシスト学習が学習成果や関心を高める個別の要因として検討されてきましたが、これらが生徒の数学に対する認識を介して関心にどのように影響するかという複合的な媒介構造を同時にモデル化した研究は限られていました。本研究は、発展途上国であるガーナの教育文脈において、数学史とピアアシスト学習という2つの指導的アプローチが生徒の認識や関心をどのように形成するかを同一の共分散構造分析モデル内で包括的に検証した点に独自性があります。",
+      "method": "研究では、数学史の活用、ピアアシスト学習、数学に対する認識、数学への関心の4変数を5段階のリッカート尺度で測定した質問紙調査を実施しました。解析にはAmos（v.23）を用い、共分散構造分析（構造方程式モデリング）を行いました。潜在変数の妥当性を確認するために確証的因子分析を実施し、信頼性や収束妥当性、判別妥当性を検証した上で、媒介効果の統計的有意性を評価するために5,000回のブートストラップ標本による95パーセント偏り修正信頼区間を算出しています。",
+      "validation": "分析の結果、ピアアシスト学習は生徒の数学への関心に直接的な正の影響（標準化されていない推定値0.222、p<0.01）を与えていたのに対し、数学史の活用から関心への直接効果（推定値0.102）は統計的に有意ではありませんでした。一方で、数学史の活用は数学への認識に正の影響（0.235、p<0.01）を与え、認識から関心への直接効果（0.472、p<0.01）を介した間接効果（0.111）が有意となりました。また、ピアアシスト学習から認識を経由する間接効果（0.229）も有意でした。",
+      "implications": "本研究の結果は、教員が授業に数学史を取り入れることで生徒の数学に対する捉え方が好転し、間接的に数学への関心が高まる可能性を示唆しています。また、生徒同士の学び合いであるピアアシスト学習は、認識の改善と関心の向上の双方に直接寄与することが示されました。ただし本調査は横断研究であるため、これらの指導法と関心との間の直接的な因果関係を確定するものではありません。著者らは教員養成課程で数学史の活用やピアアシスト学習の指導法を取り入れることを提言しています。",
+      "nextLead": "数学史やピアアシスト学習が学習者の関心や達成度に与える影響をより深く理解するためには、関連する媒介要因や異なる教育段階での応用を検討した文献を読むことが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W4206091952",
+          "doi": "10.29333/ejmste/11509",
+          "title": "Enhancing Performance in Mathematics Through Motivation, Peer Assisted Learning, And Teaching Quality: The Mediating Role of Student Interest",
+          "authors": [
+            "Yarhands Dissou Arthur",
+            "Courage Simon Kofi Dogbe",
+            "Samuel Kwesi Asiedu-Addo"
+          ],
+          "authorCount": 3,
+          "venue": "Eurasia Journal of Mathematics Science and Technology Education",
+          "volume": "18",
+          "issue": "2",
+          "pages": "em2072",
+          "year": "2022",
+          "citedBy": 115,
+          "url": "https://doi.org/10.29333/ejmste/11509"
+        },
+        "reason": "本論文と同じ著者グループによる研究であり、ピアアシスト学習や学習者の関心が数学の成績に与える影響や媒介構造について理解を深めるのに役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W4406035149",
+          "doi": "10.1108/jarhe-05-2024-0238",
+          "title": "Enhancing TVET students’ interest in mathematics through the history of mathematics and self-efficacy",
+          "authors": [
+            "Yarhands Dissou Arthur",
+            "Thomas de Vittori",
+            "Natalie B. Welcome",
+            "Courage Simon Kofi Dogbe"
+          ],
+          "authorCount": 5,
+          "venue": "Journal of Applied Research in Higher Education",
+          "volume": "18",
+          "issue": "1",
+          "pages": "206–219",
+          "year": "2025",
+          "citedBy": 32,
+          "url": "https://doi.org/10.1108/jarhe-05-2024-0238"
+        },
+        "reason": "数学史の活用が学習者の興味に与える影響について、自己効力感などの異なる媒介変数を交えて検証しており、本論文の知見をさらに拡張して理解するのに適しています。"
+      },
+      {
+        "paper": {
+          "id": "W4323034049",
+          "doi": "10.29333/ejmste/13025",
+          "title": "Incorporating history of mathematics in open-ended problem solving: An empirical study",
+          "authors": [
+            "Ioannis Rizos",
+            "Nikolaos Gkrekas"
+          ],
+          "authorCount": 2,
+          "venue": "Eurasia Journal of Mathematics Science and Technology Education",
+          "volume": "19",
+          "issue": "3",
+          "pages": "em2242",
+          "year": "2023",
+          "citedBy": 32,
+          "url": "https://doi.org/10.29333/ejmste/13025"
+        },
+        "reason": "数学史を具体的な指導アプローチと組み合わせた際の効果を検証しており、実践的な授業づくりの観点から本論文の知見を補完できます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "構造方程式モデリング",
+        "wikiTitle": "構造方程式モデリング"
+      },
+      {
+        "term": "確証的因子分析",
+        "wikiTitle": "因子分析"
+      },
+      {
+        "term": "横断研究",
+        "wikiTitle": "横断研究"
+      }
+    ],
+    "links": [
+      {
+        "term": "構造方程式モデリング",
+        "title": "共分散構造分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%B1%E5%88%86%E6%95%A3%E6%A7%8B%E9%80%A0%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "横断研究",
+        "title": "横断研究",
+        "url": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%96%AD%E7%A0%94%E7%A9%B6"
+      }
+    ],
+    "intro": "ガーナの高校生394名のデータを分析し、数学史の活用やピアアシスト学習が生徒の数学への関心や認識にどのように影響するかを調査した研究を紹介します。",
+    "warnings": [
+      "意味が合わないリンクを外した: 確証的因子分析→因子分析"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-18",
+  "createdAt": "2026-11-18 14:00",
+  "figure": {
+    "target": [
+      {
+        "text": "ガーナの高校生394名",
+        "evidence": "The study was based on 394 students from four selected secondary schools in the Ashanti region of Ghana."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "数学史・ピア学習・/生徒の認識と関心",
+        "evidence": "history of mathematics, peer-assisted learning, mathematics perception, mathematics interest"
+      }
+    ],
+    "measures": [
+      {
+        "text": "構造化質問紙による/調査の実施",
+        "evidence": "The study was a survey, adopting a structured questionnaire as the research instrument."
+      }
+    ],
+    "results": [
+      {
+        "text": "Amosを用いた/構造方程式モデリング",
+        "evidence": "Structural equation modelling was estimated using Amos (v.23) software, to test the hypothesized paths."
+      },
+      {
+        "text": "ピア学習の数学関心への/直接効果（β=0.222）",
+        "evidence": "Peerassisted learning on the other hand, had a significant positive effect on students’ interest in mathematics (β=0.222; p<0.01)."
+      },
+      {
+        "text": "数学史の数学関心への/間接効果（0.111）",
+        "evidence": "The coefficient of the indirect effect was 0.111, which was statistically significant"
+      }
+    ]
+  }
+}

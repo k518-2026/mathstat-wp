@@ -1982,6 +1982,53 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-17 14:00",
       "note": "意味が合わないリンクを外した: 視空間作業記憶→ワーキングメモリ, 相関研究→相関係数"
+    },
+    "W4401041030": {
+      "doi": "10.21831/jitp.v8i2.45080",
+      "title": "Pengaruh penggunaan aplikasi GeoGebra terhadap hasil belajar matematika",
+      "citedBy": 59,
+      "year": "2022",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-18 14:00"
+    },
+    "W2946932325": {
+      "doi": "10.31980/mosharafa.v3i3.318",
+      "title": "Pembelajaran Berbasis Masalah Untuk Meningkatkan Kemampuan Komunikasi Matematika Siswa Sekolah Menengah Pertama",
+      "citedBy": 59,
+      "year": "2014",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-18 14:00"
+    },
+    "W4386981510": {
+      "doi": "10.31980/pme.v2i2.1406",
+      "title": "Faktor rendahnya minat belajar siswa kelas v sekolah dasar pada mata pelajaran matematika",
+      "citedBy": 58,
+      "year": "2023",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-18 14:00"
+    },
+    "W4381571634": {
+      "doi": "10.54183/jssr.v3i2.272",
+      "title": "Investigating Teacher Educators’ Perceptions on Technology Integration in Teacher Preparation Programs",
+      "citedBy": 58,
+      "year": "2023",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-18 14:00"
+    },
+    "W4295990898": {
+      "doi": "10.29333/ejmste/12458",
+      "title": "Modeling student’s interest in mathematics: Role of history of mathematics, peer-assisted learning, and student’s perception",
+      "citedBy": 57,
+      "year": "2022",
+      "status": "ready",
+      "titleJa": "生徒の数学への関心のモデル化：数学史、ピアアシスト学習、および生徒の認識の役割",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-18 14:00",
+      "note": "意味が合わないリンクを外した: 確証的因子分析→因子分析"
     }
   }
 }
