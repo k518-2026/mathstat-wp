@@ -2029,6 +2029,17 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-18 14:00",
       "note": "意味が合わないリンクを外した: 確証的因子分析→因子分析"
+    },
+    "W4400586508": {
+      "doi": "10.1007/s10639-024-12890-x",
+      "title": "Exploring the digital divide in primary education: A comparative study of urban and rural mathematics teachers’ TPACK and attitudes towards technology integration in post-pandemic China",
+      "citedBy": 151,
+      "year": "2024",
+      "status": "ready",
+      "titleJa": "初等教育におけるデジタル格差の探究：ポストパンデミックの中国における都市部と農村部の数学教師のTPACKと技術統合への態度の比較研究",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-19 17:40",
+      "note": "(6) 次に読むべき論文はあるか？ が 370 字"
     }
   }
 }

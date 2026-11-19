@@ -1,0 +1,143 @@
+{
+  "paper": {
+    "id": "W4400586508",
+    "doi": "10.1007/s10639-024-12890-x",
+    "title": "Exploring the digital divide in primary education: A comparative study of urban and rural mathematics teachers’ TPACK and attitudes towards technology integration in post-pandemic China",
+    "authors": [
+      "Mao Li"
+    ],
+    "authorCount": 1,
+    "venue": "Education and Information Technologies",
+    "volume": "30",
+    "issue": "2",
+    "pages": "1913–1945",
+    "year": "2024",
+    "citedBy": 151,
+    "url": "https://doi.org/10.1007/s10639-024-12890-x",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10639-024-12890-x.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "初等教育におけるデジタル格差の探究：ポストパンデミックの中国における都市部と農村部の数学教師のTPACKと技術統合への態度の比較研究",
+    "sections": {
+      "what": "この研究は、中国の初等教育における数学教師を対象に、技術的な教育内容知識（TPACK）の習熟度とデジタル技術の統合に対する態度の格差を調査したものです。特に、パンデミック後の急速な技術進歩を背景に、都市部と農村部の教師の間でどのようなデジタル格差が存在するかを明らかにすることを目的としています。調査は中国重慶の様々な地域から無作為に選出された366人の数学教師を対象に行われ、技術へのアクセス、専門的な能力、および年齢や性別といった属性が与える影響を包括的に分析しています。",
+      "novelty": "本研究は、パンデミック後の教育環境において、都市部と農村部の教師の間にある技術統合の格差に焦点を当てている点が特徴です。先行研究では技術へのアクセスや態度の重要性は指摘されてきましたが、本研究はAIツールの台頭といった最新の技術的文脈を考慮に入れつつ、都市部と農村部の教師のTPACK習熟度の違いを具体的に比較しています。これにより、地理的な要因が教師の技術活用能力や意識にどのように影響を与えるかについて、より詳細な理解を提供することを目指しています。",
+      "method": "研究手法として、教育研究で広く認められている調査法を採用し、量的データを用いてパターンや相関を分析しました。質問票は、技術関連のTPACK構成要素（TPACK、TCK、TPK、TK）と技術統合への態度を測定するように設計されました。データの分布が正規分布に従わないことを確認したため、統計解析には非パラメトリック手法を選択しています。具体的には、都市部と農村部の比較にはマン・ホイットニーのU検定を、年齢などの属性による比較にはクラスカル・ウォリス検定を用いて、統計的な有意差を検証しました。",
+      "validation": "調査票の妥当性を確保するため、まず10人の教師による予備調査を行い、内容の妥当性を確認しました。その後、探索的因子分析（EFA）を行い、各項目が意図した構成概念と正しく関連しているかを確認し、不適切な項目を除外しました。さらに、確認的因子分析（CFA）を実施し、モデルの適合度を検証しました。適合度指標（CFI、TLIなど）は良好な範囲にあり、各構成概念の信頼性を示すクロンバックのアルファ係数は0.908から0.975の範囲にあり、高い内部一貫性が示されました。",
+      "implications": "分析の結果、都市部の教師は農村部の教師よりも高いTPACK習熟度と技術統合への肯定的な態度を示す傾向があることが示唆されました。これは、都市部におけるリソースへのアクセスや専門能力開発の機会の差を反映している可能性があります。また、若い教師ほど技術への適応力が高い傾向がある一方で、性別による有意な差は見られませんでした。論文は、農村部の教師に対する個別の専門能力開発プログラムや、公平なリソース配分といった政策的介入の必要性を示唆しています。一方で、本研究は特定の地域に限定された調査であるため、他の地域への適用可能性については今後の課題として残されています。",
+      "nextLead": "この研究では、教師のTPACK習熟度と技術統合への態度が地理的要因や年齢によってどのように異なるかが示されました。次に、TPACKという概念そのものの理論的枠組みや、教師の信念が実際の技術統合の実践にどのように結びつくのかという、より基礎的な理論的側面や心理的要因に焦点を当てた研究へ進むことで、技術活用を促進するためのより深い理解が得られるでしょう。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2123184471",
+          "doi": "10.1177/016146810610800610",
+          "title": "Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge",
+          "authors": [
+            "Punya Mishra",
+            "Matthew J. Koehler"
+          ],
+          "authorCount": 2,
+          "venue": "Teachers College Record The Voice of Scholarship in Education",
+          "volume": "108",
+          "issue": "6",
+          "pages": "1017–1054",
+          "year": "2006",
+          "citedBy": 22302,
+          "url": "https://doi.org/10.1177/016146810610800610"
+        },
+        "reason": "本研究の基礎となるTPACKの枠組みを定義した重要な文献であり、教師の知識構造を理解するための理論的背景を深めるために不可欠です。"
+      },
+      {
+        "paper": {
+          "id": "W2159433048",
+          "doi": "10.1016/j.compedu.2012.02.001",
+          "title": "Teacher beliefs and technology integration practices: A critical relationship",
+          "authors": [
+            "Peggy A. Ertmer",
+            "Anne Todd Ottenbreit-Leftwich",
+            "Olgun Sadık",
+            "Emine Şendurur"
+          ],
+          "authorCount": 5,
+          "venue": "Computers & Education",
+          "volume": "59",
+          "issue": "2",
+          "pages": "423–435",
+          "year": "2012",
+          "citedBy": 3103,
+          "url": "https://doi.org/10.1016/j.compedu.2012.02.001"
+        },
+        "reason": "教師の信念と技術統合の実践の関係を論じており、本研究で示された「態度」が実際の教育現場でどのように機能するかを考察する上で有益です。"
+      },
+      {
+        "paper": {
+          "id": "W4417444351",
+          "doi": "10.1186/s40359-025-03836-0",
+          "title": "Mathematics teachers’ AI literacy, anxiety, and perceptions of AI integration in mathematics education: a mixed-methods study",
+          "authors": [
+            "Çiğdem İnci Kuzu"
+          ],
+          "authorCount": 1,
+          "venue": "BMC Psychology",
+          "volume": "14",
+          "issue": "1",
+          "pages": "42",
+          "year": "2025",
+          "citedBy": 25,
+          "url": "https://doi.org/10.1186/s40359-025-03836-0"
+        },
+        "reason": "本研究が触れたAIツールの統合に関連する最新の知見であり、次世代の数学教育における技術活用を考える上で重要な視点を提供します。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "中国の数学教師を対象とした調査で、都市部と農村部の間で技術習熟度や意識にどのような格差があるのかを明らかにしました。",
+    "warnings": [
+      "(6) 次に読むべき論文はあるか？ が 370 字"
+    ],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-11-19",
+  "createdAt": "2026-11-19 17:40",
+  "figure": {
+    "target": [
+      {
+        "text": "中国の小学校/数学教師366名",
+        "evidence": "The study encompassed a diverse cohort of 366 primary school mathematics teachers randomly selected from various regions across Chongqing"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "TPACKと技術統合/への態度",
+        "evidence": "The questionnaire was divided into TPACK, TCK, TPK, TK, and Attitude towards technology integration."
+      },
+      {
+        "text": "年齢と性別の/影響",
+        "evidence": "How do demographic factors (e.g., age and gender) influence mathematics teachers’ TPACK and attitudes towards digital technology integration in classroom teaching?"
+      }
+    ],
+    "measures": [
+      {
+        "text": "オンライン調査/の実施",
+        "evidence": "The survey was administered online, leveraging digital platforms for broader reach and ease of access."
+      },
+      {
+        "text": "TPACKと態度の/尺度",
+        "evidence": "The instrument for this study was designed to assess the specific aspects of TPACK, with a focus on the technology-related components."
+      }
+    ],
+    "results": [
+      {
+        "text": "都市部教師の/TPACKが高い",
+        "evidence": "Urban teachers exhibited a higher mean rank (243.58) than their rural counterparts (102.63), with a substantial effect size of -0.667"
+      },
+      {
+        "text": "年齢による/有意差あり",
+        "evidence": "The Kruskal-Wallis test results (Table 9) indicate significant differences across age groups for TPACK, TPK, TK, TCK, and attitudes, with p-values all less than 0.001."
+      }
+    ]
+  }
+}
