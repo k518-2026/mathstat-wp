@@ -1,0 +1,153 @@
+{
+  "paper": {
+    "id": "W4399179126",
+    "doi": "10.1007/s10639-024-12805-w",
+    "title": "Unravelling the dynamics of technology integration in mathematics education: A structural equation modelling analysis of TPACK components",
+    "authors": [
+      "Mao Li",
+      "Bingqing Li"
+    ],
+    "authorCount": 2,
+    "venue": "Education and Information Technologies",
+    "volume": "29",
+    "issue": "17",
+    "pages": "23687–23715",
+    "year": "2024",
+    "citedBy": 64,
+    "url": "https://doi.org/10.1007/s10639-024-12805-w",
+    "license": "cc-by",
+    "pdfUrl": "https://link.springer.com/content/pdf/10.1007/s10639-024-12805-w.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "中国の中学校数学教員451名を対象に、TPACKフレームワークの構成要素と文脈知識（XK）との関係を構造方程式モデリングを用いて実証的に分析した研究であるため。",
+    "titleJa": "数学教育におけるICT統合の動態の解明：TPACK構成要素の構造方程式モデリング分析",
+    "sections": {
+      "what": "中国・重慶市の中学校に勤務する数学教員451名を対象に、教育におけるICT活用に関する知識フレームワークであるTPACK（テクノロジー・ペダゴジー・コンテンツ知識）の各構成要素間の関係性を調査した研究です。特に、従来のTPACKモデルで十分に見検証であった「文脈知識（XK）」が、その他の知識要素（技術知識、指導法知識、教科内容知識など）や最終的なTPACKの構築にどのように影響を与えるかを明らかにすることを目的としています。",
+      "novelty": "先行研究ではTPACKの構成要素である技術・指導法・内容知識の相互作用について議論されてきましたが、学校や政策などの文脈的要因を示す「文脈知識（XK）」を組み込んだ実証的モデルの検証は限られていました。本研究は、XKを一次的なコア構成要素として同等に位置づけ、SEM（構造方程式モデリング）を用いて、文脈知識が指導法知識（PK）や技術指導法知識（TPK）、ペダゴジカル・コンテンツ知識（PCK）、さらには統合的なTPACKに与える直接的・間接的な影響を初めて示しました。",
+      "method": "本研究では、32項目からなる「中学校数学教師TPACK尺度（SMTTS）」を用いた横断的アンケート調査を実施しました。データ分析には構造方程式モデリング（SEM）を採用しています。SEMを選択した理由は、複数の潜在変数間における直接的および間接的な相互影響を同時に検証できるためです。モデルでは、技術知識（TK）、内容知識（CK）、指導法知識（PK）、文脈知識（XK）を一次要素とし、それらが複合的な知識（TCK, PCK, TPK）や最終的なTPACKに与える16の仮説パスを設定・検証しました。",
+      "validation": "抽出されたデータの適合度指標は、χ2/df = 1.435、RMSEA = 0.031、CFI = 0.974、TLI = 0.971を示し、優れたモデル適合性が確認されました。検証した16の仮説のうち12が支持されました。特に文脈知識（XK）は、PCK（パス係数 0.260、p < 0.001）、TPK（パス係数 0.267、p < 0.001）、TPACK（パス係数 0.221、p < 0.001）に対して有意な正の影響を与えることが示されました。また、TCKからTPACKへの直接効果（パス係数 0.333、p < 0.001）も確認されました。",
+      "implications": "本研究は、数学教育におけるICT活用の促進において、単に操作技術や指導法を学ぶだけでなく、地域や学校の政策・環境といった「文脈知識」の理解を深める教員研修が重要であることを示唆しています。ただし、本調査は中国重慶市の特定地域の中学数学教員を対象とした横断研究であり、他国や異なる教育制度への直接的な一般化には限界があります。また、技術指導法知識（TPK）から統合的TPACKへの直接的影響が有意でなかった点など、さらなる文脈要素の解明が今後の課題として挙げられています。",
+      "nextLead": "TPACKフレームワークの理論的基礎や、数学以外の教科・他地域での適用可能性へと関心を広げることで、教員のICT活用能力の開発に関する理解をさらに深めることができます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2123184471",
+          "doi": "10.1177/016146810610800610",
+          "title": "Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge",
+          "authors": [
+            "Punya Mishra",
+            "Matthew J. Koehler"
+          ],
+          "authorCount": 2,
+          "venue": "Teachers College Record The Voice of Scholarship in Education",
+          "volume": "108",
+          "issue": "6",
+          "pages": "1017–1054",
+          "year": "2006",
+          "citedBy": 22395,
+          "url": "https://doi.org/10.1177/016146810610800610"
+        },
+        "reason": "TPACKモデルの原典であり、本論文が前提としている各知識領域の定義や理論的背景を深く理解するうえで不可欠な文献です。"
+      },
+      {
+        "paper": {
+          "id": "W4403602331",
+          "doi": "10.3390/educsci14101138",
+          "title": "Science and Mathematics Teachers’ Integration of TPACK in STEM Subjects in Qatar: A Structural Equation Modeling Study",
+          "authors": [
+            "Nasser Mansour",
+            "Ziad Said",
+            "Mustafa Çevik",
+            "Abdullah Mohammad Hamdan Abu-Tineh"
+          ],
+          "authorCount": 4,
+          "venue": "Education Sciences",
+          "volume": "14",
+          "issue": "10",
+          "pages": "1138",
+          "year": "2024",
+          "citedBy": 19,
+          "url": "https://doi.org/10.3390/educsci14101138"
+        },
+        "reason": "中東カタールにおける理数科教員のTPACK構造をSEMで分析した後続研究であり、国や教育文脈による差異を比較検討するのに役立ちます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "TPACK",
+        "wikiTitle": "TPACK"
+      },
+      {
+        "term": "構造方程式モデリング",
+        "wikiTitle": "構造方程式モデリング"
+      },
+      {
+        "term": "適合度指標",
+        "wikiTitle": "適合度"
+      },
+      {
+        "term": "横断的アンケート調査",
+        "wikiTitle": "横断研究"
+      }
+    ],
+    "links": [
+      {
+        "term": "構造方程式モデリング",
+        "title": "共分散構造分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%B1%E5%88%86%E6%95%A3%E6%A7%8B%E9%80%A0%E5%88%86%E6%9E%90"
+      },
+      {
+        "term": "横断的アンケート調査",
+        "title": "横断研究",
+        "url": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E6%96%AD%E7%A0%94%E7%A9%B6"
+      }
+    ],
+    "intro": "数学授業へのデジタル技術導入に、地域や学校の「文脈知識」はどれほど影響するでしょうか。中国の中学数学教師451名のデータからTPACKモデルの新たな関係性を読み解きます。",
+    "warnings": [
+      "意味が合わないリンクを外した: 適合度指標→適応度"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-20",
+  "createdAt": "2026-11-20 19:23",
+  "figure": {
+    "target": [
+      {
+        "text": "中国重慶市の/中学校数学教師451名",
+        "evidence": "A remarkable 451 mathematics teachers completed the questionnaire, yielding an impressive response rate of approximately 30.1%."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "TPACKモデルの/8つの知識構成概念",
+        "evidence": "These dimensions encompass CK, PK, TK, PCK, TCK, TPK, TPACK and XK."
+      }
+    ],
+    "measures": [
+      {
+        "text": "SMTTS尺度の/32項目質問紙調査",
+        "evidence": "The SMTTS instrument consisted of 32 items specifically designed to capture distinct dimensions within the TPACK framework."
+      },
+      {
+        "text": "5段階リカート尺度による/Web回答収集",
+        "evidence": "The data were collected using a web-based questionnaire that utilized a 5-point Likert scale to measure responses"
+      }
+    ],
+    "results": [
+      {
+        "text": "SEMでのデータ適合/（RMSEA 0.031）",
+        "evidence": "yielding the following values: x2/df = 1.435, RMSEA = 0.031, GFI = 0.920, AGFI = 0.905, NFI = 0.921, CFI = 0.974, and TLI = 0.971."
+      },
+      {
+        "text": "XKのTPACKへの/影響（β=0.221）",
+        "evidence": "H13. XK→TPACK: The path coefficient is 0.221 (p < 0.001), indicating a positive effect of XK on TPACK."
+      },
+      {
+        "text": "TCKのTPACKへの/影響（β=0.333）",
+        "evidence": "H14. TCK→TPACK: The path coefficient is 0.333 (p < 0.001), confirming a positive influence of TCK on TPACK."
+      }
+    ]
+  }
+}

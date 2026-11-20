@@ -2040,6 +2040,53 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-19 17:40",
       "note": "(6) 次に読むべき論文はあるか？ が 370 字"
+    },
+    "W3007936115": {
+      "doi": "10.1111/desc.12957",
+      "title": "Predictors of mathematics in primary school: Magnitude comparison, verbal and spatial working memory measures",
+      "citedBy": 86,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-20 19:21"
+    },
+    "W4404543766": {
+      "doi": "10.1007/s10639-024-13160-6",
+      "title": "Pre-service teacher professional education program (PPG) and Indonesian science teachers' TPACK development: A career-path comparative study",
+      "citedBy": 83,
+      "year": "2024",
+      "status": "skipped",
+      "note": "テーマ外: 本研究はインドネシアの理科教員および理科教員候補生を対象としており、算数・数学の学習や指導を対象とした研究ではないため。",
+      "checkedAt": "2026-11-20 19:22"
+    },
+    "W4392878992": {
+      "doi": "10.1016/j.learninstruc.2024.101906",
+      "title": "Math anxiety and math achievement in primary school children: Longitudinal relationship and predictors",
+      "citedBy": 75,
+      "year": "2024",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-20 19:22"
+    },
+    "W3005588152": {
+      "doi": "10.1016/j.jecp.2019.104794",
+      "title": "The critical role of Arabic numeral knowledge as a longitudinal predictor of arithmetic development",
+      "citedBy": 69,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-20 19:22"
+    },
+    "W4399179126": {
+      "doi": "10.1007/s10639-024-12805-w",
+      "title": "Unravelling the dynamics of technology integration in mathematics education: A structural equation modelling analysis of TPACK components",
+      "citedBy": 64,
+      "year": "2024",
+      "status": "ready",
+      "titleJa": "数学教育におけるICT統合の動態の解明：TPACK構成要素の構造方程式モデリング分析",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-20 19:23",
+      "note": "意味が合わないリンクを外した: 適合度指標→適応度"
     }
   }
 }
