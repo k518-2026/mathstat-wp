@@ -1,0 +1,142 @@
+{
+  "paper": {
+    "id": "W3201062502",
+    "doi": "10.29333/iji.2021.14448a",
+    "title": "The Increasing of Math Adversity Quotient in Mathematics Cooperative Learning Through Metacognitive",
+    "authors": [
+      "Zubaidah Amir MZ",
+      "Risnawati Risnawati",
+      "Erdawati Nurdin",
+      "Memen Permata Azmi"
+    ],
+    "authorCount": 5,
+    "venue": "International Journal of Instruction",
+    "volume": "14",
+    "issue": "4",
+    "pages": "841–856",
+    "year": "2021",
+    "citedBy": 57,
+    "url": "https://doi.org/10.29333/iji.2021.14448a",
+    "license": "",
+    "pdfUrl": "https://doi.org/10.29333/iji.2021.14448a"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "メタ認知を用いた協同学習を通じた数学における逆境指数の向上",
+    "sections": {
+      "what": "この研究は、数学学習における生徒の「逆境指数（AQ）」、すなわち困難に立ち向かう能力に、メタ認知的な思考法を組み込んだ協同学習がどのような影響を与えるかを調査したものです。インドネシアのペカンバルにある、寄宿制学校（BS）と非寄宿制学校（NBS）の2つの学校の生徒計180名を対象としています。研究の目的は、思考発話（Think-aloud）を組み込んだ3つの協同学習戦略（MTPS、MTPQ、CC）と、学校のシステムの違いが、生徒のAQにどのような差異をもたらすかを明らかにすることです。",
+      "novelty": "本研究の新規性は、メタ認知的な思考発話戦略を、単独の活動としてではなく、思考・ペア・共有（TPS）や思考・ペア・スクエア（TPQ）といった協同学習の枠組みの中に統合した点にあります。先行研究では思考発話の有効性は示唆されていましたが、本研究は協同学習におけるコミュニケーションとメタ認知を組み合わせることで、生徒の自己制御や自信、直感といったAQの構成要素をいかに高められるかを探求しています。これは数学教育における心理的レジリエンスの向上を目指す新たなアプローチです。",
+      "method": "研究手法には準実験デザインが採用されました。生徒を3つの学習戦略グループ（MTPS、MTPQ、CC）に分け、事前の能力テストで学力レベルとコミュニケーションの活性度を考慮した意図的なサンプリングを行いました。統計分析には分散分析（ANOVA）を用い、学習戦略の主効果、学校システム（寄宿制か非寄宿制か）の主効果、およびそれら両者の交互作用を検証しています。AQの測定には、制御、起源、所有、到達、忍耐という5つの指標に基づく尺度を使用し、事後テストの結果を分析しました。",
+      "validation": "分析の結果、学習戦略の主効果は有意であり、学習戦略が生徒のAQに影響を与えることが示されました。特に、思考発話を組み込んだペアでの協同学習（MTPS）が、他の2つの戦略よりも高いAQスコアをもたらす傾向があることが示唆されました。また、学校システムと学習戦略の交互作用も有意であり、AQへの影響は学校の形態によって異なる可能性が示されました。具体的には、MTPS戦略において非寄宿制学校の生徒の方が寄宿制学校の生徒よりも高いAQを示す傾向があり、AQの指標のうち「制御」と「到達」の項目で高い数値が見られました。",
+      "implications": "この研究は、数学の学習において困難に直面した際の生徒のレジリエンスを高めるために、メタ認知的な思考発話と協同学習を組み合わせることが有効である可能性を示唆しています。特にペアでの対話を通じて思考を言語化することが、生徒の自己制御や自信を育む助けになる可能性があります。一方で、学校のシステム（寄宿制か否か）によってその効果の現れ方が異なることも示されており、指導環境に応じた柔軟な戦略の検討が必要です。本研究は、数学のスキル向上だけでなく、心理的な適応力を育む指導の重要性を提示しています。",
+      "nextLead": "本研究では、メタ認知的な思考発話が数学的な思考プロセスや問題解決に与える影響について触れています。次に、メタ認知的な指導が実際の数学的な課題解決にどのような具体的な効果をもたらすのか、あるいはメタ認知の概念そのものがどのように指導されるべきかという基礎的な知見へと読み進めることで、より深い理解が得られるでしょう。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W1510451368",
+          "doi": "10.1023/a:1016282811724",
+          "title": "The effects of metacognitive instruction on solving mathematical authentic tasks",
+          "authors": [
+            "Bracha Kramarski",
+            "Zemira R. Mevarech",
+            "Marsel Arami"
+          ],
+          "authorCount": 3,
+          "venue": "Educational Studies in Mathematics",
+          "volume": "49",
+          "issue": "2",
+          "pages": "225–250",
+          "year": "2002",
+          "citedBy": 366,
+          "url": "https://doi.org/10.1023/a:1016282811724"
+        },
+        "reason": "本研究で用いたメタ認知戦略が、実際の数学的な課題解決においてどのような効果をもたらすかを詳細に検証しており、指導への応用を考える上で非常に重要な基礎資料となります。"
+      },
+      {
+        "paper": {
+          "id": "W2023778427",
+          "doi": "10.1080/13664530300200184",
+          "title": "The concept and instruction of metacognition",
+          "authors": [
+            "Eleonora Papaleontiou–Louca"
+          ],
+          "authorCount": 1,
+          "venue": "Teacher Development",
+          "volume": "7",
+          "issue": "1",
+          "pages": "9–30",
+          "year": "2003",
+          "citedBy": 307,
+          "url": "https://doi.org/10.1080/13664530300200184"
+        },
+        "reason": "本研究の理論的基盤の一つであるメタ認知の概念と指導法について詳しく解説しており、メタ認知をいかに授業に組み込むべきかの理論的枠組みを理解するのに役立ちます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "ANOVA",
+        "wikiTitle": "分散分析"
+      }
+    ],
+    "links": [
+      {
+        "term": "ANOVA",
+        "title": "分散分析",
+        "url": "https://ja.wikipedia.org/wiki/%E5%88%86%E6%95%A3%E5%88%86%E6%9E%90"
+      }
+    ],
+    "intro": "数学の難問に直面したとき、生徒の「折れない心」をどう育てるか。メタ認知と協同学習を組み合わせた新しいアプローチの可能性を探ります。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-11-22",
+  "createdAt": "2026-11-22 08:02",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシアの/中学生180名",
+        "evidence": "The sample consists of 2 categories of schools namely; boarding school (BS) and non-boarding school (NBS), which amounts to 180 students."
+      },
+      {
+        "text": "寄宿学校(BS)と/非寄宿学校(NBS)",
+        "evidence": "The sample consists of 2 categories of schools namely; boarding school (BS) and non-boarding school (NBS)"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "3つの学習戦略/（MTPS, MTPQ, CC）",
+        "evidence": "three classes with different learning strategies, ie Think-Pair-Share Think-Pair-Share Think-aloud cooperative metacognitive learning (MTPS), Think-Pair-Square cooperative metacognitive learning Think-Pair-Square (MTPQ) metrics, and Conventional Class (CC)."
+      },
+      {
+        "text": "学校システム/（BSとNBS）",
+        "evidence": "The sample consists of 2 categories of schools namely; boarding school (BS) and non-boarding school (NBS)"
+      }
+    ],
+    "measures": [
+      {
+        "text": "AQ尺度による事後テスト",
+        "evidence": "Data were collected through the AQ scaling post-treatment learning strategy"
+      },
+      {
+        "text": "学生へのインタビュー",
+        "evidence": "and supported by interviews on some students."
+      },
+      {
+        "text": "能力・活動性の/層別サンプリング",
+        "evidence": "The selection of the control class and treatment class was carried out through a purposive sampling approach by examining the abilities of students from each class."
+      }
+    ],
+    "results": [
+      {
+        "text": "MTPS戦略が/最も高いAQ",
+        "evidence": "The difference in mean scores indicates that the highest student AQs to the lowest consecutive are on the MTPS, CC, and MTPQ strategy groups."
+      },
+      {
+        "text": "二元配置分散分析/（相互作用あり）",
+        "evidence": "This means that there is an interaction between school strat"
+      }
+    ]
+  }
+}

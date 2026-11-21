@@ -2087,6 +2087,62 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-20 19:23",
       "note": "意味が合わないリンクを外した: 適合度指標→適応度"
+    },
+    "W2549441929": {
+      "doi": "10.1016/j.tate.2016.10.014",
+      "title": "Teacher learning in the context of Lesson Study: A video-based analysis of teacher discussions",
+      "citedBy": 163,
+      "year": "2016",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-22 00:00"
+    },
+    "W3025135548": {
+      "doi": "10.1016/j.ijer.2020.101566",
+      "title": "Interpreting mathematics performance in PISA: Taking account of reading performance",
+      "citedBy": 63,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-22 08:00"
+    },
+    "W3128778023": {
+      "doi": "10.55215/pedagogia.v12i2.2937",
+      "title": "PENGARUH KEBIASAAN BELAJAR TERHADAP HASIL BELAJAR MATEMATIKA",
+      "citedBy": 58,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-22 08:00"
+    },
+    "W2613928474": {
+      "doi": "10.32890/mjli2016.13.2.4",
+      "title": "Using Cooperative Teams-Game-Tournament in 11 Religious School to Improve Mathematics Understanding and Communication",
+      "citedBy": 58,
+      "year": "2016",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-22 08:00"
+    },
+    "W4392792825": {
+      "doi": "10.1080/00220272.2024.2328042",
+      "title": "The importance of teachers’ pedagogical-psychological teaching knowledge for successful teaching and learning",
+      "citedBy": 57,
+      "year": "2024",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-22 08:00"
+    },
+    "W3201062502": {
+      "doi": "10.29333/iji.2021.14448a",
+      "title": "The Increasing of Math Adversity Quotient in Mathematics Cooperative Learning Through Metacognitive",
+      "citedBy": 57,
+      "year": "2021",
+      "status": "ready",
+      "titleJa": "メタ認知を用いた協同学習を通じた数学における逆境指数の向上",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-22 08:02",
+      "note": ""
     }
   }
 }
