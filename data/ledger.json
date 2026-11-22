@@ -2143,6 +2143,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-22 08:02",
       "note": ""
+    },
+    "W3005102771": {
+      "doi": "10.22460/infinity.v9i1.p93-102",
+      "title": "ADVOCACY APPROACH WITH OPEN-ENDED PROBLEMS TO MATHEMATICAL CREATIVE THINKING ABILITY",
+      "citedBy": 57,
+      "year": "2020",
+      "status": "ready",
+      "titleJa": "オープンエンドな問題を用いたアドボカシー・アプローチが数学的創造的思考力に与える影響",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-22 11:16",
+      "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
     }
   }
 }

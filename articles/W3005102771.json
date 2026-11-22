@@ -1,0 +1,158 @@
+{
+  "paper": {
+    "id": "W3005102771",
+    "doi": "10.22460/infinity.v9i1.p93-102",
+    "title": "ADVOCACY APPROACH WITH OPEN-ENDED PROBLEMS TO MATHEMATICAL CREATIVE THINKING ABILITY",
+    "authors": [
+      "Ibrahim Ibrahim",
+      "Sri Adi Widodo"
+    ],
+    "authorCount": 2,
+    "venue": "Infinity Journal",
+    "volume": "9",
+    "issue": "1",
+    "pages": "93",
+    "year": "2020",
+    "citedBy": 57,
+    "url": "https://doi.org/10.22460/infinity.v9i1.p93-102",
+    "license": "cc-by-sa",
+    "pdfUrl": "http://e-journal.stkipsiliwangi.ac.id/index.php/infinity/article/download/1391/947"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "本論文は英語で書かれ、中学生の数学的創造的思考力に対する指導法効果を統計的手法（マン・ホイットニー検定や分散分析）を用いて分析した実証研究です。",
+    "titleJa": "オープンエンドな問題を用いたアドボカシー・アプローチが数学的創造的思考力に与える影響",
+    "sections": {
+      "what": "本研究は、数学授業においてオープンエンド型の問題を提示するアドボカシー・アプローチを導入することが、生徒の数学的創造的思考力の向上に寄与するかを明らかにすることを目的としています。インドネシアの生徒72名を対象とし、アドボカシー・アプローチを行う実験群と、従来の数学授業を行う対照群の2クラスに分けて実験を行いました。数学的創造的思考力として、思考の流暢性、柔軟性、独創性、精緻化の4つの観点に着目し、学習前後の変化を定量的に分析しています。",
+      "novelty": "従来の数学教育では創造的思考力を育む機会が十分ではないと指摘されてきました。これまでの研究では現実的数学教育や問題解決学習の効果が示されてきましたが、主に社会科領域で用いられてきたアドボカシー・アプローチ（生徒が討論や論争を通じて解法を主張・検証する手法）を数学のオープンエンド問題と組み合わせた研究は限定的でした。本研究は、このアプローチが数学的創造的思考力や生徒の習熟度別に与える影響を統計的に検証した点に着目すべき意義があります。",
+      "method": "研究手法には非同等対照群デザインを採用し、既存の2つの学級から72名の生徒をランダムクラスタサンプリングにより選出しました。測定には7項目の記述式問題からなる数学的創造的思考力テストを用い、介入前後の得点から標準化ゲイン（N-Gain）を算出しました。統計手法として、データが正規性の仮定を満たさなかったため、実験群と対照群のN-Gain比較にはマン・ホイットニー検定を使用しました。また、一般数学能力（上位・中位・下位）による違いの分析には一元配置分散分析およびテューキーの事後検定を適用しました。",
+      "validation": "事前テストの平均点は実験群が1.15、対照群が1.43でしたが、事後テストの平均点は実験群が13.47、対照群が9.71となり、平均N-Gain率は実験群が37.07%、対照群が24.94%となりました。マン・ホイットニー検定の結果、両群の増加率には有意な差が認められました（p = 0.0068）。また実験群内での一般数学能力別のN-Gain平均は、上位群が59.94%、中位群が32.76%、下位群が22.38%であり、一元配置分散分析によりグループ間に有意差が示されました（p = 0.007）。事後検定により上位群の伸びが特に著しいことが確認されました。",
+      "implications": "オープンエンド型問題を用いたアドボカシー・アプローチは、生徒同士の議論や概念探索を促し、数学的創造的思考力を高める可能性が示唆されます。一方で、本研究の事後テストの平均点は満点35点に対して13.47点と全体的に低く、70%以上が難易度の高い問題であったことや、生徒が指導手法に慣れていなかった点が影響した可能性が論文中で議論されています。また、下位群や中位群の生徒への支援方法についてはさらなる検討が必要であり、結果を直ちに一般化することには慎重であるべきです。",
+      "nextLead": "オープンエンド課題を用いた指導法や創造的思考力の測定について更なる知見を得るため、どのような問題設計や実践モデルが学習効果を高めるのかを探る後続の研究へ読み進めることが推奨されます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W3135766274",
+          "doi": "10.17275/per.21.66.8.3",
+          "title": "Using Open-ended Problem-solving Tests to Identify Students’ Mathematical Creative Thinking Ability",
+          "authors": [
+            "Sri Rahayuningsih",
+            "Sirajuddin Sirajuddin",
+            "Muhammad Ikram"
+          ],
+          "authorCount": 3,
+          "venue": "Participatory Educational Research",
+          "volume": "8",
+          "issue": "3",
+          "pages": "285–299",
+          "year": "2021",
+          "citedBy": 104,
+          "url": "https://doi.org/10.17275/per.21.66.8.3"
+        },
+        "reason": "オープンエンド課題を活用して生徒の数学的創造的思考力を評価・識別する実証研究であり、評価方法の具体化や適用可能性を理解する上で有益な後続研究です。"
+      },
+      {
+        "paper": {
+          "id": "W4389349194",
+          "doi": "10.22342/jme.v15i1.pp253-276",
+          "title": "Mathematics learning orientation: Mathematical creative thinking ability or creative disposition?",
+          "authors": [
+            "Ibrahim Ibrahim",
+            "Ibrahim Khalil",
+            "Rully Charitas Indra Prahmana"
+          ],
+          "authorCount": 3,
+          "venue": "Journal on Mathematics Education",
+          "volume": "15",
+          "issue": "1",
+          "pages": "253–276",
+          "year": "2023",
+          "citedBy": 43,
+          "url": "https://doi.org/10.22342/jme.v15i1.pp253-276"
+        },
+        "reason": "数学的創造的思考力と創造的な態度の育成に関する学習志向性を分析しており、本論文の指導アプローチが態度面へ及ぼす影響を比較考察するのに適しています。"
+      },
+      {
+        "paper": {
+          "id": "W4323034049",
+          "doi": "10.29333/ejmste/13025",
+          "title": "Incorporating history of mathematics in open-ended problem solving: An empirical study",
+          "authors": [
+            "Ioannis Rizos",
+            "Nikolaos Gkrekas"
+          ],
+          "authorCount": 2,
+          "venue": "Eurasia Journal of Mathematics Science and Technology Education",
+          "volume": "19",
+          "issue": "3",
+          "pages": "em2242",
+          "year": "2023",
+          "citedBy": 32,
+          "url": "https://doi.org/10.29333/ejmste/13025"
+        },
+        "reason": "オープンエンド型の問題解決指導に数学史を取り入れた実証研究であり、創造的思考力を高める問題設定の工夫や指導のバリエーションを学ぶことができます。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "オープンエンド",
+        "wikiTitle": "オープンエンド"
+      },
+      {
+        "term": "マン・ホイットニー検定",
+        "wikiTitle": "マン・ホイットニーのU検定"
+      },
+      {
+        "term": "一元配置分散分析",
+        "wikiTitle": "一元配置分散分析"
+      },
+      {
+        "term": "テューキーの事後検定",
+        "wikiTitle": "テューキーの範囲検定"
+      }
+    ],
+    "links": [],
+    "intro": "数学の授業で生徒の創造的思考力を伸ばすにはどうすればよいでしょうか。オープンエンド問題と討論を組み合わせた指導の効果を実験データから検証した研究を紹介します。",
+    "warnings": [
+      "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-22",
+  "createdAt": "2026-11-22 11:16",
+  "figure": {
+    "target": [
+      {
+        "text": "研究対象の生徒/（72名）",
+        "evidence": "The subjects in this study were 72 students who were divided into two classes."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "実験群/（弁護法とオープン問題）",
+        "evidence": "the experimental group that was given the treatment of an advocacy approach by presenting open-ended problems in mathematics learning"
+      },
+      {
+        "text": "統制群/（従来型の数学学習）",
+        "evidence": "the control group that was given the treatment of conventional mathematics learning, namely learning mathematics that is often done by teachers."
+      },
+      {
+        "text": "一般的数学能力群/（上位・中位・下位）",
+        "evidence": "for general mathematical abilities are divided into 3 groups: upper, middle, and lower groups."
+      }
+    ],
+    "measures": [
+      {
+        "text": "数学的創造的/思考力テスト（前後7問）",
+        "evidence": "This test is given before and after treatment to students who are subjected to research. Mathematical creative thinking ability test consists of 7 items"
+      }
+    ],
+    "results": [
+      {
+        "text": "一元配置分散分析/（能力群間のN-Gain比較）",
+        "evidence": "The calculation one-way Anova of N-Gain based on general mathematics ability in the experiment group, obtained thet F is 7.72 with a significance coefficient of 0.002"
+      }
+    ]
+  }
+}
