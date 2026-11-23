@@ -1,0 +1,122 @@
+{
+  "paper": {
+    "id": "W3183986065",
+    "doi": "10.23917/jramathedu.v6i3.14349",
+    "title": "Pre-service primary school teachers’ metacognitive awareness and beliefs about mathematical problem solving",
+    "authors": [
+      "Alper Yorulmaz",
+      "Hümeyra Uysal",
+      "Halil Çokçalışkan"
+    ],
+    "authorCount": 3,
+    "venue": "JRAMathEdu (Journal of Research and Advances in Mathematics Education)",
+    "volume": "",
+    "issue": "",
+    "pages": "239–259",
+    "year": "2021",
+    "citedBy": 56,
+    "url": "https://doi.org/10.23917/jramathedu.v6i3.14349",
+    "license": "cc-by",
+    "pdfUrl": "https://journals.ums.ac.id/index.php/jramathedu/article/download/14349/6783"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "小学校教員養成課程の学生におけるメタ認知意識と数学的問題解決に関する信念",
+    "sections": {
+      "what": "この研究は、トルコの大学で小学校教員を目指す学生を対象に、彼らのメタ認知意識と数学的問題解決に関する信念の現状を明らかにすることを目的としています。調査対象は、トルコのエーゲ地方にある州立大学の教育学部で小学校教育を専攻する学生284名です。研究では、学生が自身の学習プロセスをどのように把握しているか、そして数学的な問題を解決する際にどのような価値観や前提を持っているかを調査しています。",
+      "novelty": "先行研究の多くはメタ認知意識と問題解決スキルの関係に焦点を当てており、教員養成課程の学生を対象とした研究は限られています。本論文は、数学的基礎を築く重要な時期である小学校教育の担当者となる将来の教師に対し、メタ認知意識が問題解決に関する「信念」にどのような影響を与えるかを探求している点に特徴があります。これにより、将来の教師の指導スタイルや学生への影響を予測する基礎的な知見を提供することを目指しています。",
+      "method": "この研究では、相関調査モデルを用いた量的分析を採用しています。データ収集には、SchrawとDennisonによって開発された「メタ認知意識調査票」と、KloostermanとStageによって開発された「数学的問題解決に関する信念尺度」の2つのツールを使用しました。分析手法としては、データの正規性を確認した上で、記述統計、t検定、ピアソンの積率相関分析、および単回帰分析を用いて、変数間の関係や性別による差異を統計的に検証しています。",
+      "validation": "分析の結果、学生のメタ認知意識は「高い」レベルにあり、数学的問題解決に関する信念は「中程度」であることが示されました。性別によるメタ認知意識の有意な差は見られませんでしたが、数学的問題解決に関する信念については、男性の学生の方が有意に高いという結果が得られました。また、メタ認知意識と数学的問題解決に関する信念の間には、正の有意な中程度の相関（r = .35, p < .01）が認められ、メタ認知意識は信念の分散の13%を説明することが示されました。",
+      "implications": "この研究は、メタ認知意識を高めることが、将来の教師の数学的問題解決に対する信念を育む一助となる可能性を示唆しています。教員養成課程においてメタ認知スキルの向上を支援する活動を取り入れることは、彼らが将来の教室で学生に与える影響をポジティブに変えることにつながる可能性があります。一方で、本研究は相関関係を示すものであり、因果関係を断定するものではありません。また、サンプルが特定の地域の大学に限定されている点や、他の職種の教員との比較が含まれていない点が今後の課題として残されています。",
+      "nextLead": "本研究ではメタ認知意識が信念に与える影響を分析しましたが、次には、メタ認知の具体的な構成要素や、それが実際の学習行動や認知プロセスにどのように介入するかという理論的枠組みを深掘りする研究へと進むことが有効です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2020143450",
+          "doi": "10.1006/ceps.1994.1033",
+          "title": "Assessing Metacognitive Awareness",
+          "authors": [
+            "Gregory J. Schraw",
+            "Rayne Sperling Dennison"
+          ],
+          "authorCount": 2,
+          "venue": "Contemporary Educational Psychology",
+          "volume": "19",
+          "issue": "4",
+          "pages": "460–475",
+          "year": "1994",
+          "citedBy": 4885,
+          "url": "https://doi.org/10.1006/ceps.1994.1033"
+        },
+        "reason": "本論文で使用されたメタ認知意識の測定における基礎となる尺度や、メタ認知意識の評価に関する重要な先行研究であり、測定の妥当性を理解する上で役立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W4233638968",
+          "doi": "10.1007/bf02212307",
+          "title": "Metacognitive theories",
+          "authors": [
+            "Gregory J. Schraw",
+            "David Moshman"
+          ],
+          "authorCount": 2,
+          "venue": "Educational Psychology Review",
+          "volume": "7",
+          "issue": "4",
+          "pages": "351–371",
+          "year": "1995",
+          "citedBy": 2501,
+          "url": "https://doi.org/10.1007/bf02212307"
+        },
+        "reason": "メタ認知の理論的枠組みを深く理解するための基礎的な文献であり、本論文で扱われたメタ認知意識の概念をより広範な教育心理学の文脈で捉え直すことができます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "小学校教員を目指す学生のメタ認知意識は、彼らの数学的信念にどう影響するのでしょうか。相関分析から見えた、将来の教育に繋がる興味深い知見を紹介します。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-11-23",
+  "createdAt": "2026-11-23 14:08",
+  "figure": {
+    "target": [
+      {
+        "text": "トルコ/の予備小学校教師284名",
+        "evidence": "The participants of the current research comprise of 284 pre-service primary school teachers attending at the Department of Primary Education in an education faculty of a state university in the Aegean Region in the spring term of the 2016-2017 academic year."
+      },
+      {
+        "text": "女子193名/男子91名",
+        "evidence": "As can be seen in Table 1, 193 (68%) of the participating 284 pre-service teachers are females and 91 (32%) are males."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "メタ認知意識/と問題解決の信念",
+        "evidence": "the purpose of the current study is to determine pre-service primary school teachers’ metacognitive awareness and beliefs about mathematical problem solving."
+      }
+    ],
+    "measures": [
+      {
+        "text": "メタ認知意識/調査票",
+        "evidence": "the “Metacognitive Awareness Inventory” developed by Schraw and Dennison (1994) and adapted to Turkish by Akın, Abacı and Çetin (2007) was used."
+      },
+      {
+        "text": "問題解決の信念/尺度",
+        "evidence": "the “Scale of Beliefs about Mathematical Problem Solving”, it was developed by Kloosterman and Stage (1992) and adapted to Turkish by Hacıömeroğlu (2011a) was employed."
+      }
+    ],
+    "results": [
+      {
+        "text": "問題解決の信念/中水準",
+        "evidence": "the pre-service teachers’ mean score (X=3.22) taken from the Scale of Beliefs about Mathematical Problem Solving is medium."
+      },
+      {
+        "text": "性別による/信念の有意差",
+        "evidence": "the pre-service teachers’ beliefs about mathematical problem solving vary significantly depending on gender (t(282) = -3.25; p<.05). The mean score of the male preservice teachers (X = 3.35) was found to be significantly higher than that of the female preservice teachers (X = 3.17)."
+      }
+    ]
+  }
+}

@@ -2154,6 +2154,89 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-22 11:16",
       "note": "Wikipedia の確認に失敗したためリンクなし: Wikipedia APIエラー(429)"
+    },
+    "W2888922834": {
+      "doi": "10.1037/edu0000298",
+      "title": "Predicting success on high-stakes math tests from preschool math measures among children from low-income homes",
+      "citedBy": 59,
+      "year": "2019",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-23 14:00"
+    },
+    "W4410437939": {
+      "doi": "10.3389/feduc.2025.1552760",
+      "title": "Exploring teachers’ pedagogical reasoning in mathematics education using the TPACK framework",
+      "citedBy": 58,
+      "year": "2025",
+      "status": "skipped",
+      "note": "テーマ外: 量的な統計分析ではない・質的研究のみ（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-11-23 14:02"
+    },
+    "W4403737161": {
+      "doi": "10.1177/09388982241292299",
+      "title": "A Meta-Analytic Review of the Concrete-Representational-Abstract Math Approach",
+      "citedBy": 58,
+      "year": "2024",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-23 14:02"
+    },
+    "W4220906116": {
+      "doi": "10.29333/iji.2022.15229a",
+      "title": "Technology-enhanced Teaching in Engineering Education: Teachers’ Knowledge Construction Using TPACK Framework",
+      "citedBy": 58,
+      "year": "2022",
+      "status": "skipped",
+      "note": "テーマ外: 算数・数学の学習が対象ではない（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-11-23 14:06"
+    },
+    "W3146688860": {
+      "doi": "10.31980/plusminus.v1i1.879",
+      "title": "Perbandingan Kemampuan Komunikasi Matematis Siswa antara Problem Based Learning Dan Direct Instruction",
+      "citedBy": 58,
+      "year": "2021",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-23 14:06"
+    },
+    "W3037598117": {
+      "doi": "10.35334/judikdasborneo.v2i1.1450",
+      "title": "EFEKTIVITAS PENGGUNAAN MEDIA PEMBELAJARAN PERMAINAN TRADISIONAL CONGKLAK TERHADAP MINAT BELAJAR MATEMATIKA (MTK) SISWA SEKOLAH DASAR",
+      "citedBy": 58,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-23 14:06"
+    },
+    "W2921241747": {
+      "doi": "10.30998/jkpm.v2i1.1844",
+      "title": "Pengaruh Kemampuan Komunikasi Matematis dan Kemandirian Belajar terhadap Prestasi Belajar Matematika",
+      "citedBy": 58,
+      "year": "2017",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-23 14:06"
+    },
+    "W2777853019": {
+      "doi": "10.24042/ajpm.v8i2.1585",
+      "title": "Implementasi Teams Games Tournaments dan Number Head Together ditinjau dari Kemampuan Penalaran Matematis",
+      "citedBy": 57,
+      "year": "2017",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-23 14:06"
+    },
+    "W3183986065": {
+      "doi": "10.23917/jramathedu.v6i3.14349",
+      "title": "Pre-service primary school teachers’ metacognitive awareness and beliefs about mathematical problem solving",
+      "citedBy": 56,
+      "year": "2021",
+      "status": "ready",
+      "titleJa": "小学校教員養成課程の学生におけるメタ認知意識と数学的問題解決に関する信念",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-23 14:08",
+      "note": ""
     }
   }
 }
