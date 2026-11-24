@@ -2237,6 +2237,107 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-23 14:08",
       "note": ""
+    },
+    "W3008038907": {
+      "doi": "10.1007/s11858-020-01147-9",
+      "title": "Supporting early mathematical development through a ‘pattern and structure’ intervention program",
+      "citedBy": 115,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-24 14:00"
+    },
+    "W2614247472": {
+      "doi": "10.24014/sjme.v2i2.2213",
+      "title": "ANALISIS KEMAMPUAN MENYELESAIKAN SOAL CERITA MATEMATIKA DITINJAU DARI KEMAMPUAN VERBAL PADA SISWA KELAS VII SMP MUHAMMADIYAH SE-KOTA MAKASSAR",
+      "citedBy": 60,
+      "year": "2016",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-24 18:16"
+    },
+    "W3008185074": {
+      "doi": "10.30598/jupitekvol2iss2pp51-54",
+      "title": "PEMBELAJARAN ARIAS DENGAN SETTING KOOPERATIF DALAM PEMBELAJARAN GEOMETRI ANALITIK BIDANG",
+      "citedBy": 57,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-24 18:16"
+    },
+    "W3042453933": {
+      "doi": "10.31970/gurutua.v3i1.39",
+      "title": "PENGARUH MINAT BELAJAR DAN MOTIVASI BELAJAR TERHADAP HASIL BELAJAR MATEMATIKA SISWA KELAS VII SMP NEGERI 4 SIGI",
+      "citedBy": 56,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-24 18:16"
+    },
+    "W3017313741": {
+      "doi": "10.1186/s41235-020-00221-w",
+      "title": "Elementary teachers’ attitudes and beliefs about spatial thinking and mathematics",
+      "citedBy": 56,
+      "year": "2020",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-24 18:16"
+    },
+    "W4396931265": {
+      "doi": "10.1007/s11858-024-01587-7",
+      "title": "Trends in mathematics education and insights from a meta-review and bibliometric analysis of review studies",
+      "citedBy": 54,
+      "year": "2024",
+      "status": "skipped",
+      "note": "テーマ外: 本論文は数学教育分野におけるレビュー研究の出版動向や分類をメタレビューおよび書誌学的分析によって調査した研究であり、児童生徒や教員を対象に数学の学習や指導の量的データを統計的に分析した実証研究ではないため。",
+      "checkedAt": "2026-11-24 18:18"
+    },
+    "W4313393093": {
+      "doi": "10.31316/jderivat.v9i2.4240",
+      "title": "Meta Analisis: Pengaruh Model Discovery Learning Terhadap Peningkatan Kemampuan Berpikir Kritis Matematika",
+      "citedBy": 54,
+      "year": "2022",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-24 18:18"
+    },
+    "W3017854550": {
+      "doi": "10.22437/edumatica.v10i01.8733",
+      "title": "Pengaruh Self-Efficacy terhadap Pemahaman Konsep Matematika Siswa Pada Pembelajaran Model Discovery Learning",
+      "citedBy": 54,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-24 18:18"
+    },
+    "W4406867261": {
+      "doi": "10.1080/2331186x.2025.2456438",
+      "title": "Mathematics self-belief and mathematical creativity of university students: the role of problem-solving skills",
+      "citedBy": 53,
+      "year": "2025",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-24 18:18"
+    },
+    "W4401477750": {
+      "doi": "10.1016/j.actpsy.2024.104432",
+      "title": "The relationship between technological pedagogical content knowledge and belief among preservice mathematics teachers",
+      "citedBy": 53,
+      "year": "2024",
+      "status": "skipped",
+      "note": "PDF を取得できない",
+      "checkedAt": "2026-11-24 18:19"
+    },
+    "W4389513789": {
+      "doi": "10.1016/j.tsc.2023.101448",
+      "title": "Relationship between ethnic identity, attitude, and mathematical creative thinking among secondary school students",
+      "citedBy": 53,
+      "year": "2023",
+      "status": "ready",
+      "titleJa": "中学生における民族的アイデンティティ、態度、および数学的創造的思考の関係",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-24 18:20",
+      "note": ""
     }
   }
 }

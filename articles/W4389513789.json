@@ -1,0 +1,152 @@
+{
+  "paper": {
+    "id": "W4389513789",
+    "doi": "10.1016/j.tsc.2023.101448",
+    "title": "Relationship between ethnic identity, attitude, and mathematical creative thinking among secondary school students",
+    "authors": [
+      "Suherman Suherman",
+      "Tibor Vidákovich"
+    ],
+    "authorCount": 2,
+    "venue": "Thinking Skills and Creativity",
+    "volume": "51",
+    "issue": "",
+    "pages": "101448",
+    "year": "2023",
+    "citedBy": 53,
+    "url": "https://doi.org/10.1016/j.tsc.2023.101448",
+    "license": "cc-by-nc-nd",
+    "pdfUrl": "http://publicatio.bibl.u-szeged.hu/29281/1/Relationshipbetweenethnicidentityattitudeandmathematicalcreativethinkingamongsecondaryschoolstudents.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "本研究はインドネシアの中学生896名を対象に、数学に対する態度、民族的アイデンティティ、数学的創造的思考の関係を構造方程式モデリングを用いて検証した量的実証研究であるため。",
+    "titleJa": "中学生における民族的アイデンティティ、態度、および数学的創造的思考の関係",
+    "sections": {
+      "what": "インドネシアのランプン州に在籍する中学生896名（男子415名、女子481名）を対象に、数学に対する態度、民族的アイデンティティ、そして数学的創造的思考という3つの概念の関係性を解明することを目的とした研究です。オンライン調査を用いてデータを収集し、生徒の持つ背景や心情が数学における創造性にどのように影響するかを調査しています。",
+      "novelty": "従来の研究でも数学への態度や文化的な要素が創造性に影響することは知られていましたが、民族的アイデンティティが「態度」と「数学的創造的思考」の関係をどのようなメカニズムで媒介するかについての詳細な分析は十分ではありませんでした。本研究は、民族的アイデンティティを媒介変数とするモデルを構築し、直接的・間接的な影響路を明らかにした点に独自性があります。",
+      "method": "収集したデータに対し、SPSSおよびMplusを用いて記述統計、相関分析、共分散構造分析に基づく構造方程式モデリングを行いました。数学的創造的思考は伝統文化を背景としたテスト（MCTTBE）で評価し、数学への態度はATMSE、民族的アイデンティティはMEI2の標準化された尺度を用いて測定し、モデルの適合度や各パスの有意性を検証しました。",
+      "validation": "分析の結果、モデルの適合度指標はχ2(55) = 4195.92 (p < 0.001)、RMSEA = 0.077、CFI = 0.948、TLI = 0.930、SRMR = 0.044を示しました。数学への態度は数学的創造的思考に直接的な正の影響を与え（β = 0.10, p < 0.05）、民族的アイデンティティに対しても正の影響を示しました（β = 0.15, p < 0.001）。さらに、態度が民族的アイデンティティを経由して創造的思考へ及ぼす間接効果（β = 0.011, p < 0.001）も確認されました。",
+      "implications": "生徒の数学に対する好ましい態度を育むことや、自身の文化的・民族的背景に対する肯定的な意識を高めることが、数学的な創造力を伸ばす助けとなる可能性を示唆しています。ただし、本研究は横断的な相関研究であり、自己報告型データに依存しているため因果関係を断定することはできません。年齢や性別、経済的背景などの他の要因を含めた縦断的な検証が今後の課題です。",
+      "nextLead": "数学的態度や文化が創造性に与える影響を理解した後は、他の心理的要因や計算的思考などの媒介プロセスに着目した研究へ読み進めると、生徒の学びを支援する多角的な視点が得られます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W4392663500",
+          "doi": "10.1016/j.tsc.2024.101497",
+          "title": "The role of learning anxiety and mathematical reasoning as predictor of promoting learning motivation: The mediating role of mathematical problem solving",
+          "authors": [
+            "Nanang Supriadi",
+            "Wan Jamaluddin Z",
+            "Suherman Suherman"
+          ],
+          "authorCount": 3,
+          "venue": "Thinking Skills and Creativity",
+          "volume": "52",
+          "issue": "",
+          "pages": "101497",
+          "year": "2024",
+          "citedBy": 107,
+          "url": "https://doi.org/10.1016/j.tsc.2024.101497"
+        },
+        "reason": "本研究と同じ分析アプローチを用いて、学習不安や数学的推論が問題解決力を介してモチベーションに与える影響を検討しており、心理的要因の媒介構造を理解する上で役に立ちます。"
+      },
+      {
+        "paper": {
+          "id": "W4400370541",
+          "doi": "10.1016/j.tsc.2024.101591",
+          "title": "Role of creative self-efficacy and perceived creativity as predictors of mathematical creative thinking: Mediating role of computational thinking",
+          "authors": [
+            "Suherman Suherman",
+            "Tibor Vidákovich"
+          ],
+          "authorCount": 2,
+          "venue": "Thinking Skills and Creativity",
+          "volume": "53",
+          "issue": "",
+          "pages": "101591",
+          "year": "2024",
+          "citedBy": 66,
+          "url": "https://doi.org/10.1016/j.tsc.2024.101591"
+        },
+        "reason": "本研究を引用した後続研究であり、数学的創造的思考の予測因子として創造的自己効力感や計算的思考の媒介効果を分析しているため、創造性の促進メカニズムを補完的に学べます。"
+      },
+      {
+        "paper": {
+          "id": "W4407909467",
+          "doi": "10.1057/s41599-025-04548-x",
+          "title": "The attitudes towards mathematics: analysis in a multicultural context",
+          "authors": [
+            "Inmaculada Alemany Arrebola",
+            "María del Mar Ortiz Gómez",
+            "Emilio Jesús Lizarte Simón",
+            "Ángel Custodio Mingorance-Estrada"
+          ],
+          "authorCount": 4,
+          "venue": "Humanities and Social Sciences Communications",
+          "volume": "12",
+          "issue": "1",
+          "pages": "254",
+          "year": "2025",
+          "citedBy": 28,
+          "url": "https://doi.org/10.1057/s41599-025-04548-x"
+        },
+        "reason": "本研究を踏まえた後続研究であり、多文化的な文脈における数学への態度を分析しているため、文化的背景と生徒の学習態度の関係性をさらに深く考察する際に有用です。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "数学に対する好ましい態度は、どのように生徒の創造的思考へ影響を与えるのでしょうか。民族的アイデンティティを媒介とした構造方程式モデリングによる調査結果を紹介します。",
+    "warnings": [],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-24",
+  "createdAt": "2026-11-24 18:20",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシアの/中学生896名",
+        "evidence": "The study randomly selected 896 students from secondary schools in Lampung province, Indonesia."
+      },
+      {
+        "text": "中学7〜9年生の生徒",
+        "evidence": "focusing on grades 7th through 9th in Lampung."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "数学的創造的思考力",
+        "evidence": "mathematical creative thinking based Ethnomathematics test (MCTTBE)"
+      },
+      {
+        "text": "数学への態度",
+        "evidence": "questionnaire on attitudes toward mathematics inventory for secondary education (ATMSE)"
+      },
+      {
+        "text": "民族的/アイデンティティ",
+        "evidence": "multigroup ethnic identity inventory (MEI2)"
+      }
+    ],
+    "measures": [
+      {
+        "text": "Googleフォームによる/オンライン調査",
+        "evidence": "Data were collected online using a google form."
+      },
+      {
+        "text": "テスト120分と/質問紙40分",
+        "evidence": "The participants responded to the test within 120 min, used 40 min to fill out the questionnaire"
+      }
+    ],
+    "results": [
+      {
+        "text": "態度のMCTへの/全効果（β=0.54）",
+        "evidence": "The total effects of attitude on MCT (β = 0.54, SE = 0.03, CR = 22.37, p < 0.001)"
+      },
+      {
+        "text": "民族性を介した/間接効果（β=0.011）",
+        "evidence": "ATM indirectly influenced MCT through the mediating effect of ethnic identity [β (.15) x β (.07)] = .011, p < 0.001."
+      }
+    ]
+  }
+}
