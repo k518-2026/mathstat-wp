@@ -1,0 +1,120 @@
+{
+  "paper": {
+    "id": "W4377926730",
+    "doi": "10.1016/j.heliyon.2023.e16366",
+    "title": "Development and differences in mathematical problem-solving skills: A cross-sectional study of differences in demographic backgrounds",
+    "authors": [
+      "Ijtihadi Kamilia Amalina",
+      "Tibor Vidákovich"
+    ],
+    "authorCount": 2,
+    "venue": "Heliyon",
+    "volume": "9",
+    "issue": "5",
+    "pages": "e16366",
+    "year": "2023",
+    "citedBy": 56,
+    "url": "https://doi.org/10.1016/j.heliyon.2023.e16366",
+    "license": "cc-by-nc-nd",
+    "pdfUrl": "http://publicatio.bibl.u-szeged.hu/27469/1/1-s2.0-S2405844023035739-main_compressed.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "数学的な問題解決スキルの発達と差異：人口統計学的背景による差異の横断的研究",
+    "sections": {
+      "what": "この研究は、インドネシアの東ジャワ州にある中等教育学校の7年生から9年生までの生徒1067人を対象に、数学的な問題解決スキルの発達と、学年、性別、学校の所在地といった人口統計学的背景による差異を調査したものです。シナリオベースの数学エッセイテストを用いて、生徒の能力を測定しています。特に、問題解決の各段階（理解、計画、実行、振り返りなど）におけるスキルの習得状況や、都市部と農村部、あるいは男女間でのパフォーマンスの差に焦点を当てて分析を行っています。",
+      "novelty": "数学的な問題解決スキルの発達に関する先行研究では、結果が一致しないものが多く存在していました。本研究の新規性は、単にスキルの発達を追うだけでなく、生徒の人口統計学的背景がどのように影響を及ぼすかを詳細に調査している点にあります。特に、都市部と農村部の教育環境の差や、性別によるステレオタイプがスキルの発達に与える影響を、特定の学年段階と組み合わせて分析している点が重要です。これにより、教育の平等を実現するための政策立案や、最適な指導時期の特定に寄与することを目指しています。",
+      "method": "統計的な分析の精度を高めるため、テストのスコアをロジット尺度に変換して分析を行っています。この尺度は、個人の能力を平均的な能力をゼロとした相対的な値として表現するもので、バイアスを補正する重み付き尤度推定法が用いられました。主要な統計手法として、学年間のスキルの差を調べるための一元配置分散分析、および性別や学校の所在地による差異を比較するための独立標本のt検定を採用しています。また、R言語を用いたパイレーツプロットにより、複数のカテゴリ変数と連続変数の関係を可視化しています。",
+      "validation": "テストの妥当性を検証した結果、内容妥当性指数は0.67を超え、信頼性を示すクロンバックのアルファ係数は0.84と良好な数値を示しました。また、採点者間の一致度を示す級内相関係数（ICC）は0.992、クロンバックのアルファ係数は0.996と非常に高い一貫性が確認されています。分析の結果、都市部の生徒は農村部の生徒よりも高いスコアを記録しており、また全体として女子生徒が男子生徒を上回る傾向があることが統計的に示されました。これらの数値は、教育環境や属性が問題解決能力に有意な影響を与えることを示唆しています。",
+      "implications": "本研究は、数学的な問題解決スキルが学年によって異なる発達パターンを示すことを示唆しています。例えば、都市部の生徒や女子生徒は7年生から8年生にかけてスキルが向上する傾向にあり、指導の重点を置くべき時期の特定に役立つ可能性があります。一方で、農村部の生徒では9年生でもスキルが向上し続けるという異なるパターンも見られました。この研究は、教育の平等を実現するための政策立案や、生徒の背景に応じた個別的な指導法の検討に資する知見を提供します。ただし、サンプルが特定の認定校に限定されているため、今後の研究ではより多様な背景を持つ生徒への調査が求められます。",
+      "nextLead": "本研究では、性別や居住地によるスキルの差異が示唆されました。次に、数学における性差に関するより広範なメタ分析や、問題解決における読解力の関連、あるいは具体的な学習モデルの有効性を探る研究へと進むことで、スキルの差異を生む要因をより深く理解できます。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W2162397375",
+          "doi": "10.1037/0033-2909.107.2.139",
+          "title": "Gender differences in mathematics performance: A meta-analysis",
+          "authors": [
+            "Janet Shibley Hyde",
+            "Elizabeth H. Fennema",
+            "Susan J. Lamon"
+          ],
+          "authorCount": 3,
+          "venue": "Psychological Bulletin",
+          "volume": "107",
+          "issue": "2",
+          "pages": "139–155",
+          "year": "1990",
+          "citedBy": 2253,
+          "url": "https://doi.org/10.1037/0033-2909.107.2.139"
+        },
+        "reason": "本研究で示された男女間の数学的スキルの差異について、より広範なメタ分析による知見を深めるために有用です。"
+      },
+      {
+        "paper": {
+          "id": "W1977884443",
+          "doi": "10.1037/a0021276",
+          "title": "New trends in gender and mathematics performance: A meta-analysis",
+          "authors": [
+            "Sara M. Lindberg",
+            "Janet Shibley Hyde",
+            "Jennifer L. Petersen",
+            "Marcia C. Linn"
+          ],
+          "authorCount": 4,
+          "venue": "Psychological Bulletin",
+          "volume": "136",
+          "issue": "6",
+          "pages": "1123–1135",
+          "year": "2010",
+          "citedBy": 1242,
+          "url": "https://doi.org/10.1037/a0021276"
+        },
+        "reason": "性別と数学的パフォーマンスの関係における近年の傾向を把握することで、本研究の知見をより広い文脈で捉え直すことができます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "インドネシアの中学生を対象とした調査で、数学的な問題解決スキルは学年や性別、居住地によってどのように変化するのか、その興味深い差異を明らかにしています。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-11-25",
+  "createdAt": "2026-11-25 19:42",
+  "figure": {
+    "target": [
+      {
+        "text": "インドネシア東ジャワ州/の7–9年生",
+        "evidence": "1067 students in grades 7–9 from schools in east Java, Indonesia"
+      },
+      {
+        "text": "調査人数1067名",
+        "evidence": "The test was administered to grades 7–9 students in east Java, Indonesia (n = 1067)."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "都市部と農村部の比較",
+        "evidence": "The students were selected from A-accreditation schools in urban and rural areas; random classes were selected for each grade."
+      }
+    ],
+    "measures": [
+      {
+        "text": "シナリオベースの数学エッセイテスト",
+        "evidence": "A scenario-based mathematical essay test was administered to 1067 students in grades 7–9 from schools in east Java, Indonesia"
+      },
+      {
+        "text": "3時間の筆記試験",
+        "evidence": "The test was administered by using paper and pencils for a 3-h period with a break every hour."
+      }
+    ],
+    "results": [
+      {
+        "text": "8年生のスキルが有意に高い",
+        "evidence": "The students of grade 8 showed a significant difference in problem-solving skills and outperformed the other students."
+      }
+    ]
+  }
+}

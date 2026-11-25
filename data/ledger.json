@@ -2338,6 +2338,35 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-24 18:20",
       "note": ""
+    },
+    "W2907178731": {
+      "doi": "10.33578/jpfkip.v7i1.5338",
+      "title": "PENERAPAN MODEL PEMBELAJARAN PROBLEM BASED LEARNING UNTUK MENINGKATKAN HASIL BELAJAR MATEMATIKA SD",
+      "citedBy": 402,
+      "year": "2018",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-25 19:37"
+    },
+    "W2998740637": {
+      "doi": "10.1007/s10639-020-10106-6",
+      "title": "Self-reported TPACK of teacher educators across six countries in Asia and Europe",
+      "citedBy": 140,
+      "year": "2020",
+      "status": "skipped",
+      "note": "テーマ外: 算数・数学の学習が対象ではない（Ollama gemma4:12b の判定）",
+      "checkedAt": "2026-11-25 19:40"
+    },
+    "W4377926730": {
+      "doi": "10.1016/j.heliyon.2023.e16366",
+      "title": "Development and differences in mathematical problem-solving skills: A cross-sectional study of differences in demographic backgrounds",
+      "citedBy": 56,
+      "year": "2023",
+      "status": "ready",
+      "titleJa": "数学的な問題解決スキルの発達と差異：人口統計学的背景による差異の横断的研究",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-25 19:42",
+      "note": ""
     }
   }
 }
