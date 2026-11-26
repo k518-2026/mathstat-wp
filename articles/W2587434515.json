@@ -1,0 +1,153 @@
+{
+  "paper": {
+    "id": "W2587434515",
+    "doi": "10.23917/jramathedu.v1i1.1785",
+    "title": "The Effect of Cooperative Learning on Mathematics Learning Outcomes Viewed from Students’ Learning Motivation",
+    "authors": [
+      "Firda Razak Razak"
+    ],
+    "authorCount": 1,
+    "venue": "JRAMathEdu (Journal of Research and Advances in Mathematics Education)",
+    "volume": "1",
+    "issue": "1",
+    "pages": "49–55",
+    "year": "2016",
+    "citedBy": 54,
+    "url": "https://doi.org/10.23917/jramathedu.v1i1.1785",
+    "license": "cc-by-nc",
+    "pdfUrl": "http://journals.ums.ac.id/index.php/jramathedu/article/download/1785/1248"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "本研究は高校生を対象に、協調学習のモデルと学習動機が数学の学習成果に与える影響を二元配置分散分析を用いて統計的に分析した英語の実証研究です。",
+    "titleJa": "学習動機から見た協調学習が数学の学習成果に及ぼす影響",
+    "sections": {
+      "what": "本研究は、インドネシアの職業高校10年生を対象に、2種類の協調学習モデル（Think Pair Share: TPS および Numbered Heads Together: NHT）が数学の学習成果に与える影響を調査した実証研究です。TPS群30名、NHT群32名の計62名を対象とし、生徒の学習動機の高低（高・低）という個人特性によって、学習モデルの果たす効果に違いが見られるかや、両者の間に交互作用が存在するかを量的データに基づき明らかにする目的で実施されました。",
+      "novelty": "従来の研究では協調学習の全般的な効果が示されていましたが、本研究では具体的手法の違いであるペア作業を重視するTPSとグループ番号割り振りを活用するNHTを直接比較し、生徒の学習動機の強弱との相互関係を検証した点に着目しています。地域的に数学の成果に課題を抱える職業高校を対象とし、同一の学習モデルであっても生徒の動機づけレベルによって学習成果への影響がどのように変化するかを二元配置の視点から位置づけた点に意義があります。",
+      "method": "分析には2×2の因子計画による二元配置分散分析が用いられました。独立変数として学習モデル（TPSとNHT）、制御変数として学習動機（高・低）、従属変数として数学の事後テストの得点を設定しています。分析に先立ち、分散の均一性を確認するLevene検定を実施し、各群の分散が等しいことを確認した上で仮説検証を行っています。主効果や交互作用の有無を確認した後、動機別の平均値の多重比較検定を実施しています。",
+      "validation": "分析の結果、学習モデルと学習動機の間に有意な交互作用効果は認められませんでした（p=0.306）。しかし、多重比較検定においては、学習動機が高い生徒の群ではTPSモデルを用いた生徒の方がNHTモデルを用いた生徒よりも数学の成績が統計的に有意に高いことが示されました（t値2.809、閾値2.131）。一方で、学習動機が低い生徒の群では、TPSとNHTのどちらのモデルを用いても成績に有意な差は見られませんでした（t値0.528）。",
+      "implications": "研究結果は、学習動機が高い生徒に対してはペアでの思考と共有を促すTPSの手法がより効果的である可能性を示唆しています。ただし本研究は事後テストのみの準実験デザインであり、対象人数も限定的であるため、効果を単一の原因に特定することには限界があります。論文では、動機レベルに応じた協調学習モデルの選択可能性を示唆していますが、教員による指導介入の完全な効果を即座に断定するものではなく、さらなる検証が必要とされています。",
+      "nextLead": "次に読む文献としては、本研究の引用文献や後続研究の中から、動機づけと学習成果、あるいは協調学習モデルの比較を扱った実証研究を探していくのが効果的です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W3036755973",
+          "doi": "10.29333/iji.2020.13319a",
+          "title": "Effect of Concept Attainment Models and Self-Directed Learning (SDL) on Mathematics Learning Outcomes",
+          "authors": [
+            "Moch. Sukardjo",
+            "Mohamad Salam"
+          ],
+          "authorCount": 2,
+          "venue": "International Journal of Instruction",
+          "volume": "13",
+          "issue": "3",
+          "pages": "275–292",
+          "year": "2020",
+          "citedBy": 75,
+          "url": "https://doi.org/10.29333/iji.2020.13319a"
+        },
+        "reason": "本研究と同様に学習成果を従属変数とし、学習指導モデルと生徒の主体性・動機に関わる要因の交互作用や影響を量的分析で検証した後続研究であり、比較検討に適しています。"
+      },
+      {
+        "paper": {
+          "id": "W4283576660",
+          "doi": "10.36526/sosioedukasi.v11i1.1950",
+          "title": "PENGARUH MODEL READ ANSWER DISCUSSION EXPLAIN AND CREATE (RADEC) PADA PEMBELAJARAN TEMATIK TERHADAP HASIL BELAJAR SISWA DIMODERASI MOTIVASI BELAJAR",
+          "authors": [
+            "Amar Halim"
+          ],
+          "authorCount": 1,
+          "venue": "SOSIOEDUKASI JURNAL ILMIAH ILMU PENDIDIKAN DAN SOSIAL",
+          "volume": "11",
+          "issue": "1",
+          "pages": "121–129",
+          "year": "2022",
+          "citedBy": 34,
+          "url": "https://doi.org/10.36526/sosioedukasi.v11i1.1950"
+        },
+        "reason": "学習動機を調整変数（モデレーター）として位置づけ、指導モデルが生徒の学習成果に与える影響を検証しており、動機づけによる効果の違いをさらに深掘りするうえで参考になります。"
+      }
+    ],
+    "terms": [
+      {
+        "term": "二元配置分散分析",
+        "wikiTitle": "二元配置分散分析"
+      },
+      {
+        "term": "協調学習",
+        "wikiTitle": "協調学習"
+      },
+      {
+        "term": "多重比較検定",
+        "wikiTitle": "多重比較"
+      }
+    ],
+    "links": [
+      {
+        "term": "協調学習",
+        "title": "グループ学習",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E5%AD%A6%E7%BF%92"
+      },
+      {
+        "term": "多重比較検定",
+        "title": "多重比較問題",
+        "url": "https://ja.wikipedia.org/wiki/%E5%A4%9A%E9%87%8D%E6%AF%94%E8%BC%83%E5%95%8F%E9%A1%8C"
+      }
+    ],
+    "intro": "協調学習の手法によって生徒の数学の成績は変わるのでしょうか。高校生を対象に学習動機の高低と2つの協調学習モデルの組み合わせ効果を分析した研究を紹介します。",
+    "warnings": [
+      "論文の本文に見つからない数値: 10, 62"
+    ],
+    "model": "gemini-3.6-flash"
+  },
+  "asOf": "2026-11-26",
+  "createdAt": "2026-11-26 16:03",
+  "figure": {
+    "target": [
+      {
+        "text": "TPS群/30名",
+        "evidence": "TPS was implemented in the first group consisted of 30 students"
+      },
+      {
+        "text": "NHT群/32名",
+        "evidence": "NHT was implemented in the second group consisted of 32 students"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "TPSモデル",
+        "evidence": "cooperative learning model of Think Pair Share (TPS) technique"
+      },
+      {
+        "text": "NHTモデル",
+        "evidence": "cooperative model of Numbered Heads Together (NHT) technique"
+      },
+      {
+        "text": "学習動機/高・低",
+        "evidence": "motivations as control"
+      }
+    ],
+    "measures": [
+      {
+        "text": "動機調査/事後テスト",
+        "evidence": "Instruments involved in this study were questionnaire of learning motivation and posttest."
+      }
+    ],
+    "results": [
+      {
+        "text": "交互作用なし/p=0.306",
+        "evidence": "The result of hypothesis testing showed statistic value of 0.306. It means that was accepted;"
+      },
+      {
+        "text": "高動機/TPS > NHT",
+        "evidence": "the value of tvalue= 2.809 >2.131= ttable, therefore, was rejected."
+      },
+      {
+        "text": "低動機/TPS ≈ NHT",
+        "evidence": "the value of tvalue= 0.528<2.131 = ttable, therefore, was accepted."
+      }
+    ]
+  }
+}

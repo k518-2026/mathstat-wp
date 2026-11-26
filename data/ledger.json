@@ -2367,6 +2367,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-25 19:42",
       "note": ""
+    },
+    "W2587434515": {
+      "doi": "10.23917/jramathedu.v1i1.1785",
+      "title": "The Effect of Cooperative Learning on Mathematics Learning Outcomes Viewed from Students’ Learning Motivation",
+      "citedBy": 54,
+      "year": "2016",
+      "status": "ready",
+      "titleJa": "学習動機から見た協調学習が数学の学習成果に及ぼす影響",
+      "model": "gemini-3.6-flash",
+      "createdAt": "2026-11-26 16:03",
+      "note": "論文の本文に見つからない数値: 10, 62"
     }
   }
 }
