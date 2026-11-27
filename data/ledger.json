@@ -2378,6 +2378,26 @@
       "model": "gemini-3.6-flash",
       "createdAt": "2026-11-26 16:03",
       "note": "論文の本文に見つからない数値: 10, 62"
+    },
+    "W3028671551": {
+      "doi": "10.36655/sepren.v1i02.227",
+      "title": "Indikator Pembentuk Resiliensi Matematis Mahasiswa Prodi Pendidikan Matematika FKIP",
+      "citedBy": 54,
+      "year": "2020",
+      "status": "skipped",
+      "note": "タイトルが除外条件に一致",
+      "checkedAt": "2026-11-27 20:00"
+    },
+    "W2791317136": {
+      "doi": "10.1080/0020739x.2018.1440325",
+      "title": "Investigating secondary students beliefs about mathematical problem-solving",
+      "citedBy": 54,
+      "year": "2018",
+      "status": "ready",
+      "titleJa": "中等教育の生徒における数学的問題解決に関する信念の調査",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-27 20:01",
+      "note": ""
     }
   }
 }

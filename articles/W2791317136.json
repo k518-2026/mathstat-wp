@@ -1,0 +1,122 @@
+{
+  "paper": {
+    "id": "W2791317136",
+    "doi": "10.1080/0020739x.2018.1440325",
+    "title": "Investigating secondary students beliefs about mathematical problem-solving",
+    "authors": [
+      "Mark Prendergast",
+      "Cormac P. Breen",
+      "Aibhín Bray",
+      "Fiona Faulkner"
+    ],
+    "authorCount": 7,
+    "venue": "International Journal of Mathematical Education in Science and Technology",
+    "volume": "49",
+    "issue": "8",
+    "pages": "1203–1218",
+    "year": "2018",
+    "citedBy": 54,
+    "url": "https://doi.org/10.1080/0020739x.2018.1440325",
+    "license": "",
+    "pdfUrl": "https://arrow.tudublin.ie/context/scschmatart/article/1255/viewcontent/auto_convert.pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "中等教育の生徒における数学的問題解決に関する信念の調査",
+    "sections": {
+      "what": "この研究は、アイルランドの中等教育における数学の問題解決に対する生徒の信念を明らかにすることを目的としています。調査対象は、アイルランド国内の9つの異なる学校に通う生徒975人です。研究では、生徒が数学の問題解決に対してどのような個人的な仮定や思い込みを持っているかを把握することを目指しました。特に、近年のアイルランドのカリキュラム改革において問題解決が重視されている背景を踏まえ、生徒の信念が学習や成果にどのような影響を与えるかを探っています。",
+      "novelty": "この研究の新規性は、アイルランドの中等教育において、数学の問題解決に関する信念を測定するための標準的な尺度を初めて適用した点にあります。先行研究では、生徒の信念が知識の活用や認知資源の配分に影響を与えることが示唆されてきましたが、アイルランドの特定の教育課程における生徒の意識を定量的に捉えたデータは限られていました。この研究は、教育政策や指導法を検討する上で、生徒の心理的な側面を把握するための基礎資料を提供しています。",
+      "method": "研究では、既存の「インディアナ数学信念尺度（IMB）」という30項目の自己報告式質問票を使用しました。この尺度は、時間のかかる問題への対応、手順の重要性、概念理解の重要性、文章題の重要性、努力と能力の関係という5つの信念を測定します。統計手法としては、学年間の平均の差を比較するために一元配置分散分析を用い、性別による差異を調べるために独立標本のt検定やマン・ウィトニーのU検定を用いて、データの分布状況に合わせて適切な手法を選択しています。",
+      "validation": "信頼性分析の結果、5つの尺度のうち「文章題の重要性」を除き、概ね中程度から高い信頼性が確認されました。分析の結果、学年が進むにつれて、単純な手順だけでは解けない問題があるという信念が強まる傾向が見られました。一方で、試験を控えた上位学年ほど、時間のかかる問題を解けるという自信が低くなる傾向が示されました。また、性別による差異については、男子の方が時間のかかる問題の解決や努力と能力の関係についてより肯定的な信念を持つ傾向があることが示唆されました。",
+      "implications": "この論文は、生徒の信念が問題解決の遂行能力や意欲に影響を与える可能性を示唆しています。特に、上位学年で「時間のかかる問題は解けない」という否定的な信念が強まる傾向は、指導上の課題として示唆されています。論文は、これらの信念を把握した上で、数学の性質に対する誤った認識を修正するための教育的介入を計画することが重要であると述べています。ただし、本研究は便宜的抽出による調査であり、縦断的な変化を追ったものではないという限界も指摘されています。",
+      "nextLead": "生徒の信念が問題解決のスキルや成果にどのように結びつくのか、より詳細な構造を理解するために、信念と自己効力感の関連をパス解析で分析した研究へ進むことが有益です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W1987554188",
+          "doi": "10.1037/0022-0663.86.2.193",
+          "title": "Role of self-efficacy and self-concept beliefs in mathematical problem solving: A path analysis",
+          "authors": [
+            "Frank Pajares",
+            "M. David Miller"
+          ],
+          "authorCount": 2,
+          "venue": "Journal of Educational Psychology",
+          "volume": "86",
+          "issue": "2",
+          "pages": "193–203",
+          "year": "1994",
+          "citedBy": 2703,
+          "url": "https://doi.org/10.1037/0022-0663.86.2.193"
+        },
+        "reason": "本論文で示された「問題解決に対する信念」が、実際の数学的スキルの獲得にどのように影響するかを、自己効力感や自己概念との関連からパス解析を用いてより深く掘り下げるための基礎となります。"
+      },
+      {
+        "paper": {
+          "id": "W2053349864",
+          "doi": "10.5951/jresematheduc.20.4.0338",
+          "title": "Explorations of Students' Mathematical Beliefs and Behavior",
+          "authors": [
+            "Alan H. Schoenfeld"
+          ],
+          "authorCount": 1,
+          "venue": "Journal for Research in Mathematics Education",
+          "volume": "20",
+          "issue": "4",
+          "pages": "338–355",
+          "year": "1989",
+          "citedBy": 810,
+          "url": "https://doi.org/10.5951/jresematheduc.20.4.0338"
+        },
+        "reason": "生徒の数学的信念と行動の関係を初期に調査した研究であり、本論文で用いられた尺度の背景にある理論的枠組みや、信念が学習行動に与える影響の初期の知見を理解するのに役立ちます。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "アイルランドの中等教育では、生徒の数学に対する「信念」が問題解決の成否を左右する重要な要因として注目されています。上位学年ほど自信を失う傾向があるという調査結果は、指導のあり方に何を問いかけますか。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-11-27",
+  "createdAt": "2026-11-27 20:01",
+  "figure": {
+    "target": [
+      {
+        "text": "アイルランドの/中学生975名",
+        "evidence": "In total, 975 completed questionnaires were returned."
+      },
+      {
+        "text": "12歳から19歳",
+        "evidence": "The respondents’ ages ranged from 12 to 19"
+      }
+    ],
+    "conditions": [
+      {
+        "text": "5つの信念尺度",
+        "evidence": "The IMB scales investigate five commonly held beliefs towards mathematical problem solving."
+      },
+      {
+        "text": "学年と性別",
+        "evidence": "The analysis of the data focused on identifying statistically significant differences between year group and gender across the five beliefs associated with the IMB scales."
+      }
+    ],
+    "measures": [
+      {
+        "text": "IMB尺度による/自己報告式調査",
+        "evidence": "A quantitative measure of these beliefs was attained through the use of the Indiana Mathematical Belief Scale, an existing thirty item (five scale) self-report questionnaire."
+      },
+      {
+        "text": "20-25分間の/回答",
+        "evidence": "The instrument was administered by the class teacher to willing students during normal mathematics class time and completed in 20-25 minutes."
+      }
+    ],
+    "results": [
+      {
+        "text": "困難な問題/平均20.03",
+        "evidence": "The mean score for this scale was 20.03 out of 30."
+      }
+    ]
+  }
+}
