@@ -2398,6 +2398,17 @@
       "model": "gemma4:12b",
       "createdAt": "2026-11-27 20:01",
       "note": ""
+    },
+    "W4304182855": {
+      "doi": "10.3389/fpsyg.2022.963151",
+      "title": "Aspects of self-regulated learning and their influence on the mathematics achievement of fifth graders in the context of four different proclaimed curricula",
+      "citedBy": 53,
+      "year": "2022",
+      "status": "ready",
+      "titleJa": "4つの異なる教育課程の文脈における自己調整学習の側面と小学5年生の数学の成績への影響",
+      "model": "gemma4:12b",
+      "createdAt": "2026-11-28 13:03",
+      "note": ""
     }
   }
 }

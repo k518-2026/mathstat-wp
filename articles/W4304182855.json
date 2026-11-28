@@ -1,0 +1,117 @@
+{
+  "paper": {
+    "id": "W4304182855",
+    "doi": "10.3389/fpsyg.2022.963151",
+    "title": "Aspects of self-regulated learning and their influence on the mathematics achievement of fifth graders in the context of four different proclaimed curricula",
+    "authors": [
+      "Jaroslav Říčan",
+      "Vlastimil Chytrý",
+      "Janka Medová"
+    ],
+    "authorCount": 3,
+    "venue": "Frontiers in Psychology",
+    "volume": "13",
+    "issue": "",
+    "pages": "963151",
+    "year": "2022",
+    "citedBy": 53,
+    "url": "https://doi.org/10.3389/fpsyg.2022.963151",
+    "license": "cc-by",
+    "pdfUrl": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.963151/pdf"
+  },
+  "article": {
+    "relevant": true,
+    "relevanceReason": "算数・数学の学習を対象にした量的研究（Ollama gemma4:12b の判定）",
+    "titleJa": "4つの異なる教育課程の文脈における自己調整学習の側面と小学5年生の数学の成績への影響",
+    "sections": {
+      "what": "この研究は、チェコの小学5年生を対象に、自己調整学習の諸側面が数学の成績にどのような影響を与えるかを調査したものです。調査では、伝統的な学校、ヘイニー法による遺伝的構成主義を採用する学校、モンテッソーリ校、ダルトン校という、4つの異なる教育課程を持つ学校の児童を対象としました。主な目的は、数学に対する態度、メタ認知知識、自己効力感、動機付け、およびメタ認知的なモニタリングが、数学の問題解決における成績とどのように関連しているかを明らかにすることです。",
+      "novelty": "先行研究ではメタ認知知識と数学の成績の関連が示されてきましたが、本研究は、異なる教育課程の文脈において、自己調整学習の個別の側面がどのように成績に寄与するかを比較した点に特徴があります。特に、メタ認知的なモニタリングが、高い能力を持つ児童と低い能力を持つ児童の両方において、また問題の難易度に関わらず、数学の成績の重要な予測因子となることを示した点は、教育現場におけるメタ認知プロセスの重要性を強調する上で意義があります。",
+      "method": "統計手法として、回帰分析を用いて各変数の影響を推定しました。独立変数には、数学への態度、メタ認知知識、自己効力感、およびメタ認知的なモニタリングが含まれ、従属変数として数学の成績を設定しました。また、学生のパフォーマンスと課題の要求水準を評価するために、項目反応理論を用いました。メタ認知的なモニタリングの測定には、正解と不正解に対する自信の度合いの差を示す識別指数を用い、自信に基づく判断が学習プロセスの評価指標として機能することを前提としています。",
+      "validation": "分析の結果、メタ認知的なモニタリングは、数学の成績に対して統計的に有意な予測因子であることが示されました。また、メタ認知知識は、より難易度の高い課題において、すべての学校タイプで有意な予測因子となりました。一方で、成績の低い児童においては、メタ認知知識を活性化させるだけでは十分な成果が得られない可能性が示唆されました。さらに、自己効力感の重要性は、課題の難易度や児童の成績、および学校のタイプによって異なる傾向があることが示されました。",
+      "implications": "本研究は、数学教育においてメタ認知的なモニタリングをカリキュラムに組み込むことの重要性を示唆しています。特に、児童が自分の理解度を正確に把握することで、学習時間の配分を最適化したり、適切な戦略を選択したりする助けになる可能性があります。ただし、本研究は相関関係を示すものであり、特定の指導法が直接的に成績を向上させると断定するものではありません。また、自信の判断には過去の知識や個人的な信念が影響を与える可能性があり、今後の課題としてこれらの変数の検討も必要とされています。",
+      "nextLead": "本研究ではメタ認知的なモニタリングが成績の重要な予測因子であることが示されました。次に、自己調整学習の構成要素である動機付けや自己効力感が、学習者の感情や意欲とどのように相互作用し、認知的なプロセスに影響を与えるのかという理論的枠組みを深めることが重要です。"
+    },
+    "nextReads": [
+      {
+        "paper": {
+          "id": "W1976445490",
+          "doi": "10.1080/00461520.2011.538645",
+          "title": "Interactions of Metacognition With Motivation and Affect in Self-Regulated Learning: The MASRL Model",
+          "authors": [
+            "Anastasia Efklides"
+          ],
+          "authorCount": 1,
+          "venue": "Educational Psychologist",
+          "volume": "46",
+          "issue": "1",
+          "pages": "6–25",
+          "year": "2011",
+          "citedBy": 1818,
+          "url": "https://doi.org/10.1080/00461520.2011.538645"
+        },
+        "reason": "本論文で扱われた自己調整学習の構成要素のうち、動機付けや感情が認知プロセスとどのように相互作用するかを理論的に深めるために、このMASRLモデルの論文は非常に有用です。"
+      }
+    ],
+    "terms": [],
+    "links": [],
+    "intro": "数学の成績を左右するのは、知識の量だけでしょうか。メタ認知的なモニタリングが、児童の数学の成績に与える影響を調査した研究を紹介します。",
+    "warnings": [],
+    "model": "gemma4:12b"
+  },
+  "asOf": "2026-11-28",
+  "createdAt": "2026-11-28 13:03",
+  "figure": {
+    "target": [
+      {
+        "text": "チェコ共和国の/小学5年生",
+        "evidence": "students of Grade 5, only the responses without any missing values were analyzed."
+      },
+      {
+        "text": "分析対象/648名",
+        "evidence": "After all responses with missing values were removed, data from 648 respondents were analyzed."
+      }
+    ],
+    "conditions": [
+      {
+        "text": "4種類の学校/カリキュラム",
+        "evidence": "four types of Czech schools participated in the study. There were traditional schools; schools teaching mathematics by genetic constructivism, i.e., Hejný’s method; Montessori schools; and Dalton schools were involved."
+      },
+      {
+        "text": "予測変数/自己調整学習の側面",
+        "evidence": "investigate the relation between pupils’ attitude toward mathematics; metacognitive knowledge; self-e cacy and motivation; metacognitive monitoring; and their achievement in solving mathematical problems."
+      },
+      {
+        "text": "目的変数/数学の成績",
+        "evidence": "mathematical achievement were used as an input to regression analysis."
+      }
+    ],
+    "measures": [
+      {
+        "text": "MAESTRA 5-6+ツール/知識",
+        "evidence": "The MAESTRA 5-6+ tool is based on the qualitative standard emphasizing the relative adequacy of the chosen strategy in the context of task speciﬁcity"
+      },
+      {
+        "text": "自己効力感と動機付けの尺度",
+        "evidence": "The self-eﬃcacy mapping tool contains the thirty items, answered using a ﬁvepoint Likert scale (Likert, 1932). The motivation tool (α = 0.922) comprises the six-items"
+      },
+      {
+        "text": "数学の成績テスト/自信の判断",
+        "evidence": "Each item was assigned by a diﬃculty scale, a line where pupils marked how conﬁdent they were that they had answered the mathematics question correctly."
+      }
+    ],
+    "results": [
+      {
+        "text": "回帰分析/監視の重要性",
+        "evidence": "The metacognitive monitoring was detected as the most signiﬁcant predictor of mathematics achievement for higher- and lower-performing students as well as for the item with high and low demands."
+      },
+      {
+        "text": "Hejný/成績の回帰式",
+        "evidence": "Hejný: y = 8.196 + 0.041 · X2 + 13.010 · X4"
+      },
+      {
+        "text": "普通校/成績の回帰式",
+        "evidence": "Ordinary elementary school: y = 7.388 + 0.050·X1+ 12.553· X4"
+      }
+    ]
+  }
+}
